@@ -1,0 +1,7 @@
+Running: xsim.dir/P2S_test_func_impl/xsimk.exe -simmode gui -wdb P2S_test_func_impl.wdb -simrunnum 0 -socket 5703
+Design successfully loaded
+Design Loading Memory Usage: 11532 KB (Peak: 11532 KB)
+Design Loading CPU Usage: 358 ms
+Simulation completed
+Simulation Memory Usage: 12600 KB (Peak: 12600 KB)
+Simulation CPU Usage: 468 ms

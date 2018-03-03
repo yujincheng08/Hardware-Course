@@ -1,0 +1,68 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/Learning/Computer Organization/EXP8/SCPU_INT_SCPU_INT_sch_tb_isim_beh.exe" -prj "E:/Learning/Computer Organization/EXP8/SCPU_INT_SCPU_INT_sch_tb_beh.prj" "work.SCPU_INT_SCPU_INT_sch_tb" "work.glbl" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "E:/Learning/Computer Organization/EXP8/Element/xor32.v" into library work
+Analyzing Verilog file "E:/Learning/Computer Organization/EXP8/Element/srl32.v" into library work
+Analyzing Verilog file "E:/Learning/Computer Organization/EXP8/Element/SignalExt_32.v" into library work
+Analyzing Verilog file "E:/Learning/Computer Organization/EXP8/Element/or_bit_32 .v" into library work
+Analyzing Verilog file "E:/Learning/Computer Organization/EXP8/Element/or32.v" into library work
+Analyzing Verilog file "E:/Learning/Computer Organization/EXP8/Element/nor32.v" into library work
+Analyzing Verilog file "E:/Learning/Computer Organization/EXP8/Element/MUX8T1_32.v" into library work
+Analyzing Verilog file "E:/Learning/Computer Organization/EXP8/Element/and32.v" into library work
+Analyzing Verilog file "E:/Learning/Computer Organization/EXP8/Element/addc_32.v" into library work
+Analyzing Verilog file "E:/Learning/Computer Organization/EXP8/regs.v" into library work
+Analyzing Verilog file "E:/Learning/Computer Organization/EXP8/REG32.v" into library work
+Analyzing Verilog file "E:/Learning/Computer Organization/EXP8/Element/MUX4T1_32.v" into library work
+Analyzing Verilog file "E:/Learning/Computer Organization/EXP8/Element/MUX2T1_5.v" into library work
+Analyzing Verilog file "E:/Learning/Computer Organization/EXP8/Element/MUX2T1_32.v" into library work
+Analyzing Verilog file "E:/Learning/Computer Organization/EXP8/Element/Ext_imm16.v" into library work
+Analyzing Verilog file "E:/Learning/Computer Organization/EXP8/Element/add_32.v" into library work
+Analyzing Verilog file "E:/Learning/Computer Organization/EXP8/Decode_Int.v" into library work
+Analyzing Verilog file "E:/Learning/Computer Organization/EXP8/ALU.vf" into library work
+Analyzing Verilog file "E:/Learning/Computer Organization/EXP8/SCPU_ctrl_INT.v" into library work
+Analyzing Verilog file "E:/Learning/Computer Organization/EXP8/Data_path_INT.vf" into library work
+Analyzing Verilog file "E:/Learning/Computer Organization/EXP8/SCPU_INT.vf" into library work
+Analyzing Verilog file "E:/Learning/Computer Organization/EXP8/SCPU_test.v" into library work
+Analyzing Verilog file "D:/Tools/XILINX/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "E:/Learning/Computer Organization/EXP8/SCPU_INT.vf" Line 387: Size mismatch in connection of port <S>. Formal port size is 3233-bit while actual signal size is 33-bit.
+Completed static elaboration
+Compiling module SCPU_ctrl_INT
+Compiling module Regs
+Compiling module REG32
+Compiling module Ext_32
+Compiling module add_32
+Compiling module MUX2T1_32
+Compiling module ADC32
+Compiling module OR2
+Compiling module AND2
+Compiling module INV
+Compiling module OR4
+Compiling module MUX4T1_MUSER_SCPU_INT
+Compiling module MUX8T1_8_MUSER_SCPU_INT
+Compiling module MUX8T1_32_MUSER_SCPU_INT
+Compiling module and32
+Compiling module xor32
+Compiling module nor32
+Compiling module srl32
+Compiling module or_bit_32
+Compiling module SignalExt_32
+Compiling module or32
+Compiling module GND
+Compiling module alu_MUSER_SCPU_INT
+Compiling module VCC
+Compiling module MUX4T1_32
+Compiling module MUX2T1_5
+Compiling module Decode_Int
+Compiling module Data_path_INT_MUSER_SCPU_INT
+Compiling module SCPU_INT
+Compiling module SCPU_INT_SCPU_INT_sch_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 24 sub-compilation(s) to finish...
+Compiled 31 Verilog Units
+Built simulation executable E:/Learning/Computer Organization/EXP8/SCPU_INT_SCPU_INT_sch_tb_isim_beh.exe
+Fuse Memory Usage: 28716 KB
+Fuse CPU Usage: 1218 ms

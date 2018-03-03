@@ -1,0 +1,10 @@
+[Inputs]
+sel
+=a[7:0]=
+=b[7:0]=
+[Outputs]
+=o[7:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel MUXHM
+

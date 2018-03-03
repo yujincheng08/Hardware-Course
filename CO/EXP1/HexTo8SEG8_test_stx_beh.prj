@@ -1,0 +1,4 @@
+verilog isim_temp "Hex2Seg.v"
+verilog isim_temp "HexTo8SEG8.v"
+verilog isim_temp "HexTo8SEG8_test.v"
+verilog isim_temp "D:/Tools/XILINX/14.7/ISE_DS/ISE//verilog/src/glbl.v"

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/Users/Shana/Desktop/EXP1/Mult_8CH32_test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="Mult_8CH32_test" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/Mult_8CH32_test/Test" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Test[2:0]</obj_property>
+      <obj_property name="ObjectShortName">Test[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mult_8CH32_test/point_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">point_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">point_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mult_8CH32_test/LE_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">LE_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">LE_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mult_8CH32_test/Disp_num" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Disp_num[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Disp_num[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mult_8CH32_test/EN" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">EN</obj_property>
+      <obj_property name="ObjectShortName">EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mult_8CH32_test/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mult_8CH32_test/point_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">point_in[63:0]</obj_property>
+      <obj_property name="ObjectShortName">point_in[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mult_8CH32_test/LES" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">LES[63:0]</obj_property>
+      <obj_property name="ObjectShortName">LES[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mult_8CH32_test/Data0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Data0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Data0[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mult_8CH32_test/data1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data1[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mult_8CH32_test/data2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data2[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mult_8CH32_test/data3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data3[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mult_8CH32_test/data4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data4[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mult_8CH32_test/data5" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data5[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data5[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mult_8CH32_test/data6" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data6[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data6[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mult_8CH32_test/data7" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data7[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data7[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mult_8CH32_test/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+</wave_config>

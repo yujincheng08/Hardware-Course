@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "Main_Main_sch_tb_time_synth.v"
+verilog xil_defaultlib  "../../../../../Mult_8CH32_test.v"
+verilog xil_defaultlib  "../../../../../Main_test.v"
+verilog xil_defaultlib  "../../../../../Element/MUX8T1_8.v"
+verilog xil_defaultlib  "../../../../../Element/MUX4T1_5.v"
+verilog xil_defaultlib  "../../../../../Element/MUX2T1_64.v"
+verilog xil_defaultlib  "../../../../../Element/MUX4T1_32.v"
+verilog xil_defaultlib  "../../../../../Element/MUX2T1_8.v"
+verilog xil_defaultlib  "../../../../../Element/test_32.v"
+verilog xil_defaultlib  "../../../../../MUX_test.v"
+
+# Do not sort compile order
+nosort

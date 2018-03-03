@@ -1,0 +1,30 @@
+
+
+
+// Instantiate the module
+MDPath instance_name (
+    .clk(clk), 
+    .reset(reset), 
+    .MIO_ready(MIO_ready), 
+    .IorD(IorD), 
+    .IRWrite(IRWrite), 
+    .RegDst(RegDst), 
+    .RegWrite(RegWrite), 
+    .MemtoReg(MemtoReg), 
+    .ALUSrcA(ALUSrcA), 
+    .ALUSrcB(ALUSrcB), 
+    .PCSource(PCSource), 
+    .PCWrite(PCWrite), 
+    .PCWriteCond(PCWriteCond), 
+    .Branch(Branch), 
+    .ALU_operation(ALU_operation), 
+    .data2CPU(data2CPU), 
+    .PC_Current(PC_Current), 
+    .Inst(Inst), 
+    .data_out(data_out), 
+    .M_addr(M_addr), 
+    .zero(zero), 
+    .overflow(overflow)
+    );
+
+

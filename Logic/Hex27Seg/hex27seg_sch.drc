@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Tue Nov 08 13:36:28 2016
+
+drc -z Hex27Seg_sch.ncd Hex27Seg_sch.pcf
+
+DRC detected 0 errors and 0 warnings.

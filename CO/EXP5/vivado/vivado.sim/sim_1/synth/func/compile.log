@@ -1,0 +1,91 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Learning/Computer Organization/EXP5/vivado/vivado.sim/sim_1/synth/func/Main_Main_sch_tb_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LED_P2S
+INFO: [VRFC 10-311] analyzing module MIO_BUS
+INFO: [VRFC 10-311] analyzing module P2S
+INFO: [VRFC 10-311] analyzing module RAM_B
+INFO: [VRFC 10-311] analyzing module ROM_D
+INFO: [VRFC 10-311] analyzing module SAnti_jitter
+INFO: [VRFC 10-311] analyzing module SEnter_2_32
+INFO: [VRFC 10-311] analyzing module ADC32
+INFO: [VRFC 10-311] analyzing module Counter_x
+INFO: [VRFC 10-311] analyzing module Data_path_more_MUSER_Main
+INFO: [VRFC 10-311] analyzing module Display_MUSER_Main
+INFO: [VRFC 10-311] analyzing module Hex2Seg
+INFO: [VRFC 10-311] analyzing module Hex2Seg_19
+INFO: [VRFC 10-311] analyzing module Hex2Seg_20
+INFO: [VRFC 10-311] analyzing module Hex2Seg_21
+INFO: [VRFC 10-311] analyzing module Hex2Seg_22
+INFO: [VRFC 10-311] analyzing module Hex2Seg_23
+INFO: [VRFC 10-311] analyzing module Hex2Seg_24
+INFO: [VRFC 10-311] analyzing module Hex2Seg_25
+INFO: [VRFC 10-311] analyzing module HexTo8SEG8
+INFO: [VRFC 10-311] analyzing module MC14495_ZJU
+INFO: [VRFC 10-311] analyzing module MC14495_ZJU_26
+INFO: [VRFC 10-311] analyzing module MC14495_ZJU_27
+INFO: [VRFC 10-311] analyzing module MC14495_ZJU_28
+INFO: [VRFC 10-311] analyzing module MC14495_ZJU_29
+INFO: [VRFC 10-311] analyzing module MC14495_ZJU_30
+INFO: [VRFC 10-311] analyzing module MC14495_ZJU_31
+INFO: [VRFC 10-311] analyzing module MC14495_ZJU_32
+INFO: [VRFC 10-311] analyzing module MC14495_ZJU_MUSER_Main
+INFO: [VRFC 10-311] analyzing module MUX4T1_MUSER_Main
+INFO: [VRFC 10-311] analyzing module MUX4T1_MUSER_Main_10
+INFO: [VRFC 10-311] analyzing module MUX4T1_MUSER_Main_11
+INFO: [VRFC 10-311] analyzing module MUX4T1_MUSER_Main_12
+INFO: [VRFC 10-311] analyzing module MUX4T1_MUSER_Main_13
+INFO: [VRFC 10-311] analyzing module MUX4T1_MUSER_Main_14
+INFO: [VRFC 10-311] analyzing module MUX4T1_MUSER_Main_15
+INFO: [VRFC 10-311] analyzing module MUX4T1_MUSER_Main_16
+INFO: [VRFC 10-311] analyzing module MUX4T1_MUSER_Main_17
+INFO: [VRFC 10-311] analyzing module MUX4T1_MUSER_Main_18
+INFO: [VRFC 10-311] analyzing module MUX4T1_MUSER_Main_35
+INFO: [VRFC 10-311] analyzing module MUX4T1_MUSER_Main_36
+INFO: [VRFC 10-311] analyzing module MUX4T1_MUSER_Main_37
+INFO: [VRFC 10-311] analyzing module MUX4T1_MUSER_Main_38
+INFO: [VRFC 10-311] analyzing module MUX4T1_MUSER_Main_39
+INFO: [VRFC 10-311] analyzing module MUX4T1_MUSER_Main_4
+INFO: [VRFC 10-311] analyzing module MUX4T1_MUSER_Main_40
+INFO: [VRFC 10-311] analyzing module MUX4T1_MUSER_Main_5
+INFO: [VRFC 10-311] analyzing module MUX4T1_MUSER_Main_6
+INFO: [VRFC 10-311] analyzing module MUX4T1_MUSER_Main_7
+INFO: [VRFC 10-311] analyzing module MUX4T1_MUSER_Main_8
+INFO: [VRFC 10-311] analyzing module MUX4T1_MUSER_Main_9
+INFO: [VRFC 10-311] analyzing module MUX8T1_32_MUSER_Main
+INFO: [VRFC 10-311] analyzing module MUX8T1_8_MUSER_Main
+INFO: [VRFC 10-311] analyzing module MUX8T1_8_MUSER_Main_1
+INFO: [VRFC 10-311] analyzing module MUX8T1_8_MUSER_Main_2
+INFO: [VRFC 10-311] analyzing module MUX8T1_8_MUSER_Main_3
+INFO: [VRFC 10-311] analyzing module MUX8T1_8_MUSER_Main_33
+INFO: [VRFC 10-311] analyzing module MUX8T1_8_MUSER_Main_34
+INFO: [VRFC 10-311] analyzing module Main
+INFO: [VRFC 10-311] analyzing module Multi_8CH32
+INFO: [VRFC 10-311] analyzing module REG32
+INFO: [VRFC 10-311] analyzing module Regs
+INFO: [VRFC 10-311] analyzing module SCPU_More_MUSER_Main
+INFO: [VRFC 10-311] analyzing module SCPU_ctrl_more
+INFO: [VRFC 10-311] analyzing module SPIO
+INFO: [VRFC 10-311] analyzing module ScanSync_MUSER_Main
+INFO: [VRFC 10-311] analyzing module Seg7_Dev_MUSER_Main
+INFO: [VRFC 10-311] analyzing module add_32
+INFO: [VRFC 10-311] analyzing module add_32_0
+INFO: [VRFC 10-311] analyzing module alu_MUSER_Main
+INFO: [VRFC 10-311] analyzing module clk_div
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Learning/Computer Organization/EXP5/vivado/vivado.srcs/sim_1/imports/EXP5/Mult_8CH32_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mult_8CH32_test
+WARNING: [VRFC 10-986] literal value truncated to fit in 64 bits [E:/Learning/Computer Organization/EXP5/vivado/vivado.srcs/sim_1/imports/EXP5/Mult_8CH32_test.v:32]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Learning/Computer Organization/EXP5/vivado/vivado.srcs/sim_1/imports/EXP5/Main_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Main_Main_sch_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Learning/Computer Organization/EXP5/vivado/vivado.srcs/sim_1/imports/EXP5/Element/MUX8T1_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX8T1_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Learning/Computer Organization/EXP5/vivado/vivado.srcs/sim_1/imports/EXP5/Element/MUX4T1_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX4T1_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Learning/Computer Organization/EXP5/vivado/vivado.srcs/sim_1/imports/EXP5/Element/MUX2T1_64.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2T1_64
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Learning/Computer Organization/EXP5/vivado/vivado.srcs/sim_1/imports/EXP5/Element/MUX2T1_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2T1_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Learning/Computer Organization/EXP5/vivado/vivado.srcs/sim_1/imports/EXP5/Element/test_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module overflow
+INFO: [VRFC 10-311] analyzing module TEST_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Learning/Computer Organization/EXP5/vivado/vivado.srcs/sim_1/imports/EXP5/MUX_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_test

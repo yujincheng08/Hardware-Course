@@ -1,0 +1,12 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Wed Nov 02 10:40:07 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "Buzzer" LOCATE = SITE "AF24" LEVEL 1;
+COMP "S1" LOCATE = SITE "AA10" LEVEL 1;
+COMP "S2" LOCATE = SITE "AB10" LEVEL 1;
+COMP "S3" LOCATE = SITE "AA13" LEVEL 1;
+COMP "F" LOCATE = SITE "U21" LEVEL 1;
+SCHEMATIC END;
+

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/Users/Shana/Desktop/EXP1/MUX_test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="MUX_test" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/MUX_test/s" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">s[2:0]</obj_property>
+      <obj_property name="ObjectShortName">s[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MUX_test/o264" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">o264[63:0]</obj_property>
+      <obj_property name="ObjectShortName">o264[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MUX_test/o232" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">o232[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o232[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MUX_test/o432" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">o432[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o432[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MUX_test/o832" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">o832[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o832[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MUX_test/o28" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">o28[7:0]</obj_property>
+      <obj_property name="ObjectShortName">o28[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MUX_test/o88" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">o88[7:0]</obj_property>
+      <obj_property name="ObjectShortName">o88[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MUX_test/o25" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">o25[4:0]</obj_property>
+      <obj_property name="ObjectShortName">o25[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MUX_test/o45" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">o45[4:0]</obj_property>
+      <obj_property name="ObjectShortName">o45[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MUX_test/i1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i1[63:0]</obj_property>
+      <obj_property name="ObjectShortName">i1[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MUX_test/i2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i2[63:0]</obj_property>
+      <obj_property name="ObjectShortName">i2[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MUX_test/i3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i3[63:0]</obj_property>
+      <obj_property name="ObjectShortName">i3[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MUX_test/i4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i4[63:0]</obj_property>
+      <obj_property name="ObjectShortName">i4[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MUX_test/i5" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i5[63:0]</obj_property>
+      <obj_property name="ObjectShortName">i5[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MUX_test/i6" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i6[63:0]</obj_property>
+      <obj_property name="ObjectShortName">i6[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MUX_test/i7" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i7[63:0]</obj_property>
+      <obj_property name="ObjectShortName">i7[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MUX_test/i8" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i8[63:0]</obj_property>
+      <obj_property name="ObjectShortName">i8[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

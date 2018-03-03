@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="overprompt_synth_1" LaunchPart="xc7k160tfbg676-2L" LaunchTime="1483778254">
+  <File Type="RDS-PROPCONSTRS" Name="overprompt_drc_synth.rpt"/>
+  <File Type="PA-TCL" Name="overprompt.tcl"/>
+  <File Type="RDS-RDS" Name="overprompt.vds"/>
+  <File Type="RDS-UTIL" Name="overprompt_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="overprompt_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="overprompt.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="overprompt_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="overprompt_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/overprompt">
+    <File Path="$PSRCDIR/sources_1/ip/overprompt/overprompt.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="overprompt"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/overprompt">
+    <File Path="$PSRCDIR/sources_1/ip/overprompt/overprompt.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="overprompt"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/Users/Shana/Desktop/EXP1/TEST_32_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="TEST_32" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="/TEST_32/a" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TEST_32/b" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">b[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TEST_32/AND" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">AND[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AND[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TEST_32/OR" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">OR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">OR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TEST_32/XOR" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">XOR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">XOR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TEST_32/NOR" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">NOR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NOR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TEST_32/shift" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">shift[4:0]</obj_property>
+      <obj_property name="ObjectShortName">shift[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TEST_32/SRL" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">SRL[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SRL[31:0]</obj_property>
+      <obj_property name="label">SRL[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TEST_32/ORBIT" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ORBIT</obj_property>
+      <obj_property name="ObjectShortName">ORBIT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TEST_32/SIGEXT" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">SIGEXT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SIGEXT[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TEST_32/SIGNED" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">SIGNED[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SIGNED[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TEST_32/EXT" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">EXT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EXT[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TEST_32/a" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TEST_32/b" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">b[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TEST_32/ADD" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ADD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADD[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TEST_32/ADC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ADC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADC[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TEST_32/Co" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Co</obj_property>
+      <obj_property name="ObjectShortName">Co</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TEST_32/C0" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">C0</obj_property>
+      <obj_property name="ObjectShortName">C0</obj_property>
+   </wvobject>
+</wave_config>

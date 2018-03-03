@@ -1,0 +1,72 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : Display.vf
+// /___/   /\     Timestamp : 05/16/2017 15:48:33
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -sympath D:/Users/Shana/Desktop/EXP8/ipcore_dir -intstyle ise -family kintex7 -verilog D:/Users/Shana/Desktop/EXP8/Display.vf -w D:/Users/Shana/Desktop/EXP8/Display.sch
+//Design Name: Display
+//Device: kintex7
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module Display(clk, 
+               flash, 
+               Hexs, 
+               LES, 
+               point, 
+               rst, 
+               Start, 
+               SW0, 
+               seg_clk, 
+               seg_clrn, 
+               SEG_PEN, 
+               seg_sout);
+
+    input clk;
+    input flash;
+    input [31:0] Hexs;
+    input [7:0] LES;
+    input [7:0] point;
+    input rst;
+    input Start;
+    input SW0;
+   output seg_clk;
+   output seg_clrn;
+   output SEG_PEN;
+   output seg_sout;
+   
+   wire [63:0] XLXN_14;
+   wire [63:0] XLXN_15;
+   wire [63:0] XLXN_16;
+   
+   P2S  XLXI_1 (.clk(clk), 
+               .P_Data(XLXN_14[63:0]), 
+               .rst(rst), 
+               .Serial(Start), 
+               .EN(SEG_PEN), 
+               .sout(seg_sout), 
+               .s_clk(seg_clk), 
+               .s_clrn(seg_clrn));
+   HexTo8SEG8  XLXI_2 (.flash(flash), 
+                      .Hexs(Hexs[31:0]), 
+                      .LES(LES[7:0]), 
+                      .points(point[7:0]), 
+                      .SEG_TXT(XLXN_16[63:0]));
+   MUX2T1_64  XLXI_4 (.a(XLXN_15[63:0]), 
+                     .b(XLXN_16[63:0]), 
+                     .sel(SW0), 
+                     .o(XLXN_14[63:0]));
+   SSeg_map  XLXI_5 (.Disp_num({Hexs[31:0], Hexs[31:0]}), 
+                    .Seg_map(XLXN_15[63:0]));
+endmodule

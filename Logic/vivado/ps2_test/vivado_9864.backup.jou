@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Mon Dec 26 23:55:32 2016
+# Process ID: 9864
+# Current directory: F:/vivado/ps2_test
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10612 F:\vivado\ps2_test\ps2_test.xpr
+# Log file: F:/vivado/ps2_test/vivado.log
+# Journal file: F:/vivado/ps2_test\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/vivado/ps2_test/ps2_test.xpr
+save_project_as Framework F:/vivado/Framework -force
+close_project
+open_project F:/vivado/ps2_test/ps2_test.xpr
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run impl_1 -prev_step 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+open_hw
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1

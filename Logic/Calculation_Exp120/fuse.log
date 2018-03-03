@@ -1,0 +1,44 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o F:/Calculation_Exp110/Regs_8_32_test_isim_beh.exe -prj F:/Calculation_Exp110/Regs_8_32_test_beh.prj work.Regs_8_32_test work.glbl 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Analyzing Verilog file "F:/Calculation_Exp110/MUX4T1.vf" into library work
+Analyzing Verilog file "F:/Calculation_Exp110/MB_DFF.vf" into library work
+Analyzing Verilog file "F:/Calculation_Exp110/Reg_8bit.v" into library work
+Analyzing Verilog file "F:/Calculation_Exp110/MUX8T1_8.vf" into library work
+Analyzing Verilog file "F:/Calculation_Exp110/Decoder_38_sch.vf" into library work
+Analyzing Verilog file "F:/Calculation_Exp110/Reg_32.v" into library work
+Analyzing Verilog file "F:/Calculation_Exp110/MUX8T1_32.vf" into library work
+Analyzing Verilog file "F:/Calculation_Exp110/HTC138.vf" into library work
+Analyzing Verilog file "F:/Calculation_Exp110/Regs_8_32.v" into library work
+Analyzing Verilog file "F:/Calculation_Exp110/../Calculation_Exp110_fali/Regs_8_32_test.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 105352 KB
+Fuse CPU Usage: 374 ms
+Compiling module NAND3
+Compiling module MB_DFF
+Compiling module Reg_8bit
+Compiling module Reg_32
+Compiling module AND2
+Compiling module INV
+Compiling module Decoder_38_sch_MUSER_HTC138
+Compiling module AND3
+Compiling module NAND2
+Compiling module HTC138
+Compiling module OR2
+Compiling module OR4
+Compiling module MUX4T1_MUSER_MUX8T1_32
+Compiling module MUX8T1_8_MUSER_MUX8T1_32
+Compiling module MUX8T1_32
+Compiling module Regs_8_32
+Compiling module Regs_8_32_test
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 15 sub-compilation(s) to finish...
+Compiled 18 Verilog Units
+Built simulation executable F:/Calculation_Exp110/Regs_8_32_test_isim_beh.exe
+Fuse Memory Usage: 109944 KB
+Fuse CPU Usage: 498 ms

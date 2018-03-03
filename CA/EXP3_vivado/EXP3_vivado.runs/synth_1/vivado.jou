@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Sun Nov 12 05:27:31 2017
+# Process ID: 8244
+# Current directory: E:/Learning/CA/EXP3_vivado/EXP3_vivado.runs/synth_1
+# Command line: vivado.exe -log Main.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Main.tcl
+# Log file: E:/Learning/CA/EXP3_vivado/EXP3_vivado.runs/synth_1/Main.vds
+# Journal file: E:/Learning/CA/EXP3_vivado/EXP3_vivado.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Main.tcl -notrace

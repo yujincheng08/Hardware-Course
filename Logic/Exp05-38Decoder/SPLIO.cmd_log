@@ -1,0 +1,4 @@
+vhdtdtfi -lib work E:/3150101155/Exp05-38Decoder/SPLIO_IO.v -lang verilog -prj Exp05-38Decoder -o SPLIO.spl -module SPLIO -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 SPLIO.spl E:/3150101155/Exp05-38Decoder/SPLIO.sym 
+vhdtdtfi -lib work E:/Learning/ISE/Exp05-38Decoder/SPLIO_IO.v -lang verilog -prj Exp05-38Decoder -o SPLIO.spl -module SPLIO -template D:/Tools/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 SPLIO.spl E:/Learning/ISE/Exp05-38Decoder/SPLIO.sym 

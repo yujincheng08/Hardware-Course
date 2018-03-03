@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Fri Dec 30 19:22:36 2016
+# Process ID: 18468
+# Current directory: F:/vivado/audio
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11512 F:\vivado\audio\audio.xpr
+# Log file: F:/vivado/audio/vivado.log
+# Journal file: F:/vivado/audio\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/vivado/audio/audio.xpr
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {F:/vivado/audio/audio.runs/impl_1/audio.bit} [lindex [get_hw_devices xc7k160t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROGRAM.FILE {F:/vivado/audio/audio.runs/impl_1/audio.bit} [lindex [get_hw_devices xc7k160t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7k160t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7k160t_0] 0]

@@ -1,0 +1,27 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Fri Dec 23 11:26:55 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "vga_blue<2>" LOCATE = SITE "T22" LEVEL 1;
+COMP "vga_blue<1>" LOCATE = SITE "R20" LEVEL 1;
+COMP "vga_blue<3>" LOCATE = SITE "T23" LEVEL 1;
+COMP "vga_blue<0>" LOCATE = SITE "T20" LEVEL 1;
+COMP "Buzzer" LOCATE = SITE "AF24" LEVEL 1;
+COMP "vga_green<3>" LOCATE = SITE "T25" LEVEL 1;
+COMP "vga_green<1>" LOCATE = SITE "R23" LEVEL 1;
+COMP "vga_green<2>" LOCATE = SITE "T24" LEVEL 1;
+COMP "vga_green<0>" LOCATE = SITE "R22" LEVEL 1;
+COMP "vga_red<3>" LOCATE = SITE "P21" LEVEL 1;
+COMP "vga_red<2>" LOCATE = SITE "R21" LEVEL 1;
+COMP "vga_red<1>" LOCATE = SITE "N22" LEVEL 1;
+COMP "vga_red<0>" LOCATE = SITE "N21" LEVEL 1;
+COMP "clk" LOCATE = SITE "AC18" LEVEL 1;
+COMP "vga_v_sync" LOCATE = SITE "M21" LEVEL 1;
+COMP "rst_n" LOCATE = SITE "W13" LEVEL 1;
+COMP "vga_h_sync" LOCATE = SITE "M22" LEVEL 1;
+TIMEGRP TM_CLK = BEL "clkdiv/clkdiv_0" BEL "clkdiv/clkdiv_1" BEL
+        "clk_BUFGP/BUFG";
+TS_CLK_100M = PERIOD TIMEGRP "TM_CLK" 10 ns HIGH 50%;
+SCHEMATIC END;
+

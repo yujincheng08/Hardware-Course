@@ -1,0 +1,3 @@
+verilog work "MUX4T1.vf"
+verilog work "MUX8T1_8.vf"
+verilog work "MUX8T1_32.vf"

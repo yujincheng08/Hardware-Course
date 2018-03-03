@@ -1,0 +1,70 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : MB_DFF.vf
+// /___/   /\     Timestamp : 12/05/2016 20:46:44
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family kintex7 -verilog F:/3150101155/Trigger/MB_DFF.vf -w F:/3150101155/Trigger/MB_DFF.sch
+//Design Name: MB_DFF
+//Device: kintex7
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module MB_DFF(Cp, 
+              D, 
+              Rn, 
+              Sn, 
+              Q, 
+              Qn);
+
+    input Cp;
+    input D;
+    input Rn;
+    input Sn;
+   output Q;
+   output Qn;
+   
+   wire XLXN_11;
+   wire XLXN_17;
+   wire XLXN_18;
+   wire XLXN_98;
+   wire Q_DUMMY;
+   wire Qn_DUMMY;
+   
+   assign Q = Q_DUMMY;
+   assign Qn = Qn_DUMMY;
+   NAND3  XLXI_1 (.I0(XLXN_98), 
+                 .I1(Sn), 
+                 .I2(XLXN_17), 
+                 .O(XLXN_18));
+   NAND3  XLXI_2 (.I0(Rn), 
+                 .I1(XLXN_11), 
+                 .I2(D), 
+                 .O(XLXN_98));
+   NAND3  XLXI_3 (.I0(Rn), 
+                 .I1(Cp), 
+                 .I2(XLXN_18), 
+                 .O(XLXN_17));
+   NAND3  XLXI_4 (.I0(Cp), 
+                 .I1(XLXN_98), 
+                 .I2(XLXN_17), 
+                 .O(XLXN_11));
+   NAND3  XLXI_5 (.I0(Qn_DUMMY), 
+                 .I1(XLXN_17), 
+                 .I2(Sn), 
+                 .O(Q_DUMMY));
+   NAND3  XLXI_6 (.I0(Rn), 
+                 .I1(XLXN_11), 
+                 .I2(Q_DUMMY), 
+                 .O(Qn_DUMMY));
+endmodule

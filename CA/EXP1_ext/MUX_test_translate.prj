@@ -1,0 +1,6 @@
+verilog work "Element/MUX8T1_8.v"
+verilog work "Element/MUX4T1_5.v"
+verilog work "Element/MUX4T1_32.v"
+verilog work "Element/MUX2T1_8.v"
+verilog work "Element/MUX2T1_64.v"
+verilog work "MUX_test.v"

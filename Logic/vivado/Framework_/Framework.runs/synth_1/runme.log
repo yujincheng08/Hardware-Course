@@ -1,0 +1,796 @@
+
+*** Running vivado
+    with args -log Main.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Main.tcl
+
+
+****** Vivado v2016.3 (64-bit)
+  **** SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+  **** IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source Main.tcl -notrace
+Command: synth_design -top Main -part xc7k160tfbg676-2L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k160t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k160t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 21152 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:15 . Memory (MB): peak = 307.918 ; gain = 97.652
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Main' [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:701]
+INFO: [Synth 8-638] synthesizing module 'clkdiv' [F:/vivado/Framework/Framework.srcs/sources_1/clkdiv.v:21]
+INFO: [Synth 8-256] done synthesizing module 'clkdiv' (1#1) [F:/vivado/Framework/Framework.srcs/sources_1/clkdiv.v:21]
+INFO: [Synth 8-638] synthesizing module 'SAnti_jitter' [F:/vivado/Framework/Framework.srcs/sources_1/SAnti_jitter_IO.v:21]
+INFO: [Synth 8-256] done synthesizing module 'SAnti_jitter' (2#1) [F:/vivado/Framework/Framework.srcs/sources_1/SAnti_jitter_IO.v:21]
+INFO: [Synth 8-638] synthesizing module 'Display_MUSER_Main' [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:649]
+INFO: [Synth 8-638] synthesizing module 'P2S' [F:/vivado/Framework/Framework.srcs/sources_1/P2S_IO.v:21]
+	Parameter DATA_BITS bound to: 64 - type: integer 
+	Parameter DATA_COUNT_BITS bound to: 6 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'P2S' (3#1) [F:/vivado/Framework/Framework.srcs/sources_1/P2S_IO.v:21]
+INFO: [Synth 8-638] synthesizing module 'HexTo8SEG8' [F:/vivado/Framework/Framework.srcs/sources_1/HexTo8SEG8.v:21]
+INFO: [Synth 8-638] synthesizing module 'Hex2Seg' [F:/vivado/Framework/Framework.srcs/sources_1/Hex2Seg.v:21]
+INFO: [Synth 8-638] synthesizing module 'MC14495_ZJU' [F:/vivado/Framework/Framework.srcs/sources_1/MC14495_ZJU.vf:23]
+INFO: [Synth 8-638] synthesizing module 'AND4' [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:108]
+INFO: [Synth 8-256] done synthesizing module 'AND4' (4#1) [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:108]
+INFO: [Synth 8-638] synthesizing module 'AND3' [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:60]
+INFO: [Synth 8-256] done synthesizing module 'AND3' (5#1) [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:60]
+INFO: [Synth 8-638] synthesizing module 'AND2' [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:14]
+INFO: [Synth 8-256] done synthesizing module 'AND2' (6#1) [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:14]
+INFO: [Synth 8-638] synthesizing module 'OR3' [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:25548]
+INFO: [Synth 8-256] done synthesizing module 'OR3' (7#1) [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:25548]
+INFO: [Synth 8-638] synthesizing module 'OR4' [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:25596]
+INFO: [Synth 8-256] done synthesizing module 'OR4' (8#1) [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:25596]
+INFO: [Synth 8-638] synthesizing module 'OR2' [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:25502]
+INFO: [Synth 8-256] done synthesizing module 'OR2' (9#1) [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:25502]
+INFO: [Synth 8-638] synthesizing module 'INV' [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:17255]
+INFO: [Synth 8-256] done synthesizing module 'INV' (10#1) [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:17255]
+INFO: [Synth 8-256] done synthesizing module 'MC14495_ZJU' (11#1) [F:/vivado/Framework/Framework.srcs/sources_1/MC14495_ZJU.vf:23]
+INFO: [Synth 8-256] done synthesizing module 'Hex2Seg' (12#1) [F:/vivado/Framework/Framework.srcs/sources_1/Hex2Seg.v:21]
+INFO: [Synth 8-256] done synthesizing module 'HexTo8SEG8' (13#1) [F:/vivado/Framework/Framework.srcs/sources_1/HexTo8SEG8.v:21]
+INFO: [Synth 8-638] synthesizing module 'MUX2T1_64' [F:/vivado/Framework/Framework.srcs/sources_1/MUX2T1_64.v:21]
+INFO: [Synth 8-256] done synthesizing module 'MUX2T1_64' (14#1) [F:/vivado/Framework/Framework.srcs/sources_1/MUX2T1_64.v:21]
+INFO: [Synth 8-638] synthesizing module 'SSeg_map' [F:/vivado/Framework/Framework.srcs/sources_1/SSeg_map.v:21]
+INFO: [Synth 8-256] done synthesizing module 'SSeg_map' (15#1) [F:/vivado/Framework/Framework.srcs/sources_1/SSeg_map.v:21]
+INFO: [Synth 8-256] done synthesizing module 'Display_MUSER_Main' (16#1) [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:649]
+INFO: [Synth 8-638] synthesizing module 'SEnter_2_32' [F:/vivado/Framework/Framework.srcs/sources_1/SEnter_2_32_IO.v:21]
+INFO: [Synth 8-256] done synthesizing module 'SEnter_2_32' (17#1) [F:/vivado/Framework/Framework.srcs/sources_1/SEnter_2_32_IO.v:21]
+INFO: [Synth 8-638] synthesizing module 'Multi_8CH32' [F:/vivado/Framework/Framework.srcs/sources_1/Multi_8CH32.v:21]
+INFO: [Synth 8-256] done synthesizing module 'Multi_8CH32' (18#1) [F:/vivado/Framework/Framework.srcs/sources_1/Multi_8CH32.v:21]
+WARNING: [Synth 8-689] width (32) of port connection 'Data0' does not match port width (64) of module 'Multi_8CH32' [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:808]
+WARNING: [Synth 8-689] width (32) of port connection 'data1' does not match port width (64) of module 'Multi_8CH32' [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:809]
+WARNING: [Synth 8-689] width (32) of port connection 'data2' does not match port width (64) of module 'Multi_8CH32' [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:810]
+WARNING: [Synth 8-689] width (32) of port connection 'data3' does not match port width (64) of module 'Multi_8CH32' [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:811]
+WARNING: [Synth 8-689] width (32) of port connection 'data4' does not match port width (64) of module 'Multi_8CH32' [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:812]
+WARNING: [Synth 8-689] width (32) of port connection 'data5' does not match port width (64) of module 'Multi_8CH32' [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:813]
+WARNING: [Synth 8-689] width (32) of port connection 'data6' does not match port width (64) of module 'Multi_8CH32' [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:814]
+WARNING: [Synth 8-689] width (32) of port connection 'data7' does not match port width (64) of module 'Multi_8CH32' [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:815]
+INFO: [Synth 8-638] synthesizing module 'GPIO' [F:/vivado/Framework/Framework.srcs/sources_1/GPIO.v:21]
+INFO: [Synth 8-638] synthesizing module 'LED_P2S' [F:/vivado/Framework/Framework.srcs/sources_1/LED_P2S_IO.v:21]
+	Parameter DATA_BITS bound to: 16 - type: integer 
+	Parameter DATA_COUNT_BITS bound to: 4 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'LED_P2S' (19#1) [F:/vivado/Framework/Framework.srcs/sources_1/LED_P2S_IO.v:21]
+INFO: [Synth 8-256] done synthesizing module 'GPIO' (20#1) [F:/vivado/Framework/Framework.srcs/sources_1/GPIO.v:21]
+INFO: [Synth 8-638] synthesizing module 'Seg7_Dev_MUSER_Main' [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:589]
+INFO: [Synth 8-638] synthesizing module 'MC14495_ZJU_MUSER_Main' [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:368]
+INFO: [Synth 8-256] done synthesizing module 'MC14495_ZJU_MUSER_Main' (21#1) [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:368]
+INFO: [Synth 8-638] synthesizing module 'MUXHM' [F:/vivado/Framework/Framework.srcs/sources_1/MUXHM.v:21]
+INFO: [Synth 8-256] done synthesizing module 'MUXHM' (22#1) [F:/vivado/Framework/Framework.srcs/sources_1/MUXHM.v:21]
+INFO: [Synth 8-638] synthesizing module 'Seg_map' [F:/vivado/Framework/Framework.srcs/sources_1/Seg_map.v:21]
+INFO: [Synth 8-256] done synthesizing module 'Seg_map' (23#1) [F:/vivado/Framework/Framework.srcs/sources_1/Seg_map.v:21]
+INFO: [Synth 8-638] synthesizing module 'ScanSync_MUSER_Main' [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:292]
+INFO: [Synth 8-638] synthesizing module 'BUF' [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:567]
+INFO: [Synth 8-256] done synthesizing module 'BUF' (24#1) [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:567]
+INFO: [Synth 8-638] synthesizing module 'VCC' [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:44693]
+INFO: [Synth 8-256] done synthesizing module 'VCC' (25#1) [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:44693]
+INFO: [Synth 8-638] synthesizing module 'GND' [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:4826]
+INFO: [Synth 8-256] done synthesizing module 'GND' (26#1) [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:4826]
+INFO: [Synth 8-638] synthesizing module 'MUX8T1_8_MUSER_Main' [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:147]
+INFO: [Synth 8-638] synthesizing module 'MUX4T1_MUSER_Main' [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:23]
+INFO: [Synth 8-256] done synthesizing module 'MUX4T1_MUSER_Main' (27#1) [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:23]
+INFO: [Synth 8-256] done synthesizing module 'MUX8T1_8_MUSER_Main' (28#1) [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:147]
+INFO: [Synth 8-256] done synthesizing module 'ScanSync_MUSER_Main' (29#1) [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:292]
+INFO: [Synth 8-256] done synthesizing module 'Seg7_Dev_MUSER_Main' (30#1) [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:589]
+INFO: [Synth 8-638] synthesizing module 'PIO' [F:/vivado/Framework/Framework.srcs/sources_1/PIO.v:21]
+INFO: [Synth 8-256] done synthesizing module 'PIO' (31#1) [F:/vivado/Framework/Framework.srcs/sources_1/PIO.v:21]
+WARNING: [Synth 8-3848] Net XLXN_70 in module/entity Main does not have driver. [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:764]
+WARNING: [Synth 8-3848] Net N0 in module/entity Main does not have driver. [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:751]
+WARNING: [Synth 8-3848] Net XLXN_57 in module/entity Main does not have driver. [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:758]
+WARNING: [Synth 8-3848] Net XLXN_59 in module/entity Main does not have driver. [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:759]
+WARNING: [Synth 8-3848] Net XLXN_60 in module/entity Main does not have driver. [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:760]
+WARNING: [Synth 8-3848] Net XLXN_61 in module/entity Main does not have driver. [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:761]
+WARNING: [Synth 8-3848] Net XLXN_65 in module/entity Main does not have driver. [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:762]
+WARNING: [Synth 8-3848] Net XLXN_67 in module/entity Main does not have driver. [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:763]
+INFO: [Synth 8-256] done synthesizing module 'Main' (32#1) [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:701]
+WARNING: [Synth 8-3331] design Seg_map has unconnected port Scan[2]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port rst
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port Data0[63]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port Data0[62]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port Data0[61]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port Data0[60]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port Data0[59]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port Data0[58]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port Data0[57]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port Data0[56]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port Data0[55]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port Data0[54]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port Data0[53]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port Data0[52]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port Data0[51]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port Data0[50]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port Data0[49]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port Data0[48]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port Data0[47]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port Data0[46]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port Data0[45]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port Data0[44]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port Data0[43]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port Data0[42]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port Data0[41]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port Data0[40]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port Data0[39]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port Data0[38]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port Data0[37]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port Data0[36]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port Data0[35]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port Data0[34]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port Data0[33]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port Data0[32]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data1[63]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data1[62]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data1[61]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data1[60]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data1[59]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data1[58]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data1[57]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data1[56]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data1[55]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data1[54]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data1[53]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data1[52]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data1[51]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data1[50]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data1[49]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data1[48]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data1[47]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data1[46]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data1[45]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data1[44]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data1[43]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data1[42]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data1[41]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data1[40]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data1[39]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data1[38]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data1[37]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data1[36]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data1[35]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data1[34]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data1[33]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data1[32]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data2[63]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data2[62]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data2[61]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data2[60]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data2[59]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data2[58]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data2[57]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data2[56]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data2[55]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data2[54]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data2[53]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data2[52]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data2[51]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data2[50]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data2[49]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data2[48]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data2[47]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data2[46]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data2[45]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data2[44]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data2[43]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data2[42]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data2[41]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data2[40]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data2[39]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data2[38]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data2[37]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data2[36]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data2[35]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data2[34]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data2[33]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data2[32]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data3[63]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port data3[62]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:17 . Memory (MB): peak = 345.313 ; gain = 135.047
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[63] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[62] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[61] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[60] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[59] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[58] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[57] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[56] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[55] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[54] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[53] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[52] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[51] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[50] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[49] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[48] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[47] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[46] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[45] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[44] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[43] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[42] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[41] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[40] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[39] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[38] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[37] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[36] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[35] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[34] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[33] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[32] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[31] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[30] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[29] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[28] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[27] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[26] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[25] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[24] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[23] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[22] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[21] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[20] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[19] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[18] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[17] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[16] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[15] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[14] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[13] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[12] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[11] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[10] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[9] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[8] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[7] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[6] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[5] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[4] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[3] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[2] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[1] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[0] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[63] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[62] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[61] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[60] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[59] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[58] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[57] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[56] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[55] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[54] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[53] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[52] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[47] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[46] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[45] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[44] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[43] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[42] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[41] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[40] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[39] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[38] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[37] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[36] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[35] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[34] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[33] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[32] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[31] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[30] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[29] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[28] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[27] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[26] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[25] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[24] to constant 0 [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:807]
+INFO: [Common 17-14] Message 'Synth 8-3295' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:18 . Memory (MB): peak = 345.313 ; gain = 135.047
+---------------------------------------------------------------------------------
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'LED_P2S' instantiated as 'M6/LED_P2S' [F:/vivado/Framework/Framework.srcs/sources_1/GPIO.v:40]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'P2S' instantiated as 'M3/XLXI_1' [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:679]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'SAnti_jitter' instantiated as 'M2' [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:773]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'SEnter_2_32' instantiated as 'M4' [F:/vivado/Framework/Framework.srcs/sources_1/Main.vf:798]
+INFO: [Netlist 29-17] Analyzing 630 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7k160tfbg676-2L
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [F:/vivado/Framework/Framework.srcs/constrs_1/new/constraints.xdc]
+Finished Parsing XDC File [F:/vivado/Framework/Framework.srcs/constrs_1/new/constraints.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [F:/vivado/Framework/Framework.srcs/constrs_1/new/constraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Main_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Main_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 630 instances were transformed.
+  AND2 => LUT2: 202 instances
+  AND3 => LUT3: 99 instances
+  AND4 => LUT4: 81 instances
+  BUF => LUT1: 11 instances
+  INV => LUT1: 63 instances
+  OR2 => LUT2: 79 instances
+  OR3 => LUT3: 27 instances
+  OR4 => LUT4: 68 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 667.602 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:27 ; elapsed = 00:00:37 . Memory (MB): peak = 667.602 ; gain = 457.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k160tfbg676-2L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:27 ; elapsed = 00:00:37 . Memory (MB): peak = 667.602 ; gain = 457.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:37 . Memory (MB): peak = 667.602 ; gain = 457.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:27 ; elapsed = 00:00:38 . Memory (MB): peak = 667.602 ; gain = 457.336
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module MUX2T1_64 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 1     
+Module Multi_8CH32 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+Module MUXHM 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+Module Seg_map 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      8 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 600 (col length:100)
+BRAMs: 650 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'M6/GPIOf0_reg[0]' (FDCE_1) to 'M61/GPIOf0_reg[0]'
+INFO: [Synth 8-3886] merging instance 'M6/GPIOf0_reg[1]' (FDCE_1) to 'M61/GPIOf0_reg[1]'
+INFO: [Synth 8-3886] merging instance 'M6/GPIOf0_reg[3]' (FDCE_1) to 'M61/GPIOf0_reg[3]'
+INFO: [Synth 8-3886] merging instance 'M6/GPIOf0_reg[2]' (FDCE_1) to 'M61/GPIOf0_reg[2]'
+INFO: [Synth 8-3886] merging instance 'M6/GPIOf0_reg[7]' (FDCE_1) to 'M61/GPIOf0_reg[7]'
+INFO: [Synth 8-3886] merging instance 'M6/GPIOf0_reg[6]' (FDCE_1) to 'M61/GPIOf0_reg[6]'
+INFO: [Synth 8-3886] merging instance 'M6/GPIOf0_reg[5]' (FDCE_1) to 'M61/GPIOf0_reg[5]'
+INFO: [Synth 8-3886] merging instance 'M6/GPIOf0_reg[4]' (FDCE_1) to 'M61/GPIOf0_reg[4]'
+INFO: [Synth 8-3886] merging instance 'M61/GPIOf0_reg[13]' (FDCE_1) to 'M6/GPIOf0_reg[13]'
+INFO: [Synth 8-3886] merging instance 'M61/GPIOf0_reg[12]' (FDCE_1) to 'M6/GPIOf0_reg[12]'
+INFO: [Synth 8-3886] merging instance 'M61/GPIOf0_reg[15]' (FDCE_1) to 'M6/GPIOf0_reg[15]'
+INFO: [Synth 8-3886] merging instance 'M61/GPIOf0_reg[14]' (FDCE_1) to 'M6/GPIOf0_reg[14]'
+INFO: [Synth 8-3886] merging instance 'M61/GPIOf0_reg[9]' (FDCE_1) to 'M6/GPIOf0_reg[9]'
+INFO: [Synth 8-3886] merging instance 'M61/GPIOf0_reg[8]' (FDCE_1) to 'M6/GPIOf0_reg[8]'
+INFO: [Synth 8-3886] merging instance 'M61/GPIOf0_reg[11]' (FDCE_1) to 'M6/GPIOf0_reg[11]'
+INFO: [Synth 8-3886] merging instance 'M61/GPIOf0_reg[10]' (FDCE_1) to 'M6/GPIOf0_reg[10]'
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[3]' (FDE) to 'M5/disp_data_reg[1]'
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[1]' (FDE) to 'M5/disp_data_reg[7]'
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[2]' (FDE) to 'M5/disp_data_reg[4]'
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[0]' (FDE) to 'M5/disp_data_reg[9]'
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[10]' (FDE) to 'M5/disp_data_reg[7]'
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[6]' (FDE) to 'M5/disp_data_reg[4]'
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[8]' (FDE) to 'M5/disp_data_reg[5]'
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[4]' (FDE) to 'M5/disp_data_reg[11]'
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[22]' (FDE) to 'M5/disp_data_reg[5]'
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[18]' (FDE) to 'M5/disp_data_reg[5]'
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[20]' (FDE) to 'M5/disp_data_reg[7]'
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[16]' (FDE) to 'M5/disp_data_reg[5]'
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[31]' (FDE) to 'M5/disp_data_reg[5]'
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[27]' (FDE) to 'M5/disp_data_reg[7]'
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[29]' (FDE) to 'M5/disp_data_reg[7]'
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[25]' (FDE) to 'M5/disp_data_reg[5]'
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[23]' (FDE) to 'M5/disp_data_reg[11]'
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[19]' (FDE) to 'M5/disp_data_reg[11]'
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[21]' (FDE) to 'M5/disp_data_reg[9]'
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[17]' (FDE) to 'M5/disp_data_reg[11]'
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[11]' (FDE) to 'M5/disp_data_reg[13]'
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[7]' (FDE) to 'M5/disp_data_reg[12]'
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[9]' (FDE) to 'M5/disp_data_reg[24]'
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[5]' (FDE) to 'M5/disp_data_reg[14]'
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[15]' (FDE) to 'M5/disp_data_reg[13]'
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[13]' (FDE) to 'M5/disp_data_reg[28]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\M5/disp_data_reg[14] )
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[30]' (FDE) to 'M5/disp_data_reg[28]'
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[26]' (FDE) to 'M5/disp_data_reg[24]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\M5/disp_data_reg[28] )
+WARNING: [Synth 8-3332] Sequential element (M6/GPIOf0_reg[31]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M6/GPIOf0_reg[30]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M6/GPIOf0_reg[29]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M6/GPIOf0_reg[28]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M6/GPIOf0_reg[27]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M6/GPIOf0_reg[26]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M6/GPIOf0_reg[25]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M6/GPIOf0_reg[24]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M6/GPIOf0_reg[23]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M6/GPIOf0_reg[22]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M6/GPIOf0_reg[21]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M6/GPIOf0_reg[20]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M6/GPIOf0_reg[19]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M6/GPIOf0_reg[18]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M6/GPIOf0_reg[17]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M6/GPIOf0_reg[16]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[31]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[30]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[29]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[28]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[27]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[26]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[25]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[24]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[23]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[22]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[21]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[20]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[19]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[18]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[17]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[16]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M1/clkdiv_reg[26]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M1/clkdiv_reg[27]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M1/clkdiv_reg[28]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M1/clkdiv_reg[29]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M1/clkdiv_reg[30]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M1/clkdiv_reg[31]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M5/disp_data_reg[28]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M5/disp_data_reg[14]) is unused and will be removed from module Main.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:39 . Memory (MB): peak = 667.602 ; gain = 457.336
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:42 ; elapsed = 00:00:53 . Memory (MB): peak = 667.602 ; gain = 457.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:42 ; elapsed = 00:00:53 . Memory (MB): peak = 667.602 ; gain = 457.336
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (M5/cpu_point_reg[7]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M5/cpu_point_reg[6]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M5/cpu_point_reg[5]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M5/cpu_point_reg[4]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M5/cpu_point_reg[3]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M5/cpu_point_reg[2]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M5/cpu_point_reg[1]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M5/cpu_point_reg[0]) is unused and will be removed from module Main.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:42 ; elapsed = 00:00:53 . Memory (MB): peak = 667.602 ; gain = 457.336
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:43 ; elapsed = 00:00:54 . Memory (MB): peak = 667.602 ; gain = 457.336
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:43 ; elapsed = 00:00:54 . Memory (MB): peak = 667.602 ; gain = 457.336
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:43 ; elapsed = 00:00:54 . Memory (MB): peak = 667.602 ; gain = 457.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:43 ; elapsed = 00:00:54 . Memory (MB): peak = 667.602 ; gain = 457.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:43 ; elapsed = 00:00:54 . Memory (MB): peak = 667.602 ; gain = 457.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:43 ; elapsed = 00:00:54 . Memory (MB): peak = 667.602 ; gain = 457.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |SAnti_jitter  |         1|
+|2     |SEnter_2_32   |         1|
+|3     |P2S           |         1|
+|4     |LED_P2S       |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+-------------+------+
+|      |Cell         |Count |
++------+-------------+------+
+|1     |LED_P2S      |     1|
+|2     |P2S          |     1|
+|3     |SAnti_jitter |     1|
+|4     |SEnter_2_32  |     1|
+|5     |AND2         |   134|
+|6     |AND3         |    99|
+|7     |AND4         |    81|
+|8     |BUF          |    10|
+|9     |BUFG         |     1|
+|10    |CARRY4       |     7|
+|11    |INV          |    15|
+|12    |LUT1         |    37|
+|13    |LUT2         |    15|
+|14    |LUT3         |     5|
+|15    |LUT4         |    13|
+|16    |LUT5         |    24|
+|17    |LUT6         |    40|
+|18    |OR2          |    73|
+|19    |OR3          |    27|
+|20    |OR4          |    56|
+|21    |FDCE         |    42|
+|22    |FDRE         |    10|
+|23    |IBUF         |    22|
+|24    |OBUF         |    37|
++------+-------------+------+
+
+Report Instance Areas: 
++------+----------------+-----------------------+------+
+|      |Instance        |Module                 |Cells |
++------+----------------+-----------------------+------+
+|1     |top             |                       |   866|
+|2     |  M1            |clkdiv                 |    70|
+|3     |  M3            |Display_MUSER_Main     |   330|
+|4     |    XLXI_2      |HexTo8SEG8             |   324|
+|5     |      HTS0      |Hex2Seg                |    40|
+|6     |        MSEG    |MC14495_ZJU_19         |    40|
+|7     |      HTS1      |Hex2Seg_6              |    38|
+|8     |        MSEG    |MC14495_ZJU_18         |    38|
+|9     |      HTS2      |Hex2Seg_7              |    39|
+|10    |        MSEG    |MC14495_ZJU_17         |    39|
+|11    |      HTS3      |Hex2Seg_8              |    40|
+|12    |        MSEG    |MC14495_ZJU_16         |    40|
+|13    |      HTS4      |Hex2Seg_9              |    40|
+|14    |        MSEG    |MC14495_ZJU_15         |    40|
+|15    |      HTS5      |Hex2Seg_10             |    41|
+|16    |        MSEG    |MC14495_ZJU_14         |    41|
+|17    |      HTS6      |Hex2Seg_11             |    43|
+|18    |        MSEG    |MC14495_ZJU_13         |    43|
+|19    |      HTS7      |Hex2Seg_12             |    43|
+|20    |        MSEG    |MC14495_ZJU            |    43|
+|21    |  M31           |Seg7_Dev_MUSER_Main    |   208|
+|22    |    XLXI_2      |MC14495_ZJU_MUSER_Main |    40|
+|23    |    XLXI_6      |ScanSync_MUSER_Main    |   167|
+|24    |      XLXI_28   |MUX8T1_8_MUSER_Main    |    60|
+|25    |        XLXI_38 |MUX4T1_MUSER_Main_4    |    24|
+|26    |        XLXI_39 |MUX4T1_MUSER_Main_5    |    24|
+|27    |      XLXI_29   |MUX8T1_8_MUSER_Main_0  |    97|
+|28    |        XLXI_28 |MUX4T1_MUSER_Main      |    24|
+|29    |        XLXI_37 |MUX4T1_MUSER_Main_1    |    26|
+|30    |        XLXI_38 |MUX4T1_MUSER_Main_2    |    14|
+|31    |        XLXI_39 |MUX4T1_MUSER_Main_3    |    14|
+|32    |  M5            |Multi_8CH32            |    55|
+|33    |  M6            |GPIO                   |    14|
+|34    |  M61           |PIO                    |    19|
++------+----------------+-----------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:43 ; elapsed = 00:00:54 . Memory (MB): peak = 667.602 ; gain = 457.336
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 48 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:34 . Memory (MB): peak = 667.602 ; gain = 112.219
+Synthesis Optimization Complete : Time (s): cpu = 00:00:43 ; elapsed = 00:00:55 . Memory (MB): peak = 667.602 ; gain = 457.336
+INFO: [Project 1-571] Translating synthesized netlist
+Release 14.7 - ngc2edif P_INT.20160902 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SAnti_jitter.ngc ...
+WARNING:NetListWriters:298 - No output is written to SAnti_jitter.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SAnti_jitter.edif ...
+ngc2edif: Total memory usage is 90380 kilobytes
+
+Reading core file 'F:/vivado/Framework/Framework.srcs/sources_1/ip/SAnti_jitter.ngc' for (cell view 'SAnti_jitter', library 'work')
+Parsing EDIF File [./.ngc2edfcache/SAnti_jitter_ngc_777d46e4.edif]
+Finished Parsing EDIF File [./.ngc2edfcache/SAnti_jitter_ngc_777d46e4.edif]
+Release 14.7 - ngc2edif P_INT.20160902 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SEnter_2_32.ngc ...
+WARNING:NetListWriters:298 - No output is written to SEnter_2_32.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus Ai[31]_Ai[31]_mux_48_OUT[31 : 2] on
+   block SEnter_2_32 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Bi[31]_Bi[31]_mux_49_OUT[31 : 2] on
+   block SEnter_2_32 is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file SEnter_2_32.edif ...
+ngc2edif: Total memory usage is 90956 kilobytes
+
+Reading core file 'F:/vivado/Framework/Framework.srcs/sources_1/ip/SEnter_2_32.ngc' for (cell view 'SEnter_2_32', library 'work')
+Parsing EDIF File [./.ngc2edfcache/SEnter_2_32_ngc_777d46e4.edif]
+Finished Parsing EDIF File [./.ngc2edfcache/SEnter_2_32_ngc_777d46e4.edif]
+Release 14.7 - ngc2edif P_INT.20160902 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design P2S.ngc ...
+WARNING:NetListWriters:298 - No output is written to P2S.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file P2S.edif ...
+ngc2edif: Total memory usage is 90828 kilobytes
+
+Reading core file 'F:/vivado/Framework/Framework.srcs/sources_1/ip/P2S.ngc' for (cell view 'P2S', library 'work')
+Parsing EDIF File [./.ngc2edfcache/P2S_ngc_777d46e4.edif]
+Finished Parsing EDIF File [./.ngc2edfcache/P2S_ngc_777d46e4.edif]
+Release 14.7 - ngc2edif P_INT.20160902 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design LED_P2S.ngc ...
+WARNING:NetListWriters:298 - No output is written to LED_P2S.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file LED_P2S.edif ...
+ngc2edif: Total memory usage is 90380 kilobytes
+
+Reading core file 'F:/vivado/Framework/Framework.srcs/sources_1/ip/LED_P2S.ngc' for (cell view 'LED_P2S', library 'work')
+Parsing EDIF File [./.ngc2edfcache/LED_P2S_ngc_777d46e4.edif]
+Finished Parsing EDIF File [./.ngc2edfcache/LED_P2S_ngc_777d46e4.edif]
+INFO: [Netlist 29-17] Analyzing 962 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Xilinx ngc2edif P_INT.20160902
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 801 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 27 instances
+  AND2 => LUT2: 134 instances
+  AND3 => LUT3: 99 instances
+  AND4 => LUT4: 81 instances
+  BUF => LUT1: 10 instances
+  FD => FDRE: 205 instances
+  FDC => FDCE: 14 instances
+  FDE => FDRE: 47 instances
+  INV => LUT1: 28 instances
+  OR2 => LUT2: 73 instances
+  OR3 => LUT3: 27 instances
+  OR4 => LUT4: 56 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+143 Infos, 268 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:43 ; elapsed = 00:00:58 . Memory (MB): peak = 667.602 ; gain = 453.434
+INFO: [Common 17-1381] The checkpoint 'F:/vivado/Framework/Framework.runs/synth_1/Main.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.051 . Memory (MB): peak = 667.602 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sat Dec 24 13:05:09 2016...

@@ -1,0 +1,1 @@
+sch2hdl -sympath D:/Users/Shana/Desktop/EXP5/ipcore_dir -intstyle ise -family kintex7 -verilog ALU_drc.vf -w D:/Users/Shana/Desktop/EXP5/ALU.sch 

@@ -1,0 +1,76 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Wed Nov 16 10:30:58 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "SW<1>" LOCATE = SITE "AB10" LEVEL 1;
+COMP "SW<2>" LOCATE = SITE "AA13" LEVEL 1;
+COMP "SW<3>" LOCATE = SITE "AA12" LEVEL 1;
+COMP "SW<4>" LOCATE = SITE "Y13" LEVEL 1;
+COMP "Buzzer" LOCATE = SITE "AF24" LEVEL 1;
+COMP "SW<5>" LOCATE = SITE "Y12" LEVEL 1;
+COMP "SW<6>" LOCATE = SITE "AD11" LEVEL 1;
+COMP "SW<7>" LOCATE = SITE "AD10" LEVEL 1;
+COMP "SW<8>" LOCATE = SITE "AE10" LEVEL 1;
+COMP "SW<9>" LOCATE = SITE "AE12" LEVEL 1;
+COMP "RSTN" LOCATE = SITE "W13" LEVEL 1;
+COMP "SW<10>" LOCATE = SITE "AF12" LEVEL 1;
+COMP "SW<11>" LOCATE = SITE "AE8" LEVEL 1;
+COMP "SW<12>" LOCATE = SITE "AF8" LEVEL 1;
+COMP "seg_sout" LOCATE = SITE "L24" LEVEL 1;
+COMP "SW<13>" LOCATE = SITE "AE13" LEVEL 1;
+COMP "SW<14>" LOCATE = SITE "AF13" LEVEL 1;
+COMP "SW<15>" LOCATE = SITE "AF10" LEVEL 1;
+COMP "SEG_PEN" LOCATE = SITE "R18" LEVEL 1;
+COMP "seg_clk" LOCATE = SITE "M24" LEVEL 1;
+COMP "seg_clrn" LOCATE = SITE "M20" LEVEL 1;
+COMP "clk_100mhz" LOCATE = SITE "AC18" LEVEL 1;
+COMP "SW<0>" LOCATE = SITE "AA10" LEVEL 1;
+TIMEGRP TM_CLK = BEL "M1/clkdiv_0" BEL "M1/clkdiv_1" BEL "M1/clkdiv_2" BEL
+        "M1/clkdiv_3" BEL "M1/clkdiv_4" BEL "M1/clkdiv_5" BEL "M1/clkdiv_6"
+        BEL "M1/clkdiv_7" BEL "M1/clkdiv_8" BEL "M1/clkdiv_9" BEL
+        "M1/clkdiv_10" BEL "M1/clkdiv_11" BEL "M1/clkdiv_12" BEL
+        "M1/clkdiv_13" BEL "M1/clkdiv_14" BEL "M1/clkdiv_15" BEL
+        "M1/clkdiv_16" BEL "M1/clkdiv_17" BEL "M1/clkdiv_18" BEL
+        "M1/clkdiv_19" BEL "M1/clkdiv_20" BEL "M1/clkdiv_21" BEL
+        "M1/clkdiv_22" BEL "M1/clkdiv_23" BEL "M1/clkdiv_24" BEL
+        "M1/clkdiv_25" BEL "clk_100mhz_BUFGP/BUFG" BEL "M3/XLXI_3/start_0" BEL
+        "M3/XLXI_3/start_1" BEL "M3/XLXI_3/state_FSM_FFd2" BEL
+        "M3/XLXI_3/state_FSM_FFd1" BEL "M3/XLXI_3/EN" BEL "M3/XLXI_3/s_clk"
+        BEL "M3/XLXI_3/buffer_0" BEL "M3/XLXI_3/buffer_1" BEL
+        "M3/XLXI_3/buffer_2" BEL "M3/XLXI_3/buffer_3" BEL "M3/XLXI_3/buffer_4"
+        BEL "M3/XLXI_3/buffer_5" BEL "M3/XLXI_3/buffer_6" BEL
+        "M3/XLXI_3/buffer_7" BEL "M3/XLXI_3/buffer_8" BEL "M3/XLXI_3/buffer_9"
+        BEL "M3/XLXI_3/buffer_10" BEL "M3/XLXI_3/buffer_11" BEL
+        "M3/XLXI_3/buffer_12" BEL "M3/XLXI_3/buffer_13" BEL
+        "M3/XLXI_3/buffer_14" BEL "M3/XLXI_3/buffer_15" BEL
+        "M3/XLXI_3/buffer_16" BEL "M3/XLXI_3/buffer_17" BEL
+        "M3/XLXI_3/buffer_18" BEL "M3/XLXI_3/buffer_19" BEL
+        "M3/XLXI_3/buffer_20" BEL "M3/XLXI_3/buffer_21" BEL
+        "M3/XLXI_3/buffer_22" BEL "M3/XLXI_3/buffer_23" BEL
+        "M3/XLXI_3/buffer_24" BEL "M3/XLXI_3/buffer_25" BEL
+        "M3/XLXI_3/buffer_26" BEL "M3/XLXI_3/buffer_27" BEL
+        "M3/XLXI_3/buffer_28" BEL "M3/XLXI_3/buffer_29" BEL
+        "M3/XLXI_3/buffer_30" BEL "M3/XLXI_3/buffer_31" BEL
+        "M3/XLXI_3/buffer_32" BEL "M3/XLXI_3/buffer_33" BEL
+        "M3/XLXI_3/buffer_34" BEL "M3/XLXI_3/buffer_35" BEL
+        "M3/XLXI_3/buffer_36" BEL "M3/XLXI_3/buffer_37" BEL
+        "M3/XLXI_3/buffer_38" BEL "M3/XLXI_3/buffer_39" BEL
+        "M3/XLXI_3/buffer_40" BEL "M3/XLXI_3/buffer_41" BEL
+        "M3/XLXI_3/buffer_42" BEL "M3/XLXI_3/buffer_43" BEL
+        "M3/XLXI_3/buffer_44" BEL "M3/XLXI_3/buffer_45" BEL
+        "M3/XLXI_3/buffer_46" BEL "M3/XLXI_3/buffer_47" BEL
+        "M3/XLXI_3/buffer_48" BEL "M3/XLXI_3/buffer_49" BEL
+        "M3/XLXI_3/buffer_50" BEL "M3/XLXI_3/buffer_51" BEL
+        "M3/XLXI_3/buffer_52" BEL "M3/XLXI_3/buffer_53" BEL
+        "M3/XLXI_3/buffer_54" BEL "M3/XLXI_3/buffer_55" BEL
+        "M3/XLXI_3/buffer_56" BEL "M3/XLXI_3/buffer_57" BEL
+        "M3/XLXI_3/buffer_58" BEL "M3/XLXI_3/buffer_59" BEL
+        "M3/XLXI_3/buffer_60" BEL "M3/XLXI_3/buffer_61" BEL
+        "M3/XLXI_3/buffer_62" BEL "M3/XLXI_3/buffer_63" BEL
+        "M3/XLXI_3/shift_count_0" BEL "M3/XLXI_3/shift_count_1" BEL
+        "M3/XLXI_3/shift_count_2" BEL "M3/XLXI_3/shift_count_3" BEL
+        "M3/XLXI_3/shift_count_4" BEL "M3/XLXI_3/shift_count_5";
+TS_CLK_100M = PERIOD TIMEGRP "TM_CLK" 10 ns HIGH 50%;
+SCHEMATIC END;
+

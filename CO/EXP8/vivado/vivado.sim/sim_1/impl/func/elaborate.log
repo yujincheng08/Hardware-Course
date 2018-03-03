@@ -1,0 +1,12 @@
+Vivado Simulator 2016.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Tools/XILINX/Vivado/2016.3/bin/unwrapped/win64.o/xelab.exe -wto c578b66a4a4c4e9fb4613d7794d0c52f --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot Main_Main_sch_tb_func_impl xil_defaultlib.Main_Main_sch_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 4 differs from formal bit length 8 for port o [D:/Users/Shana/Desktop/EXP5/vivado/vivado.sim/sim_1/impl/func/Main_Main_sch_tb_func_impl.v:40890]
+ERROR: [VRFC 10-426] cannot find port Disp_num_0 on this module [D:/Users/Shana/Desktop/EXP5/vivado/vivado.sim/sim_1/impl/func/Main_Main_sch_tb_func_impl.v:40885]
+ERROR: [VRFC 10-426] cannot find port Scan on this module [D:/Users/Shana/Desktop/EXP5/vivado/vivado.sim/sim_1/impl/func/Main_Main_sch_tb_func_impl.v:40886]
+ERROR: [VRFC 10-426] cannot find port XLXN_135 on this module [D:/Users/Shana/Desktop/EXP5/vivado/vivado.sim/sim_1/impl/func/Main_Main_sch_tb_func_impl.v:40887]
+ERROR: [VRFC 10-426] cannot find port XLXN_17 on this module [D:/Users/Shana/Desktop/EXP5/vivado/vivado.sim/sim_1/impl/func/Main_Main_sch_tb_func_impl.v:40888]
+ERROR: [VRFC 10-426] cannot find port XLXN_23 on this module [D:/Users/Shana/Desktop/EXP5/vivado/vivado.sim/sim_1/impl/func/Main_Main_sch_tb_func_impl.v:40889]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

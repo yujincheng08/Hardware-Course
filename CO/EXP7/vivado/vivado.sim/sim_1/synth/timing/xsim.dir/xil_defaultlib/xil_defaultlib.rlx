@@ -1,0 +1,14 @@
+0.6
+2016.3
+Oct 10 2016
+19:46:48
+D:/Users/Shana/Desktop/EXP5/Element/MUX2T1_64.v,1489376667,verilog,,,,MUX2T1_64,,,,,,,,
+D:/Users/Shana/Desktop/EXP5/Element/MUX2T1_8.v,1489376686,verilog,,,,MUX2T1_8,,,,,,,,
+D:/Users/Shana/Desktop/EXP5/Element/MUX4T1_32.v,1488717020,verilog,,,,MUX4T1_32,,,,,,,,
+D:/Users/Shana/Desktop/EXP5/Element/MUX4T1_5.v,1488717010,verilog,,,,MUX4T1_5,,,,,,,,
+D:/Users/Shana/Desktop/EXP5/Element/MUX8T1_8.v,1488717075,verilog,,,,MUX8T1_8,,,,,,,,
+D:/Users/Shana/Desktop/EXP5/Element/test_32.v,1490681079,verilog,,,,TEST_32,,,,,,,,
+D:/Users/Shana/Desktop/EXP5/MUX_test.v,1489420214,verilog,,,,MUX_test,,,,,,,,
+D:/Users/Shana/Desktop/EXP5/Main_test.v,1491808598,verilog,,,,Main_Main_sch_tb,,,,,,,,
+D:/Users/Shana/Desktop/EXP5/Mult_8CH32_test.v,1489404058,verilog,,,,Mult_8CH32_test,,,,,,,,
+D:/Users/Shana/Desktop/EXP5/vivado/vivado.sim/sim_1/synth/timing/Main_Main_sch_tb_time_synth.v,1491824806,verilog,,,,ADC32;ALU;Counter_x;Data_path;Display;Hex2Seg;Hex2Seg_1;Hex2Seg_2;Hex2Seg_3;Hex2Seg_4;Hex2Seg_5;Hex2Seg_6;Hex2Seg_7;HexTo8SEG8;LED_P2S;MC14495_ZJU;MC14495_ZJU_10;MC14495_ZJU_11;MC14495_ZJU_12;MC14495_ZJU_13;MC14495_ZJU_14;MC14495_ZJU_15;MC14495_ZJU_8;MC14495_ZJU_9;MIO_BUS;Main;Multi_8CH32;P2S;RAM_B;REG32;ROM_D;Regs;SAnti_jitter;SCPU;SCPU_ctrl;SEnter_2_32;SPIO;Seg7_Dev;add_32;add_32_0;clk_div;glbl,,,,,,,,

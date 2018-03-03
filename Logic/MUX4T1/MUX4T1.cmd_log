@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "F:/3150101155/MUX4T1/MUX4T1.xst" -ofn "F:/3150101155/MUX4T1/MUX4T1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7k160t-fbg676-2L MUX4T1.ngc MUX4T1.ngd  
+sch2sym -intstyle ise -family kintex7 -refsym MUX4T1 F:/3150101155/MUX4T1/MUX4T1.sch F:/3150101155/MUX4T1/MUX4T1.sym 
+xst -intstyle ise -ifn "F:/3150101155/MUX4T1/MUX4T1.xst" -ofn "F:/3150101155/MUX4T1/MUX4T1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7k160t-fbg676-2L MUX4T1.ngc MUX4T1.ngd  
+map -intstyle ise -p xc7k160t-fbg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o MUX4T1_map.ncd MUX4T1.ngd MUX4T1.pcf 
+par -w -intstyle ise -ol high -mt off MUX4T1_map.ncd MUX4T1.ncd MUX4T1.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml MUX4T1.twx MUX4T1.ncd -o MUX4T1.twr MUX4T1.pcf 

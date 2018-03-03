@@ -1,0 +1,1038 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Tue Apr 11 15:07:25 2017
+# Process ID: 58836
+# Current directory: D:/Users/Shana/Desktop/EXP5/vivado/vivado.runs/synth_1
+# Command line: vivado.exe -log Main.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Main.tcl
+# Log file: D:/Users/Shana/Desktop/EXP5/vivado/vivado.runs/synth_1/Main.vds
+# Journal file: D:/Users/Shana/Desktop/EXP5/vivado/vivado.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Main.tcl -notrace
+Command: synth_design -top Main -part xc7k160tfbg676-1
+Starting synth_design
+INFO: [IP_Flow 19-2162] IP 'ROM_D' is locked:
+* IP definition 'Distributed Memory Generator (7.2)' for IP 'ROM_D' has a newer major version in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [IP_Flow 19-2162] IP 'RAM_B' is locked:
+* IP definition 'Block Memory Generator (7.3)' for IP 'RAM_B' has a newer major version in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k160t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k160t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 70880 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:13 . Memory (MB): peak = 309.520 ; gain = 99.301
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Main' [D:/Users/Shana/Desktop/EXP5/Main.vf:1004]
+INFO: [Synth 8-638] synthesizing module 'SAnti_jitter' [D:/Users/Shana/Desktop/EXP5/SAnti_jitter_IO.v:21]
+INFO: [Synth 8-256] done synthesizing module 'SAnti_jitter' (1#1) [D:/Users/Shana/Desktop/EXP5/SAnti_jitter_IO.v:21]
+INFO: [Synth 8-638] synthesizing module 'SEnter_2_32' [D:/Users/Shana/Desktop/EXP5/SEnter_2_32_IO.v:21]
+INFO: [Synth 8-256] done synthesizing module 'SEnter_2_32' (2#1) [D:/Users/Shana/Desktop/EXP5/SEnter_2_32_IO.v:21]
+INFO: [Synth 8-638] synthesizing module 'Multi_8CH32' [D:/Users/Shana/Desktop/EXP5/Multi_8CH32.v:22]
+INFO: [Synth 8-256] done synthesizing module 'Multi_8CH32' (3#1) [D:/Users/Shana/Desktop/EXP5/Multi_8CH32.v:22]
+INFO: [Synth 8-638] synthesizing module 'Seg7_Dev_MUSER_Main' [D:/Users/Shana/Desktop/EXP5/Main.vf:892]
+INFO: [Synth 8-638] synthesizing module 'MC14495_ZJU_MUSER_Main' [D:/Users/Shana/Desktop/EXP5/Main.vf:671]
+INFO: [Synth 8-638] synthesizing module 'AND4' [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:108]
+INFO: [Synth 8-256] done synthesizing module 'AND4' (4#1) [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:108]
+INFO: [Synth 8-638] synthesizing module 'AND3' [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:60]
+INFO: [Synth 8-256] done synthesizing module 'AND3' (5#1) [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:60]
+INFO: [Synth 8-638] synthesizing module 'AND2' [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:14]
+INFO: [Synth 8-256] done synthesizing module 'AND2' (6#1) [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:14]
+INFO: [Synth 8-638] synthesizing module 'OR3' [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:25548]
+INFO: [Synth 8-256] done synthesizing module 'OR3' (7#1) [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:25548]
+INFO: [Synth 8-638] synthesizing module 'OR4' [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:25596]
+INFO: [Synth 8-256] done synthesizing module 'OR4' (8#1) [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:25596]
+INFO: [Synth 8-638] synthesizing module 'OR2' [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:25502]
+INFO: [Synth 8-256] done synthesizing module 'OR2' (9#1) [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:25502]
+INFO: [Synth 8-638] synthesizing module 'INV' [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:17255]
+INFO: [Synth 8-256] done synthesizing module 'INV' (10#1) [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:17255]
+INFO: [Synth 8-256] done synthesizing module 'MC14495_ZJU_MUSER_Main' (11#1) [D:/Users/Shana/Desktop/EXP5/Main.vf:671]
+INFO: [Synth 8-638] synthesizing module 'MUXHM' [D:/Users/Shana/Desktop/EXP5/MUXHM.v:21]
+INFO: [Synth 8-256] done synthesizing module 'MUXHM' (12#1) [D:/Users/Shana/Desktop/EXP5/MUXHM.v:21]
+INFO: [Synth 8-638] synthesizing module 'Seg_map' [D:/Users/Shana/Desktop/EXP5/Seg_map.v:21]
+INFO: [Synth 8-256] done synthesizing module 'Seg_map' (13#1) [D:/Users/Shana/Desktop/EXP5/Seg_map.v:21]
+INFO: [Synth 8-638] synthesizing module 'ScanSync_MUSER_Main' [D:/Users/Shana/Desktop/EXP5/Main.vf:595]
+INFO: [Synth 8-638] synthesizing module 'BUF' [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:567]
+INFO: [Synth 8-256] done synthesizing module 'BUF' (14#1) [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:567]
+INFO: [Synth 8-638] synthesizing module 'VCC' [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:44693]
+INFO: [Synth 8-256] done synthesizing module 'VCC' (15#1) [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:44693]
+INFO: [Synth 8-638] synthesizing module 'GND' [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:4826]
+INFO: [Synth 8-256] done synthesizing module 'GND' (16#1) [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:4826]
+INFO: [Synth 8-638] synthesizing module 'MUX8T1_8_MUSER_Main' [D:/Users/Shana/Desktop/EXP5/Main.vf:147]
+INFO: [Synth 8-638] synthesizing module 'MUX4T1_MUSER_Main' [D:/Users/Shana/Desktop/EXP5/Main.vf:23]
+INFO: [Synth 8-256] done synthesizing module 'MUX4T1_MUSER_Main' (17#1) [D:/Users/Shana/Desktop/EXP5/Main.vf:23]
+INFO: [Synth 8-256] done synthesizing module 'MUX8T1_8_MUSER_Main' (18#1) [D:/Users/Shana/Desktop/EXP5/Main.vf:147]
+INFO: [Synth 8-256] done synthesizing module 'ScanSync_MUSER_Main' (19#1) [D:/Users/Shana/Desktop/EXP5/Main.vf:595]
+INFO: [Synth 8-256] done synthesizing module 'Seg7_Dev_MUSER_Main' (20#1) [D:/Users/Shana/Desktop/EXP5/Main.vf:892]
+INFO: [Synth 8-638] synthesizing module 'PIO' [D:/Users/Shana/Desktop/EXP5/PIO.v:21]
+INFO: [Synth 8-256] done synthesizing module 'PIO' (21#1) [D:/Users/Shana/Desktop/EXP5/PIO.v:21]
+INFO: [Synth 8-638] synthesizing module 'Display_MUSER_Main' [D:/Users/Shana/Desktop/EXP5/Main.vf:952]
+INFO: [Synth 8-638] synthesizing module 'P2S' [D:/Users/Shana/Desktop/EXP5/P2S_IO.v:21]
+	Parameter DATA_BITS bound to: 64 - type: integer 
+	Parameter DATA_COUNT_BITS bound to: 6 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'P2S' (22#1) [D:/Users/Shana/Desktop/EXP5/P2S_IO.v:21]
+INFO: [Synth 8-638] synthesizing module 'HexTo8SEG8' [D:/Users/Shana/Desktop/EXP5/HexTo8SEG8.v:21]
+INFO: [Synth 8-638] synthesizing module 'Hex2Seg' [D:/Users/Shana/Desktop/EXP5/Hex2Seg.v:21]
+INFO: [Synth 8-638] synthesizing module 'MC14495_ZJU' [D:/Users/Shana/Desktop/EXP5/MC14495_ZJU.vf:23]
+INFO: [Synth 8-256] done synthesizing module 'MC14495_ZJU' (23#1) [D:/Users/Shana/Desktop/EXP5/MC14495_ZJU.vf:23]
+INFO: [Synth 8-256] done synthesizing module 'Hex2Seg' (24#1) [D:/Users/Shana/Desktop/EXP5/Hex2Seg.v:21]
+INFO: [Synth 8-256] done synthesizing module 'HexTo8SEG8' (25#1) [D:/Users/Shana/Desktop/EXP5/HexTo8SEG8.v:21]
+INFO: [Synth 8-638] synthesizing module 'MUX2T1_64' [D:/Users/Shana/Desktop/EXP5/MUX2T1_64.v:21]
+INFO: [Synth 8-256] done synthesizing module 'MUX2T1_64' (26#1) [D:/Users/Shana/Desktop/EXP5/MUX2T1_64.v:21]
+INFO: [Synth 8-638] synthesizing module 'SSeg_map' [D:/Users/Shana/Desktop/EXP5/SSeg_map.v:21]
+INFO: [Synth 8-256] done synthesizing module 'SSeg_map' (27#1) [D:/Users/Shana/Desktop/EXP5/SSeg_map.v:21]
+INFO: [Synth 8-256] done synthesizing module 'Display_MUSER_Main' (28#1) [D:/Users/Shana/Desktop/EXP5/Main.vf:952]
+INFO: [Synth 8-638] synthesizing module 'SPIO' [D:/Users/Shana/Desktop/EXP5/SPIO.v:21]
+INFO: [Synth 8-638] synthesizing module 'LED_P2S' [D:/Users/Shana/Desktop/EXP5/LED_P2S_IO.v:21]
+	Parameter DATA_BITS bound to: 16 - type: integer 
+	Parameter DATA_COUNT_BITS bound to: 4 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'LED_P2S' (29#1) [D:/Users/Shana/Desktop/EXP5/LED_P2S_IO.v:21]
+WARNING: [Synth 8-5788] Register GPIOf0_reg in module SPIO is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Users/Shana/Desktop/EXP5/SPIO.v:38]
+INFO: [Synth 8-256] done synthesizing module 'SPIO' (30#1) [D:/Users/Shana/Desktop/EXP5/SPIO.v:21]
+INFO: [Synth 8-638] synthesizing module 'RAM_B' [d:/Users/Shana/Desktop/EXP5/vivado/vivado.srcs/sources_1/ip/RAM_B/RAM_B.v:39]
+INFO: [Synth 8-256] done synthesizing module 'RAM_B' (31#1) [d:/Users/Shana/Desktop/EXP5/vivado/vivado.srcs/sources_1/ip/RAM_B/RAM_B.v:39]
+INFO: [Synth 8-638] synthesizing module 'ROM_D' [d:/Users/Shana/Desktop/EXP5/vivado/vivado.srcs/sources_1/ip/ROM_D/ROM_D.v:39]
+INFO: [Synth 8-256] done synthesizing module 'ROM_D' (32#1) [d:/Users/Shana/Desktop/EXP5/vivado/vivado.srcs/sources_1/ip/ROM_D/ROM_D.v:39]
+INFO: [Synth 8-638] synthesizing module 'clk_div' [D:/Users/Shana/Desktop/EXP5/clkdiv.v:21]
+INFO: [Synth 8-256] done synthesizing module 'clk_div' (33#1) [D:/Users/Shana/Desktop/EXP5/clkdiv.v:21]
+INFO: [Synth 8-638] synthesizing module 'SCPU_MUSER_Main' [D:/Users/Shana/Desktop/EXP5/Main.vf:534]
+INFO: [Synth 8-638] synthesizing module 'Data_path_MUSER_Main' [D:/Users/Shana/Desktop/EXP5/Main.vf:426]
+INFO: [Synth 8-638] synthesizing module 'Regs' [D:/Users/Shana/Desktop/EXP5/regs.v:21]
+INFO: [Synth 8-256] done synthesizing module 'Regs' (34#1) [D:/Users/Shana/Desktop/EXP5/regs.v:21]
+INFO: [Synth 8-638] synthesizing module 'REG32' [D:/Users/Shana/Desktop/EXP5/REG32.v:21]
+INFO: [Synth 8-256] done synthesizing module 'REG32' (35#1) [D:/Users/Shana/Desktop/EXP5/REG32.v:21]
+INFO: [Synth 8-638] synthesizing module 'MUX2T1_5' [D:/Users/Shana/Desktop/EXP5/Element/MUX2T1_5.v:21]
+INFO: [Synth 8-256] done synthesizing module 'MUX2T1_5' (36#1) [D:/Users/Shana/Desktop/EXP5/Element/MUX2T1_5.v:21]
+INFO: [Synth 8-638] synthesizing module 'MUX2T1_32' [D:/Users/Shana/Desktop/EXP5/Element/MUX2T1_32.v:21]
+INFO: [Synth 8-256] done synthesizing module 'MUX2T1_32' (37#1) [D:/Users/Shana/Desktop/EXP5/Element/MUX2T1_32.v:21]
+INFO: [Synth 8-638] synthesizing module 'Ext_32' [D:/Users/Shana/Desktop/EXP5/Element/Ext_imm16.v:21]
+INFO: [Synth 8-256] done synthesizing module 'Ext_32' (38#1) [D:/Users/Shana/Desktop/EXP5/Element/Ext_imm16.v:21]
+INFO: [Synth 8-638] synthesizing module 'add_32' [D:/Users/Shana/Desktop/EXP5/Element/add_32.v:21]
+INFO: [Synth 8-256] done synthesizing module 'add_32' (39#1) [D:/Users/Shana/Desktop/EXP5/Element/add_32.v:21]
+INFO: [Synth 8-638] synthesizing module 'alu_MUSER_Main' [D:/Users/Shana/Desktop/EXP5/Main.vf:358]
+INFO: [Synth 8-638] synthesizing module 'ADC32' [D:/Users/Shana/Desktop/EXP5/Element/addc_32.v:21]
+INFO: [Synth 8-256] done synthesizing module 'ADC32' (40#1) [D:/Users/Shana/Desktop/EXP5/Element/addc_32.v:21]
+WARNING: [Synth 8-689] width (33) of port connection 'S' does not match port width (3233) of module 'ADC32' [D:/Users/Shana/Desktop/EXP5/Main.vf:387]
+INFO: [Synth 8-638] synthesizing module 'MUX8T1_32_MUSER_Main' [D:/Users/Shana/Desktop/EXP5/Main.vf:292]
+INFO: [Synth 8-256] done synthesizing module 'MUX8T1_32_MUSER_Main' (41#1) [D:/Users/Shana/Desktop/EXP5/Main.vf:292]
+INFO: [Synth 8-638] synthesizing module 'and32' [D:/Users/Shana/Desktop/EXP5/Element/and32.v:21]
+INFO: [Synth 8-256] done synthesizing module 'and32' (42#1) [D:/Users/Shana/Desktop/EXP5/Element/and32.v:21]
+INFO: [Synth 8-638] synthesizing module 'xor32' [D:/Users/Shana/Desktop/EXP5/Element/xor32.v:21]
+INFO: [Synth 8-256] done synthesizing module 'xor32' (43#1) [D:/Users/Shana/Desktop/EXP5/Element/xor32.v:21]
+INFO: [Synth 8-638] synthesizing module 'nor32' [D:/Users/Shana/Desktop/EXP5/Element/nor32.v:21]
+INFO: [Synth 8-256] done synthesizing module 'nor32' (44#1) [D:/Users/Shana/Desktop/EXP5/Element/nor32.v:21]
+INFO: [Synth 8-638] synthesizing module 'srl32' [D:/Users/Shana/Desktop/EXP5/Element/srl32.v:21]
+INFO: [Synth 8-256] done synthesizing module 'srl32' (45#1) [D:/Users/Shana/Desktop/EXP5/Element/srl32.v:21]
+INFO: [Synth 8-638] synthesizing module 'or_bit_32' [D:/Users/Shana/Desktop/EXP5/Element/or_bit_32 .v:21]
+INFO: [Synth 8-256] done synthesizing module 'or_bit_32' (46#1) [D:/Users/Shana/Desktop/EXP5/Element/or_bit_32 .v:21]
+INFO: [Synth 8-638] synthesizing module 'SignalExt_32' [D:/Users/Shana/Desktop/EXP5/Element/SignalExt_32.v:21]
+INFO: [Synth 8-256] done synthesizing module 'SignalExt_32' (47#1) [D:/Users/Shana/Desktop/EXP5/Element/SignalExt_32.v:21]
+INFO: [Synth 8-638] synthesizing module 'or32' [D:/Users/Shana/Desktop/EXP5/Element/or32.v:21]
+INFO: [Synth 8-256] done synthesizing module 'or32' (48#1) [D:/Users/Shana/Desktop/EXP5/Element/or32.v:21]
+WARNING: [Synth 8-3848] Net overflow in module/entity alu_MUSER_Main does not have driver. [D:/Users/Shana/Desktop/EXP5/Main.vf:368]
+INFO: [Synth 8-256] done synthesizing module 'alu_MUSER_Main' (49#1) [D:/Users/Shana/Desktop/EXP5/Main.vf:358]
+INFO: [Synth 8-256] done synthesizing module 'Data_path_MUSER_Main' (50#1) [D:/Users/Shana/Desktop/EXP5/Main.vf:426]
+INFO: [Synth 8-638] synthesizing module 'SCPU_ctrl' [D:/Users/Shana/Desktop/EXP5/SCPU_ctrl.vf:40]
+INFO: [Synth 8-638] synthesizing module 'NOR6_HXILINX_SCPU_ctrl' [D:/Users/Shana/Desktop/EXP5/SCPU_ctrl.vf:23]
+INFO: [Synth 8-256] done synthesizing module 'NOR6_HXILINX_SCPU_ctrl' (51#1) [D:/Users/Shana/Desktop/EXP5/SCPU_ctrl.vf:23]
+INFO: [Synth 8-638] synthesizing module 'AND5B2' [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:201]
+INFO: [Synth 8-256] done synthesizing module 'AND5B2' (52#1) [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:201]
+INFO: [Synth 8-638] synthesizing module 'AND5B1' [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:187]
+INFO: [Synth 8-256] done synthesizing module 'AND5B1' (53#1) [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:187]
+INFO: [Synth 8-638] synthesizing module 'AND5B4' [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:229]
+INFO: [Synth 8-256] done synthesizing module 'AND5B4' (54#1) [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:229]
+INFO: [Synth 8-638] synthesizing module 'NAND2' [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:21467]
+INFO: [Synth 8-256] done synthesizing module 'NAND2' (55#1) [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:21467]
+INFO: [Synth 8-638] synthesizing module 'AND2B1' [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:25]
+INFO: [Synth 8-256] done synthesizing module 'AND2B1' (56#1) [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:25]
+WARNING: [Synth 8-3848] Net CPU_MIO in module/entity SCPU_ctrl does not have driver. [D:/Users/Shana/Desktop/EXP5/SCPU_ctrl.vf:59]
+INFO: [Synth 8-256] done synthesizing module 'SCPU_ctrl' (57#1) [D:/Users/Shana/Desktop/EXP5/SCPU_ctrl.vf:40]
+INFO: [Synth 8-256] done synthesizing module 'SCPU_MUSER_Main' (58#1) [D:/Users/Shana/Desktop/EXP5/Main.vf:534]
+INFO: [Synth 8-638] synthesizing module 'Counter_x' [D:/Users/Shana/Desktop/EXP5/Counter_3_IO.v:21]
+WARNING: [Synth 8-5788] Register M0_reg in module Counter_x is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Users/Shana/Desktop/EXP5/Counter_3_IO.v:49]
+WARNING: [Synth 8-5788] Register clr0_reg in module Counter_x is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Users/Shana/Desktop/EXP5/Counter_3_IO.v:71]
+WARNING: [Synth 8-3848] Net counter1 in module/entity Counter_x does not have driver. [D:/Users/Shana/Desktop/EXP5/Counter_3_IO.v:36]
+WARNING: [Synth 8-3848] Net counter2 in module/entity Counter_x does not have driver. [D:/Users/Shana/Desktop/EXP5/Counter_3_IO.v:36]
+INFO: [Synth 8-256] done synthesizing module 'Counter_x' (59#1) [D:/Users/Shana/Desktop/EXP5/Counter_3_IO.v:21]
+INFO: [Synth 8-638] synthesizing module 'MIO_BUS' [D:/Users/Shana/Desktop/EXP5/MIO_BUS_IO.v:21]
+INFO: [Synth 8-256] done synthesizing module 'MIO_BUS' (60#1) [D:/Users/Shana/Desktop/EXP5/MIO_BUS_IO.v:21]
+WARNING: [Synth 8-3848] Net GPIOF0 in module/entity Main does not have driver. [D:/Users/Shana/Desktop/EXP5/Main.vf:1059]
+WARNING: [Synth 8-3848] Net CPU2IO in module/entity Main does not have driver. [D:/Users/Shana/Desktop/EXP5/Main.vf:1053]
+WARNING: [Synth 8-3848] Net gndinst in module/entity Main does not have driver. [D:/Users/Shana/Desktop/EXP5/Main.vf:1058]
+WARNING: [Synth 8-3848] Net N0 in module/entity Main does not have driver. [D:/Users/Shana/Desktop/EXP5/Main.vf:1064]
+INFO: [Synth 8-256] done synthesizing module 'Main' (61#1) [D:/Users/Shana/Desktop/EXP5/Main.vf:1004]
+WARNING: [Synth 8-3331] design Counter_x has unconnected port counter1_OUT
+WARNING: [Synth 8-3331] design Counter_x has unconnected port counter2_OUT
+WARNING: [Synth 8-3331] design Counter_x has unconnected port clk1
+WARNING: [Synth 8-3331] design Counter_x has unconnected port clk2
+WARNING: [Synth 8-3331] design SCPU_ctrl has unconnected port CPU_MIO
+WARNING: [Synth 8-3331] design SCPU_ctrl has unconnected port Fun[5]
+WARNING: [Synth 8-3331] design SCPU_ctrl has unconnected port Fun[4]
+WARNING: [Synth 8-3331] design SCPU_ctrl has unconnected port MIO_ready
+WARNING: [Synth 8-3331] design srl32 has unconnected port A[31]
+WARNING: [Synth 8-3331] design srl32 has unconnected port A[30]
+WARNING: [Synth 8-3331] design srl32 has unconnected port A[29]
+WARNING: [Synth 8-3331] design srl32 has unconnected port A[28]
+WARNING: [Synth 8-3331] design srl32 has unconnected port A[27]
+WARNING: [Synth 8-3331] design srl32 has unconnected port A[26]
+WARNING: [Synth 8-3331] design srl32 has unconnected port A[25]
+WARNING: [Synth 8-3331] design srl32 has unconnected port A[24]
+WARNING: [Synth 8-3331] design srl32 has unconnected port A[23]
+WARNING: [Synth 8-3331] design srl32 has unconnected port A[22]
+WARNING: [Synth 8-3331] design srl32 has unconnected port A[21]
+WARNING: [Synth 8-3331] design srl32 has unconnected port A[20]
+WARNING: [Synth 8-3331] design srl32 has unconnected port A[19]
+WARNING: [Synth 8-3331] design srl32 has unconnected port A[18]
+WARNING: [Synth 8-3331] design srl32 has unconnected port A[17]
+WARNING: [Synth 8-3331] design srl32 has unconnected port A[16]
+WARNING: [Synth 8-3331] design srl32 has unconnected port A[15]
+WARNING: [Synth 8-3331] design srl32 has unconnected port A[14]
+WARNING: [Synth 8-3331] design srl32 has unconnected port A[13]
+WARNING: [Synth 8-3331] design srl32 has unconnected port A[12]
+WARNING: [Synth 8-3331] design srl32 has unconnected port A[11]
+WARNING: [Synth 8-3331] design srl32 has unconnected port A[10]
+WARNING: [Synth 8-3331] design srl32 has unconnected port A[9]
+WARNING: [Synth 8-3331] design srl32 has unconnected port A[8]
+WARNING: [Synth 8-3331] design srl32 has unconnected port A[7]
+WARNING: [Synth 8-3331] design srl32 has unconnected port A[6]
+WARNING: [Synth 8-3331] design srl32 has unconnected port A[5]
+WARNING: [Synth 8-3331] design srl32 has unconnected port A[4]
+WARNING: [Synth 8-3331] design srl32 has unconnected port A[3]
+WARNING: [Synth 8-3331] design srl32 has unconnected port A[2]
+WARNING: [Synth 8-3331] design srl32 has unconnected port A[1]
+WARNING: [Synth 8-3331] design srl32 has unconnected port A[0]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3232]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3231]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3230]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3229]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3228]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3227]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3226]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3225]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3224]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3223]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3222]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3221]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3220]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3219]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3218]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3217]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3216]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3215]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3214]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3213]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3212]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3211]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3210]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3209]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3208]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3207]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3206]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3205]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3204]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3203]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3202]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3201]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3200]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3199]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3198]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3197]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3196]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3195]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3194]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3193]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3192]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3191]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3190]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3189]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3188]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3187]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3186]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3185]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3184]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3183]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3182]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3181]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3180]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3179]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3178]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3177]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3176]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3175]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3174]
+WARNING: [Synth 8-3331] design ADC32 has unconnected port S[3173]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:15 . Memory (MB): peak = 346.836 ; gain = 136.617
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[63] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[62] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[61] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[60] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[59] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[58] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[57] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[56] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[55] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[54] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[53] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[52] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[51] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[50] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[49] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[48] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[47] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[46] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[45] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[44] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[43] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[42] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[41] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[40] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[39] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[38] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[37] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[36] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[35] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[34] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[33] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[32] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[31] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[30] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[29] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[28] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[27] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[26] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[25] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[24] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[23] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[22] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[21] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[20] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[19] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[18] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[17] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[16] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[15] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[14] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[13] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[12] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[11] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[10] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[9] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[8] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[7] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[6] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[5] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[4] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[3] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[2] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[1] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[0] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:data1[31] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M5:data1[30] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1114]
+WARNING: [Synth 8-3295] tying undriven pin M61:EN to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1139]
+WARNING: [Synth 8-3295] tying undriven pin M61:PData_in[31] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1139]
+WARNING: [Synth 8-3295] tying undriven pin M61:PData_in[30] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1139]
+WARNING: [Synth 8-3295] tying undriven pin M61:PData_in[29] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1139]
+WARNING: [Synth 8-3295] tying undriven pin M61:PData_in[28] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1139]
+WARNING: [Synth 8-3295] tying undriven pin M61:PData_in[27] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1139]
+WARNING: [Synth 8-3295] tying undriven pin M61:PData_in[26] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1139]
+WARNING: [Synth 8-3295] tying undriven pin M61:PData_in[25] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1139]
+WARNING: [Synth 8-3295] tying undriven pin M61:PData_in[24] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1139]
+WARNING: [Synth 8-3295] tying undriven pin M61:PData_in[23] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1139]
+WARNING: [Synth 8-3295] tying undriven pin M61:PData_in[22] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1139]
+WARNING: [Synth 8-3295] tying undriven pin M61:PData_in[21] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1139]
+WARNING: [Synth 8-3295] tying undriven pin M61:PData_in[20] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1139]
+WARNING: [Synth 8-3295] tying undriven pin M61:PData_in[19] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1139]
+WARNING: [Synth 8-3295] tying undriven pin M61:PData_in[18] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1139]
+WARNING: [Synth 8-3295] tying undriven pin M61:PData_in[17] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1139]
+WARNING: [Synth 8-3295] tying undriven pin M61:PData_in[16] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1139]
+WARNING: [Synth 8-3295] tying undriven pin M61:PData_in[15] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1139]
+WARNING: [Synth 8-3295] tying undriven pin M61:PData_in[14] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1139]
+WARNING: [Synth 8-3295] tying undriven pin M61:PData_in[13] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1139]
+WARNING: [Synth 8-3295] tying undriven pin M61:PData_in[12] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1139]
+WARNING: [Synth 8-3295] tying undriven pin M61:PData_in[11] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1139]
+WARNING: [Synth 8-3295] tying undriven pin M61:PData_in[10] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1139]
+WARNING: [Synth 8-3295] tying undriven pin M61:PData_in[9] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1139]
+WARNING: [Synth 8-3295] tying undriven pin M61:PData_in[8] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1139]
+WARNING: [Synth 8-3295] tying undriven pin M61:PData_in[7] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1139]
+WARNING: [Synth 8-3295] tying undriven pin M61:PData_in[6] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1139]
+WARNING: [Synth 8-3295] tying undriven pin M61:PData_in[5] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1139]
+WARNING: [Synth 8-3295] tying undriven pin M61:PData_in[4] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1139]
+WARNING: [Synth 8-3295] tying undriven pin M61:PData_in[3] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1139]
+WARNING: [Synth 8-3295] tying undriven pin M61:PData_in[2] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1139]
+WARNING: [Synth 8-3295] tying undriven pin M61:PData_in[1] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1139]
+WARNING: [Synth 8-3295] tying undriven pin M61:PData_in[0] to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1139]
+WARNING: [Synth 8-3295] tying undriven pin XLXI_19:MIO_ready to constant 0 [D:/Users/Shana/Desktop/EXP5/Main.vf:1187]
+INFO: [Common 17-14] Message 'Synth 8-3295' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:15 . Memory (MB): peak = 346.836 ; gain = 136.617
+---------------------------------------------------------------------------------
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'LED_P2S' instantiated as 'U7/LED_P3S' [D:/Users/Shana/Desktop/EXP5/SPIO.v:42]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'MIO_BUS' instantiated as 'XLXI_23' [D:/Users/Shana/Desktop/EXP5/Main.vf:1212]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'P2S' instantiated as 'U6/XLXI_1' [D:/Users/Shana/Desktop/EXP5/Main.vf:982]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'RAM_B' instantiated as 'XLXI_14' [D:/Users/Shana/Desktop/EXP5/Main.vf:1173]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'ROM_D' instantiated as 'XLXI_15' [D:/Users/Shana/Desktop/EXP5/Main.vf:1178]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'SAnti_jitter' instantiated as 'M2' [D:/Users/Shana/Desktop/EXP5/Main.vf:1092]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'SEnter_2_32' instantiated as 'M4' [D:/Users/Shana/Desktop/EXP5/Main.vf:1105]
+INFO: [Netlist 29-17] Analyzing 1163 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Device 21-403] Loading part xc7k160tfbg676-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/Users/Shana/Desktop/EXP5/vivado/vivado.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/Users/Shana/Desktop/EXP5/vivado/vivado.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1163 instances were transformed.
+  AND2 => LUT2: 589 instances
+  AND2B1 => LUT2: 1 instances
+  AND3 => LUT3: 99 instances
+  AND4 => LUT4: 81 instances
+  AND5B1 => LUT5: 1 instances
+  AND5B2 => LUT5: 1 instances
+  AND5B4 => LUT5: 2 instances
+  BUF => LUT1: 13 instances
+  INV => LUT1: 101 instances
+  NAND2 => LUT2: 1 instances
+  OR2 => LUT2: 115 instances
+  OR3 => LUT3: 27 instances
+  OR4 => LUT4: 132 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 667.703 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:25 ; elapsed = 00:00:32 . Memory (MB): peak = 667.703 ; gain = 457.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k160tfbg676-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:25 ; elapsed = 00:00:32 . Memory (MB): peak = 667.703 ; gain = 457.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for XLXI_14. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for XLXI_15. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:32 . Memory (MB): peak = 667.703 ; gain = 457.484
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "register_reg[1]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[2]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[3]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[4]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[5]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[6]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[7]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[8]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[9]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[10]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[11]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[12]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[13]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[14]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[15]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[16]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[17]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[18]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[19]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[20]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[21]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[22]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[23]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[24]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[25]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[26]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[27]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[28]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[29]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[30]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[31]" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:25 ; elapsed = 00:00:33 . Memory (MB): peak = 667.703 ; gain = 457.484
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 1     
+	   2 Input     33 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 2     
++---XORs : 
+	   2 Input     32 Bit         XORs := 2     
++---Registers : 
+	               33 Bit    Registers := 1     
+	               32 Bit    Registers := 34    
+	               24 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 1     
+	   5 Input     33 Bit        Muxes := 1     
+	   4 Input     33 Bit        Muxes := 1     
+	   2 Input     33 Bit        Muxes := 3     
+	   2 Input     32 Bit        Muxes := 4     
+	   2 Input     14 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 36    
+	   4 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Multi_8CH32 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+Module MUXHM 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+Module Seg_map 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      8 Bit        Muxes := 1     
+Module MUX2T1_64 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 1     
+Module SPIO 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     14 Bit        Muxes := 1     
+Module clk_div 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module Regs 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 31    
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 31    
+Module REG32 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module MUX2T1_5 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+Module MUX2T1_32 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module add_32 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+Module ADC32 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 1     
+Module xor32 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
+Module Counter_x 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     33 Bit       Adders := 1     
++---Registers : 
+	               33 Bit    Registers := 1     
+	               32 Bit    Registers := 1     
+	               24 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   5 Input     33 Bit        Muxes := 1     
+	   4 Input     33 Bit        Muxes := 1     
+	   2 Input     33 Bit        Muxes := 3     
+	   4 Input      1 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 600 (col length:100)
+BRAMs: 650 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[31]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[30]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[29]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[28]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[27]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[26]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[25]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[24]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[23]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[22]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[21]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[20]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[19]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[18]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[17]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[16]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[15]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[14]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[13]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[12]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[11]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[10]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[9]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[8]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (U7/GPIOf0_reg[13]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (U7/GPIOf0_reg[12]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (U7/GPIOf0_reg[11]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (U7/GPIOf0_reg[10]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (U7/GPIOf0_reg[9]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (U7/GPIOf0_reg[8]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (U7/GPIOf0_reg[7]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (U7/GPIOf0_reg[6]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (U7/GPIOf0_reg[5]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (U7/GPIOf0_reg[4]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (U7/GPIOf0_reg[3]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (U7/GPIOf0_reg[2]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (U7/GPIOf0_reg[1]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (U7/GPIOf0_reg[0]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (XLXI_21/counter_Ctrl_reg[23]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (XLXI_21/counter_Ctrl_reg[22]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (XLXI_21/counter_Ctrl_reg[21]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (XLXI_21/counter_Ctrl_reg[20]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (XLXI_21/counter_Ctrl_reg[19]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (XLXI_21/counter_Ctrl_reg[18]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (XLXI_21/counter_Ctrl_reg[17]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (XLXI_21/counter_Ctrl_reg[16]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (XLXI_21/counter_Ctrl_reg[15]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (XLXI_21/counter_Ctrl_reg[14]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (XLXI_21/counter_Ctrl_reg[13]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (XLXI_21/counter_Ctrl_reg[12]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (XLXI_21/counter_Ctrl_reg[11]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (XLXI_21/counter_Ctrl_reg[10]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (XLXI_21/counter_Ctrl_reg[9]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (XLXI_21/counter_Ctrl_reg[8]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (XLXI_21/counter_Ctrl_reg[7]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (XLXI_21/counter_Ctrl_reg[6]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (XLXI_21/counter_Ctrl_reg[5]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (XLXI_21/counter_Ctrl_reg[4]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (XLXI_21/counter_Ctrl_reg[3]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (XLXI_21/counter_Ctrl_reg[0]) is unused and will be removed from module Main.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:42 ; elapsed = 00:00:51 . Memory (MB): peak = 713.137 ; gain = 502.918
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:57 ; elapsed = 00:01:06 . Memory (MB): peak = 772.961 ; gain = 562.742
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:57 ; elapsed = 00:01:07 . Memory (MB): peak = 774.914 ; gain = 564.695
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[7]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[6]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[5]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[4]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[3]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[2]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[1]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[0]) is unused and will be removed from module Main.
+INFO: [Synth 8-3886] merging instance 'M5/cpu_blink_reg[7]' (FDE) to 'M5/cpu_blink_reg[0]'
+INFO: [Synth 8-3886] merging instance 'M5/cpu_blink_reg[6]' (FDE) to 'M5/cpu_blink_reg[0]'
+INFO: [Synth 8-3886] merging instance 'M5/cpu_blink_reg[5]' (FDE) to 'M5/cpu_blink_reg[0]'
+INFO: [Synth 8-3886] merging instance 'M5/cpu_blink_reg[4]' (FDE) to 'M5/cpu_blink_reg[0]'
+INFO: [Synth 8-3886] merging instance 'M5/cpu_blink_reg[3]' (FDE) to 'M5/cpu_blink_reg[0]'
+INFO: [Synth 8-3886] merging instance 'M5/cpu_blink_reg[2]' (FDE) to 'M5/cpu_blink_reg[0]'
+INFO: [Synth 8-3886] merging instance 'M5/cpu_blink_reg[1]' (FDE) to 'M5/cpu_blink_reg[0]'
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:59 ; elapsed = 00:01:08 . Memory (MB): peak = 802.527 ; gain = 592.309
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:00 ; elapsed = 00:01:09 . Memory (MB): peak = 802.527 ; gain = 592.309
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:00 ; elapsed = 00:01:09 . Memory (MB): peak = 802.527 ; gain = 592.309
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:00 ; elapsed = 00:01:10 . Memory (MB): peak = 802.527 ; gain = 592.309
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:00 ; elapsed = 00:01:10 . Memory (MB): peak = 802.527 ; gain = 592.309
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:00 ; elapsed = 00:01:10 . Memory (MB): peak = 802.527 ; gain = 592.309
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:00 ; elapsed = 00:01:10 . Memory (MB): peak = 802.527 ; gain = 592.309
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |SAnti_jitter  |         1|
+|2     |SEnter_2_32   |         1|
+|3     |RAM_B         |         1|
+|4     |ROM_D         |         1|
+|5     |MIO_BUS       |         1|
+|6     |P2S           |         1|
+|7     |LED_P2S       |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+-------------+------+
+|      |Cell         |Count |
++------+-------------+------+
+|1     |LED_P2S      |     1|
+|2     |MIO_BUS      |     1|
+|3     |P2S          |     1|
+|4     |RAM_B        |     1|
+|5     |ROM_D        |     1|
+|6     |SAnti_jitter |     1|
+|7     |SEnter_2_32  |     1|
+|8     |AND2         |   521|
+|9     |AND2B1       |     1|
+|10    |AND3         |    99|
+|11    |AND4         |    81|
+|12    |AND5B1       |     1|
+|13    |AND5B2       |     1|
+|14    |AND5B4       |     2|
+|15    |BUF          |    12|
+|16    |BUFG         |     3|
+|17    |CARRY4       |    41|
+|18    |INV          |    53|
+|19    |LUT1         |    87|
+|20    |LUT2         |    32|
+|21    |LUT3         |   221|
+|22    |LUT4         |   138|
+|23    |LUT5         |   177|
+|24    |LUT6         |   672|
+|25    |MUXF7        |   296|
+|26    |MUXF8        |    64|
+|27    |NAND2        |     1|
+|28    |OR2          |   109|
+|29    |OR3          |    27|
+|30    |OR4          |   120|
+|31    |FDCE         |  1139|
+|32    |FDPE         |     3|
+|33    |FDRE         |    43|
+|34    |IBUF         |    22|
+|35    |OBUF         |    37|
++------+-------------+------+
+
+Report Instance Areas: 
++------+--------------------+-----------------------+------+
+|      |Instance            |Module                 |Cells |
++------+--------------------+-----------------------+------+
+|1     |top                 |                       |  4295|
+|2     |  M31               |Seg7_Dev_MUSER_Main    |   208|
+|3     |    XLXI_2          |MC14495_ZJU_MUSER_Main |    40|
+|4     |    XLXI_6          |ScanSync_MUSER_Main    |   167|
+|5     |      XLXI_28       |MUX8T1_8_MUSER_Main_33 |    60|
+|6     |        XLXI_38     |MUX4T1_MUSER_Main_39   |    24|
+|7     |        XLXI_39     |MUX4T1_MUSER_Main_40   |    24|
+|8     |      XLXI_29       |MUX8T1_8_MUSER_Main_34 |    97|
+|9     |        XLXI_28     |MUX4T1_MUSER_Main_35   |    24|
+|10    |        XLXI_37     |MUX4T1_MUSER_Main_36   |    26|
+|11    |        XLXI_38     |MUX4T1_MUSER_Main_37   |    14|
+|12    |        XLXI_39     |MUX4T1_MUSER_Main_38   |    14|
+|13    |  M5                |Multi_8CH32            |    43|
+|14    |  U6                |Display_MUSER_Main     |   388|
+|15    |    XLXI_2          |HexTo8SEG8             |   384|
+|16    |      HTS0          |Hex2Seg                |    48|
+|17    |        MSEG        |MC14495_ZJU_32         |    48|
+|18    |      HTS1          |Hex2Seg_19             |    48|
+|19    |        MSEG        |MC14495_ZJU_31         |    48|
+|20    |      HTS2          |Hex2Seg_20             |    48|
+|21    |        MSEG        |MC14495_ZJU_30         |    48|
+|22    |      HTS3          |Hex2Seg_21             |    48|
+|23    |        MSEG        |MC14495_ZJU_29         |    48|
+|24    |      HTS4          |Hex2Seg_22             |    48|
+|25    |        MSEG        |MC14495_ZJU_28         |    48|
+|26    |      HTS5          |Hex2Seg_23             |    48|
+|27    |        MSEG        |MC14495_ZJU_27         |    48|
+|28    |      HTS6          |Hex2Seg_24             |    48|
+|29    |        MSEG        |MC14495_ZJU_26         |    48|
+|30    |      HTS7          |Hex2Seg_25             |    48|
+|31    |        MSEG        |MC14495_ZJU            |    48|
+|32    |  U7                |SPIO                   |    40|
+|33    |  XLXI_18           |clk_div                |    97|
+|34    |  XLXI_19           |SCPU_MUSER_Main        |  2957|
+|35    |    XLXI_1          |Data_path_MUSER_Main   |  2909|
+|36    |      XLXI_1        |Regs                   |  2181|
+|37    |      XLXI_15       |add_32                 |    65|
+|38    |      XLXI_16       |add_32_0               |     8|
+|39    |      XLXI_18       |alu_MUSER_Main         |   525|
+|40    |        ADC         |ADC32                  |     1|
+|41    |        XLXI_2      |MUX8T1_32_MUSER_Main   |   524|
+|42    |          XLXI_1    |MUX8T1_8_MUSER_Main    |   130|
+|43    |            XLXI_28 |MUX4T1_MUSER_Main_15   |    24|
+|44    |            XLXI_37 |MUX4T1_MUSER_Main_16   |    24|
+|45    |            XLXI_38 |MUX4T1_MUSER_Main_17   |    24|
+|46    |            XLXI_39 |MUX4T1_MUSER_Main_18   |    24|
+|47    |          XLXI_6    |MUX8T1_8_MUSER_Main_1  |   130|
+|48    |            XLXI_28 |MUX4T1_MUSER_Main_11   |    24|
+|49    |            XLXI_37 |MUX4T1_MUSER_Main_12   |    24|
+|50    |            XLXI_38 |MUX4T1_MUSER_Main_13   |    24|
+|51    |            XLXI_39 |MUX4T1_MUSER_Main_14   |    24|
+|52    |          XLXI_7    |MUX8T1_8_MUSER_Main_2  |   131|
+|53    |            XLXI_28 |MUX4T1_MUSER_Main_7    |    24|
+|54    |            XLXI_37 |MUX4T1_MUSER_Main_8    |    24|
+|55    |            XLXI_38 |MUX4T1_MUSER_Main_9    |    24|
+|56    |            XLXI_39 |MUX4T1_MUSER_Main_10   |    24|
+|57    |          XLXI_8    |MUX8T1_8_MUSER_Main_3  |   133|
+|58    |            XLXI_28 |MUX4T1_MUSER_Main      |    24|
+|59    |            XLXI_37 |MUX4T1_MUSER_Main_4    |    26|
+|60    |            XLXI_38 |MUX4T1_MUSER_Main_5    |    24|
+|61    |            XLXI_39 |MUX4T1_MUSER_Main_6    |    24|
+|62    |      XLXI_2        |REG32                  |   129|
+|63    |    XLXI_2          |SCPU_ctrl              |    48|
+|64    |  XLXI_21           |Counter_x              |   214|
++------+--------------------+-----------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:00 ; elapsed = 00:01:10 . Memory (MB): peak = 802.527 ; gain = 592.309
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 68 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:41 ; elapsed = 00:00:50 . Memory (MB): peak = 802.527 ; gain = 249.172
+Synthesis Optimization Complete : Time (s): cpu = 00:01:01 ; elapsed = 00:01:10 . Memory (MB): peak = 802.527 ; gain = 592.309
+INFO: [Project 1-571] Translating synthesized netlist
+Release 14.7 - ngc2edif P_INT.20160902 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SAnti_jitter.ngc ...
+WARNING:NetListWriters:298 - No output is written to SAnti_jitter.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SAnti_jitter.edif ...
+ngc2edif: Total memory usage is 90380 kilobytes
+
+Reading core file 'D:/Users/Shana/Desktop/EXP5/SAnti_jitter.ngc' for (cell view 'SAnti_jitter', library 'work')
+Parsing EDIF File [./.ngc2edfcache/SAnti_jitter_ngc_d69a769f.edif]
+Finished Parsing EDIF File [./.ngc2edfcache/SAnti_jitter_ngc_d69a769f.edif]
+Release 14.7 - ngc2edif P_INT.20160902 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SEnter_2_32.ngc ...
+WARNING:NetListWriters:298 - No output is written to SEnter_2_32.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus Ai[31]_Ai[31]_mux_48_OUT[31 : 2] on
+   block SEnter_2_32 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Bi[31]_Bi[31]_mux_49_OUT[31 : 2] on
+   block SEnter_2_32 is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file SEnter_2_32.edif ...
+ngc2edif: Total memory usage is 90380 kilobytes
+
+Reading core file 'D:/Users/Shana/Desktop/EXP5/SEnter_2_32.ngc' for (cell view 'SEnter_2_32', library 'work')
+Parsing EDIF File [./.ngc2edfcache/SEnter_2_32_ngc_d69a769f.edif]
+Finished Parsing EDIF File [./.ngc2edfcache/SEnter_2_32_ngc_d69a769f.edif]
+Release 14.7 - ngc2edif P_INT.20160902 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design RAM_B.ngc ...
+WARNING:NetListWriters:298 - No output is written to RAM_B.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file RAM_B.edif ...
+ngc2edif: Total memory usage is 90380 kilobytes
+
+Reading core file 'd:/Users/Shana/Desktop/EXP5/vivado/vivado.srcs/sources_1/ip/RAM_B/RAM_B.ngc' for (cell view 'RAM_B', library 'work')
+Parsing EDIF File [./.ngc2edfcache/RAM_B_ngc_e7c4992f.edif]
+Finished Parsing EDIF File [./.ngc2edfcache/RAM_B_ngc_e7c4992f.edif]
+Release 14.7 - ngc2edif P_INT.20160902 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design ROM_D.ngc ...
+WARNING:NetListWriters:298 - No output is written to ROM_D.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file ROM_D.edif ...
+ngc2edif: Total memory usage is 90572 kilobytes
+
+Reading core file 'd:/Users/Shana/Desktop/EXP5/vivado/vivado.srcs/sources_1/ip/ROM_D/ROM_D.ngc' for (cell view 'ROM_D', library 'work')
+Parsing EDIF File [./.ngc2edfcache/ROM_D_ngc_1327739b.edif]
+Finished Parsing EDIF File [./.ngc2edfcache/ROM_D_ngc_1327739b.edif]
+Release 14.7 - ngc2edif P_INT.20160902 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design MIO_BUS.ngc ...
+WARNING:NetListWriters:298 - No output is written to MIO_BUS.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file MIO_BUS.edif ...
+ngc2edif: Total memory usage is 89356 kilobytes
+
+Reading core file 'D:/Users/Shana/Desktop/EXP5/MIO_BUS.ngc' for (cell view 'MIO_BUS', library 'work')
+Parsing EDIF File [./.ngc2edfcache/MIO_BUS_ngc_d69a769f.edif]
+Finished Parsing EDIF File [./.ngc2edfcache/MIO_BUS_ngc_d69a769f.edif]
+Release 14.7 - ngc2edif P_INT.20160902 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design P2S.ngc ...
+WARNING:NetListWriters:298 - No output is written to P2S.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file P2S.edif ...
+ngc2edif: Total memory usage is 90380 kilobytes
+
+Reading core file 'D:/Users/Shana/Desktop/EXP5/P2S.ngc' for (cell view 'P2S', library 'work')
+Parsing EDIF File [./.ngc2edfcache/P2S_ngc_d69a769f.edif]
+Finished Parsing EDIF File [./.ngc2edfcache/P2S_ngc_d69a769f.edif]
+Release 14.7 - ngc2edif P_INT.20160902 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design LED_P2S.ngc ...
+WARNING:NetListWriters:298 - No output is written to LED_P2S.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file LED_P2S.edif ...
+ngc2edif: Total memory usage is 90380 kilobytes
+
+Reading core file 'D:/Users/Shana/Desktop/EXP5/LED_P2S.ngc' for (cell view 'LED_P2S', library 'work')
+Parsing EDIF File [./.ngc2edfcache/LED_P2S_ngc_d69a769f.edif]
+Finished Parsing EDIF File [./.ngc2edfcache/LED_P2S_ngc_d69a769f.edif]
+INFO: [Netlist 29-17] Analyzing 1530 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Xilinx ngc2edif P_INT.20160902
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 2 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1333 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 27 instances
+  AND2 => LUT2: 521 instances
+  AND2B1 => LUT2: 1 instances
+  AND3 => LUT3: 99 instances
+  AND4 => LUT4: 81 instances
+  AND5B1 => LUT5: 1 instances
+  AND5B2 => LUT5: 1 instances
+  AND5B4 => LUT5: 2 instances
+  BUF => LUT1: 12 instances
+  FD => FDRE: 205 instances
+  FDC => FDCE: 14 instances
+  FDE => FDRE: 47 instances
+  INV => LUT1: 65 instances
+  NAND2 => LUT2: 1 instances
+  OR2 => LUT2: 109 instances
+  OR3 => LUT3: 27 instances
+  OR4 => LUT4: 120 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+226 Infos, 287 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:01 ; elapsed = 00:01:21 . Memory (MB): peak = 812.906 ; gain = 582.227
+INFO: [Common 17-1381] The checkpoint 'D:/Users/Shana/Desktop/EXP5/vivado/vivado.runs/synth_1/Main.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.112 . Memory (MB): peak = 812.906 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 11 15:08:56 2017...

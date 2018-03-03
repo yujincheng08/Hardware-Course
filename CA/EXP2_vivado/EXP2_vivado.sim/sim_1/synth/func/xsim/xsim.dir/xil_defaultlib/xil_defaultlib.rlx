@@ -1,0 +1,6 @@
+0.6
+2017.3
+Oct  4 2017
+20:11:37
+E:/Learning/CA/EXP2_vivado/EXP2_vivado.sim/sim_1/synth/func/xsim/SCPU_test_func_synth.v,1509011361,verilog,,E:/Learning/CA/EXP2_vivado/EXP2_vivado.srcs/sim_1/new/SCPU_test.v,,IF_Stage;MEM_Stage;Main;RAM_B;RAM_B__blk_mem_gen_generic_cstr;RAM_B__blk_mem_gen_prim_width;RAM_B__blk_mem_gen_prim_wrapper_init;RAM_B__blk_mem_gen_top;RAM_B__blk_mem_gen_v8_4_0;RAM_B__blk_mem_gen_v8_4_0_synth;REG32;ROM_D;ROM_D_dist_mem_gen_v8_0_12;ROM_D_dist_mem_gen_v8_0_12_synth;ROM_D_rom;SAnti_jitter;SCPU;SEnter_2_32;clk_div;glbl;vga;vga_debug,,,,,,,,
+E:/Learning/CA/EXP2_vivado/EXP2_vivado.srcs/sim_1/new/SCPU_test.v,1508557753,verilog,,,,SCPU_test,,,,,,,,

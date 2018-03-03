@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Mon Apr 10 11:50:39 2017
+# Process ID: 40136
+# Current directory: E:/Learning/Logic/vivado/Framework
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent39628 E:\Learning\Logic\vivado\Framework\Framework.xpr
+# Log file: E:/Learning/Logic/vivado/Framework/vivado.log
+# Journal file: E:/Learning/Logic/vivado/Framework\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/Learning/Logic/vivado/Framework/Framework.xpr
+INFO: [Project 1-313] Project file moved from 'F:/vivado/Framework' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] IP Output Repository Path: Could not find the directory 'E:/Learning/Logic/vivado/Framework/Framework.cache/ip', nor could it be found using path 'F:/vivado/Framework/Framework.cache/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Tools/XILINX/Vivado/2016.3/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 745.730 ; gain = 109.465
+launch_runs impl_1 -jobs 4
+[Mon Apr 10 11:51:35 2017] Launched impl_1...
+Run output will be captured here: E:/Learning/Logic/vivado/Framework/Framework.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 10 11:56:04 2017...

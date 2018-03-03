@@ -1,0 +1,86 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : LampCtrl_drc.vf
+// /___/   /\     Timestamp : 10/25/2016 14:34:00
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\sch2hdl.exe -intstyle ise -family kintex7 -verilog LampCtrl_drc.vf -w E:/3150101155/LampCtrl_sch/LampCtrl.sch
+//Design Name: LampCtrl
+//Device: kintex7
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module LampCtrl(S1, 
+                S2, 
+                S3, 
+                Buzzer, 
+                F, 
+                LED, 
+                NF);
+
+    input S1;
+    input S2;
+    input S3;
+   output Buzzer;
+   output F;
+   output [6:0] LED;
+   output NF;
+   
+   wire A;
+   wire B;
+   wire C;
+   wire D;
+   wire NS1;
+   wire NS2;
+   wire NS3;
+   wire NF_DUMMY;
+   
+   assign NF = NF_DUMMY;
+   AND3  AND3_1 (.I0(NS3), 
+                .I1(NS2), 
+                .I2(S1), 
+                .O(A));
+   AND3  AND3_2 (.I0(NS3), 
+                .I1(S2), 
+                .I2(NS1), 
+                .O(B));
+   AND3  AND3_3 (.I0(S3), 
+                .I1(NS2), 
+                .I2(NS1), 
+                .O(C));
+   AND3  AND3_4 (.I0(S1), 
+                .I1(S2), 
+                .I2(S3), 
+                .O(D));
+   INV  INV_1 (.I(S1), 
+              .O(NS1));
+   INV  INV_2 (.I(S2), 
+              .O(NS2));
+   INV  INV_3 (.I(S3), 
+              .O(NS3));
+   OR4  OR4_1 (.I0(D), 
+              .I1(C), 
+              .I2(B), 
+              .I3(A), 
+              .O(NF_DUMMY));
+   VCC  XLXI_9 (.P(LED[6]));
+   VCC  XLXI_16 (.P(LED[5]));
+   VCC  XLXI_17 (.P(LED[4]));
+   VCC  XLXI_18 (.P(LED[3]));
+   VCC  XLXI_19 (.P(LED[2]));
+   VCC  XLXI_20 (.P(LED[1]));
+   VCC  XLXI_21 (.P(LED[0]));
+   INV  XLXI_22 (.I(NF_DUMMY), 
+                .O(F));
+   VCC  XLXI_23 (.P(Buzzer));
+endmodule

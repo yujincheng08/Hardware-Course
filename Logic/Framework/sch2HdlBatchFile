@@ -1,0 +1,5 @@
+sch2hdl,-intstyle,ise,-family,kintex7,-verilog,F:/3150101155/Framework/ScanSync.vf,-w,F:/3150101155/Framework/ScanSync.sch
+sch2hdl,-intstyle,ise,-family,kintex7,-verilog,F:/3150101155/Framework/Seg7_Dev.vf,-w,F:/3150101155/Framework/Seg7_Dev.sch
+sch2hdl,-intstyle,ise,-family,kintex7,-verilog,F:/3150101155/Framework/Main.vf,-w,F:/3150101155/Framework/Main.sch
+sch2hdl,-intstyle,ise,-family,kintex7,-verilog,F:/3150101155/Framework/Seg7_Dev.vf,-w,F:/3150101155/Framework/Seg7_Dev.sch
+sch2hdl,-intstyle,ise,-family,kintex7,-verilog,F:/3150101155/Framework/Main.vf,-w,F:/3150101155/Framework/Main.sch

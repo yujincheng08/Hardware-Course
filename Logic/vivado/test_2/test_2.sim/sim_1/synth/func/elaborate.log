@@ -1,0 +1,51 @@
+Vivado Simulator 2016.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Tools/XILINX/Vivado/2016.3/bin/unwrapped/win64.o/xelab.exe -wto 60016cdbdcde4003b9503d6b1d4c25c9 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot xtest_func_synth xil_defaultlib.xtest xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.GND
+Compiling module unisims_ver.x_lut3_mux4
+Compiling module unisims_ver.x_lut3_mux4_reduced_0
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.LUT4
+Compiling module unisims_ver.ffsrce_fdce
+Compiling module unisims_ver.FDCE
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling module unisims_ver.DSP48E1(ACASCREG=0,ALUMODEREG=0,...
+Compiling module unisims_ver.DSP48E1(ACASCREG=0,ALUMODEREG=0,...
+Compiling module unisims_ver.DSP48E1(ACASCREG=0,ALUMODEREG=0,...
+Compiling module unisims_ver.CARRY4
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.LUT6
+Compiling module unisims_ver.sffsrce_fdre
+Compiling module unisims_ver.FDRE
+Compiling module xil_defaultlib.tocell__1
+Compiling module xil_defaultlib.chnest
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.IBUF
+Compiling module xil_defaultlib.clkdiv
+Compiling module xil_defaultlib.mouseDisp
+Compiling module xil_defaultlib.nestDisp
+Compiling module unisims_ver.LUT5
+Compiling module unisims_ver.ffsrce_fdpe
+Compiling module unisims_ver.FDPE
+Compiling module xil_defaultlib.vgaSync
+Compiling module xil_defaultlib.display
+Compiling module unisims_ver.MUXF7
+Compiling module xil_defaultlib.aroundCell__1
+Compiling module xil_defaultlib.random
+Compiling module xil_defaultlib.initialNest
+Compiling module unisims_ver.RB18_INTERNAL_VLOG(DOA_REG=0,DOB...
+Compiling module unisims_ver.RAMB18E1(IS_CLKARDCLK_INVERTED=1...
+Compiling module xil_defaultlib.nest
+Compiling module unisims_ver.OBUF
+Compiling module xil_defaultlib.Main
+Compiling module xil_defaultlib.xtest
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot xtest_func_synth

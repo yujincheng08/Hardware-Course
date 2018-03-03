@@ -1,0 +1,440 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Fri Dec 23 14:45:58 2016
+# Process ID: 14328
+# Current directory: F:/vivado/vga/vga.runs/synth_1
+# Command line: vivado.exe -log top_vga.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_vga.tcl
+# Log file: F:/vivado/vga/vga.runs/synth_1/top_vga.vds
+# Journal file: F:/vivado/vga/vga.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top_vga.tcl -notrace
+Command: synth_design -top top_vga -part xc7k160tfbg676-2L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k160t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k160t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 11952 
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [F:/vivado/vga/vga.srcs/sources_1/new/vgaSync.v:21]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [F:/vivado/vga/vga.srcs/sources_1/new/vgaSync.v:22]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [F:/vivado/vga/vga.srcs/sources_1/new/vgaSync.v:23]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [F:/vivado/vga/vga.srcs/sources_1/new/vgaSync.v:24]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [F:/vivado/vga/vga.srcs/sources_1/new/vgaSync.v:25]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [F:/vivado/vga/vga.srcs/sources_1/new/vgaSync.v:27]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [F:/vivado/vga/vga.srcs/sources_1/new/vgaSync.v:28]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [F:/vivado/vga/vga.srcs/sources_1/new/vgaSync.v:29]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [F:/vivado/vga/vga.srcs/sources_1/new/vgaSync.v:30]
+WARNING: [Synth 8-2644] root scope declaration is not allowed in verilog 95/2K mode [F:/vivado/vga/vga.srcs/sources_1/new/vgaSync.v:31]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 308.648 ; gain = 98.457
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top_vga' [F:/vivado/vga/vga.srcs/sources_1/new/top_vga.v:23]
+INFO: [Synth 8-638] synthesizing module 'VCC' [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:44693]
+INFO: [Synth 8-256] done synthesizing module 'VCC' (1#1) [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:44693]
+INFO: [Synth 8-638] synthesizing module 'GND' [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:4826]
+INFO: [Synth 8-256] done synthesizing module 'GND' (2#1) [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:4826]
+INFO: [Synth 8-638] synthesizing module 'clkdiv' [F:/vivado/vga/vga.srcs/sources_1/new/clkdiv.v:23]
+INFO: [Synth 8-256] done synthesizing module 'clkdiv' (3#1) [F:/vivado/vga/vga.srcs/sources_1/new/clkdiv.v:23]
+INFO: [Synth 8-638] synthesizing module 'vga' [F:/vivado/vga/vga.srcs/sources_1/new/vga.v:23]
+	Parameter Height bound to: 480 - type: integer 
+	Parameter Weight bound to: 640 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'vram' [F:/vivado/vga/vga.runs/synth_1/.Xil/Vivado-14328-Shana-Laptop/realtime/vram_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'vram' (4#1) [F:/vivado/vga/vga.runs/synth_1/.Xil/Vivado-14328-Shana-Laptop/realtime/vram_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'vgaSync' [F:/vivado/vga/vga.srcs/sources_1/new/vgaSync.v:33]
+INFO: [Synth 8-256] done synthesizing module 'vgaSync' (5#1) [F:/vivado/vga/vga.srcs/sources_1/new/vgaSync.v:33]
+INFO: [Synth 8-256] done synthesizing module 'vga' (6#1) [F:/vivado/vga/vga.srcs/sources_1/new/vga.v:23]
+INFO: [Synth 8-638] synthesizing module 'BUF' [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:567]
+INFO: [Synth 8-256] done synthesizing module 'BUF' (7#1) [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:567]
+WARNING: [Synth 8-3848] Net vga_v_sync in module/entity top_vga does not have driver. [F:/vivado/vga/vga.srcs/sources_1/new/top_vga.v:30]
+INFO: [Synth 8-256] done synthesizing module 'top_vga' (8#1) [F:/vivado/vga/vga.srcs/sources_1/new/top_vga.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 326.367 ; gain = 116.176
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin vga:WAddr[18] to constant 0 [F:/vivado/vga/vga.srcs/sources_1/new/top_vga.v:39]
+WARNING: [Synth 8-3295] tying undriven pin vga:WAddr[17] to constant 0 [F:/vivado/vga/vga.srcs/sources_1/new/top_vga.v:39]
+WARNING: [Synth 8-3295] tying undriven pin vga:WAddr[16] to constant 0 [F:/vivado/vga/vga.srcs/sources_1/new/top_vga.v:39]
+WARNING: [Synth 8-3295] tying undriven pin vga:WAddr[15] to constant 0 [F:/vivado/vga/vga.srcs/sources_1/new/top_vga.v:39]
+WARNING: [Synth 8-3295] tying undriven pin vga:WAddr[14] to constant 0 [F:/vivado/vga/vga.srcs/sources_1/new/top_vga.v:39]
+WARNING: [Synth 8-3295] tying undriven pin vga:WAddr[13] to constant 0 [F:/vivado/vga/vga.srcs/sources_1/new/top_vga.v:39]
+WARNING: [Synth 8-3295] tying undriven pin vga:WAddr[12] to constant 0 [F:/vivado/vga/vga.srcs/sources_1/new/top_vga.v:39]
+WARNING: [Synth 8-3295] tying undriven pin vga:WAddr[11] to constant 0 [F:/vivado/vga/vga.srcs/sources_1/new/top_vga.v:39]
+WARNING: [Synth 8-3295] tying undriven pin vga:WAddr[10] to constant 0 [F:/vivado/vga/vga.srcs/sources_1/new/top_vga.v:39]
+WARNING: [Synth 8-3295] tying undriven pin vga:WAddr[9] to constant 0 [F:/vivado/vga/vga.srcs/sources_1/new/top_vga.v:39]
+WARNING: [Synth 8-3295] tying undriven pin vga:WAddr[8] to constant 0 [F:/vivado/vga/vga.srcs/sources_1/new/top_vga.v:39]
+WARNING: [Synth 8-3295] tying undriven pin vga:WAddr[7] to constant 0 [F:/vivado/vga/vga.srcs/sources_1/new/top_vga.v:39]
+WARNING: [Synth 8-3295] tying undriven pin vga:WAddr[6] to constant 0 [F:/vivado/vga/vga.srcs/sources_1/new/top_vga.v:39]
+WARNING: [Synth 8-3295] tying undriven pin vga:WAddr[5] to constant 0 [F:/vivado/vga/vga.srcs/sources_1/new/top_vga.v:39]
+WARNING: [Synth 8-3295] tying undriven pin vga:WAddr[4] to constant 0 [F:/vivado/vga/vga.srcs/sources_1/new/top_vga.v:39]
+WARNING: [Synth 8-3295] tying undriven pin vga:WAddr[3] to constant 0 [F:/vivado/vga/vga.srcs/sources_1/new/top_vga.v:39]
+WARNING: [Synth 8-3295] tying undriven pin vga:WAddr[2] to constant 0 [F:/vivado/vga/vga.srcs/sources_1/new/top_vga.v:39]
+WARNING: [Synth 8-3295] tying undriven pin vga:WAddr[1] to constant 0 [F:/vivado/vga/vga.srcs/sources_1/new/top_vga.v:39]
+WARNING: [Synth 8-3295] tying undriven pin vga:WAddr[0] to constant 0 [F:/vivado/vga/vga.srcs/sources_1/new/top_vga.v:39]
+WARNING: [Synth 8-3295] tying undriven pin vga:Din[11] to constant 0 [F:/vivado/vga/vga.srcs/sources_1/new/top_vga.v:39]
+WARNING: [Synth 8-3295] tying undriven pin vga:Din[10] to constant 0 [F:/vivado/vga/vga.srcs/sources_1/new/top_vga.v:39]
+WARNING: [Synth 8-3295] tying undriven pin vga:Din[9] to constant 0 [F:/vivado/vga/vga.srcs/sources_1/new/top_vga.v:39]
+WARNING: [Synth 8-3295] tying undriven pin vga:Din[8] to constant 0 [F:/vivado/vga/vga.srcs/sources_1/new/top_vga.v:39]
+WARNING: [Synth 8-3295] tying undriven pin vga:Din[7] to constant 0 [F:/vivado/vga/vga.srcs/sources_1/new/top_vga.v:39]
+WARNING: [Synth 8-3295] tying undriven pin vga:Din[6] to constant 0 [F:/vivado/vga/vga.srcs/sources_1/new/top_vga.v:39]
+WARNING: [Synth 8-3295] tying undriven pin vga:Din[5] to constant 0 [F:/vivado/vga/vga.srcs/sources_1/new/top_vga.v:39]
+WARNING: [Synth 8-3295] tying undriven pin vga:Din[4] to constant 0 [F:/vivado/vga/vga.srcs/sources_1/new/top_vga.v:39]
+WARNING: [Synth 8-3295] tying undriven pin vga:Din[3] to constant 0 [F:/vivado/vga/vga.srcs/sources_1/new/top_vga.v:39]
+WARNING: [Synth 8-3295] tying undriven pin vga:Din[2] to constant 0 [F:/vivado/vga/vga.srcs/sources_1/new/top_vga.v:39]
+WARNING: [Synth 8-3295] tying undriven pin vga:Din[1] to constant 0 [F:/vivado/vga/vga.srcs/sources_1/new/top_vga.v:39]
+WARNING: [Synth 8-3295] tying undriven pin vga:Din[0] to constant 0 [F:/vivado/vga/vga.srcs/sources_1/new/top_vga.v:39]
+WARNING: [Synth 8-3295] tying undriven pin vga:WE to constant 0 [F:/vivado/vga/vga.srcs/sources_1/new/top_vga.v:39]
+WARNING: [Synth 8-3295] tying undriven pin vga:VSync to constant 0 [F:/vivado/vga/vga.srcs/sources_1/new/top_vga.v:39]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 326.367 ; gain = 116.176
+---------------------------------------------------------------------------------
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'vram' instantiated as 'vga/VRAM' [F:/vivado/vga/vga.srcs/sources_1/new/vga.v:39]
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7k160tfbg676-2L
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [F:/vivado/vga/vga.runs/synth_1/.Xil/Vivado-14328-Shana-Laptop/dcp/vram_in_context.xdc] for cell 'vga/VRAM'
+Finished Parsing XDC File [F:/vivado/vga/vga.runs/synth_1/.Xil/Vivado-14328-Shana-Laptop/dcp/vram_in_context.xdc] for cell 'vga/VRAM'
+Parsing XDC File [F:/vivado/vga/vga.srcs/constrs_1/new/xdc.xdc]
+Finished Parsing XDC File [F:/vivado/vga/vga.srcs/constrs_1/new/xdc.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [F:/vivado/vga/vga.srcs/constrs_1/new/xdc.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_vga_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_vga_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  BUF => LUT1: 1 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 654.000 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:20 ; elapsed = 00:00:27 . Memory (MB): peak = 654.000 ; gain = 443.809
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k160tfbg676-2L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:20 ; elapsed = 00:00:27 . Memory (MB): peak = 654.000 ; gain = 443.809
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:27 . Memory (MB): peak = 654.000 ; gain = 443.809
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "HSync" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "YCnt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "VSync" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:20 ; elapsed = 00:00:27 . Memory (MB): peak = 654.000 ; gain = 443.809
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     19 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 4     
++---Registers : 
+	               10 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module vgaSync 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 4     
++---Registers : 
+	               10 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 6     
+Module vga 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     19 Bit       Adders := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 600 (col length:100)
+BRAMs: 650 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "p_0_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "vga/vgaSync/HSync" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "vga/vgaSync/YCnt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "vga/vgaSync/VSync" won't be mapped to RAM because it is too sparse
+DSP Report: Generating DSP vga/RAddr, operation Mode is: (C or 0)+A*(B:0x280).
+DSP Report: operator vga/RAddr is absorbed into DSP vga/RAddr.
+DSP Report: operator vga/RAddr0 is absorbed into DSP vga/RAddr.
+DSP Report: operator vga/RAddr is absorbed into DSP vga/RAddr.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[2]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[3]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[4]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[5]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[6]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[7]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[8]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[9]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[10]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[11]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[12]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[13]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[14]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[15]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[16]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[17]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[18]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[19]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[20]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[21]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[22]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[23]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[24]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[25]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[26]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[27]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[28]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[29]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[30]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[31]) is unused and will be removed from module top_vga.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:28 . Memory (MB): peak = 654.000 ; gain = 443.809
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping  Report (see note below)
++------------+----------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping          | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+----------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|vga         | (C or 0)+A*(B:0x280) | 19     | 10     | 10     | -      | 19     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
++------------+----------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:39 ; elapsed = 00:00:46 . Memory (MB): peak = 654.000 ; gain = 443.809
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[2]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[3]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[4]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[5]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[6]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[7]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[8]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[9]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[10]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[11]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[12]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[13]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[14]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[15]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[16]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[17]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[18]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[19]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[20]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[21]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[22]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[23]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[24]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[25]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[26]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[27]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[28]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[29]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[30]) is unused and will be removed from module top_vga.
+WARNING: [Synth 8-3332] Sequential element (clkdiv/clkdiv_reg[31]) is unused and will be removed from module top_vga.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:39 ; elapsed = 00:00:46 . Memory (MB): peak = 654.000 ; gain = 443.809
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:39 ; elapsed = 00:00:46 . Memory (MB): peak = 666.047 ; gain = 455.855
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:39 ; elapsed = 00:00:47 . Memory (MB): peak = 666.047 ; gain = 455.855
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:39 ; elapsed = 00:00:47 . Memory (MB): peak = 666.047 ; gain = 455.855
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:40 ; elapsed = 00:00:47 . Memory (MB): peak = 666.047 ; gain = 455.855
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:40 ; elapsed = 00:00:47 . Memory (MB): peak = 666.047 ; gain = 455.855
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:40 ; elapsed = 00:00:47 . Memory (MB): peak = 666.047 ; gain = 455.855
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:40 ; elapsed = 00:00:47 . Memory (MB): peak = 666.047 ; gain = 455.855
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |vram          |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |vram    |     1|
+|2     |BUFG    |     1|
+|3     |CARRY4  |     1|
+|4     |DSP48E1 |     1|
+|5     |LUT1    |     6|
+|6     |LUT2    |    10|
+|7     |LUT3    |    12|
+|8     |LUT4    |     9|
+|9     |LUT5    |    13|
+|10    |LUT6    |    22|
+|11    |FDCE    |    20|
+|12    |FDPE    |     4|
+|13    |IBUF    |     2|
+|14    |OBUF    |    15|
++------+--------+------+
+
+Report Instance Areas: 
++------+------------+--------+------+
+|      |Instance    |Module  |Cells |
++------+------------+--------+------+
+|1     |top         |        |   128|
+|2     |  clkdiv    |clkdiv  |     5|
+|3     |  vga       |vga     |   105|
+|4     |    vgaSync |vgaSync |    92|
++------+------------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:40 ; elapsed = 00:00:47 . Memory (MB): peak = 666.047 ; gain = 455.855
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 60 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:25 ; elapsed = 00:00:31 . Memory (MB): peak = 666.047 ; gain = 114.883
+Synthesis Optimization Complete : Time (s): cpu = 00:00:40 ; elapsed = 00:00:47 . Memory (MB): peak = 666.047 ; gain = 455.855
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+41 Infos, 105 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:39 ; elapsed = 00:00:44 . Memory (MB): peak = 666.047 ; gain = 444.953
+INFO: [Common 17-1381] The checkpoint 'F:/vivado/vga/vga.runs/synth_1/top_vga.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.032 . Memory (MB): peak = 666.047 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri Dec 23 14:46:48 2016...

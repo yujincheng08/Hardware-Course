@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "F:/3150101155/Trigger/MB_DFF_MB_DFF_sch_tb_isim_beh.exe" -prj "F:/3150101155/Trigger/MB_DFF_MB_DFF_sch_tb_beh.prj" "work.MB_DFF_MB_DFF_sch_tb" "work.glbl" 

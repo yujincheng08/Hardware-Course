@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="Exp110-REGS" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/HCT138 F:|3150101155|Exp110-REGS|HCT138.sch</ClosedNode>
+         <ClosedNode>/HCT138_sch F:|3150101155|Exp110-REGS|HCT138_sch.sch</ClosedNode>
+         <ClosedNode>/MUX8T1_8 F:|3150101155|Exp110-REGS|MUX8T1_8.sch</ClosedNode>
+         <ClosedNode>/Reg_32 F:|3150101155|Exp110-REGS|Reg_32.v</ClosedNode>
+         <ClosedNode>/Regs_8_32 F:|3150101155|Exp110-REGS|Regs_8_32.v/D - HCT138_sch</ClosedNode>
+         <ClosedNode>/Regs_8_32 F:|3150101155|Exp110-REGS|Regs_8_32.v/MUX_REGA - MUX8T1_32/XLXI_7 - MUX8T1_8</ClosedNode>
+         <ClosedNode>/Regs_8_32 F:|3150101155|Exp110-REGS|Regs_8_32.v/MUX_REGA - MUX8T1_32/XLXI_8 - MUX8T1_8</ClosedNode>
+         <ClosedNode>/Regs_8_32 F:|3150101155|Exp110-REGS|Regs_8_32.v/MUX_REGB - MUX8T1_32</ClosedNode>
+         <ClosedNode>/Regs_8_32 F:|3150101155|Exp110-REGS|Regs_8_32.v/R0 - Reg_32</ClosedNode>
+         <ClosedNode>/Regs_8_32 F:|3150101155|Exp110-REGS|Regs_8_32.v/R1 - Reg_32</ClosedNode>
+         <ClosedNode>/Regs_8_32 F:|3150101155|Exp110-REGS|Regs_8_32.v/R2 - Reg_32</ClosedNode>
+         <ClosedNode>/Regs_8_32 F:|3150101155|Exp110-REGS|Regs_8_32.v/R3 - Reg_32</ClosedNode>
+         <ClosedNode>/Regs_8_32 F:|3150101155|Exp110-REGS|Regs_8_32.v/R4 - Reg_32</ClosedNode>
+         <ClosedNode>/Regs_8_32 F:|3150101155|Exp110-REGS|Regs_8_32.v/R5 - Reg_32</ClosedNode>
+         <ClosedNode>/Regs_8_32 F:|3150101155|Exp110-REGS|Regs_8_32.v/R6 - Reg_32</ClosedNode>
+         <ClosedNode>/Regs_8_32 F:|3150101155|Exp110-REGS|Regs_8_32.v/R7 - Reg_32</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Regs_8_32 (F:/3150101155/Exp110-REGS/Regs_8_32.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000150000000020000000000000000000000000200000064ffffffff000000810000000300000002000001500000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>Regs_8_32 (F:/3150101155/Exp110-REGS/Regs_8_32.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Design Utilities</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Design Utilities</CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000338000000040101000100000000000000000000000064ffffffff000000810000000000000004000000f90000000100000000000000240000000100000000000000780000000100000000000001a30000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>HTC138.sch</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000178000000010000000100000000000000000000000064ffffffff000000810000000000000001000001780000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/Reg_32_test F:|3150101155|Exp110-REGS|Reg_32_test.v/uut - Reg_32/Reg81 - Regs_8bit</ClosedNode>
+         <ClosedNode>/Reg_32_test F:|3150101155|Exp110-REGS|Reg_32_test.v/uut - Reg_32/Reg82 - Regs_8bit</ClosedNode>
+         <ClosedNode>/Reg_32_test F:|3150101155|Exp110-REGS|Reg_32_test.v/uut - Reg_32/Reg83 - Regs_8bit</ClosedNode>
+         <ClosedNode>/Reg_32_test F:|3150101155|Exp110-REGS|Reg_32_test.v/uut - Reg_32/Reg84 - Regs_8bit</ClosedNode>
+         <ClosedNode>/Reg_32_test F:|3150101155|Exp110-REGS|Reg_32_test.v/uut - Reg_32/Regs_8bit - Regs_8bit</ClosedNode>
+         <ClosedNode>/Regs_8_32_test F:|3150101155|Exp110-REGS|Regs_8_32_test.v/uut - Regs_8_32/MUX_REGA - MUX8T1_32</ClosedNode>
+         <ClosedNode>/Regs_8_32_test F:|3150101155|Exp110-REGS|Regs_8_32_test.v/uut - Regs_8_32/MUX_REGA - MUX8T1_32/XLXI_6 - MUX8T1_8</ClosedNode>
+         <ClosedNode>/Regs_8_32_test F:|3150101155|Exp110-REGS|Regs_8_32_test.v/uut - Regs_8_32/MUX_REGA - MUX8T1_32/XLXI_7 - MUX8T1_8</ClosedNode>
+         <ClosedNode>/Regs_8_32_test F:|3150101155|Exp110-REGS|Regs_8_32_test.v/uut - Regs_8_32/MUX_REGA - MUX8T1_32/XLXI_8 - MUX8T1_8</ClosedNode>
+         <ClosedNode>/Regs_8_32_test F:|3150101155|Exp110-REGS|Regs_8_32_test.v/uut - Regs_8_32/MUX_REGB - MUX8T1_32</ClosedNode>
+         <ClosedNode>/Regs_8_32_test F:|3150101155|Exp110-REGS|Regs_8_32_test.v/uut - Regs_8_32/R0 - Reg_32</ClosedNode>
+         <ClosedNode>/Regs_8_32_test F:|3150101155|Exp110-REGS|Regs_8_32_test.v/uut - Regs_8_32/R1 - Reg_32</ClosedNode>
+         <ClosedNode>/Regs_8_32_test F:|3150101155|Exp110-REGS|Regs_8_32_test.v/uut - Regs_8_32/R2 - Reg_32</ClosedNode>
+         <ClosedNode>/Regs_8_32_test F:|3150101155|Exp110-REGS|Regs_8_32_test.v/uut - Regs_8_32/R3 - Reg_32</ClosedNode>
+         <ClosedNode>/Regs_8_32_test F:|3150101155|Exp110-REGS|Regs_8_32_test.v/uut - Regs_8_32/R4 - Reg_32</ClosedNode>
+         <ClosedNode>/Regs_8_32_test F:|3150101155|Exp110-REGS|Regs_8_32_test.v/uut - Regs_8_32/R5 - Reg_32</ClosedNode>
+         <ClosedNode>/Regs_8_32_test F:|3150101155|Exp110-REGS|Regs_8_32_test.v/uut - Regs_8_32/R6 - Reg_32</ClosedNode>
+         <ClosedNode>/Regs_8_32_test F:|3150101155|Exp110-REGS|Regs_8_32_test.v/uut - Regs_8_32/R7 - Reg_32</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Reg_32_test (F:/3150101155/Exp110-REGS/Reg_32_test.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000164000000020000000000000000000000000200000064ffffffff000000810000000300000002000001640000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>Reg_32_test (F:/3150101155/Exp110-REGS/Reg_32_test.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000178000000010000000100000000000000000000000064ffffffff000000810000000000000001000001780000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_SCHEMATIC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000178000000010000000100000000000000000000000064ffffffff000000810000000000000001000001780000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_SCHEMATIC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>ISim Simulator</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>ISim Simulator</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000012d0000011b01000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+</Project>

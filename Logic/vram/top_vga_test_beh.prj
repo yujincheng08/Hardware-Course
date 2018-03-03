@@ -1,0 +1,7 @@
+verilog work "vga_sync.v"
+verilog work "ipcore_dir/vram.v"
+verilog work "vga.v"
+verilog work "clkdiv.v"
+verilog work "top_vga.v"
+verilog work "top_vga_test.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

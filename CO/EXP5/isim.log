@@ -1,0 +1,19 @@
+ISim log file
+Running: D:\Users\Shana\Desktop\EXP5\TEST_32_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -view D:/Users/Shana/Desktop/EXP5/alu.wcfg -wdb D:/Users/Shana/Desktop/EXP5/TEST_32_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+WARNING: For instance ALU/ADC/, width 3233 of formal port S is not equal to width 33 of actual.
+WARNING: File "D:/Users/Shana/Desktop/EXP5/Element/test_32.v" Line 30.  For instance TEST_32/overflow/, width 1 of formal port A is not equal to width 32 of actual variable a. 
+WARNING: File "D:/Users/Shana/Desktop/EXP5/Element/test_32.v" Line 31.  For instance TEST_32/overflow/, width 1 of formal port B is not equal to width 32 of actual variable b. 
+WARNING: File "D:/Users/Shana/Desktop/EXP5/Element/test_32.v" Line 32.  For instance TEST_32/overflow/, width 1 of formal port o is not equal to width 32 of actual signal res.
+Time resolution is 1 ps
+# onerror resume
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+WARNING: For instance ALU/ADC/, width 3233 of formal port S is not equal to width 33 of actual.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

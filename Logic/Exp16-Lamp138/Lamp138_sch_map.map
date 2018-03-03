@@ -1,0 +1,53 @@
+Release 14.7 Map P.20131013 (nt64)
+Xilinx Map Application Log File for Design 'Lamp138_sch'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc7k160t-fbg676-1 -w -logic_opt off -ol
+high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off
+-power off -o Lamp138_sch_map.ncd Lamp138_sch.ngd Lamp138_sch.pcf 
+Target Device  : xc7k160t
+Target Package : fbg676
+Target Speed   : -1
+Mapper Version : kintex7 -- $Revision: 1.55 $
+Mapped Date    : Mon Nov 07 23:28:24 2016
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+INFO:Security:54 - 'xc7k160t' is a WebPack part.
+INFO:Security:60 - The XILINXD_LICENSE_FILE environment variable is set to
+'D:\Users\Shana\Desktop\Xilinx.lic'.
+INFO:Security:63 - The LM_LICENSE_FILE environment variable is not set.
+INFO:Security:68 - For more information or for assistance in obtaining 
+ a license, please run the Xilinx License Configuration Manager
+       (xlcm or "Manage Xilinx Licenses".)
+INFO:Security:68a - user is Shana, on host SHANA-LAPTOP.
+ERROR:Security:9c - No 'ISE' nor 'WebPack' feature version 2013.10 was available
+for part 'xc7k160t'.
+----------------------------------------------------------------------
+No such feature exists.
+Feature:       WebPack
+License path: 
+D:\Users\Shana\Desktop\Xilinx.lic;C:/.Xilinx\Xilinx.lic;D:\Tools\Xilinx\14.7\ISE
+_DS\ISE\/coregen/core_licenses\Xilinx.lic;D:\Tools\Xilinx\14.7\ISE_DS\ISE\/coreg
+en/core_licenses\XilinxFree.lic;D:\Tools\XILINX\14.7\ISE_DS\EDK/data/core_licens
+es\Xilinx.lic;
+FLEXnet Licensing error:-5,357
+For further information, refer to the FLEXnet Licensing documentation,
+available at "www.flexerasoftware.com".No such feature exists.
+Feature:       ISE
+License path: 
+D:\Users\Shana\Desktop\Xilinx.lic;C:/.Xilinx\Xilinx.lic;D:\Tools\Xilinx\14.7\ISE
+_DS\ISE\/coregen/core_licenses\Xilinx.lic;D:\Tools\Xilinx\14.7\ISE_DS\ISE\/coreg
+en/core_licenses\XilinxFree.lic;D:\Tools\XILINX\14.7\ISE_DS\EDK/data/core_licens
+es\Xilinx.lic;
+FLEXnet Licensing error:-5,357
+For further information, refer to the FLEXnet Licensing documentation,
+available at "www.flexerasoftware.com".
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:Map:258 - A problem was encountered attempting to get the license for this
+   architecture. 
+
+Design Summary
+--------------
+Number of errors   :   1
+Number of warnings :   0

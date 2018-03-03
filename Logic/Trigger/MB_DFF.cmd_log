@@ -1,0 +1,5 @@
+sch2hdl -intstyle ise -family kintex7 -verilog MB_DFF_drc.vf -w F:/3150101155/Trigger/MB_DFF.sch 
+sch2hdl -intstyle ise -family kintex7 -verilog MB_DFF_drc.vf -w F:/3150101155/Trigger/MB_DFF.sch 
+sch2hdl -intstyle ise -family kintex7 -verilog MB_DFF_drc.vf -w F:/3150101155/Trigger/MB_DFF.sch 
+sch2hdl -intstyle ise -family kintex7 -verilog MB_DFF_drc.vf -w F:/3150101155/Trigger/MB_DFF.sch 
+sch2hdl -intstyle ise -family kintex7 -verilog MB_DFF_drc.vf -w F:/3150101155/Trigger/MB_DFF.sch 

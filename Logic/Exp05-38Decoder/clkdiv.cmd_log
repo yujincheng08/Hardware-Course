@@ -1,0 +1,2 @@
+vhdtdtfi -lib work E:/Learning/ISE/Exp05-38Decoder/clkdiv.v -lang verilog -prj Exp05-38Decoder -o clkdiv.spl -module clkdiv -template D:/Tools/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 clkdiv.spl E:/Learning/ISE/Exp05-38Decoder/clkdiv.sym 

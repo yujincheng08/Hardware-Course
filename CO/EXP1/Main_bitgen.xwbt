@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Users\Shana\Desktop\EXP1\Main.ncd
+OUTFILE=D:\Users\Shana\Desktop\EXP1\Main.bit
+FAMILY=Kintex7
+PART=xc7k160t-1fbg676
+WORKINGDIR=D:\Users\Shana\Desktop\EXP1
+LICENSE=WebPack
+USER_INFO=__0_0_0

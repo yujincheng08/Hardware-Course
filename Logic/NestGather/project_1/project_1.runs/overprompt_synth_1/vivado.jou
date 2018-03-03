@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Sat Jan 07 16:37:41 2017
+# Process ID: 26736
+# Current directory: D:/Users/Shana/Desktop/vivado/NestGather/NestGather.runs/overprompt_synth_1
+# Command line: vivado.exe -log overprompt.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source overprompt.tcl
+# Log file: D:/Users/Shana/Desktop/vivado/NestGather/NestGather.runs/overprompt_synth_1/overprompt.vds
+# Journal file: D:/Users/Shana/Desktop/vivado/NestGather/NestGather.runs/overprompt_synth_1\vivado.jou
+#-----------------------------------------------------------
+source overprompt.tcl -notrace

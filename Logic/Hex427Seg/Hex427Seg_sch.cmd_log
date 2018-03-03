@@ -1,0 +1,56 @@
+sch2sym -intstyle ise -family kintex7 -refsym Hex427Seg_sch F:/3150101155/Hex427Seg/Hex427Seg_sch.sch F:/3150101155/Hex427Seg/Hex427Seg_sch.sym 
+sch2hdl -intstyle ise -family kintex7 -verilog Hex427Seg_sch_drc.vf -w F:/3150101155/Hex427Seg/Hex427Seg_sch.sch 
+sch2verilog -intstyle ise -family kintex7 -tionly {} -tiext tfi -w F:/3150101155/Hex427Seg/Hex427Seg_sch.sch Hex427Seg_sch.tfi 
+sch2verilog -intstyle ise -family kintex7 -tionly {} -tiext tfi -w F:/3150101155/Hex427Seg/Hex427Seg_sch.sch Hex427Seg_sch.tfi 
+sch2hdl -intstyle ise -family kintex7 -verilog Hex427Seg_sch.vf -w F:/3150101155/Hex427Seg/Hex427Seg_sch.sch 
+xst -intstyle ise -ifn "F:/3150101155/Hex427Seg/Hex427Seg_sch.xst" -ofn "F:/3150101155/Hex427Seg/Hex427Seg_sch.syr" 
+xst -intstyle ise -ifn "F:/3150101155/Hex427Seg/Hex427Seg_sch.xst" -ofn "F:/3150101155/Hex427Seg/Hex427Seg_sch.syr" 
+xst -intstyle ise -ifn "F:/3150101155/Hex427Seg/Hex427Seg_sch.xst" -ofn "F:/3150101155/Hex427Seg/Hex427Seg_sch.syr" 
+xst -intstyle ise -ifn "F:/3150101155/Hex427Seg/Hex427Seg_sch.xst" -ofn "F:/3150101155/Hex427Seg/Hex427Seg_sch.syr" 
+xst -intstyle ise -ifn "F:/3150101155/Hex427Seg/Hex427Seg_sch.xst" -ofn "F:/3150101155/Hex427Seg/Hex427Seg_sch.syr" 
+xst -intstyle ise -ifn "F:/3150101155/Hex427Seg/Hex427Seg_sch.xst" -ofn "F:/3150101155/Hex427Seg/Hex427Seg_sch.syr" 
+xst -intstyle ise -ifn "F:/3150101155/Hex427Seg/Hex427Seg_sch.xst" -ofn "F:/3150101155/Hex427Seg/Hex427Seg_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Hex427Seg.ucf -p xc7k160t-fbg676-1 Hex427Seg_sch.ngc Hex427Seg_sch.ngd  
+map -intstyle ise -p xc7k160t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Hex427Seg_sch_map.ncd Hex427Seg_sch.ngd Hex427Seg_sch.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Hex427Seg.ucf -p xc7k160t-fbg676-1 Hex427Seg_sch.ngc Hex427Seg_sch.ngd  
+map -intstyle ise -p xc7k160t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Hex427Seg_sch_map.ncd Hex427Seg_sch.ngd Hex427Seg_sch.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Hex427Seg.ucf -p xc7k160t-fbg676-1 Hex427Seg_sch.ngc Hex427Seg_sch.ngd  
+map -intstyle ise -p xc7k160t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Hex427Seg_sch_map.ncd Hex427Seg_sch.ngd Hex427Seg_sch.pcf 
+par -w -intstyle ise -ol high -mt off Hex427Seg_sch_map.ncd Hex427Seg_sch.ncd Hex427Seg_sch.pcf 
+bitgen -intstyle ise -f Hex427Seg_sch.ut Hex427Seg_sch.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Hex427Seg.ucf -p xc7k160t-fbg676-1 Hex427Seg_sch.ngc Hex427Seg_sch.ngd  
+map -intstyle ise -p xc7k160t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Hex427Seg_sch_map.ncd Hex427Seg_sch.ngd Hex427Seg_sch.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Hex427Seg.ucf -p xc7k160t-fbg676-1 Hex427Seg_sch.ngc Hex427Seg_sch.ngd  
+map -intstyle ise -p xc7k160t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Hex427Seg_sch_map.ncd Hex427Seg_sch.ngd Hex427Seg_sch.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Hex427Seg.ucf -p xc7k160t-fbg676-1 Hex427Seg_sch.ngc Hex427Seg_sch.ngd  
+map -intstyle ise -p xc7k160t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Hex427Seg_sch_map.ncd Hex427Seg_sch.ngd Hex427Seg_sch.pcf 
+par -w -intstyle ise -ol high -mt off Hex427Seg_sch_map.ncd Hex427Seg_sch.ncd Hex427Seg_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Hex427Seg_sch.twx Hex427Seg_sch.ncd -o Hex427Seg_sch.twr Hex427Seg_sch.pcf -ucf Hex427Seg.ucf 
+bitgen -intstyle ise -f Hex427Seg_sch.ut Hex427Seg_sch.ncd 
+xst -intstyle ise -ifn "F:/3150101155/Hex427Seg/Hex427Seg_sch.xst" -ofn "F:/3150101155/Hex427Seg/Hex427Seg_sch.syr" 
+xst -intstyle ise -ifn "F:/3150101155/Hex427Seg/Hex427Seg_sch.xst" -ofn "F:/3150101155/Hex427Seg/Hex427Seg_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Hex427Seg.ucf -p xc7k160t-fbg676-1 Hex427Seg_sch.ngc Hex427Seg_sch.ngd  
+map -intstyle ise -p xc7k160t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Hex427Seg_sch_map.ncd Hex427Seg_sch.ngd Hex427Seg_sch.pcf 
+par -w -intstyle ise -ol high -mt off Hex427Seg_sch_map.ncd Hex427Seg_sch.ncd Hex427Seg_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Hex427Seg_sch.twx Hex427Seg_sch.ncd -o Hex427Seg_sch.twr Hex427Seg_sch.pcf -ucf Hex427Seg.ucf 
+bitgen -intstyle ise -f Hex427Seg_sch.ut Hex427Seg_sch.ncd 
+xst -intstyle ise -ifn "F:/3150101155/Hex427Seg/Hex427Seg_sch.xst" -ofn "F:/3150101155/Hex427Seg/Hex427Seg_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Hex427Seg.ucf -p xc7k160t-fbg676-1 Hex427Seg_sch.ngc Hex427Seg_sch.ngd  
+map -intstyle ise -p xc7k160t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Hex427Seg_sch_map.ncd Hex427Seg_sch.ngd Hex427Seg_sch.pcf 
+par -w -intstyle ise -ol high -mt off Hex427Seg_sch_map.ncd Hex427Seg_sch.ncd Hex427Seg_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Hex427Seg_sch.twx Hex427Seg_sch.ncd -o Hex427Seg_sch.twr Hex427Seg_sch.pcf -ucf Hex427Seg.ucf 
+bitgen -intstyle ise -f Hex427Seg_sch.ut Hex427Seg_sch.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Hex427Seg.ucf -p xc7k160t-fbg676-1 Hex427Seg_sch.ngc Hex427Seg_sch.ngd  
+map -intstyle ise -p xc7k160t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Hex427Seg_sch_map.ncd Hex427Seg_sch.ngd Hex427Seg_sch.pcf 
+par -w -intstyle ise -ol high -mt off Hex427Seg_sch_map.ncd Hex427Seg_sch.ncd Hex427Seg_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Hex427Seg_sch.twx Hex427Seg_sch.ncd -o Hex427Seg_sch.twr Hex427Seg_sch.pcf -ucf Hex427Seg.ucf 
+bitgen -intstyle ise -f Hex427Seg_sch.ut Hex427Seg_sch.ncd 
+xst -intstyle ise -ifn "F:/3150101155/Hex427Seg/Hex427Seg_sch.xst" -ofn "F:/3150101155/Hex427Seg/Hex427Seg_sch.syr" 
+xst -intstyle ise -ifn "F:/3150101155/Hex427Seg/Hex427Seg_sch.xst" -ofn "F:/3150101155/Hex427Seg/Hex427Seg_sch.syr" 
+xst -intstyle ise -ifn "F:/3150101155/Hex427Seg/Hex427Seg_sch.xst" -ofn "F:/3150101155/Hex427Seg/Hex427Seg_sch.syr" 
+xst -intstyle ise -ifn "F:/3150101155/Hex427Seg/Hex427Seg_sch.xst" -ofn "F:/3150101155/Hex427Seg/Hex427Seg_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Hex427Seg.ucf -p xc7k160t-fbg676-1 Hex427Seg_sch.ngc Hex427Seg_sch.ngd  
+map -intstyle ise -p xc7k160t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Hex427Seg_sch_map.ncd Hex427Seg_sch.ngd Hex427Seg_sch.pcf 
+par -w -intstyle ise -ol high -mt off Hex427Seg_sch_map.ncd Hex427Seg_sch.ncd Hex427Seg_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Hex427Seg_sch.twx Hex427Seg_sch.ncd -o Hex427Seg_sch.twr Hex427Seg_sch.pcf -ucf Hex427Seg.ucf 
+bitgen -intstyle ise -f Hex427Seg_sch.ut Hex427Seg_sch.ncd 

@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/Users/liu/Documents/ISE/Exp11/Calculation_Exp110/Regs_8_32.v -lang verilog -prj Framework -o Regs_8_32.spl -module Regs_8_32 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 Regs_8_32.spl C:/Users/liu/Documents/ISE/Exp11/Calculation_Exp110/Regs_8_32.sym 

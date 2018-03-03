@@ -1,0 +1,1551 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Tue Dec 27 13:25:56 2016
+# Process ID: 19756
+# Current directory: F:/vivado/Top_WallClock
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18244 F:\vivado\Top_WallClock\Top_WallClock.xpr
+# Log file: F:/vivado/Top_WallClock/vivado.log
+# Journal file: F:/vivado/Top_WallClock\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/vivado/Top_WallClock/Top_WallClock.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Output Repository Path: Could not find the directory 'F:/vivado/Top_WallClock/Top_WallClock.cache/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Tools/XILINX/Vivado/2016.3/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 760.801 ; gain = 116.574
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Dec 27 13:29:02 2016] Launched synth_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1/runme.log
+[Tue Dec 27 13:29:02 2016] Launched impl_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/Port_#0002.Hub_#0002
+ERROR: [Labtools 27-2270] Target localhost:3121/xilinx_tcf/Xilinx/Port_#0002.Hub_#0002 is no longer available.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/Port_#0002.Hub_#0002
+ERROR: [Labtools 27-2270] Target localhost:3121/xilinx_tcf/Xilinx/Port_#0002.Hub_#0002 is no longer available.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/00000000000000
+INFO: [Labtools 27-1434] Device xc7k160t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROGRAM.FILE {F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/Main.bit} [lindex [get_hw_devices xc7k160t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7k160t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 907.891 ; gain = 10.867
+refresh_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+INFO: [Labtools 27-1434] Device xc7k160t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Xilinx/00000000000000.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Dec 27 13:34:43 2016] Launched synth_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1/runme.log
+[Tue Dec 27 13:34:43 2016] Launched impl_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/runme.log
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/00000000000000
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/Port_#0002.Hub_#0002
+ERROR: [Labtools 27-2270] Target localhost:3121/xilinx_tcf/Xilinx/Port_#0002.Hub_#0002 is no longer available.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+open_hw_target {localhost:3121/xilinx_tcf/Xilinx/00000000000000}
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/00000000000000
+set_property PROGRAM.FILE {F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/Main.bit} [lindex [get_hw_devices xc7k160t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7k160t_0] 0]
+INFO: [Labtools 27-1434] Device xc7k160t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROGRAM.FILE {F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/Main.bit} [lindex [get_hw_devices xc7k160t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7k160t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 955.090 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+INFO: [Labtools 27-1434] Device xc7k160t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Dec 27 13:40:18 2016] Launched synth_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1/runme.log
+[Tue Dec 27 13:40:18 2016] Launched impl_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROGRAM.FILE {F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/Main.bit} [lindex [get_hw_devices xc7k160t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7k160t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 955.090 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+INFO: [Labtools 27-1434] Device xc7k160t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Dec 27 13:45:03 2016] Launched synth_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1/runme.log
+[Tue Dec 27 13:45:03 2016] Launched impl_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/runme.log
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Xilinx/00000000000000.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/00000000000000
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/Port_#0002.Hub_#0002
+ERROR: [Labtools 27-2270] Target localhost:3121/xilinx_tcf/Xilinx/Port_#0002.Hub_#0002 is no longer available.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+open_hw_target {localhost:3121/xilinx_tcf/Xilinx/00000000000000}
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/00000000000000
+set_property PROGRAM.FILE {F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/Main.bit} [lindex [get_hw_devices xc7k160t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7k160t_0] 0]
+INFO: [Labtools 27-1434] Device xc7k160t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROGRAM.FILE {F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/Main.bit} [lindex [get_hw_devices xc7k160t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7k160t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 955.090 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+INFO: [Labtools 27-1434] Device xc7k160t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+close_hw
+file mkdir F:/vivado/Top_WallClock/Top_WallClock.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open F:/vivado/Top_WallClock/Top_WallClock.srcs/sim_1/new/clk_test.v w ]
+add_files -fileset sim_1 F:/vivado/Top_WallClock/Top_WallClock.srcs/sim_1/new/clk_test.v
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'Main' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav'
+"xvlog -m64 --relax -prj Main_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/MUX4T1.vf" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX4T1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/MC14495_ZJU.vf" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MC14495_ZJU
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Hex2Seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Hex2Seg
+INFO: [VRFC 10-2458] undeclared symbol a, assumed default net type wire [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Hex2Seg.v:29]
+INFO: [VRFC 10-2458] undeclared symbol b, assumed default net type wire [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Hex2Seg.v:29]
+INFO: [VRFC 10-2458] undeclared symbol c, assumed default net type wire [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Hex2Seg.v:29]
+INFO: [VRFC 10-2458] undeclared symbol d, assumed default net type wire [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Hex2Seg.v:29]
+INFO: [VRFC 10-2458] undeclared symbol e, assumed default net type wire [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Hex2Seg.v:29]
+INFO: [VRFC 10-2458] undeclared symbol f, assumed default net type wire [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Hex2Seg.v:29]
+INFO: [VRFC 10-2458] undeclared symbol g, assumed default net type wire [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Hex2Seg.v:29]
+INFO: [VRFC 10-2458] undeclared symbol p, assumed default net type wire [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Hex2Seg.v:29]
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/MUX8T1_8.vf" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX8T1_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/ms_1000.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ms_1000
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/count_60.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module count_60
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/count_24.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module count_24
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/clk_1ms.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_1ms
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/ScanSync.vf" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ScanSync
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/LED_P2S_IO.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LED_P2S
+WARNING: [VRFC 10-756] identifier DATA_BITS is used before its declaration [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/LED_P2S_IO.v:24]
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/HexTo8SEG8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HexTo8SEG8
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/MUX2T1_64.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2T1_64
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/SSeg_map.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SSeg_map
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/P2S_IO.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module P2S
+WARNING: [VRFC 10-756] identifier DATA_BITS is used before its declaration [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/P2S_IO.v:24]
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/MUXHM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUXHM
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Seg_map.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Seg_map
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Wall_CLOCK.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Wall_CLOCK
+INFO: [VRFC 10-2458] undeclared symbol clk_1ms, assumed default net type wire [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Wall_CLOCK.v:39]
+INFO: [VRFC 10-2458] undeclared symbol clk_1min, assumed default net type wire [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Wall_CLOCK.v:41]
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Seg7_Dev.vf" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Seg7_Dev
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Display.vf" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Display
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Multi_8CH32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multi_8CH32
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/PIO.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PIO
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/SEnter_2_32_IO.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SEnter_2_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/SAnti_jitter_IO.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SAnti_jitter
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/GPIO.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GPIO
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/clkdiv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clkdiv
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Main
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav'
+Vivado Simulator 2016.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Tools/XILINX/Vivado/2016.3/bin/unwrapped/win64.o/xelab.exe -wto 73d2f141e6b04d95ab2524b189e2db16 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Main_behav xil_defaultlib.Main xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 16 for port Time_out [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:181]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Seg7_Dev.vf" Line 22. Module Seg7_Dev doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Seg7_Dev.vf" Line 22. Module Seg7_Dev doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clkdiv
+Compiling module xil_defaultlib.SAnti_jitter
+Compiling module xil_defaultlib.P2S
+Compiling module unisims_ver.LUT4
+Compiling module unisims_ver.AND4
+Compiling module unisims_ver.x_lut3_mux4
+Compiling module unisims_ver.x_lut3_mux4_reduced_0
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.AND3
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.AND2
+Compiling module unisims_ver.OR3
+Compiling module unisims_ver.OR4
+Compiling module unisims_ver.OR2
+Compiling module unisims_ver.INV
+Compiling module xil_defaultlib.MC14495_ZJU
+Compiling module xil_defaultlib.Hex2Seg
+Compiling module xil_defaultlib.HexTo8SEG8
+Compiling module xil_defaultlib.MUX2T1_64
+Compiling module xil_defaultlib.SSeg_map
+Compiling module xil_defaultlib.Display
+Compiling module xil_defaultlib.SEnter_2_32
+Compiling module xil_defaultlib.Multi_8CH32
+Compiling module xil_defaultlib.LED_P2S
+Compiling module xil_defaultlib.GPIO
+Compiling module xil_defaultlib.MUXHM
+Compiling module xil_defaultlib.Seg_map
+Compiling module unisims_ver.BUF
+Compiling module unisims_ver.VCC
+Compiling module unisims_ver.GND
+Compiling module xil_defaultlib.MUX4T1
+Compiling module xil_defaultlib.MUX8T1_8
+Compiling module xil_defaultlib.ScanSync
+Compiling module xil_defaultlib.Seg7_Dev
+Compiling module xil_defaultlib.PIO
+Compiling module xil_defaultlib.clk_1ms
+Compiling module xil_defaultlib.ms_1000
+Compiling module xil_defaultlib.count_60
+Compiling module xil_defaultlib.count_24
+Compiling module xil_defaultlib.Wall_CLOCK
+Compiling module xil_defaultlib.Main
+Compiling module xil_defaultlib.glbl
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+Built simulation snapshot Main_behav
+INFO: [Common 17-344] 'run_program' was cancelled
+INFO: [Vivado 12-4704] 'elaborate' step aborted
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 957.199 ; gain = 0.000
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+set_property top clk_test [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'clk_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav'
+"xvlog -m64 --relax -prj clk_test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/clk_1ms.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_1ms
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sim_1/new/clk_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_test
+ERROR: [VRFC 10-1247] port connections cannot be mixed ordered and named [F:/vivado/Top_WallClock/Top_WallClock.srcs/sim_1/new/clk_test.v:36]
+ERROR: [VRFC 10-1040] module clk_test ignored due to previous errors [F:/vivado/Top_WallClock/Top_WallClock.srcs/sim_1/new/clk_test.v:23]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'clk_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav'
+"xvlog -m64 --relax -prj clk_test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/clk_1ms.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_1ms
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sim_1/new/clk_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav'
+Vivado Simulator 2016.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Tools/XILINX/Vivado/2016.3/bin/unwrapped/win64.o/xelab.exe -wto 73d2f141e6b04d95ab2524b189e2db16 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot clk_test_behav xil_defaultlib.clk_test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 8 differs from formal bit length 1 for port clk_1ms [F:/vivado/Top_WallClock/Top_WallClock.srcs/sim_1/new/clk_test.v:38]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clk_1ms
+Compiling module xil_defaultlib.clk_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot clk_test_behav
+
+****** Webtalk v2016.3 (64-bit)
+  **** SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+  **** IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav/xsim.dir/clk_test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Tue Dec 27 13:52:11 2016...
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "clk_test_behav -key {Behavioral:sim_1:Functional:clk_test} -tclbatch {clk_test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.3
+Time resolution is 1 ps
+source clk_test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'clk_test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 966.043 ; gain = 5.391
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'clk_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav'
+"xvlog -m64 --relax -prj clk_test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/clk_1ms.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_1ms
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sim_1/new/clk_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav'
+Vivado Simulator 2016.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Tools/XILINX/Vivado/2016.3/bin/unwrapped/win64.o/xelab.exe -wto 73d2f141e6b04d95ab2524b189e2db16 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot clk_test_behav xil_defaultlib.clk_test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clk_1ms
+Compiling module xil_defaultlib.clk_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot clk_test_behav
+
+****** Webtalk v2016.3 (64-bit)
+  **** SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+  **** IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav/xsim.dir/clk_test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Tue Dec 27 13:53:13 2016...
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "clk_test_behav -key {Behavioral:sim_1:Functional:clk_test} -tclbatch {clk_test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.3
+Time resolution is 1 ps
+source clk_test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'clk_test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 979.844 ; gain = 0.000
+add_wave {{/clk_test/clk_1ms/count}} 
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'clk_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav'
+"xvlog -m64 --relax -prj clk_test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/clk_1ms.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_1ms
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sim_1/new/clk_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav'
+Vivado Simulator 2016.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Tools/XILINX/Vivado/2016.3/bin/unwrapped/win64.o/xelab.exe -wto 73d2f141e6b04d95ab2524b189e2db16 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot clk_test_behav xil_defaultlib.clk_test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clk_1ms
+Compiling module xil_defaultlib.clk_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot clk_test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2016.3
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 979.844 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+set_property -name {xsim.simulate.runtime} -value {2ms} -objects [get_filesets sim_1]
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'clk_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav'
+"xvlog -m64 --relax -prj clk_test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/clk_1ms.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_1ms
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sim_1/new/clk_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav'
+Vivado Simulator 2016.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Tools/XILINX/Vivado/2016.3/bin/unwrapped/win64.o/xelab.exe -wto 73d2f141e6b04d95ab2524b189e2db16 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot clk_test_behav xil_defaultlib.clk_test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clk_1ms
+Compiling module xil_defaultlib.clk_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot clk_test_behav
+
+****** Webtalk v2016.3 (64-bit)
+  **** SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+  **** IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav/xsim.dir/clk_test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Tue Dec 27 13:55:20 2016...
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "clk_test_behav -key {Behavioral:sim_1:Functional:clk_test} -tclbatch {clk_test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.3
+Time resolution is 1 ps
+source clk_test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 2ms
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'clk_test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 2ms
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 989.711 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'clk_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav'
+"xvlog -m64 --relax -prj clk_test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/ms_1000.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ms_1000
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/count_60.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module count_60
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/count_24.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module count_24
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/clk_1ms.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_1ms
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Wall_CLOCK.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Wall_CLOCK
+INFO: [VRFC 10-2458] undeclared symbol clk_1ms, assumed default net type wire [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Wall_CLOCK.v:39]
+INFO: [VRFC 10-2458] undeclared symbol clk_1min, assumed default net type wire [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Wall_CLOCK.v:41]
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sim_1/new/clk_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav'
+Vivado Simulator 2016.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Tools/XILINX/Vivado/2016.3/bin/unwrapped/win64.o/xelab.exe -wto 73d2f141e6b04d95ab2524b189e2db16 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot clk_test_behav xil_defaultlib.clk_test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 8 differs from formal bit length 16 for port Time_out [F:/vivado/Top_WallClock/Top_WallClock.srcs/sim_1/new/clk_test.v:38]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clk_1ms
+Compiling module xil_defaultlib.ms_1000
+Compiling module xil_defaultlib.count_60
+Compiling module xil_defaultlib.count_24
+Compiling module xil_defaultlib.Wall_CLOCK
+Compiling module xil_defaultlib.clk_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot clk_test_behav
+
+****** Webtalk v2016.3 (64-bit)
+  **** SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+  **** IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav/xsim.dir/clk_test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Tue Dec 27 13:59:01 2016...
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "clk_test_behav -key {Behavioral:sim_1:Functional:clk_test} -tclbatch {clk_test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.3
+Time resolution is 1 ps
+source clk_test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 2ms
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'clk_test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 2ms
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1012.988 ; gain = 0.000
+add_wave {{/clk_test/wallclk/millisecond}} 
+add_wave {{/clk_test/wallclk/m13_ms}} 
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'clk_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav'
+"xvlog -m64 --relax -prj clk_test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/ms_1000.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ms_1000
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/count_60.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module count_60
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/count_24.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module count_24
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/clk_1ms.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_1ms
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Wall_CLOCK.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Wall_CLOCK
+INFO: [VRFC 10-2458] undeclared symbol clk_1ms, assumed default net type wire [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Wall_CLOCK.v:39]
+INFO: [VRFC 10-2458] undeclared symbol clk_1min, assumed default net type wire [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Wall_CLOCK.v:41]
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sim_1/new/clk_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav'
+Vivado Simulator 2016.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Tools/XILINX/Vivado/2016.3/bin/unwrapped/win64.o/xelab.exe -wto 73d2f141e6b04d95ab2524b189e2db16 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot clk_test_behav xil_defaultlib.clk_test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 8 differs from formal bit length 16 for port Time_out [F:/vivado/Top_WallClock/Top_WallClock.srcs/sim_1/new/clk_test.v:38]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clk_1ms
+Compiling module xil_defaultlib.ms_1000
+Compiling module xil_defaultlib.count_60
+Compiling module xil_defaultlib.count_24
+Compiling module xil_defaultlib.Wall_CLOCK
+Compiling module xil_defaultlib.clk_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot clk_test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2016.3
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 1012.988 ; gain = 0.000
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Dec 27 14:02:19 2016] Launched synth_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1/runme.log
+[Tue Dec 27 14:02:19 2016] Launched impl_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/runme.log
+reset_run impl_1
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Dec 27 14:05:03 2016] Launched synth_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1/runme.log
+[Tue Dec 27 14:05:03 2016] Launched impl_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2016.3
+  **** Build date : Oct 10 2016-19:47:06
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/00000000000000
+set_property PROGRAM.FILE {F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/Main.bit} [lindex [get_hw_devices xc7k160t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7k160t_0] 0]
+INFO: [Labtools 27-1434] Device xc7k160t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROGRAM.FILE {F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/Main.bit} [lindex [get_hw_devices xc7k160t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7k160t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1012.988 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+INFO: [Labtools 27-1434] Device xc7k160t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Dec 27 14:11:27 2016] Launched synth_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1/runme.log
+[Tue Dec 27 14:11:27 2016] Launched impl_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/runme.log
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Xilinx/00000000000000.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/00000000000000
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/00000000000000
+INFO: [Labtools 27-1434] Device xc7k160t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROGRAM.FILE {F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/Main.bit} [lindex [get_hw_devices xc7k160t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7k160t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1012.988 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+INFO: [Labtools 27-1434] Device xc7k160t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Dec 27 14:18:13 2016] Launched synth_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1/runme.log
+[Tue Dec 27 14:18:13 2016] Launched impl_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROGRAM.FILE {F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/Main.bit} [lindex [get_hw_devices xc7k160t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7k160t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:15 ; elapsed = 00:00:14 . Memory (MB): peak = 1012.988 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+INFO: [Labtools 27-1434] Device xc7k160t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Xilinx/00000000000000.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/00000000000000
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Dec 27 14:25:15 2016] Launched synth_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1/runme.log
+[Tue Dec 27 14:25:15 2016] Launched impl_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/runme.log
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/00000000000000
+set_property PROGRAM.FILE {F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/Main.bit} [lindex [get_hw_devices xc7k160t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7k160t_0] 0]
+INFO: [Labtools 27-1434] Device xc7k160t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROGRAM.FILE {F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/Main.bit} [lindex [get_hw_devices xc7k160t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7k160t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:15 ; elapsed = 00:00:14 . Memory (MB): peak = 1015.332 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+INFO: [Labtools 27-1434] Device xc7k160t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Dec 27 14:31:17 2016] Launched synth_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1/runme.log
+[Tue Dec 27 14:31:17 2016] Launched impl_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Dec 27 14:32:24 2016] Launched synth_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1/runme.log
+[Tue Dec 27 14:32:24 2016] Launched impl_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Dec 27 14:33:06 2016] Launched synth_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1/runme.log
+[Tue Dec 27 14:33:06 2016] Launched impl_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROGRAM.FILE {F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/Main.bit} [lindex [get_hw_devices xc7k160t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7k160t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:15 ; elapsed = 00:00:14 . Memory (MB): peak = 1018.406 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+INFO: [Labtools 27-1434] Device xc7k160t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Dec 27 14:37:41 2016] Launched synth_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1/runme.log
+[Tue Dec 27 14:37:41 2016] Launched impl_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROGRAM.FILE {F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/Main.bit} [lindex [get_hw_devices xc7k160t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7k160t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1021.184 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+INFO: [Labtools 27-1434] Device xc7k160t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Dec 27 14:41:53 2016] Launched synth_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1/runme.log
+[Tue Dec 27 14:41:53 2016] Launched impl_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Dec 27 14:42:13 2016] Launched synth_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1/runme.log
+[Tue Dec 27 14:42:13 2016] Launched impl_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROGRAM.FILE {F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/Main.bit} [lindex [get_hw_devices xc7k160t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7k160t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1021.184 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+INFO: [Labtools 27-1434] Device xc7k160t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Dec 27 14:47:42 2016] Launched synth_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1/runme.log
+[Tue Dec 27 14:47:42 2016] Launched impl_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Dec 27 14:47:52 2016] Launched synth_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1/runme.log
+[Tue Dec 27 14:47:52 2016] Launched impl_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Dec 27 14:48:05 2016] Launched synth_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1/runme.log
+[Tue Dec 27 14:48:05 2016] Launched impl_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/runme.log
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Xilinx/00000000000000.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/00000000000000
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Dec 27 14:50:25 2016] Launched synth_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1/runme.log
+[Tue Dec 27 14:50:25 2016] Launched impl_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Dec 27 14:52:02 2016] Launched synth_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1/runme.log
+[Tue Dec 27 14:52:02 2016] Launched impl_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Dec 27 14:52:35 2016] Launched synth_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1/runme.log
+[Tue Dec 27 14:52:35 2016] Launched impl_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Dec 27 14:55:29 2016] Launched synth_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1/runme.log
+[Tue Dec 27 14:55:29 2016] Launched impl_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav/clk_test_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav/simulate.log
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'clk_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav'
+"xvlog -m64 --relax -prj clk_test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/clk_1ms.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_1ms
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/ms_1000.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ms_1000
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Wall_CLOCK.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Wall_CLOCK
+INFO: [VRFC 10-2458] undeclared symbol clk_1ms, assumed default net type wire [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Wall_CLOCK.v:40]
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sim_1/new/clk_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav'
+Vivado Simulator 2016.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Tools/XILINX/Vivado/2016.3/bin/unwrapped/win64.o/xelab.exe -wto 73d2f141e6b04d95ab2524b189e2db16 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot clk_test_behav xil_defaultlib.clk_test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clk_1ms
+Compiling module xil_defaultlib.ms_1000
+Compiling module xil_defaultlib.Wall_CLOCK
+Compiling module xil_defaultlib.clk_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot clk_test_behav
+
+****** Webtalk v2016.3 (64-bit)
+  **** SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+  **** IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav/xsim.dir/clk_test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Tue Dec 27 14:56:29 2016...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "clk_test_behav -key {Behavioral:sim_1:Functional:clk_test} -tclbatch {clk_test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.3
+Time resolution is 1 ps
+source clk_test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 2ms
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'clk_test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 2ms
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1026.555 ; gain = 0.000
+relaunch_sim
+suspend_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1032.543 ; gain = 0.000
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'clk_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav'
+"xvlog -m64 --relax -prj clk_test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/clk_1ms.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_1ms
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/ms_1000.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ms_1000
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Wall_CLOCK.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Wall_CLOCK
+INFO: [VRFC 10-2458] undeclared symbol clk_1ms, assumed default net type wire [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Wall_CLOCK.v:40]
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sim_1/new/clk_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav'
+Vivado Simulator 2016.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Tools/XILINX/Vivado/2016.3/bin/unwrapped/win64.o/xelab.exe -wto 73d2f141e6b04d95ab2524b189e2db16 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot clk_test_behav xil_defaultlib.clk_test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clk_1ms
+Compiling module xil_defaultlib.ms_1000
+Compiling module xil_defaultlib.Wall_CLOCK
+Compiling module xil_defaultlib.clk_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot clk_test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Vivado Simulator 2016.3
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:12 . Memory (MB): peak = 1032.543 ; gain = 0.000
+add_wave {{/clk_test/wallclk/millisecond}} 
+relaunch_sim
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'clk_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav'
+"xvlog -m64 --relax -prj clk_test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/clk_1ms.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_1ms
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/ms_1000.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ms_1000
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Wall_CLOCK.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Wall_CLOCK
+INFO: [VRFC 10-2458] undeclared symbol clk_1ms, assumed default net type wire [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Wall_CLOCK.v:40]
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sim_1/new/clk_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav'
+Vivado Simulator 2016.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Tools/XILINX/Vivado/2016.3/bin/unwrapped/win64.o/xelab.exe -wto 73d2f141e6b04d95ab2524b189e2db16 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot clk_test_behav xil_defaultlib.clk_test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clk_1ms
+Compiling module xil_defaultlib.ms_1000
+Compiling module xil_defaultlib.Wall_CLOCK
+Compiling module xil_defaultlib.clk_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot clk_test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+Vivado Simulator 2016.3
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:14 . Memory (MB): peak = 1032.543 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav/clk_test_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav/simulate.log
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'clk_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav'
+"xvlog -m64 --relax -prj clk_test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/clk_1ms.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_1ms
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/ms_1000.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ms_1000
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Wall_CLOCK.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Wall_CLOCK
+INFO: [VRFC 10-2458] undeclared symbol clk_1ms, assumed default net type wire [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Wall_CLOCK.v:40]
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sim_1/new/clk_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav'
+Vivado Simulator 2016.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Tools/XILINX/Vivado/2016.3/bin/unwrapped/win64.o/xelab.exe -wto 73d2f141e6b04d95ab2524b189e2db16 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot clk_test_behav xil_defaultlib.clk_test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clk_1ms
+Compiling module xil_defaultlib.ms_1000
+Compiling module xil_defaultlib.Wall_CLOCK
+Compiling module xil_defaultlib.clk_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot clk_test_behav
+
+****** Webtalk v2016.3 (64-bit)
+  **** SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+  **** IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav/xsim.dir/clk_test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Tue Dec 27 14:58:32 2016...
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "clk_test_behav -key {Behavioral:sim_1:Functional:clk_test} -tclbatch {clk_test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.3
+Time resolution is 1 ps
+source clk_test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 2ms
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'clk_test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 2ms
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 1032.543 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'clk_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav'
+"xvlog -m64 --relax -prj clk_test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/clk_1ms.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_1ms
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/ms_1000.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ms_1000
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Wall_CLOCK.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Wall_CLOCK
+INFO: [VRFC 10-2458] undeclared symbol clk_1ms, assumed default net type wire [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Wall_CLOCK.v:40]
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sim_1/new/clk_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav'
+Vivado Simulator 2016.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Tools/XILINX/Vivado/2016.3/bin/unwrapped/win64.o/xelab.exe -wto 73d2f141e6b04d95ab2524b189e2db16 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot clk_test_behav xil_defaultlib.clk_test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clk_1ms
+Compiling module xil_defaultlib.ms_1000
+Compiling module xil_defaultlib.Wall_CLOCK
+Compiling module xil_defaultlib.clk_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot clk_test_behav
+
+****** Webtalk v2016.3 (64-bit)
+  **** SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+  **** IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav/xsim.dir/clk_test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Tue Dec 27 14:59:47 2016...
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "clk_test_behav -key {Behavioral:sim_1:Functional:clk_test} -tclbatch {clk_test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.3
+Time resolution is 1 ps
+source clk_test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 2ms
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'clk_test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 2ms
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 1050.063 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'clk_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav'
+"xvlog -m64 --relax -prj clk_test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/clk_1ms.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_1ms
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/ms_1000.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ms_1000
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Wall_CLOCK.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Wall_CLOCK
+INFO: [VRFC 10-2458] undeclared symbol clk_1ms, assumed default net type wire [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Wall_CLOCK.v:40]
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sim_1/new/clk_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav'
+Vivado Simulator 2016.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Tools/XILINX/Vivado/2016.3/bin/unwrapped/win64.o/xelab.exe -wto 73d2f141e6b04d95ab2524b189e2db16 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot clk_test_behav xil_defaultlib.clk_test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clk_1ms
+Compiling module xil_defaultlib.ms_1000
+Compiling module xil_defaultlib.Wall_CLOCK
+Compiling module xil_defaultlib.clk_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot clk_test_behav
+
+****** Webtalk v2016.3 (64-bit)
+  **** SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+  **** IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav/xsim.dir/clk_test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Tue Dec 27 15:00:50 2016...
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "clk_test_behav -key {Behavioral:sim_1:Functional:clk_test} -tclbatch {clk_test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.3
+Time resolution is 1 ps
+source clk_test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 2ms
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'clk_test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 2ms
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 1050.063 ; gain = 0.000
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Dec 27 15:00:55 2016] Launched synth_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1/runme.log
+[Tue Dec 27 15:00:55 2016] Launched impl_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/runme.log
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Dec 27 15:04:16 2016] Launched impl_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/runme.log
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/00000000000000
+current_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7k160t_0] 0]
+INFO: [Labtools 27-1434] Device xc7k160t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROGRAM.FILE {F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/Main.bit} [lindex [get_hw_devices xc7k160t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7k160t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1050.063 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+INFO: [Labtools 27-1434] Device xc7k160t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [filemgmt 56-23] Illegal GUI graph access between updates.
+ERROR: [filemgmt 20-1788] Illegal access of HADGNode between graph update events.
+ERROR: [filemgmt 20-1788] Illegal access of HADGNode between graph update events.
+ERROR: [filemgmt 20-1788] Illegal access of HADGNode between graph update events.
+ERROR: [filemgmt 20-1788] Illegal access of HADGNode between graph update events.
+ERROR: [filemgmt 56-23] Illegal GUI graph access between updates.
+update_compile_order -fileset sources_1
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Dec 27 15:08:44 2016] Launched synth_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1/runme.log
+[Tue Dec 27 15:08:44 2016] Launched impl_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/runme.log
+reset_run impl_1
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Dec 27 15:10:17 2016] Launched synth_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1/runme.log
+[Tue Dec 27 15:10:17 2016] Launched impl_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Dec 27 15:10:28 2016] Launched synth_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1/runme.log
+[Tue Dec 27 15:10:28 2016] Launched impl_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Dec 27 15:11:08 2016] Launched synth_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1/runme.log
+[Tue Dec 27 15:11:08 2016] Launched impl_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROGRAM.FILE {F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/Main.bit} [lindex [get_hw_devices xc7k160t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7k160t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1052.305 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+INFO: [Labtools 27-1434] Device xc7k160t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Dec 27 15:15:42 2016] Launched synth_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1/runme.log
+[Tue Dec 27 15:15:42 2016] Launched impl_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROGRAM.FILE {F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/Main.bit} [lindex [get_hw_devices xc7k160t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7k160t_0] 0]
+ERROR: [Labtools 27-3165] End of startup status: LOW
+ERROR: [Common 17-39] 'program_hw_devices' failed due to earlier errors.
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/00000000000000
+set_property PROGRAM.FILE {F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/Main.bit} [lindex [get_hw_devices xc7k160t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7k160t_0] 0]
+INFO: [Labtools 27-1434] Device xc7k160t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROGRAM.FILE {F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/Main.bit} [lindex [get_hw_devices xc7k160t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7k160t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1052.305 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+INFO: [Labtools 27-1434] Device xc7k160t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Xilinx/00000000000000.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/00000000000000
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Dec 27 15:21:09 2016] Launched synth_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1/runme.log
+[Tue Dec 27 15:21:09 2016] Launched impl_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/runme.log
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/00000000000000
+INFO: [Labtools 27-1434] Device xc7k160t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROGRAM.FILE {F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/Main.bit} [lindex [get_hw_devices xc7k160t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7k160t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1052.305 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+INFO: [Labtools 27-1434] Device xc7k160t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Dec 27 15:26:45 2016] Launched synth_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1/runme.log
+[Tue Dec 27 15:26:45 2016] Launched impl_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/runme.log
+reset_run impl_1
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Dec 27 15:28:58 2016] Launched synth_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1/runme.log
+[Tue Dec 27 15:28:58 2016] Launched impl_1...
+Run output will be captured here: F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/runme.log
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Xilinx/00000000000000.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/00000000000000
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/00000000000000
+set_property PROGRAM.FILE {F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/Main.bit} [lindex [get_hw_devices xc7k160t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7k160t_0] 0]
+INFO: [Labtools 27-1434] Device xc7k160t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROGRAM.FILE {F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/Main.bit} [lindex [get_hw_devices xc7k160t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7k160t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1052.305 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+INFO: [Labtools 27-1434] Device xc7k160t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Xilinx/00000000000000.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/00000000000000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+open_project F:/vivado/ps2/ps2.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Output Repository Path: Could not find the directory 'F:/vivado/ps2/ps2.cache/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Tools/XILINX/Vivado/2016.3/data/ip'.
+close_project
+open_project F:/vivado/ps2_test/ps2_test.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Output Repository Path: Could not find the directory 'F:/vivado/ps2_test/ps2_test.cache/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Tools/XILINX/Vivado/2016.3/data/ip'.

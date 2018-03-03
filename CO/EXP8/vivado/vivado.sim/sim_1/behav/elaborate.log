@@ -1,0 +1,13 @@
+Vivado Simulator 2016.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Tools/XILINX/Vivado/2016.3/bin/unwrapped/win64.o/xelab.exe -wto c578b66a4a4c4e9fb4613d7794d0c52f --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot Main_Main_sch_tb_behav xil_defaultlib.Main_Main_sch_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-426] cannot find port b on this module [D:/Users/Shana/Desktop/EXP5/Display.vf:66]
+ERROR: [VRFC 10-2063] Module <BLK_MEM_GEN_V7_3> not found while processing module instance <inst> [D:/Users/Shana/Desktop/EXP5/vivado/vivado.srcs/sources_1/ip/RAM_B/RAM_B.v:55]
+ERROR: [VRFC 10-2063] Module <ROM_D> not found while processing module instance <XLXI_15> [D:/Users/Shana/Desktop/EXP5/Main.vf:196]
+ERROR: [VRFC 10-2063] Module <clk_div> not found while processing module instance <XLXI_18> [D:/Users/Shana/Desktop/EXP5/Main.vf:200]
+ERROR: [VRFC 10-2063] Module <SCPU> not found while processing module instance <XLXI_19> [D:/Users/Shana/Desktop/EXP5/Main.vf:205]
+ERROR: [VRFC 10-2063] Module <Counter_x> not found while processing module instance <XLXI_21> [D:/Users/Shana/Desktop/EXP5/Main.vf:216]
+ERROR: [VRFC 10-2063] Module <MIO_BUS> not found while processing module instance <XLXI_23> [D:/Users/Shana/Desktop/EXP5/Main.vf:230]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

@@ -1,0 +1,3 @@
+verilog work "MB_DFF.vf"
+verilog work "MB_DFF_Test.v"
+verilog work "D:/Tools/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

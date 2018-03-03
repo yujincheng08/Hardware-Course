@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Thu Dec 29 18:15:40 2016
+# Process ID: 21596
+# Current directory: F:/vivado/ps2_test/ps2_test.sim/sim_1/behav
+# Command line: wbtcv.exe -mode batch -source F:/vivado/ps2_test/ps2_test.sim/sim_1/behav/xsim.dir/ps2_clk_test_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: F:/vivado/ps2_test/ps2_test.sim/sim_1/behav/webtalk.log
+# Journal file: F:/vivado/ps2_test/ps2_test.sim/sim_1/behav\webtalk.jou
+#-----------------------------------------------------------
+source F:/vivado/ps2_test/ps2_test.sim/sim_1/behav/xsim.dir/ps2_clk_test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'F:/vivado/ps2_test/ps2_test.sim/sim_1/behav/xsim.dir/ps2_clk_test_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Thu Dec 29 18:15:44 2016. For additional details about this file, please refer to the WebTalk help file at D:/Tools/XILINX/Vivado/2016.3/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Thu Dec 29 18:15:44 2016...

@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/Users/liu/Documents/ISE/Exp10/FSM/counter_32bit_rev.v -lang verilog -prj FSM -o counter_32bit_rev.spl -module counter_32bit_rev -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 counter_32bit_rev.spl C:/Users/liu/Documents/ISE/Exp10/FSM/counter_32bit_rev.sym 

@@ -1,0 +1,10 @@
+Command line:
+   RS_NAND_RS_NAND_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  14469
+
+Mon Dec 05 21:27:20 2016
+
+
+ Elaboration Time: 1.0625 sec

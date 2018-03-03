@@ -1,0 +1,48 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Mon Dec 26 22:46:24 2016
+# Process ID: 17516
+# Current directory: F:/vivado/Framework
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5692 F:\vivado\Framework\Framework.xpr
+# Log file: F:/vivado/Framework/vivado.log
+# Journal file: F:/vivado/Framework\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/vivado/Framework/Framework.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Tools/XILINX/Vivado/2016.3/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:07 . Memory (MB): peak = 789.441 ; gain = 138.344
+save_project_as ps2_test F:/vivado/ps2_test -force
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Mon Dec 26 22:48:05 2016] Launched impl_1...
+Run output will be captured here: F:/vivado/ps2_test/ps2_test.runs/impl_1/runme.log
+add_files -norecurse -scan_for_includes {F:/vivado/ps2_test/ps2_test.srcs/sources_1/initMouse.v F:/vivado/ps2_test/ps2_test.srcs/sources_1/PS2Mouse.v F:/vivado/ps2_test/ps2_test.srcs/sources_1/PS2KeyBoard.v F:/vivado/ps2_test/ps2_test.srcs/sources_1/readMouse.v}
+remove_files  {F:/vivado/ps2_test/ps2_test.srcs/sources_1/MUX8T1_32.vf F:/vivado/ps2_test/ps2_test.srcs/sources_1/MUX8T1_8.vf}
+file delete -force F:/vivado/ps2_test/ps2_test.srcs/sources_1/MUX8T1_32.vf F:/vivado/ps2_test/ps2_test.srcs/sources_1/MUX8T1_8.vf
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Mon Dec 26 22:51:58 2016] Launched synth_1...
+Run output will be captured here: F:/vivado/ps2_test/ps2_test.runs/synth_1/runme.log
+[Mon Dec 26 22:51:58 2016] Launched impl_1...
+Run output will be captured here: F:/vivado/ps2_test/ps2_test.runs/impl_1/runme.log
+remove_files  F:/vivado/ps2_test/ps2_test.srcs/sources_1/MUX4T1.vf
+file delete -force F:/vivado/ps2_test/ps2_test.srcs/sources_1/MUX4T1.vf
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+WARNING: [filemgmt 20-644] Circular Reference Found: 'xil_defaultlib:Module|ScanSync' - Instance 'XLXI_28' [F:/vivado/ps2_test/ps2_test.srcs/sources_1/ScanSync.vf:68] -->> 'xil_defaultlib:Module|ScanSync' [F:/vivado/ps2_test/ps2_test.srcs/sources_1/ScanSync.vf:23]
+[Mon Dec 26 23:00:15 2016] Launched synth_1...
+Run output will be captured here: F:/vivado/ps2_test/ps2_test.runs/synth_1/runme.log
+add_files -norecurse -scan_for_includes {F:/vivado/ps2_test/ps2_test.srcs/sources_1/MUX4T1.vf F:/vivado/ps2_test/ps2_test.srcs/sources_1/MUX8T1_8.vf}
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+INFO: [HDL 9-2216] Analyzing Verilog file "F:/vivado/ps2_test/ps2_test.srcs/sources_1/MUX8T1_8.vf" into library work [F:/vivado/ps2_test/ps2_test.srcs/sources_1/MUX8T1_8.vf:1]
+[Mon Dec 26 23:10:49 2016] Launched synth_1...
+Run output will be captured here: F:/vivado/ps2_test/ps2_test.runs/synth_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Dec 26 23:55:25 2016...

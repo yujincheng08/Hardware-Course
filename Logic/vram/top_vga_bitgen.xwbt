@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=F:\3150101155\vram\top_vga.ncd
+OUTFILE=F:\3150101155\vram\top_vga.bit
+FAMILY=Kintex7
+PART=xc7k160t-2lfbg676
+WORKINGDIR=F:\3150101155\vram
+LICENSE=WebPack
+USER_INFO=__0_0_0

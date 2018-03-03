@@ -1,0 +1,279 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Tue Dec 27 13:25:56 2016
+# Process ID: 19756
+# Current directory: F:/vivado/Top_WallClock
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18244 F:\vivado\Top_WallClock\Top_WallClock.xpr
+# Log file: F:/vivado/Top_WallClock/vivado.log
+# Journal file: F:/vivado/Top_WallClock\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/vivado/Top_WallClock/Top_WallClock.xpr
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROGRAM.FILE {F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/Main.bit} [lindex [get_hw_devices xc7k160t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7k160t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target
+open_hw_target {localhost:3121/xilinx_tcf/Xilinx/00000000000000}
+set_property PROGRAM.FILE {F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/Main.bit} [lindex [get_hw_devices xc7k160t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROGRAM.FILE {F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/Main.bit} [lindex [get_hw_devices xc7k160t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7k160t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROGRAM.FILE {F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/Main.bit} [lindex [get_hw_devices xc7k160t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7k160t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target
+open_hw_target {localhost:3121/xilinx_tcf/Xilinx/00000000000000}
+set_property PROGRAM.FILE {F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/Main.bit} [lindex [get_hw_devices xc7k160t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROGRAM.FILE {F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/Main.bit} [lindex [get_hw_devices xc7k160t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7k160t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+close_hw
+file mkdir F:/vivado/Top_WallClock/Top_WallClock.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open F:/vivado/Top_WallClock/Top_WallClock.srcs/sim_1/new/clk_test.v w ]
+add_files -fileset sim_1 F:/vivado/Top_WallClock/Top_WallClock.srcs/sim_1/new/clk_test.v
+launch_simulation
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top clk_test [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+launch_simulation
+launch_simulation
+source clk_test.tcl
+close_sim
+launch_simulation
+source clk_test.tcl
+add_wave {{/clk_test/clk_1ms/count}} 
+relaunch_sim
+close_sim
+set_property -name {xsim.simulate.runtime} -value {2ms} -objects [get_filesets sim_1]
+launch_simulation
+source clk_test.tcl
+close_sim
+launch_simulation
+source clk_test.tcl
+add_wave {{/clk_test/wallclk/millisecond}} 
+add_wave {{/clk_test/wallclk/m13_ms}} 
+relaunch_sim
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/Main.bit} [lindex [get_hw_devices xc7k160t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROGRAM.FILE {F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/Main.bit} [lindex [get_hw_devices xc7k160t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7k160t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROGRAM.FILE {F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/Main.bit} [lindex [get_hw_devices xc7k160t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7k160t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROGRAM.FILE {F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/Main.bit} [lindex [get_hw_devices xc7k160t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7k160t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/Main.bit} [lindex [get_hw_devices xc7k160t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROGRAM.FILE {F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/Main.bit} [lindex [get_hw_devices xc7k160t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7k160t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROGRAM.FILE {F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/Main.bit} [lindex [get_hw_devices xc7k160t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7k160t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROGRAM.FILE {F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/Main.bit} [lindex [get_hw_devices xc7k160t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7k160t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROGRAM.FILE {F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/Main.bit} [lindex [get_hw_devices xc7k160t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7k160t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+close_sim
+launch_simulation
+source clk_test.tcl
+relaunch_sim
+add_wave {{/clk_test/wallclk/millisecond}} 
+relaunch_sim
+close_sim
+launch_simulation
+source clk_test.tcl
+close_sim
+launch_simulation
+source clk_test.tcl
+close_sim
+launch_simulation
+source clk_test.tcl
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target
+current_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROGRAM.FILE {F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/Main.bit} [lindex [get_hw_devices xc7k160t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7k160t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROGRAM.FILE {F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/Main.bit} [lindex [get_hw_devices xc7k160t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7k160t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROGRAM.FILE {F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/Main.bit} [lindex [get_hw_devices xc7k160t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7k160t_0] 0]
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/Main.bit} [lindex [get_hw_devices xc7k160t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROGRAM.FILE {F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/Main.bit} [lindex [get_hw_devices xc7k160t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7k160t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROGRAM.FILE {F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/Main.bit} [lindex [get_hw_devices xc7k160t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7k160t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/Main.bit} [lindex [get_hw_devices xc7k160t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROGRAM.FILE {F:/vivado/Top_WallClock/Top_WallClock.runs/impl_1/Main.bit} [lindex [get_hw_devices xc7k160t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7k160t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+close_sim
+close_project
+open_project F:/vivado/ps2/ps2.xpr
+close_project
+open_project F:/vivado/ps2_test/ps2_test.xpr

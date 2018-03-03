@@ -1,0 +1,79 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.3 (win64) Build 1682563 Mon Oct 10 19:07:27 MDT 2016
+| Date         : Tue Jan 03 09:44:09 2017
+| Host         : Shana-Laptop running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_control_sets_placed.rpt
+| Design       : top
+| Device       : xc7k160t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    12 |
+| Unused register locations in slices containing registers |    34 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               1 |            1 |
+| No           | No                    | Yes                    |              24 |           10 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               8 |            6 |
+| Yes          | No                    | Yes                    |              53 |           15 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++-----------------------------+-------------------------------------------+--------------------------------------+------------------+----------------+
+|         Clock Signal        |               Enable Signal               |           Set/Reset Signal           | Slice Load Count | Bel Load Count |
++-----------------------------+-------------------------------------------+--------------------------------------+------------------+----------------+
+| ~clk_IBUF_BUFG              |                                           |                                      |                1 |              1 |
+|  clk_IBUF_BUFG              | initialNest/E[0]                          | initialNest/random/rand_num_reg[0]_0 |                1 |              3 |
+|  clk_IBUF_BUFG              | initialNest/i[3]_i_1_n_0                  | initialNest/random/rand_num_reg[0]_0 |                2 |              4 |
+|  clk_IBUF_BUFG              | initialNest/data[5]_i_1_n_0               | initialNest/random/rand_num_reg[0]_0 |                1 |              6 |
+|  clk_IBUF_BUFG              | initialNest/count                         | initialNest/random/rand_num_reg[0]_0 |                2 |              7 |
+|  clk_IBUF_BUFG              | initialNest/ret                           | initialNest/random/rand_num_reg[0]_0 |                3 |              7 |
+|  clk_IBUF_BUFG              | initialNest/x                             | initialNest/random/rand_num_reg[0]_0 |                2 |              8 |
+|  clk_IBUF_BUFG              | initialNest/addr[7]_i_1_n_0               | initialNest/random/rand_num_reg[0]_0 |                1 |              8 |
+| ~clk_IBUF_BUFG              | initialNest/aroundCell/addr[7]_i_1__0_n_0 |                                      |                6 |              8 |
+|  display/clkdiv/XCnt_reg[0] |                                           | initialNest/random/rand_num_reg[0]_0 |                4 |             10 |
+|  display/clkdiv/XCnt_reg[0] | display/vgaSync/YCnt[9]_i_1_n_0           | initialNest/random/rand_num_reg[0]_0 |                3 |             10 |
+|  clk_IBUF_BUFG              |                                           | initialNest/random/rand_num_reg[0]_0 |                6 |             14 |
++-----------------------------+-------------------------------------------+--------------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 1      |                     1 |
+| 3      |                     1 |
+| 4      |                     1 |
+| 6      |                     1 |
+| 7      |                     2 |
+| 8      |                     3 |
+| 10     |                     2 |
+| 14     |                     1 |
++--------+-----------------------+
+
+

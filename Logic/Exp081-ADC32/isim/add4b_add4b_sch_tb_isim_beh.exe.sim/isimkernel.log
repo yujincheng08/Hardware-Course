@@ -1,0 +1,28 @@
+Command line:
+   add4b_add4b_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  4148
+
+Sun Nov 27 20:52:36 2016
+
+
+ Elaboration Time: 1.15625 sec
+
+ Current Memory Usage: 1347.67 Meg
+
+ Total Signals          : 212
+ Total Nets             : 64
+ Total Signal Drivers   : 50
+ Total Blocks           : 42
+ Total Primitive Blocks : 35
+ Total Processes        : 52
+ Total Traceable Variables  : 24
+ Total Scalar Nets and Variables : 222
+
+ Total Simulation Time: 1.25 sec
+
+ Current Memory Usage: 718.5 Meg
+
+Sun Nov 27 20:54:45 2016
+

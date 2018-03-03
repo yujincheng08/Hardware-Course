@@ -1,0 +1,36 @@
+vhdtdtfi -lib work E:/3150101155/Exp05-38Decoder/TOP_HCT138.v -lang verilog -prj Exp05-38Decoder -o TOP_HCT138.spl -module TOP_HCT138 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 TOP_HCT138.spl E:/3150101155/Exp05-38Decoder/TOP_HCT138.sym 
+xst -intstyle ise -ifn "E:/3150101155/Exp05-38Decoder/TOP_HCT138.xst" -ofn "E:/3150101155/Exp05-38Decoder/TOP_HCT138.syr" 
+xst -intstyle ise -ifn "E:/3150101155/Exp05-38Decoder/TOP_HCT138.xst" -ofn "E:/3150101155/Exp05-38Decoder/TOP_HCT138.syr" 
+xst -intstyle ise -ifn "E:/3150101155/Exp05-38Decoder/TOP_HCT138.xst" -ofn "E:/3150101155/Exp05-38Decoder/TOP_HCT138.syr" 
+xst -intstyle ise -ifn "E:/3150101155/Exp05-38Decoder/TOP_HCT138.xst" -ofn "E:/3150101155/Exp05-38Decoder/TOP_HCT138.syr" 
+xst -intstyle ise -ifn "E:/3150101155/Exp05-38Decoder/TOP_HCT138.xst" -ofn "E:/3150101155/Exp05-38Decoder/TOP_HCT138.syr" 
+xst -intstyle ise -ifn "E:/3150101155/Exp05-38Decoder/TOP_HCT138.xst" -ofn "E:/3150101155/Exp05-38Decoder/TOP_HCT138.syr" 
+xst -intstyle ise -ifn "E:/3150101155/Exp05-38Decoder/TOP_HCT138.xst" -ofn "E:/3150101155/Exp05-38Decoder/TOP_HCT138.syr" 
+xst -intstyle ise -ifn "E:/3150101155/Exp05-38Decoder/TOP_HCT138.xst" -ofn "E:/3150101155/Exp05-38Decoder/TOP_HCT138.syr" 
+xst -intstyle ise -ifn "E:/3150101155/Exp05-38Decoder/TOP_HCT138.xst" -ofn "E:/3150101155/Exp05-38Decoder/TOP_HCT138.syr" 
+xst -intstyle ise -ifn "E:/3150101155/Exp05-38Decoder/TOP_HCT138.xst" -ofn "E:/3150101155/Exp05-38Decoder/TOP_HCT138.syr" 
+xst -intstyle ise -ifn "E:/3150101155/Exp05-38Decoder/TOP_HCT138.xst" -ofn "E:/3150101155/Exp05-38Decoder/TOP_HCT138.syr" 
+xst -intstyle ise -ifn "E:/3150101155/Exp05-38Decoder/TOP_HCT138.xst" -ofn "E:/3150101155/Exp05-38Decoder/TOP_HCT138.syr" 
+xst -intstyle ise -ifn "E:/3150101155/Exp05-38Decoder/TOP_HCT138.xst" -ofn "E:/3150101155/Exp05-38Decoder/TOP_HCT138.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7k160t-ffg676-2L TOP_HCT138.ngc TOP_HCT138.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o TOP_HCT138_map.ncd TOP_HCT138.ngd TOP_HCT138.pcf 
+par -w -intstyle ise -ol high -mt off TOP_HCT138_map.ncd TOP_HCT138.ncd TOP_HCT138.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml TOP_HCT138.twx TOP_HCT138.ncd -o TOP_HCT138.twr TOP_HCT138.pcf 
+bitgen -intstyle ise -f TOP_HCT138.ut TOP_HCT138.ncd 
+xst -intstyle ise -ifn "E:/3150101155/Exp05-38Decoder/TOP_HCT138.xst" -ofn "E:/3150101155/Exp05-38Decoder/TOP_HCT138.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7k160t-ffg676-2L TOP_HCT138.ngc TOP_HCT138.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o TOP_HCT138_map.ncd TOP_HCT138.ngd TOP_HCT138.pcf 
+par -w -intstyle ise -ol high -mt off TOP_HCT138_map.ncd TOP_HCT138.ncd TOP_HCT138.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml TOP_HCT138.twx TOP_HCT138.ncd -o TOP_HCT138.twr TOP_HCT138.pcf 
+bitgen -intstyle ise -f TOP_HCT138.ut TOP_HCT138.ncd 
+xst -intstyle ise -ifn "E:/Learning/ISE/Exp05-38Decoder/TOP_HCT138.xst" -ofn "E:/Learning/ISE/Exp05-38Decoder/TOP_HCT138.syr" 
+xst -intstyle ise -ifn "E:/Learning/ISE/Exp05-38Decoder/TOP_HCT138.xst" -ofn "E:/Learning/ISE/Exp05-38Decoder/TOP_HCT138.syr" 
+xst -intstyle ise -ifn "E:/Learning/ISE/Exp05-38Decoder/TOP_HCT138.xst" -ofn "E:/Learning/ISE/Exp05-38Decoder/TOP_HCT138.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc HCT138.ucf -p xc7k160t-ffg676-2L TOP_HCT138.ngc TOP_HCT138.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o TOP_HCT138_map.ncd TOP_HCT138.ngd TOP_HCT138.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc HCT138.ucf -p xc7k160t-ffg676-2L TOP_HCT138.ngc TOP_HCT138.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o TOP_HCT138_map.ncd TOP_HCT138.ngd TOP_HCT138.pcf 
+par -w -intstyle ise -ol high -mt off TOP_HCT138_map.ncd TOP_HCT138.ncd TOP_HCT138.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml TOP_HCT138.twx TOP_HCT138.ncd -o TOP_HCT138.twr TOP_HCT138.pcf -ucf HCT138.ucf 
+bitgen -intstyle ise -f TOP_HCT138.ut TOP_HCT138.ncd 

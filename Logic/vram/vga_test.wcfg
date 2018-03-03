@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="F:/3150101155/vram/vga_test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="vga_test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/vga_test/vgaRBG" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">vgaRBG[11:0]</obj_property>
+      <obj_property name="ObjectShortName">vgaRBG[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_test/HSync" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">HSync</obj_property>
+      <obj_property name="ObjectShortName">HSync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_test/VSync" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">VSync</obj_property>
+      <obj_property name="ObjectShortName">VSync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_test/Wclk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Wclk</obj_property>
+      <obj_property name="ObjectShortName">Wclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_test/VGAclk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">VGAclk</obj_property>
+      <obj_property name="ObjectShortName">VGAclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_test/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_test/WAddr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">WAddr[18:0]</obj_property>
+      <obj_property name="ObjectShortName">WAddr[18:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_test/Din" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Din[11:0]</obj_property>
+      <obj_property name="ObjectShortName">Din[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_test/WE" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">WE</obj_property>
+      <obj_property name="ObjectShortName">WE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_test/uut/xpos" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">xpos[9:0]</obj_property>
+      <obj_property name="ObjectShortName">xpos[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_test/uut/ypos" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ypos[9:0]</obj_property>
+      <obj_property name="ObjectShortName">ypos[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_test/uut/VGA_Sync/valid" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">valid</obj_property>
+      <obj_property name="ObjectShortName">valid</obj_property>
+   </wvobject>
+</wave_config>

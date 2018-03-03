@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Mon Apr 10 19:48:40 2017
+# Process ID: 43532
+# Current directory: D:/Users/Shana/Desktop/EXP5/vivado/vivado.sim/sim_1/synth/timing
+# Command line: wbtcv.exe -mode batch -source D:/Users/Shana/Desktop/EXP5/vivado/vivado.sim/sim_1/synth/timing/xsim.dir/Main_Main_sch_tb_time_synth/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/Users/Shana/Desktop/EXP5/vivado/vivado.sim/sim_1/synth/timing/webtalk.log
+# Journal file: D:/Users/Shana/Desktop/EXP5/vivado/vivado.sim/sim_1/synth/timing\webtalk.jou
+#-----------------------------------------------------------
+source D:/Users/Shana/Desktop/EXP5/vivado/vivado.sim/sim_1/synth/timing/xsim.dir/Main_Main_sch_tb_time_synth/webtalk/xsim_webtalk.tcl -notrace

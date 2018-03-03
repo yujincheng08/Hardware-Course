@@ -1,0 +1,140 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : SCPU_ctrl.vf
+// /___/   /\     Timestamp : 04/11/2017 14:36:03
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -sympath D:/Users/Shana/Desktop/EXP6/ipcore_dir -intstyle ise -family kintex7 -verilog D:/Users/Shana/Desktop/EXP6/SCPU_ctrl.vf -w D:/Users/Shana/Desktop/EXP6/SCPU_ctrl.sch
+//Design Name: SCPU_ctrl
+//Device: kintex7
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale  100 ps / 10 ps
+
+module NOR6_HXILINX_SCPU_ctrl (O, I0, I1, I2, I3, I4, I5);
+    
+
+   output O;
+
+   input I0;
+   input I1;
+   input I2;
+   input I3;
+   input I4;
+   input I5;
+
+assign O = !(I0 || I1 || I2 || I3 || I4 || I5);
+
+endmodule
+`timescale 1ns / 1ps
+
+module SCPU_ctrl(Fun, 
+                 MIO_ready, 
+                 OPcode, 
+                 ALUSrc_B, 
+                 ALU_Control, 
+                 Branch, 
+                 CPU_MIO, 
+                 Jump, 
+                 MemtoReg, 
+                 mem_w, 
+                 RegDst, 
+                 RegWrite);
+
+    input [5:0] Fun;
+    input MIO_ready;
+    input [5:0] OPcode;
+   output ALUSrc_B;
+   output [2:0] ALU_Control;
+   output Branch;
+   output CPU_MIO;
+   output Jump;
+   output MemtoReg;
+   output mem_w;
+   output RegDst;
+   output RegWrite;
+   
+   wire ALUop0;
+   wire ALUop1;
+   wire XLXN_61;
+   wire XLXN_62;
+   wire XLXN_84;
+   wire Branch_DUMMY;
+   wire RegDst_DUMMY;
+   wire mem_w_DUMMY;
+   wire MemtoReg_DUMMY;
+   
+   assign Branch = Branch_DUMMY;
+   assign MemtoReg = MemtoReg_DUMMY;
+   assign mem_w = mem_w_DUMMY;
+   assign RegDst = RegDst_DUMMY;
+   (* HU_SET = "XLXI_1_0" *) 
+   NOR6_HXILINX_SCPU_ctrl  XLXI_1 (.I0(OPcode[5]), 
+                                  .I1(OPcode[4]), 
+                                  .I2(OPcode[3]), 
+                                  .I3(OPcode[2]), 
+                                  .I4(OPcode[1]), 
+                                  .I5(OPcode[0]), 
+                                  .O(RegDst_DUMMY));
+   AND5B2  XLXI_2 (.I0(OPcode[3]), 
+                  .I1(OPcode[2]), 
+                  .I2(OPcode[1]), 
+                  .I3(OPcode[0]), 
+                  .I4(OPcode[5]), 
+                  .O(MemtoReg_DUMMY));
+   AND5B1  XLXI_3 (.I0(OPcode[2]), 
+                  .I1(OPcode[5]), 
+                  .I2(OPcode[3]), 
+                  .I3(OPcode[1]), 
+                  .I4(OPcode[0]), 
+                  .O(mem_w_DUMMY));
+   AND5B4  XLXI_4 (.I0(OPcode[5]), 
+                  .I1(OPcode[3]), 
+                  .I2(OPcode[1]), 
+                  .I3(OPcode[0]), 
+                  .I4(OPcode[2]), 
+                  .O(Branch_DUMMY));
+   AND5B4  XLXI_5 (.I0(OPcode[5]), 
+                  .I1(OPcode[3]), 
+                  .I2(OPcode[2]), 
+                  .I3(OPcode[0]), 
+                  .I4(OPcode[1]), 
+                  .O(Jump));
+   OR2  XLXI_6 (.I0(mem_w_DUMMY), 
+               .I1(MemtoReg_DUMMY), 
+               .O(ALUSrc_B));
+   OR2  XLXI_7 (.I0(RegDst_DUMMY), 
+               .I1(MemtoReg_DUMMY), 
+               .O(RegWrite));
+   BUF  XLXI_8 (.I(RegDst_DUMMY), 
+               .O(ALUop1));
+   BUF  XLXI_9 (.I(Branch_DUMMY), 
+               .O(ALUop0));
+   AND2  XLXI_14 (.I0(Fun[1]), 
+                 .I1(ALUop1), 
+                 .O(XLXN_62));
+   AND2  XLXI_15 (.I0(XLXN_61), 
+                 .I1(ALUop1), 
+                 .O(ALU_Control[0]));
+   OR2  XLXI_16 (.I0(Fun[3]), 
+                .I1(XLXN_84), 
+                .O(XLXN_61));
+   OR2  XLXI_17 (.I0(XLXN_62), 
+                .I1(ALUop0), 
+                .O(ALU_Control[2]));
+   NAND2  XLXI_18 (.I0(Fun[2]), 
+                  .I1(ALUop1), 
+                  .O(ALU_Control[1]));
+   AND2B1  XLXI_19 (.I0(Fun[1]), 
+                   .I1(Fun[0]), 
+                   .O(XLXN_84));
+endmodule

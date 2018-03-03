@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="F:/3150101155/vram/vga_test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="vga_test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="1" />
+   <wvobject fp_name="/vga_test/vgaRBG" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">vgaRBG[11:0]</obj_property>
+      <obj_property name="ObjectShortName">vgaRBG[11:0]</obj_property>
+   </wvobject>
+</wave_config>

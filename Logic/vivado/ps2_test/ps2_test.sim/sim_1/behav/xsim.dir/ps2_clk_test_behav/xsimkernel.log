@@ -1,0 +1,7 @@
+Running: xsim.dir/ps2_clk_test_behav/xsimk.exe -simmode gui -wdb ps2_clk_test_behav.wdb -simrunnum 0 -socket 9724
+Design successfully loaded
+Design Loading Memory Usage: 9820 KB (Peak: 9820 KB)
+Design Loading CPU Usage: 249 ms
+Simulation completed
+Simulation Memory Usage: 18672 KB (Peak: 18672 KB)
+Simulation CPU Usage: 390 ms

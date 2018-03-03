@@ -1,0 +1,70 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Thu Dec 29 22:46:26 2016
+# Process ID: 11556
+# Current directory: F:/vivado/NestGather
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18380 F:\vivado\NestGather\NestGather.xpr
+# Log file: F:/vivado/NestGather/vivado.log
+# Journal file: F:/vivado/NestGather\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/vivado/NestGather/NestGather.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Output Repository Path: Could not find the directory 'F:/vivado/NestGather/NestGather.cache/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Tools/XILINX/Vivado/2016.3/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 768.105 ; gain = 109.469
+remove_files  F:/vivado/vga/vga.srcs/sources_1/ip/vram/vram.xci
+remove_files  F:/vivado/vga/vga.srcs/sources_1/x.coe
+INFO: [Device 21-403] Loading part xc7k160tfbg676-2L
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+create_ip -name blk_mem_gen -vendor xilinx.com -library ip -version 8.3 -module_name vram
+set_property -dict [list CONFIG.Memory_Type {True_Dual_Port_RAM} CONFIG.Enable_32bit_Address {false} CONFIG.Write_Width_A {12} CONFIG.Write_Depth_A {307200} CONFIG.Operating_Mode_A {NO_CHANGE} CONFIG.Enable_A {Always_Enabled} CONFIG.Operating_Mode_B {READ_FIRST} CONFIG.Enable_B {Always_Enabled} CONFIG.Load_Init_File {true} CONFIG.Coe_File {F:/vivado/NestGather/NestGather.srcs/sources_1/x.coe} CONFIG.Use_Byte_Write_Enable {false} CONFIG.Byte_Size {9} CONFIG.Assume_Synchronous_Clk {false} CONFIG.Read_Width_A {12} CONFIG.Write_Width_B {12} CONFIG.Read_Width_B {12} CONFIG.Register_PortA_Output_of_Memory_Primitives {true} CONFIG.Register_PortB_Output_of_Memory_Primitives {true} CONFIG.Use_RSTA_Pin {false} CONFIG.Use_RSTB_Pin {false} CONFIG.Port_B_Clock {100} CONFIG.Port_B_Write_Rate {50} CONFIG.Port_B_Enable_Rate {100}] [get_ips vram]
+INFO: [IP_Flow 19-3484] Absolute path of file 'f:/vivado/NestGather/NestGather.srcs/sources_1/x.coe' provided. It will be converted relative to IP Instance files '../../x.coe'
+generate_target {instantiation_template} [get_files f:/vivado/NestGather/NestGather.srcs/sources_1/ip/vram/vram.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'vram'...
+generate_target all [get_files  f:/vivado/NestGather/NestGather.srcs/sources_1/ip/vram/vram.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'vram'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'vram'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'vram'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'vram'...
+generate_target: Time (s): cpu = 00:00:47 ; elapsed = 00:00:53 . Memory (MB): peak = 1080.301 ; gain = 0.000
+export_ip_user_files -of_objects [get_files f:/vivado/NestGather/NestGather.srcs/sources_1/ip/vram/vram.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] f:/vivado/NestGather/NestGather.srcs/sources_1/ip/vram/vram.xci]
+launch_runs -jobs 4 vram_synth_1
+[Thu Dec 29 22:58:46 2016] Launched vram_synth_1...
+Run output will be captured here: F:/vivado/NestGather/NestGather.runs/vram_synth_1/runme.log
+export_simulation -of_objects [get_files f:/vivado/NestGather/NestGather.srcs/sources_1/ip/vram/vram.xci] -directory F:/vivado/NestGather/NestGather.ip_user_files/sim_scripts -ip_user_files_dir F:/vivado/NestGather/NestGather.ip_user_files -ipstatic_source_dir F:/vivado/NestGather/NestGather.ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/vivado/NestGather/NestGather.cache/compile_simlib/modelsim} {questa=F:/vivado/NestGather/NestGather.cache/compile_simlib/questa} {riviera=F:/vivado/NestGather/NestGather.cache/compile_simlib/riviera} {activehdl=F:/vivado/NestGather/NestGather.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Thu Dec 29 23:29:26 2016] Launched synth_1...
+Run output will be captured here: F:/vivado/NestGather/NestGather.runs/synth_1/runme.log
+add_files -norecurse -scan_for_includes {F:/vivado/vga/vga.srcs/sources_1/new/vga.v F:/vivado/vga/vga.srcs/sources_1/new/clkdiv.v F:/vivado/vga/vga.srcs/sources_1/new/vgaSync.v}
+import_files -norecurse {F:/vivado/vga/vga.srcs/sources_1/new/vga.v F:/vivado/vga/vga.srcs/sources_1/new/clkdiv.v F:/vivado/vga/vga.srcs/sources_1/new/vgaSync.v}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+close [ open F:/vivado/NestGather/NestGather.srcs/sources_1/new/addrConvert.v w ]
+add_files F:/vivado/NestGather/NestGather.srcs/sources_1/new/addrConvert.v
+add_files -norecurse -scan_for_includes {F:/vivado/NestGather/NestGather.srcs/sources_1/new/vgaSync.v F:/vivado/NestGather/NestGather.srcs/sources_1/new/clkdiv.v F:/vivado/NestGather/NestGather.srcs/sources_1/new/vga.v}
+import_files -norecurse {F:/vivado/NestGather/NestGather.srcs/sources_1/new/vgaSync.v F:/vivado/NestGather/NestGather.srcs/sources_1/new/clkdiv.v F:/vivado/NestGather/NestGather.srcs/sources_1/new/vga.v}
+remove_files  F:/vivado/NestGather/NestGather.srcs/sources_1/new/addrConvert.v
+file delete -force F:/vivado/NestGather/NestGather.srcs/sources_1/new/addrConvert.v
+close [ open F:/vivado/NestGather/NestGather.srcs/sources_1/new/addMap.v w ]
+add_files F:/vivado/NestGather/NestGather.srcs/sources_1/new/addMap.v
+close [ open F:/vivado/NestGather/NestGather.srcs/sources_1/new/display.v w ]
+add_files F:/vivado/NestGather/NestGather.srcs/sources_1/new/display.v
+close [ open F:/vivado/NestGather/NestGather.srcs/sources_1/new/mouseDisp.v w ]
+add_files F:/vivado/NestGather/NestGather.srcs/sources_1/new/mouseDisp.v
+set_property is_enabled false [get_files  F:/vivado/NestGather/NestGather.srcs/sources_1/imports/new/vga.v]
+set_property top Main [current_fileset]
+close [ open F:/vivado/NestGather/NestGather.srcs/sources_1/new/drawMap.v w ]
+add_files F:/vivado/NestGather/NestGather.srcs/sources_1/new/drawMap.v
+close [ open F:/vivado/NestGather/NestGather.srcs/sources_1/new/nestMap.v w ]
+add_files F:/vivado/NestGather/NestGather.srcs/sources_1/new/nestMap.v
+close [ open F:/vivado/NestGather/NestGather.srcs/sources_1/new/ctrl.v w ]
+add_files F:/vivado/NestGather/NestGather.srcs/sources_1/new/ctrl.v

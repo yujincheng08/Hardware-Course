@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"SCPU_test_func_synth.v" \
+"../../../../../EXP2_vivado.srcs/sim_1/new/SCPU_test.v" \
+
+# Do not sort compile order
+nosort

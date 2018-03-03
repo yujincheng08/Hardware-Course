@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Exp13-WallClock/Exp13-WallClock.srcs/sources_1/new/count_24.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module count_24
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Exp13-WallClock/Exp13-WallClock.srcs/sim_1/new/Wall_CLOCK_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Wall_CLOCK_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Exp13-WallClock/Exp13-WallClock.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

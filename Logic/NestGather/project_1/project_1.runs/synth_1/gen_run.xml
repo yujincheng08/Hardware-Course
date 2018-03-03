@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7k160tfbg676-2L" LaunchTime="1483899984">
+  <File Type="RDS-PROPCONSTRS" Name="Main_drc_synth.rpt"/>
+  <File Type="PA-TCL" Name="Main.tcl"/>
+  <File Type="RDS-RDS" Name="Main.vds"/>
+  <File Type="RDS-UTIL" Name="Main_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="Main_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="Main.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="Main_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="Main_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/tocell.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../vivado/NestGather/NestGather.srcs/sources_1/new/tocell.v"/>
+        <Attr Name="ImportTime" Val="1483603781"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/chnest.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../vivado/NestGather/NestGather.srcs/sources_1/new/chnest.v"/>
+        <Attr Name="ImportTime" Val="1483253098"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/initialNest.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../vivado/NestGather/NestGather.srcs/sources_1/new/initialNest.v"/>
+        <Attr Name="ImportTime" Val="1483920985"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/nestDisp.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../vivado/NestGather/NestGather.srcs/sources_1/new/nestDisp.v"/>
+        <Attr Name="ImportTime" Val="1483905371"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/vgaSync.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../vivado/NestGather/NestGather.srcs/sources_1/new/vgaSync.v"/>
+        <Attr Name="ImportTime" Val="1482473309"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mouseDisp.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../vivado/NestGather/NestGather.srcs/sources_1/new/mouseDisp.v"/>
+        <Attr Name="ImportTime" Val="1483926445"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/clkdiv.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../vivado/NestGather/NestGather.srcs/sources_1/new/clkdiv.v"/>
+        <Attr Name="ImportTime" Val="1482472426"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/readMouse.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../vivado/NestGather/NestGather.srcs/sources_1/new/readMouse.v"/>
+        <Attr Name="ImportTime" Val="1483064436"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/initMouse.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../vivado/NestGather/NestGather.srcs/sources_1/new/initMouse.v"/>
+        <Attr Name="ImportTime" Val="1483010180"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mode.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../vivado/NestGather/NestGather.srcs/sources_1/new/mode.v"/>
+        <Attr Name="ImportTime" Val="1483907155"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/display.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../vivado/NestGather/NestGather.srcs/sources_1/new/display.v"/>
+        <Attr Name="ImportTime" Val="1483903747"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/PS2Mouse.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../vivado/NestGather/NestGather.srcs/sources_1/new/PS2Mouse.v"/>
+        <Attr Name="ImportTime" Val="1483068533"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Main.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../vivado/NestGather/NestGather.srcs/sources_1/new/Main.v"/>
+        <Attr Name="ImportTime" Val="1483926371"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/mouse.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../vivado/NestGather/NestGather.srcs/sources_1/mouse.coe"/>
+        <Attr Name="ImportTime" Val="1483101824"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bg.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../vivado/NestGather/NestGather.srcs/sources_1/bg.coe"/>
+        <Attr Name="ImportTime" Val="1483282498"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/nest.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../vivado/NestGather/NestGather.srcs/sources_1/new/nest.v"/>
+        <Attr Name="ImportTime" Val="1483907121"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/random.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../vivado/NestGather/NestGather.srcs/sources_1/new/random.v"/>
+        <Attr Name="ImportTime" Val="1483304492"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/aroundCell.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../vivado/NestGather/NestGather.srcs/sources_1/new/aroundCell.v"/>
+        <Attr Name="ImportTime" Val="1483304567"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/mouse/mouse.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../vivado/NestGather/NestGather.srcs/sources_1/ip/mouse/mouse.xci"/>
+        <Attr Name="ImportTime" Val="1483929248"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/addMap.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../vivado/NestGather/NestGather.srcs/sources_1/new/addMap.v"/>
+        <Attr Name="ImportTime" Val="1483283202"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/bcd2seg.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../vivado/NestGather/NestGather.srcs/sources_1/new/bcd2seg.v"/>
+        <Attr Name="ImportTime" Val="1483690707"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/mif/cell3.mif">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../mif/cell3.mif"/>
+        <Attr Name="ImportTime" Val="1483623329"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/mif/cell2.mif">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../mif/cell2.mif"/>
+        <Attr Name="ImportTime" Val="1483623464"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/mif/cell1.mif">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../mif/cell1.mif"/>
+        <Attr Name="ImportTime" Val="1483623566"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/mif/cell4.mif">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../mif/cell4.mif"/>
+        <Attr Name="ImportTime" Val="1483623162"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/mif/cell6.mif">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../mif/cell6.mif"/>
+        <Attr Name="ImportTime" Val="1483622914"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/mif/cell5.mif">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../mif/cell5.mif"/>
+        <Attr Name="ImportTime" Val="1483622942"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/mif/cell0.mif">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../mif/cell0.mif"/>
+        <Attr Name="ImportTime" Val="1483619751"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/startgame.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../vivado/NestGather/NestGather.srcs/sources_1/new/startgame.v"/>
+        <Attr Name="ImportTime" Val="1483673664"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/endgame.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../vivado/NestGather/NestGather.srcs/sources_1/new/endgame.v"/>
+        <Attr Name="ImportTime" Val="1483683422"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/prompt.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../vivado/NestGather/NestGather.srcs/sources_1/new/prompt.v"/>
+        <Attr Name="ImportTime" Val="1483906235"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Desktop/win.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../win.coe"/>
+        <Attr Name="ImportTime" Val="1483647313"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Desktop/over.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../over.coe"/>
+        <Attr Name="ImportTime" Val="1483647338"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/clk_1ms.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../vivado/Top_WallClock/Top_WallClock.srcs/sources_1/clk_1ms.v"/>
+        <Attr Name="ImportTime" Val="1482822458"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/count_60.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../vivado/Top_WallClock/Top_WallClock.srcs/sources_1/count_60.v"/>
+        <Attr Name="ImportTime" Val="1482808679"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/ms_1000.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../vivado/Top_WallClock/Top_WallClock.srcs/sources_1/ms_1000.v"/>
+        <Attr Name="ImportTime" Val="1482822611"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/bcd28seg.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../vivado/NestGather/NestGather.srcs/sources_1/new/bcd28seg.v"/>
+        <Attr Name="ImportTime" Val="1483689518"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/segdisp.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../vivado/NestGather/NestGather.srcs/sources_1/new/segdisp.v"/>
+        <Attr Name="ImportTime" Val="1483926373"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ip/P2S.ngc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../vivado/Framework/Framework.srcs/sources_1/ip/P2S.ngc"/>
+        <Attr Name="ImportTime" Val="1479098760"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/P2S_IO.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../vivado/Framework/Framework.srcs/sources_1/P2S_IO.v"/>
+        <Attr Name="ImportTime" Val="1479098760"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/New folder/startscreen.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../New folder/startscreen.coe"/>
+        <Attr Name="ImportTime" Val="1483693978"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/tone.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../vivado/NestGather/NestGather.srcs/sources_1/new/tone.v"/>
+        <Attr Name="ImportTime" Val="1483926372"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Main"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/constraints.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../vivado/NestGather/NestGather.srcs/constrs_1/new/constraints.xdc"/>
+        <Attr Name="ImportTime" Val="1483691221"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/new/small.xdc">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../vivado/NestGather/NestGather.srcs/constrs_1/new/small.xdc"/>
+        <Attr Name="ImportTime" Val="1483379479"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="overprompt"/>
+  <BlockFileSet Type="BlockSrcs" Name="winprompt"/>
+  <BlockFileSet Type="BlockSrcs" Name="startscreen"/>
+</GenRun>

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Wed Mar 15 23:23:23 2017
+# Process ID: 22484
+# Current directory: E:/Learning/Logic/vivado/P2S/P2S.runs/impl_1
+# Command line: vivado.exe -log P2S.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source P2S.tcl -notrace
+# Log file: E:/Learning/Logic/vivado/P2S/P2S.runs/impl_1/P2S.vdi
+# Journal file: E:/Learning/Logic/vivado/P2S/P2S.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source P2S.tcl -notrace

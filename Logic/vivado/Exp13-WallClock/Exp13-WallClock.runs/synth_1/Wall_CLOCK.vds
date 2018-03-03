@@ -1,0 +1,319 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Tue Dec 27 11:54:16 2016
+# Process ID: 3780
+# Current directory: F:/vivado/Exp13-WallClock/Exp13-WallClock.runs/synth_1
+# Command line: vivado.exe -log Wall_CLOCK.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Wall_CLOCK.tcl
+# Log file: F:/vivado/Exp13-WallClock/Exp13-WallClock.runs/synth_1/Wall_CLOCK.vds
+# Journal file: F:/vivado/Exp13-WallClock/Exp13-WallClock.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Wall_CLOCK.tcl -notrace
+Command: synth_design -top Wall_CLOCK -part xc7k160tfbg676-2L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k160t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k160t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 7004 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 297.199 ; gain = 87.863
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Wall_CLOCK' [F:/vivado/Exp13-WallClock/Exp13-WallClock.srcs/sources_1/new/Wall_CLOCK.v:23]
+INFO: [Synth 8-638] synthesizing module 'clk_1ms' [F:/vivado/Exp13-WallClock/Exp13-WallClock.srcs/sources_1/new/clk_1ms.v:24]
+	Parameter CLKMS bound to: 100000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'clk_1ms' (1#1) [F:/vivado/Exp13-WallClock/Exp13-WallClock.srcs/sources_1/new/clk_1ms.v:24]
+INFO: [Synth 8-638] synthesizing module 'ms_1000' [F:/vivado/Exp13-WallClock/Exp13-WallClock.srcs/sources_1/new/ms_1000.v:25]
+	Parameter MS bound to: 1000 - type: integer 
+WARNING: [Synth 8-152] case item 12'bxxxx10011001 overlaps with previous case item(s) [F:/vivado/Exp13-WallClock/Exp13-WallClock.srcs/sources_1/new/ms_1000.v:36]
+WARNING: [Synth 8-152] case item 12'bxxxxxxxx1001 overlaps with previous case item(s) [F:/vivado/Exp13-WallClock/Exp13-WallClock.srcs/sources_1/new/ms_1000.v:36]
+WARNING: [Synth 8-5788] Register clk_1s_reg in module ms_1000 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [F:/vivado/Exp13-WallClock/Exp13-WallClock.srcs/sources_1/new/ms_1000.v:40]
+INFO: [Synth 8-256] done synthesizing module 'ms_1000' (2#1) [F:/vivado/Exp13-WallClock/Exp13-WallClock.srcs/sources_1/new/ms_1000.v:25]
+INFO: [Synth 8-638] synthesizing module 'count_60' [F:/vivado/Exp13-WallClock/Exp13-WallClock.srcs/sources_1/new/count_60.v:23]
+WARNING: [Synth 8-152] case item 8'bxxxx1001 overlaps with previous case item(s) [F:/vivado/Exp13-WallClock/Exp13-WallClock.srcs/sources_1/new/count_60.v:37]
+INFO: [Synth 8-256] done synthesizing module 'count_60' (3#1) [F:/vivado/Exp13-WallClock/Exp13-WallClock.srcs/sources_1/new/count_60.v:23]
+INFO: [Synth 8-638] synthesizing module 'count_24' [F:/vivado/Exp13-WallClock/Exp13-WallClock.srcs/sources_1/new/count_24.v:23]
+INFO: [Synth 8-256] done synthesizing module 'count_24' (4#1) [F:/vivado/Exp13-WallClock/Exp13-WallClock.srcs/sources_1/new/count_24.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Wall_CLOCK' (5#1) [F:/vivado/Exp13-WallClock/Exp13-WallClock.srcs/sources_1/new/Wall_CLOCK.v:23]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 333.789 ; gain = 124.453
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 333.789 ; gain = 124.453
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k160tfbg676-2L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 333.789 ; gain = 124.453
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7k160tfbg676-2L
+WARNING: [Synth 8-327] inferring latch for variable 'd_sec_reg' [F:/vivado/Exp13-WallClock/Exp13-WallClock.srcs/sources_1/new/Wall_CLOCK.v:41]
+WARNING: [Synth 8-327] inferring latch for variable 'd_min_reg' [F:/vivado/Exp13-WallClock/Exp13-WallClock.srcs/sources_1/new/Wall_CLOCK.v:45]
+WARNING: [Synth 8-327] inferring latch for variable 'd_hour_reg' [F:/vivado/Exp13-WallClock/Exp13-WallClock.srcs/sources_1/new/Wall_CLOCK.v:46]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 339.082 ; gain = 129.746
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 4     
+	   2 Input      4 Bit       Adders := 4     
+	   2 Input      2 Bit       Adders := 1     
+	   2 Input      1 Bit       Adders := 1     
++---Registers : 
+	               12 Bit    Registers := 1     
+	                8 Bit    Registers := 3     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   4 Input     16 Bit        Muxes := 1     
+	   4 Input     12 Bit        Muxes := 1     
+	   3 Input      8 Bit        Muxes := 3     
+	   4 Input      4 Bit        Muxes := 1     
+	   5 Input      4 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 4     
+	   3 Input      1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Wall_CLOCK 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
+	   2 Input      1 Bit       Adders := 1     
++---Registers : 
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   4 Input     16 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   5 Input      4 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 2     
+Module clk_1ms 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module ms_1000 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               12 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   4 Input     12 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 2     
+Module count_60 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   3 Input      8 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 2     
+Module count_24 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   3 Input      8 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 600 (col length:100)
+BRAMs: 650 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 472.531 ; gain = 263.195
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 472.531 ; gain = 263.195
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 472.531 ; gain = 263.195
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 472.531 ; gain = 263.195
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 472.531 ; gain = 263.195
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 472.531 ; gain = 263.195
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 472.531 ; gain = 263.195
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 472.531 ; gain = 263.195
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 472.531 ; gain = 263.195
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     3|
+|2     |CARRY4 |     3|
+|3     |LUT1   |    19|
+|4     |LUT2   |     4|
+|5     |LUT3   |    12|
+|6     |LUT4   |    19|
+|7     |LUT5   |    27|
+|8     |LUT6   |    19|
+|9     |FDCE   |    38|
+|10    |FDPE   |     1|
+|11    |FDRE   |     5|
+|12    |LD     |     3|
+|13    |IBUF   |     6|
+|14    |OBUF   |    24|
++------+-------+------+
+
+Report Instance Areas: 
++------+--------------+-----------+------+
+|      |Instance      |Module     |Cells |
++------+--------------+-----------+------+
+|1     |top           |           |   183|
+|2     |  m13_hour    |count_24   |    20|
+|3     |  m13_min     |count_60   |    21|
+|4     |  m13_ms      |ms_1000    |    61|
+|5     |  m13_sec     |count_60_0 |    30|
+|6     |  millisecond |clk_1ms    |     1|
++------+--------------+-----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 472.531 ; gain = 263.195
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 7 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 472.531 ; gain = 250.102
+Synthesis Optimization Complete : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 472.531 ; gain = 263.195
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 12 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 3 instances were transformed.
+  LD => LDCE: 3 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+24 Infos, 7 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 577.230 ; gain = 363.207
+INFO: [Common 17-1381] The checkpoint 'F:/vivado/Exp13-WallClock/Exp13-WallClock.runs/synth_1/Wall_CLOCK.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.047 . Memory (MB): peak = 577.230 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Dec 27 11:54:35 2016...

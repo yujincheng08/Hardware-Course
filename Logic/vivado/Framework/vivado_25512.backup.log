@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Mon Jan 02 18:39:32 2017
+# Process ID: 25512
+# Current directory: D:/Users/Shana/Desktop/vivado/Framework
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10328 D:\Users\Shana\Desktop\vivado\Framework\Framework.xpr
+# Log file: D:/Users/Shana/Desktop/vivado/Framework/vivado.log
+# Journal file: D:/Users/Shana/Desktop/vivado/Framework\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Users/Shana/Desktop/vivado/Framework/Framework.xpr
+INFO: [Project 1-313] Project file moved from 'F:/vivado/Framework' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] IP Output Repository Path: Could not find the directory 'D:/Users/Shana/Desktop/vivado/Framework/Framework.cache/ip', nor could it be found using path 'F:/vivado/Framework/Framework.cache/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Tools/XILINX/Vivado/2016.3/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:10 . Memory (MB): peak = 761.582 ; gain = 149.941
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Jan 02 19:05:30 2017...

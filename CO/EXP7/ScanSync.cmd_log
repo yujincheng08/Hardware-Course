@@ -1,0 +1,2 @@
+sch2sym -intstyle ise -family kintex7 -refsym ScanSync F:/3150101155/Framework/ScanSync.sch F:/3150101155/Framework/ScanSync.sym 
+sch2sym -intstyle ise -family kintex7 -refsym ScanSync F:/3150101155/Framework/ScanSync.sch F:/3150101155/Framework/ScanSync.sym 

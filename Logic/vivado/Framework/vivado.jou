@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Mon Apr 10 11:50:39 2017
+# Process ID: 40136
+# Current directory: E:/Learning/Logic/vivado/Framework
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent39628 E:\Learning\Logic\vivado\Framework\Framework.xpr
+# Log file: E:/Learning/Logic/vivado/Framework/vivado.log
+# Journal file: E:/Learning/Logic/vivado/Framework\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/Learning/Logic/vivado/Framework/Framework.xpr
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1

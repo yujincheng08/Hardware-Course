@@ -1,0 +1,6 @@
+select figure at 1881 1302 8 -branches -sn=1
+select figure at 1097 344 8 -branches -sn=1
+select figure at 431 1529 8 -branches -sn=1
+select figure at 323 1180 8 -branches -sn=1
+select figure at 323 1180 8 -branches -all -sn=1
+select figure at 474 1651 8 -branches -sn=1

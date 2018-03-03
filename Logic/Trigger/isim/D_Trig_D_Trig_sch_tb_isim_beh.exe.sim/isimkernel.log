@@ -1,0 +1,10 @@
+Command line:
+   D_Trig_D_Trig_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  3407
+
+Tue Dec 06 00:14:45 2016
+
+
+ Elaboration Time: 0.765625 sec

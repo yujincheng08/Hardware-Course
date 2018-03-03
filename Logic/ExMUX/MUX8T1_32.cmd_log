@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "F:/3150101155/ExMUX/MUX8T1_32.xst" -ofn "F:/3150101155/ExMUX/MUX8T1_32.syr" 
+xst -intstyle ise -ifn "F:/3150101155/ExMUX/MUX8T1_32.xst" -ofn "F:/3150101155/ExMUX/MUX8T1_32.syr" 
+xst -intstyle ise -ifn "F:/3150101155/ExMUX/MUX8T1_32.xst" -ofn "F:/3150101155/ExMUX/MUX8T1_32.syr" 
+xst -intstyle ise -ifn "F:/3150101155/ExMUX/MUX8T1_32.xst" -ofn "F:/3150101155/ExMUX/MUX8T1_32.syr" 
+sch2hdl -intstyle ise -family kintex7 -verilog MUX8T1_32_drc.vf -w F:/3150101155/ExMUX/MUX8T1_32.sch 
+sch2hdl -intstyle ise -family kintex7 -verilog MUX8T1_32_drc.vf -w F:/3150101155/ExMUX/MUX8T1_32.sch 

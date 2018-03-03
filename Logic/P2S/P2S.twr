@@ -1,0 +1,88 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+E:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 2L
+-n 3 -fastpaths -xml P2S.twx P2S.ncd -o P2S.twr P2S.pcf
+
+Design file:              P2S.ncd
+Physical constraint file: P2S.pcf
+Device,package,speed:     xc7k160t,ffg676,C,-2L (PRODUCTION 1.10 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clk
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+PData<0>    |   -0.920(R)|      FAST  |    3.237(R)|      SLOW  |s_clk_OBUF_BUFG   |   0.000|
+PData<1>    |   -0.843(R)|      FAST  |    3.144(R)|      SLOW  |s_clk_OBUF_BUFG   |   0.000|
+PData<2>    |   -0.847(R)|      FAST  |    3.147(R)|      SLOW  |s_clk_OBUF_BUFG   |   0.000|
+PData<3>    |   -0.851(R)|      FAST  |    3.144(R)|      SLOW  |s_clk_OBUF_BUFG   |   0.000|
+PData<5>    |   -0.780(R)|      FAST  |    3.064(R)|      SLOW  |s_clk_OBUF_BUFG   |   0.000|
+PData<7>    |   -0.810(R)|      FAST  |    3.091(R)|      SLOW  |s_clk_OBUF_BUFG   |   0.000|
+PData<9>    |   -0.769(R)|      FAST  |    3.048(R)|      SLOW  |s_clk_OBUF_BUFG   |   0.000|
+PData<11>   |   -0.757(R)|      FAST  |    3.031(R)|      SLOW  |s_clk_OBUF_BUFG   |   0.000|
+PData<13>   |   -0.830(R)|      FAST  |    3.116(R)|      SLOW  |s_clk_OBUF_BUFG   |   0.000|
+PData<15>   |   -0.689(R)|      FAST  |    2.945(R)|      SLOW  |s_clk_OBUF_BUFG   |   0.000|
+Start       |   -0.979(R)|      FAST  |    3.283(R)|      SLOW  |s_clk_OBUF_BUFG   |   0.000|
+rst         |   -0.820(R)|      FAST  |    3.386(R)|      SLOW  |s_clk_OBUF_BUFG   |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock clk to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+EN          |         7.360(R)|      SLOW  |         3.346(R)|      FAST  |s_clk_OBUF_BUFG   |   0.000|
+sout        |         8.207(R)|      SLOW  |         3.534(R)|      FAST  |s_clk_OBUF_BUFG   |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    0.764|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+clk            |s_clk          |    6.685|
+---------------+---------------+---------+
+
+
+Analysis completed Tue Dec 20 15:18:17 2016 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 679 MB
+
+
+

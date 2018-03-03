@@ -1,0 +1,53 @@
+Exception at PC 0x00007FFC1FC57788
+Exception at PC 0x00007FFC1FC57788
+Exception at PC 0x00007FFC1FC57788
+Exception at PC 0x00007FFC1FC57788
+Exception at PC 0x00007FFC1FC57788
+Exception at PC 0x00007FFC1FC57788
+Exception at PC 0x00007FFC1FC57788
+Exception at PC 0x00007FFC1FC57788
+Exception at PC 0x00007FFC1FC57788
+Exception at PC 0x00007FFC1FC57788
+Unable to capture context for thread 3204 in process 16500, can not generate back trace
+Unable to capture context for thread 3356 in process 16500, can not generate back trace
+Exception at PC 0x00007FFC1FC57788
+Unable to capture context for thread 3204 in process 16500, can not generate back trace
+Unable to capture context for thread 3356 in process 16500, can not generate back trace
+Unable to capture context for thread 17340 in process 16500, can not generate back trace
+Exception at PC 0x00007FFBA4F4BB93
+Printing stacktrace...
+
+Unable to capture context for thread 17340 in process 16500, can not generate back trace
+Exception at PC 0x00007FFC1FC57788
+Exception at PC 0x00007FFC1FC57788
+Exception at PC 0x00007FFC1FC57788
+Exception at PC 0x00007FFC1FC57788
+Exception at PC 0x00007FFC1FC57788
+Exception at PC 0x00007FFC1FC57788
+Exception at PC 0x00007FFC1FC57788
+Exception at PC 0x00007FFC1FC57788
+Exception at PC 0x00007FFC1FC57788
+Exception at PC 0x00007FFC1FC57788
+Exception at PC 0x00007FFC1FC57788
+Exception at PC 0x00007FFC1FC57788
+Exception at PC 0x00007FFC1FC57788
+[0]  [0x00007FFBA4F4BB93]
+[1]  [0x00007FFBA4F4BB93]
+[2]  [0x00007FFBA4F4B4A1]
+[3]  [0x00007FFBA4F4B3EF]
+[4]  [0x00007FFBA4F319FE]
+[5]  [0x00007FFBA4F30ED1]
+[6]  [0x00007FFBA4F30D76]
+[7]  [0x00007FFBA4ED79F6]
+[8]  [0x00007FFBA4EC7AFB]
+[9]  [0x00007FFBA4FEE90A]
+[10]  [0x00007FFBA5009F87]
+[11]  [0x00007FFBA500A05F]
+[12] (BaseThreadInitThunk+0x14) [0x00007FFC209C8364]
+[13] (RtlUserThreadStart+0x21) [0x00007FFC234970D1]
+Done
+Exception at PC 0x00007FFC1FC57788
+Exception at PC 0x00007FFC1FC57788
+Exception at PC 0x00007FFC1FC57788
+Exception at PC 0x00007FFC1FC57788
+Exception at PC 0x00007FFC1FC57788

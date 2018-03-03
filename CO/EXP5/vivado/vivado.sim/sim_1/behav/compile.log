@@ -1,0 +1,136 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/vivado/vivado.srcs/sources_1/ip/ROM_D/ROM_D.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM_D
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/vivado/vivado.srcs/sources_1/ip/RAM_B/RAM_B.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM_B
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/GPIO.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GPIO
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/Reg_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Reg_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/Regs_8_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Regs_8_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/Shift64.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Shift64
+WARNING: [VRFC 10-756] identifier DATA_BITS is used before its declaration [D:/Users/Shana/Desktop/EXP5/Shift64.v:27]
+WARNING: [VRFC 10-756] identifier DATA_BITS is used before its declaration [D:/Users/Shana/Desktop/EXP5/Shift64.v:28]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/counter_32bit_rev.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter_32bit_rev
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/Reg_8bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Reg_8bit
+INFO: [VRFC 10-2458] undeclared symbol cr, assumed default net type wire [D:/Users/Shana/Desktop/EXP5/Reg_8bit.v:28]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/Element/xor32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xor32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/Element/srl32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module srl32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/Element/SignalExt_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignalExt_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/Element/or_bit_32 .v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module or_bit_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/Element/or32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module or32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/Element/nor32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nor32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/Element/MUX8T1_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX8T1_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/Element/and32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module and32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/Element/addc_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADC32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/regs.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Regs
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/REG32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/Hex2Seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Hex2Seg
+INFO: [VRFC 10-2458] undeclared symbol a, assumed default net type wire [D:/Users/Shana/Desktop/EXP5/Hex2Seg.v:29]
+INFO: [VRFC 10-2458] undeclared symbol b, assumed default net type wire [D:/Users/Shana/Desktop/EXP5/Hex2Seg.v:29]
+INFO: [VRFC 10-2458] undeclared symbol c, assumed default net type wire [D:/Users/Shana/Desktop/EXP5/Hex2Seg.v:29]
+INFO: [VRFC 10-2458] undeclared symbol d, assumed default net type wire [D:/Users/Shana/Desktop/EXP5/Hex2Seg.v:29]
+INFO: [VRFC 10-2458] undeclared symbol e, assumed default net type wire [D:/Users/Shana/Desktop/EXP5/Hex2Seg.v:29]
+INFO: [VRFC 10-2458] undeclared symbol f, assumed default net type wire [D:/Users/Shana/Desktop/EXP5/Hex2Seg.v:29]
+INFO: [VRFC 10-2458] undeclared symbol g, assumed default net type wire [D:/Users/Shana/Desktop/EXP5/Hex2Seg.v:29]
+INFO: [VRFC 10-2458] undeclared symbol p, assumed default net type wire [D:/Users/Shana/Desktop/EXP5/Hex2Seg.v:29]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/Element/MUX2T1_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2T1_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/Element/MUX2T1_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2T1_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/Element/Ext_imm16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Ext_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/Element/add_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/SSeg_map.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SSeg_map
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/Seg_map.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Seg_map
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/SCPU_ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU_ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/P2S_IO.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module P2S
+WARNING: [VRFC 10-756] identifier DATA_BITS is used before its declaration [D:/Users/Shana/Desktop/EXP5/P2S_IO.v:24]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/MUXHM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUXHM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/MUX2T1_64.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2T1_64
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/LED_P2S_IO.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LED_P2S
+WARNING: [VRFC 10-756] identifier DATA_BITS is used before its declaration [D:/Users/Shana/Desktop/EXP5/LED_P2S_IO.v:24]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/HexTo8SEG8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HexTo8SEG8
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/SPIO.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SPIO
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/SEnter_2_32_IO.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SEnter_2_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/SAnti_jitter_IO.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SAnti_jitter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/PIO.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PIO
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/Multi_8CH32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multi_8CH32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/MIO_BUS_IO.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIO_BUS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/Counter_3_IO.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Counter_x
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/clkdiv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_div
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/MUX8T1_8.vf" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX8T1_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/ScanSync.vf" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ScanSync
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/Data_path.vf" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Data_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/Seg7_Dev.vf" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Seg7_Dev
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/MC14495_ZJU.vf" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MC14495_ZJU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/Display.vf" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Display
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/Main.vf" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Main
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/MUX4T1.vf" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX4T1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/ALU.vf" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/SCPU.vf" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/Mult_8CH32_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mult_8CH32_test
+WARNING: [VRFC 10-986] literal value truncated to fit in 64 bits [D:/Users/Shana/Desktop/EXP5/Mult_8CH32_test.v:32]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/Main_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Main_Main_sch_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/Element/MUX8T1_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX8T1_8
+WARNING: [VRFC 10-1195] overwriting previous definition of module MUX8T1_8 [D:/Users/Shana/Desktop/EXP5/Element/MUX8T1_8.v:21]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/Element/MUX4T1_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX4T1_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/Element/MUX2T1_64.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2T1_64
+WARNING: [VRFC 10-1195] overwriting previous definition of module MUX2T1_64 [D:/Users/Shana/Desktop/EXP5/Element/MUX2T1_64.v:21]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/Element/MUX4T1_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX4T1_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/Element/MUX2T1_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2T1_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/Element/test_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TEST_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/MUX_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/vivado/vivado.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

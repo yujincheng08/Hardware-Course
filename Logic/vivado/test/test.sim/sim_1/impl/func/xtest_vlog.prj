@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "xtest_func_impl.v"
+verilog xil_defaultlib  "../../../../test.srcs/sim_1/new/xtest.v"
+verilog xil_defaultlib  "../../../../test.srcs/sim_1/imports/new/random.v"
+
+# Do not sort compile order
+nosort

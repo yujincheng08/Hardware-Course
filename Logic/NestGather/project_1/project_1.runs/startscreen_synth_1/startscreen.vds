@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Sat Jan 07 16:37:41 2017
+# Process ID: 20576
+# Current directory: D:/Users/Shana/Desktop/vivado/NestGather/NestGather.runs/startscreen_synth_1
+# Command line: vivado.exe -log startscreen.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source startscreen.tcl
+# Log file: D:/Users/Shana/Desktop/vivado/NestGather/NestGather.runs/startscreen_synth_1/startscreen.vds
+# Journal file: D:/Users/Shana/Desktop/vivado/NestGather/NestGather.runs/startscreen_synth_1\vivado.jou
+#-----------------------------------------------------------
+source startscreen.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP startscreen, cache-ID = dc62f86d373fccd3.

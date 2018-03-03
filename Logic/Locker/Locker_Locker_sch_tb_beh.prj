@@ -1,0 +1,3 @@
+verilog work "Locker.vf"
+verilog work "Locker_test.v"
+verilog work "D:/Tools/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

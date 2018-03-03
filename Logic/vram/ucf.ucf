@@ -1,0 +1,22 @@
+NET "clk" LOC = AC18 	|IOSTANDARD = LVCMOS18;
+NET "clk" TNM_NET = TM_CLK;
+TIMESPEC TS_CLK_100M = PERIOD "TM_CLK" 10 ns HIGH 50%;
+
+NET "Buzzer"		LOC = AF24		| 	IOSTANDARD = LVCMOS33 ;
+
+NET "vga_blue[0]"			LOC = T20       | IOSTANDARD = LVCMOS33 | SLEW = FAST ;
+NET "vga_blue[1]"			LOC = R20       | IOSTANDARD = LVCMOS33 | SLEW = FAST ;
+NET "vga_blue[2]"			LOC = T22       | IOSTANDARD = LVCMOS33 | SLEW = FAST ;
+NET "vga_blue[3]"			LOC = T23       | IOSTANDARD = LVCMOS33 | SLEW = FAST ;
+NET "vga_green[0]"			LOC = R22       | IOSTANDARD = LVCMOS33 | SLEW = FAST ;
+NET "vga_green[1]"			LOC = R23       | IOSTANDARD = LVCMOS33 | SLEW = FAST ;
+NET "vga_green[2]"			LOC = T24       | IOSTANDARD = LVCMOS33 | SLEW = FAST ;
+NET "vga_green[3]"			LOC = T25       | IOSTANDARD = LVCMOS33 | SLEW = FAST ;
+NET "vga_red[0]"			LOC = N21       | IOSTANDARD = LVCMOS33 | SLEW = FAST ;
+NET "vga_red[1]"			LOC = N22       | IOSTANDARD = LVCMOS33 | SLEW = FAST ;
+NET "vga_red[2]"			LOC = R21       | IOSTANDARD = LVCMOS33 | SLEW = FAST ;
+NET "vga_red[3]"			LOC = P21       | IOSTANDARD = LVCMOS33 | SLEW = FAST ;
+NET "vga_h_sync"			LOC = M22       | IOSTANDARD = LVCMOS33 | SLEW = FAST ;
+NET "vga_v_sync"			LOC = M21       | IOSTANDARD = LVCMOS33 | SLEW = FAST ;
+
+NET "rst_n"					LOC = W13       | IOSTANDARD = LVCMOS18 ;

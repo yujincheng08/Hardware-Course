@@ -1,0 +1,3 @@
+verilog isim_temp "vga_sync.v"
+verilog isim_temp "test.v"
+verilog isim_temp "D:/Tools/XILINX/14.7/ISE_DS/ISE//verilog/src/glbl.v"

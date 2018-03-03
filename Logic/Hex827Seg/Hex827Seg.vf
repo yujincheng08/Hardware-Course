@@ -1,0 +1,110 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : Hex827Seg.vf
+// /___/   /\     Timestamp : 11/16/2016 10:29:57
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family kintex7 -verilog F:/3150101155/Hex827Seg/Hex827Seg.vf -w F:/3150101155/Hex827Seg/Hex827Seg.sch
+//Design Name: Hex827Seg
+//Device: kintex7
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module Sseg_Dev_MUSER_Hex827Seg(clk, 
+                                flash, 
+                                Hexs, 
+                                LES, 
+                                point, 
+                                rst, 
+                                Start, 
+                                seg_clk, 
+                                seg_clrn, 
+                                SEG_PEN, 
+                                seg_sout);
+
+    input clk;
+    input flash;
+    input [31:0] Hexs;
+    input [7:0] LES;
+    input [7:0] point;
+    input rst;
+    input Start;
+   output seg_clk;
+   output seg_clrn;
+   output SEG_PEN;
+   output seg_sout;
+   
+   wire [63:0] XLXN_9;
+   
+   HexTo8SEG8  XLXI_2 (.flash(flash), 
+                      .Hexs(Hexs[31:0]), 
+                      .LES(LES[7:0]), 
+                      .points(point[7:0]), 
+                      .SEG_TXT(XLXN_9[63:0]));
+   P2S  XLXI_3 (.clk(clk), 
+               .P_Data(XLXN_9[63:0]), 
+               .rst(rst), 
+               .Serial(Start), 
+               .EN(SEG_PEN), 
+               .sout(seg_sout), 
+               .s_clk(seg_clk), 
+               .s_clrn(seg_clrn));
+endmodule
+`timescale 1ns / 1ps
+
+module Hex827Seg(clk_100mhz, 
+                 RSTN, 
+                 SW, 
+                 Buzzer, 
+                 seg_clk, 
+                 seg_clrn, 
+                 SEG_PEN, 
+                 seg_sout);
+
+    input clk_100mhz;
+    input RSTN;
+    input [15:0] SW;
+   output Buzzer;
+   output seg_clk;
+   output seg_clrn;
+   output SEG_PEN;
+   output seg_sout;
+   
+   wire [31:0] Div;
+   wire G0;
+   wire V5;
+   wire XLXN_17;
+   
+   clkdiv  M1 (.clk(clk_100mhz), 
+              .rst(XLXN_17), 
+              .clkdiv(Div[31:0]));
+   Sseg_Dev_MUSER_Hex827Seg  M3 (.clk(clk_100mhz), 
+                                .flash(Div[25]), 
+                                .Hexs({G0, G0, G0, V5, G0, G0, G0, V5, G0, G0, 
+         G0, G0, V5, G0, G0, G0, G0, G0, G0, V5, G0, G0, V5, G0, G0, G0, G0, 
+         G0, G0, V5, G0, G0}), 
+                                .LES(SW[15:8]), 
+                                .point(SW[7:0]), 
+                                .rst(XLXN_17), 
+                                .Start(Div[20]), 
+                                .seg_clk(seg_clk), 
+                                .seg_clrn(seg_clrn), 
+                                .SEG_PEN(SEG_PEN), 
+                                .seg_sout(seg_sout));
+   INV  XLXI_3 (.I(RSTN), 
+               .O(XLXN_17));
+   VCC  XLXI_4 (.P(V5));
+   BUF  XLXI_5 (.I(V5), 
+               .O(Buzzer));
+   GND  XLXI_6 (.G(G0));
+endmodule

@@ -1,0 +1,115 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.3 (win64) Build 1682563 Mon Oct 10 19:07:27 MDT 2016
+| Date         : Tue Apr 11 15:38:53 2017
+| Host         : Shana-Laptop running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Main_control_sets_placed.rpt
+| Design       : Main
+| Device       : xc7k160t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    49 |
+| Unused register locations in slices containing registers |    66 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             153 |           79 |
+| No           | No                    | Yes                    |              78 |           23 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |              64 |           30 |
+| Yes          | No                    | Yes                    |            1082 |          596 |
+| Yes          | Yes                   | No                     |              29 |            9 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++-----------------------+----------------------------------------+----------------------------------+------------------+----------------+
+|      Clock Signal     |              Enable Signal             |         Set/Reset Signal         | Slice Load Count | Bel Load Count |
++-----------------------+----------------------------------------+----------------------------------+------------------+----------------+
+|  Div_BUFG[6]          |                                        |                                  |                1 |              1 |
+|  Div_BUFG[6]          |                                        | M2/rst                           |                1 |              2 |
+|  Clk_CPU_BUFG         | XLXI_19/XLXI_2/Q_reg[28]               | M2/rst                           |                2 |              4 |
+| ~Clk_CPU_BUFG         | U7/LED_P3S/_n0075_inv_cepot            | M2/rst                           |                3 |              4 |
+|  M2/clk1_BUFG         |                                        |                                  |                3 |              5 |
+|  M2/clk1_BUFG         | M2/_n0225_inv1_cepot                   |                                  |                4 |              6 |
+| ~Clk_CPU_BUFG         |                                        | M2/rst                           |                3 |              6 |
+|  clk_100mhz_IBUF_BUFG | M2/counter1[31]_GND_1_o_LessThan_102_o | M2/RSTN_temp_sw_temp[15]_OR_54_o |                3 |              8 |
+|  clk_100mhz_IBUF_BUFG | M2/_n0243_inv1_cepot_cepot             |                                  |                5 |             17 |
+|  Clk_CPU_BUFG         | XLXI_23/GPIOf0000000_we                | M2/rst                           |                5 |             18 |
+| ~Clk_CPU_BUFG         |                                        |                                  |                7 |             19 |
+|  M2/clk1_BUFG         | M2/counter[31]_GND_1_o_LessThan_5_o    | M2/btn_temp[3]_scan_AND_1_o      |                6 |             21 |
+|  Clk_CPU_BUFG         |                                        | M2/rst                           |                6 |             28 |
+|  Clk_CPU_BUFG         | XLXI_19/XLXI_2/register_reg[12][0][0]  | M2/rst                           |               15 |             32 |
+|  Clk_CPU_BUFG         | XLXI_19/XLXI_2/register_reg[10][0][0]  | M2/rst                           |               22 |             32 |
+|  Clk_CPU_BUFG         | XLXI_19/XLXI_2/register_reg[11][0][0]  | M2/rst                           |               18 |             32 |
+|  Clk_CPU_BUFG         | XLXI_19/XLXI_2/register_reg[13][0][0]  | M2/rst                           |               20 |             32 |
+|  Clk_CPU_BUFG         | XLXI_19/XLXI_2/register_reg[14][0][0]  | M2/rst                           |               15 |             32 |
+|  Clk_CPU_BUFG         | XLXI_19/XLXI_2/register_reg[15][0][0]  | M2/rst                           |               18 |             32 |
+|  Clk_CPU_BUFG         | XLXI_19/XLXI_2/register_reg[16][0][0]  | M2/rst                           |               15 |             32 |
+|  Clk_CPU_BUFG         | XLXI_19/XLXI_2/register_reg[17][0][0]  | M2/rst                           |               15 |             32 |
+|  Clk_CPU_BUFG         | XLXI_19/XLXI_2/register_reg[18][0][0]  | M2/rst                           |               14 |             32 |
+|  Clk_CPU_BUFG         | XLXI_19/XLXI_2/register_reg[19][0][0]  | M2/rst                           |               15 |             32 |
+|  Clk_CPU_BUFG         | XLXI_19/XLXI_2/register_reg[20][0][0]  | M2/rst                           |               19 |             32 |
+|  Clk_CPU_BUFG         | XLXI_19/XLXI_2/register_reg[21][0][0]  | M2/rst                           |               14 |             32 |
+|  Clk_CPU_BUFG         | XLXI_19/XLXI_2/register_reg[28][0][0]  | M2/rst                           |               15 |             32 |
+|  Clk_CPU_BUFG         | XLXI_19/XLXI_2/register_reg[29][0][0]  | M2/rst                           |               20 |             32 |
+|  Clk_CPU_BUFG         | XLXI_19/XLXI_2/register_reg[2][0][0]   | M2/rst                           |               13 |             32 |
+|  Clk_CPU_BUFG         | XLXI_19/XLXI_2/register_reg[30][0][0]  | M2/rst                           |               23 |             32 |
+|  Clk_CPU_BUFG         | XLXI_19/XLXI_2/register_reg[31][0][0]  | M2/rst                           |               23 |             32 |
+|  Clk_CPU_BUFG         | XLXI_19/XLXI_2/register_reg[3][0][0]   | M2/rst                           |               18 |             32 |
+|  Clk_CPU_BUFG         | XLXI_19/XLXI_2/register_reg[4][0][0]   | M2/rst                           |               15 |             32 |
+|  Clk_CPU_BUFG         | XLXI_19/XLXI_2/register_reg[5][0][0]   | M2/rst                           |               22 |             32 |
+|  Clk_CPU_BUFG         | XLXI_19/XLXI_2/register_reg[6][0][0]   | M2/rst                           |               20 |             32 |
+|  Clk_CPU_BUFG         | XLXI_19/XLXI_2/register_reg[7][0][0]   | M2/rst                           |               23 |             32 |
+|  Clk_CPU_BUFG         | XLXI_19/XLXI_2/register_reg[8][0][0]   | M2/rst                           |               18 |             32 |
+|  Clk_CPU_BUFG         | XLXI_19/XLXI_2/register_reg[26][0][0]  | M2/rst                           |               14 |             32 |
+|  Clk_CPU_BUFG         | XLXI_19/XLXI_2/E[0]                    | M2/rst                           |               18 |             32 |
+|  Clk_CPU_BUFG         | XLXI_19/XLXI_2/register_reg[25][0][0]  | M2/rst                           |               17 |             32 |
+|  Clk_CPU_BUFG         | XLXI_19/XLXI_2/register_reg[24][0][0]  | M2/rst                           |               16 |             32 |
+| ~Clk_CPU_BUFG         | U7/E[0]                                | M2/rst                           |               14 |             32 |
+|  Clk_CPU_BUFG         | XLXI_19/XLXI_2/register_reg[27][0][0]  | M2/rst                           |               16 |             32 |
+|  Clk_CPU_BUFG         | XLXI_19/XLXI_2/register_reg[23][0][0]  | M2/rst                           |               22 |             32 |
+|  Div_BUFG[6]          | XLXI_21/counter0[24]                   | M2/rst                           |               19 |             32 |
+|  Clk_CPU_BUFG         | XLXI_19/XLXI_2/register_reg[22][0][0]  | M2/rst                           |               17 |             32 |
+|  Clk_CPU_BUFG         | XLXI_19/XLXI_2/register_reg[9][0][0]   | M2/rst                           |               23 |             32 |
+| ~Clk_CPU_BUFG         | XLXI_23/GPIOe0000000_we                |                                  |               21 |             41 |
+|  clk_100mhz_IBUF_BUFG |                                        | M2/rst                           |               13 |             42 |
+|  clk_100mhz_IBUF_BUFG |                                        |                                  |               68 |            128 |
++-----------------------+----------------------------------------+----------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 1      |                     1 |
+| 2      |                     1 |
+| 4      |                     2 |
+| 5      |                     1 |
+| 6      |                     2 |
+| 8      |                     1 |
+| 16+    |                    41 |
++--------+-----------------------+
+
+

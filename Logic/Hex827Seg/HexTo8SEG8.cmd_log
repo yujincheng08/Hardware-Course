@@ -1,0 +1,6 @@
+vhdtdtfi -lib work F:/3150101155/Hex827Seg/HexTo8SEG8.v -lang verilog -prj Hex827Seg -o HexTo8SEG8.spl -module HexTo8SEG8 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 HexTo8SEG8.spl F:/3150101155/Hex827Seg/HexTo8SEG8.sym 
+vhdtdtfi -lib work F:/3150101155/Hex827Seg/HexTo8SEG8.v -lang verilog -prj Hex827Seg -o HexTo8SEG8.spl -module HexTo8SEG8 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 HexTo8SEG8.spl F:/3150101155/Hex827Seg/HexTo8SEG8.sym 
+vhdtdtfi -lib work F:/3150101155/Hex827Seg/HexTo8SEG8.v -lang verilog -prj Hex827Seg -o HexTo8SEG8.spl -module HexTo8SEG8 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 HexTo8SEG8.spl F:/3150101155/Hex827Seg/HexTo8SEG8.sym 

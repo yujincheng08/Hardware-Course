@@ -1,0 +1,31 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o E:/3150101155/Exp16-Lamp138/Lamp138_sch_Lamp138_sch_sch_tb_isim_beh.exe -prj E:/3150101155/Exp16-Lamp138/Lamp138_sch_Lamp138_sch_sch_tb_beh.prj work.Lamp138_sch_Lamp138_sch_sch_tb work.glbl 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Analyzing Verilog file "E:/3150101155/Exp16-Lamp138/Decoder_38_sch.vf" into library work
+Analyzing Verilog file "E:/3150101155/Exp16-Lamp138/HCT138_sch.vf" into library work
+Analyzing Verilog file "E:/3150101155/Exp16-Lamp138/Lamp138_sch.vf" into library work
+Analyzing Verilog file "E:/3150101155/Exp16-Lamp138/test.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 105928 KB
+Fuse CPU Usage: 311 ms
+Compiling module INV
+Compiling module AND2
+Compiling module Decoder_38_sch_MUSER_Lamp138_sch
+Compiling module AND3
+Compiling module HCT138_sch_MUSER_Lamp138_sch
+Compiling module VCC
+Compiling module GND
+Compiling module NOR4
+Compiling module Lamp138_sch
+Compiling module Lamp138_sch_Lamp138_sch_sch_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 8 sub-compilation(s) to finish...
+Compiled 11 Verilog Units
+Built simulation executable E:/3150101155/Exp16-Lamp138/Lamp138_sch_Lamp138_sch_sch_tb_isim_beh.exe
+Fuse Memory Usage: 110520 KB
+Fuse CPU Usage: 405 ms

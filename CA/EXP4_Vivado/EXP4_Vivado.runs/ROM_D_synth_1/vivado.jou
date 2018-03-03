@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:07 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Wed Dec 27 08:41:55 2017
+# Process ID: 12512
+# Current directory: /home/lovesy/Documents/Learning/CA/EXP4_Vivado/EXP4_Vivado.runs/ROM_D_synth_1
+# Command line: vivado -log ROM_D.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ROM_D.tcl
+# Log file: /home/lovesy/Documents/Learning/CA/EXP4_Vivado/EXP4_Vivado.runs/ROM_D_synth_1/ROM_D.vds
+# Journal file: /home/lovesy/Documents/Learning/CA/EXP4_Vivado/EXP4_Vivado.runs/ROM_D_synth_1/vivado.jou
+#-----------------------------------------------------------
+source ROM_D.tcl -notrace

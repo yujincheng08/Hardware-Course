@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/Exp12/P2S/P2S.xst" -ofn "C:/Users/Administrator/Desktop/Exp12/P2S/P2S.syr" 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/Exp12/P2S/P2S.xst" -ofn "C:/Users/Administrator/Desktop/Exp12/P2S/P2S.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7k160t-ffg676-2L P2S.ngc P2S.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o P2S_map.ncd P2S.ngd P2S.pcf 
+par -w -intstyle ise -ol high -mt off P2S_map.ncd P2S.ncd P2S.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml P2S.twx P2S.ncd -o P2S.twr P2S.pcf 

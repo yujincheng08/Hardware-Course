@@ -1,0 +1,30 @@
+Vivado Simulator 2016.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Tools/XILINX/Vivado/2016.3/bin/unwrapped/win64.o/xelab.exe -wto 89d28514afaf478184e3cbfdb43e0328 --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot P2S_test_time_synth -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.P2S_test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+INFO: [XSIM 43-3451] SDF backannotation process started with SDF file "P2S_test_time_synth.sdf", for root module "P2S_test/P2S".
+INFO: [XSIM 43-3452] SDF backannotation was successful for SDF file "P2S_test_time_synth.sdf", for root module "P2S_test/P2S".
+Time Resolution for simulation is 1ps
+Compiling module simprims_ver.OBUF
+Compiling module simprims_ver.ffsrce_fdpe
+Compiling module simprims_ver.FDPE
+Compiling module simprims_ver.sffsrce_fdre
+Compiling module simprims_ver.FDRE
+Compiling module simprims_ver.LUT6
+Compiling module simprims_ver.LUT4
+Compiling module simprims_ver.LUT5
+Compiling module simprims_ver.x_lut2_mux4
+Compiling module simprims_ver.LUT2
+Compiling module xil_defaultlib.Shift64
+Compiling module simprims_ver.IBUF
+Compiling module simprims_ver.FDPE(INIT=1'b0)
+Compiling module simprims_ver.BUFG
+Compiling module xil_defaultlib.P2S
+Compiling module xil_defaultlib.P2S_IO
+Compiling module xil_defaultlib.P2S_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot P2S_test_time_synth

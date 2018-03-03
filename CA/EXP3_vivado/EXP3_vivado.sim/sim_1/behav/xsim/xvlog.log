@@ -1,0 +1,50 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Learning/CA/EXP3_vivado/EXP3_vivado.srcs/sources_1/ip/RAM_B/sim/RAM_B.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM_B
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Learning/CA/EXP3_vivado/EXP3_vivado.srcs/sources_1/ip/ROM_D/sim/ROM_D.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM_D
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Learning/CA/EXP3_vivado/EXP3_vivado.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Learning/CA/EXP3_vivado/EXP3_vivado.srcs/sources_1/new/Ext_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Ext_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Learning/CA/EXP3_vivado/EXP3_vivado.srcs/sources_1/new/MUX2T1_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2T1_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Learning/CA/EXP3_vivado/EXP3_vivado.srcs/sources_1/new/MUX4T1_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX4T1_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Learning/CA/EXP3_vivado/EXP3_vivado.srcs/sources_1/new/MUX8T1_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX8T1_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Learning/CA/EXP3_vivado/EXP3_vivado.srcs/sources_1/new/Regs.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Regs
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Learning/CA/EXP3_vivado/EXP3_vivado.srcs/sources_1/new/SAnti_jitter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SAnti_jitter
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Learning/CA/EXP3_vivado/EXP3_vivado.srcs/sources_1/new/SCPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Learning/CA/EXP3_vivado/EXP3_vivado.srcs/sources_1/new/SEnter_2_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SEnter_2_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Learning/CA/EXP3_vivado/EXP3_vivado.srcs/sources_1/new/clk_div.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_div
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Learning/CA/EXP3_vivado/EXP3_vivado.srcs/sources_1/new/vga.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vga
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Learning/CA/EXP3_vivado/EXP3_vivado.srcs/sources_1/new/vga_debug.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vga_debug
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Learning/CA/EXP3_vivado/EXP3_vivado.srcs/sources_1/new/Main.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Main
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Learning/CA/EXP3_vivado/EXP3_vivado.srcs/sources_1/new/Reg32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG32
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Learning/CA/EXP3_vivado/EXP3_vivado.srcs/sources_1/new/IF_Stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF_Stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Learning/CA/EXP3_vivado/EXP3_vivado.srcs/sources_1/new/ID_Stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_Stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Learning/CA/EXP3_vivado/EXP3_vivado.srcs/sources_1/new/EXE_Stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXE_Stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Learning/CA/EXP3_vivado/EXP3_vivado.srcs/sources_1/new/MEM_Stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEM_Stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Learning/CA/EXP3_vivado/EXP3_vivado.srcs/sources_1/new/WB_Stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module WB_Stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Learning/CA/EXP3_vivado/EXP3_vivado.srcs/sources_1/new/Control_Stall.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control_Stall
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Learning/CA/EXP3_vivado/EXP3_vivado.srcs/sources_1/new/Data_Stall.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Data_Stall
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Learning/CA/EXP3_vivado/EXP3_vivado.srcs/sources_1/imports/new/Forward.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Forward
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Learning/CA/EXP3_vivado/EXP3_vivado.srcs/sim_1/new/SCPU_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU_test

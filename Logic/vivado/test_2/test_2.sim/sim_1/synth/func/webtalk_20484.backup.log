@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Tue Jan 03 12:53:23 2017
+# Process ID: 20484
+# Current directory: D:/Users/Shana/Desktop/vivado/test_2/test_2.sim/sim_1/synth/func
+# Command line: wbtcv.exe -mode batch -source D:/Users/Shana/Desktop/vivado/test_2/test_2.sim/sim_1/synth/func/xsim.dir/xtest_func_synth/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/Users/Shana/Desktop/vivado/test_2/test_2.sim/sim_1/synth/func/webtalk.log
+# Journal file: D:/Users/Shana/Desktop/vivado/test_2/test_2.sim/sim_1/synth/func\webtalk.jou
+#-----------------------------------------------------------
+source D:/Users/Shana/Desktop/vivado/test_2/test_2.sim/sim_1/synth/func/xsim.dir/xtest_func_synth/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Tue Jan 03 12:53:26 2017...

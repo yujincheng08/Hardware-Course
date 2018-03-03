@@ -1,0 +1,132 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Tue May 09 13:51:21 2017
+# Process ID: 40624
+# Current directory: E:/Learning/Computer Organization/EXP5/vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent45188 E:\Learning\Computer Organization\EXP5\vivado\vivado.xpr
+# Log file: E:/Learning/Computer Organization/EXP5/vivado/vivado.log
+# Journal file: E:/Learning/Computer Organization/EXP5/vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/Learning/Computer Organization/EXP5/vivado/vivado.xpr}
+import_files
+remove_files  {{E:/Learning/Computer Organization/EXP5/vivado/vivado.srcs/sources_1/imports/EXP5/Main.vf}}
+add_files -norecurse -scan_for_includes D:/Users/Shana/Desktop/EXP7/Main.vf
+add_files -norecurse -scan_for_includes D:/Users/Shana/Desktop/EXP7/SCPU_ctrl_More.v
+add_files -norecurse -scan_for_includes D:/Users/Shana/Desktop/EXP7/Element/MUX4T1_5.v
+add_files -norecurse -scan_for_includes D:/Users/Shana/Desktop/EXP7/Element/MUX4T1_32.v
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+remove_files  D:/Users/Shana/Desktop/EXP7/Element/MUX4T1_5.v
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+remove_files  {{E:/Learning/Computer Organization/EXP5/vivado/vivado.srcs/sources_1/imports/EXP5/MUX2T1_64.v}}
+remove_files  {{E:/Learning/Computer Organization/EXP5/vivado/vivado.srcs/sources_1/imports/EXP5/MUX8T1_8.vf}}
+remove_files  -fileset sim_1 {{E:/Learning/Computer Organization/EXP5/vivado/vivado.srcs/sim_1/imports/EXP5/Element/MUX4T1_32.v}}
+launch_simulation -mode post-synthesis -type functional
+open_wave_config E:/Learning/Computer
+open_wave_config Organization/EXP5/vivado/vivado.srcs/sim_1/imports/EXP5/vivado/Main_Main_sch_tb_func_synth.wcfg
+source Main_Main_sch_tb.tcl
+run 1 us
+run 1 ms
+add_wave {{/Main_Main_sch_tb/UUT/disp_data}} 
+relaunch_sim
+run 1 ms
+add_wave {{/Main_Main_sch_tb/UUT/Addr_out_0}} 
+relaunch_sim
+run 1 ms
+add_wave {{/Main_Main_sch_tb/UUT/PC}} 
+add_wave {{/Main_Main_sch_tb/UUT/inst_0}} 
+relaunch_sim
+run 1 ms
+add_wave {{/Main_Main_sch_tb/UUT/PC}} 
+relaunch_sim
+run 1 ms
+close_sim
+close_design
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+add_files -norecurse -scan_for_includes D:/Users/Shana/Desktop/EXP7/Element/MUX2T1_64.v
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+remove_files  D:/Users/Shana/Desktop/EXP7/Element/MUX2T1_64.v
+add_files -norecurse -scan_for_includes D:/Users/Shana/Desktop/EXP7/MUX2T1_64.v
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_simulation -mode post-synthesis -type functional
+open_wave_config E:/Learning/Computer
+open_wave_config Organization/EXP5/vivado/vivado.srcs/sim_1/imports/EXP5/vivado/Main_Main_sch_tb_func_synth.wcfg
+source Main_Main_sch_tb.tcl
+add_wave {{/Main_Main_sch_tb/UUT/Addr_out_0}} 
+relaunch_sim
+add_wave {{/Main_Main_sch_tb/UUT/XLXI_24/XLXI_3/RegDst_reg_i_1_n_0}} {{/Main_Main_sch_tb/UUT/XLXI_24/XLXI_3/RegDst_reg_i_2_n_0}} {{/Main_Main_sch_tb/UUT/XLXI_24/XLXI_3/RegDst_reg_i_3_n_0}} {{/Main_Main_sch_tb/UUT/XLXI_24/XLXI_3/RegDst_reg_i_4_n_0}} 
+relaunch_sim
+add_wave {{/Main_Main_sch_tb/UUT/XLXI_24/XLXI_4/XLXI_1/o}} 
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim
+close_design
+launch_simulation -mode post-synthesis -type functional
+open_wave_config E:/Learning/Computer
+open_wave_config Organization/EXP5/vivado/vivado.srcs/sim_1/imports/EXP5/vivado/Main_Main_sch_tb_func_synth.wcfg
+source Main_Main_sch_tb.tcl
+add_wave {{/Main_Main_sch_tb/UUT/Addr_out_0}} 
+relaunch_sim
+add_wave {{/Main_Main_sch_tb/UUT/Data_out_0}} 
+run 1 ms
+relaunch_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim
+close_design
+launch_simulation -mode post-synthesis -type functional
+open_wave_config E:/Learning/Computer
+open_wave_config Organization/EXP5/vivado/vivado.srcs/sim_1/imports/EXP5/vivado/Main_Main_sch_tb_func_synth.wcfg
+source Main_Main_sch_tb.tcl
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim
+close_design
+launch_simulation -mode post-synthesis -type functional
+open_wave_config E:/Learning/Computer
+open_wave_config Organization/EXP5/vivado/vivado.srcs/sim_1/imports/EXP5/vivado/Main_Main_sch_tb_func_synth.wcfg
+source Main_Main_sch_tb.tcl
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim
+close_design
+launch_simulation -mode post-synthesis -type functional
+open_wave_config E:/Learning/Computer
+open_wave_config Organization/EXP5/vivado/vivado.srcs/sim_1/imports/EXP5/vivado/Main_Main_sch_tb_func_synth.wcfg
+source Main_Main_sch_tb.tcl
+add_wave {{/Main_Main_sch_tb/UUT/x}} 
+relaunch_sim
+add_wave {{/Main_Main_sch_tb/UUT/Addr_out_0}} 
+relaunch_sim
+run 1 ms
+add_wave {{/Main_Main_sch_tb/UUT/Disp_num_0}} 
+relaunch_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim
+close_design
+launch_simulation -mode post-synthesis -type functional
+open_wave_config E:/Learning/Computer
+open_wave_config Organization/EXP5/vivado/vivado.srcs/sim_1/imports/EXP5/vivado/Main_Main_sch_tb_func_synth.wcfg
+source Main_Main_sch_tb.tcl
+add_wave {{/Main_Main_sch_tb/UUT/Addr_out_0}} 
+run 1 ms
+relaunch_sim
+close_sim

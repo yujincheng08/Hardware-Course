@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "F:/3150101155/Exp110-REGS/Regs_8bit.xst" -ofn "F:/3150101155/Exp110-REGS/Regs_8bit.syr" 
+xst -intstyle ise -ifn "F:/3150101155/Exp110-REGS/Regs_8bit.xst" -ofn "F:/3150101155/Exp110-REGS/Regs_8bit.syr" 

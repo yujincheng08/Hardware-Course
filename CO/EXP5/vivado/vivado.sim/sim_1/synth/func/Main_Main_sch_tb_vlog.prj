@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "Main_Main_sch_tb_func_synth.v"
+verilog xil_defaultlib  "../../../../vivado.srcs/sim_1/imports/EXP5/Mult_8CH32_test.v"
+verilog xil_defaultlib  "../../../../vivado.srcs/sim_1/imports/EXP5/Main_test.v"
+verilog xil_defaultlib  "../../../../vivado.srcs/sim_1/imports/EXP5/Element/MUX8T1_8.v"
+verilog xil_defaultlib  "../../../../vivado.srcs/sim_1/imports/EXP5/Element/MUX4T1_5.v"
+verilog xil_defaultlib  "../../../../vivado.srcs/sim_1/imports/EXP5/Element/MUX2T1_64.v"
+verilog xil_defaultlib  "../../../../vivado.srcs/sim_1/imports/EXP5/Element/MUX2T1_8.v"
+verilog xil_defaultlib  "../../../../vivado.srcs/sim_1/imports/EXP5/Element/test_32.v"
+verilog xil_defaultlib  "../../../../vivado.srcs/sim_1/imports/EXP5/MUX_test.v"
+
+# Do not sort compile order
+nosort

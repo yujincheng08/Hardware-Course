@@ -1,0 +1,10 @@
+Running: D:\Tools\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o F:/3150101155/Hex427Seg/test_isim_beh.exe -prj F:/3150101155/Hex427Seg/test_beh.prj work.test work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "F:/3150101155/Hex427Seg/dispsync.v" into library work
+Analyzing Verilog file "F:/3150101155/Hex427Seg/test.v" into library work
+ERROR:HDLCompiler:806 - "F:/3150101155/Hex427Seg/test.v" Line 53: Syntax error near "<=".
+ERROR:HDLCompiler:598 - "F:/3150101155/Hex427Seg/test.v" Line 25: Module <test> ignored due to previous errors.
+Verilog file F:/3150101155/Hex427Seg/test.v ignored due to errors

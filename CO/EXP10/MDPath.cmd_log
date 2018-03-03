@@ -1,0 +1,2 @@
+vhdtdtfi -lang verilog -prj Framework -o D:/Users/Shana/Desktop/EXP10/MDPath.tfi -lib work D:/Users/Shana/Desktop/EXP10//MDPath.v -module MDPath -template D:/Tools/XILINX/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+xst -intstyle ise -ifn "D:/Users/Shana/Desktop/EXP10/MDPath.xst" -ofn "D:/Users/Shana/Desktop/EXP10/MDPath.syr" 

@@ -1,0 +1,12 @@
+Vivado Simulator 2016.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Tools/XILINX/Vivado/2016.3/bin/unwrapped/win64.o/xelab.exe -wto a31fa5a272544f07a4186f0559ded94b --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot xtest_func_synth xil_defaultlib.xtest xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 12 differs from formal bit length 1 for port vgaRGB [D:/Users/Shana/Desktop/vivado/test/test.srcs/sim_1/new/xtest.v:34]
+ERROR: [VRFC 10-426] cannot find port CLK on this module [D:/Users/Shana/Desktop/vivado/test/test.sim/sim_1/synth/func/xtest_func_synth.v:2344]
+ERROR: [VRFC 10-426] cannot find port D on this module [D:/Users/Shana/Desktop/vivado/test/test.sim/sim_1/synth/func/xtest_func_synth.v:2345]
+ERROR: [VRFC 10-426] cannot find port rand_num_reg[0]_0 on this module [D:/Users/Shana/Desktop/vivado/test/test.sim/sim_1/synth/func/xtest_func_synth.v:2347]
+ERROR: [VRFC 10-426] cannot find port rst_n_IBUF on this module [D:/Users/Shana/Desktop/vivado/test/test.sim/sim_1/synth/func/xtest_func_synth.v:2348]
+ERROR: [VRFC 10-426] cannot find port y_reg[3] on this module [D:/Users/Shana/Desktop/vivado/test/test.sim/sim_1/synth/func/xtest_func_synth.v:2349]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

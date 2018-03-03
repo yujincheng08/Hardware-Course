@@ -1,0 +1,12 @@
+
+*** Running vivado
+    with args -log overprompt.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source overprompt.tcl
+
+
+****** Vivado v2016.3 (64-bit)
+  **** SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+  **** IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source overprompt.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP overprompt, cache-ID = 04b7e3c2337b24fb.

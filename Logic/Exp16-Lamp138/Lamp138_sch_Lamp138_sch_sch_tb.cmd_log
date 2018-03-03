@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "E:/3150101155/Exp16-Lamp138/Lamp138_sch_Lamp138_sch_sch_tb.xst" -ofn "E:/3150101155/Exp16-Lamp138/Lamp138_sch_Lamp138_sch_sch_tb.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lamp_test.ucf -p xc7k160t-fbg676-1 Lamp138_sch_Lamp138_sch_sch_tb.ngc Lamp138_sch_Lamp138_sch_sch_tb.ngd  

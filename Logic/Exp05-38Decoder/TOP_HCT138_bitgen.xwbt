@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\Learning\ISE\Exp05-38Decoder\TOP_HCT138.ncd
+OUTFILE=E:\Learning\ISE\Exp05-38Decoder\TOP_HCT138.bit
+FAMILY=Kintex7
+PART=xc7k160t-2lffg676
+WORKINGDIR=E:\Learning\ISE\Exp05-38Decoder
+LICENSE=ISE
+USER_INFO=_

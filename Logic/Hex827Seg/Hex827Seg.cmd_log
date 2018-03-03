@@ -1,0 +1,26 @@
+xst -intstyle ise -ifn "F:/3150101155/Hex827Seg/Hex827Seg.xst" -ofn "F:/3150101155/Hex827Seg/Hex827Seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7k160t-fbg676-2L Hex827Seg.ngc Hex827Seg.ngd  
+map -intstyle ise -p xc7k160t-fbg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Hex827Seg_map.ncd Hex827Seg.ngd Hex827Seg.pcf 
+xst -intstyle ise -ifn "F:/3150101155/Hex827Seg/Hex827Seg.xst" -ofn "F:/3150101155/Hex827Seg/Hex827Seg.syr" 
+xst -intstyle ise -ifn "F:/3150101155/Hex827Seg/Hex827Seg.xst" -ofn "F:/3150101155/Hex827Seg/Hex827Seg.syr" 
+xst -intstyle ise -ifn "F:/3150101155/Hex827Seg/Hex827Seg.xst" -ofn "F:/3150101155/Hex827Seg/Hex827Seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Hex427Seg.ucf -p xc7k160t-fbg676-2L Hex827Seg.ngc Hex827Seg.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Hex427Seg.ucf -p xc7k160t-fbg676-2L Hex827Seg.ngc Hex827Seg.ngd  
+xst -intstyle ise -ifn "F:/3150101155/Hex827Seg/Hex827Seg.xst" -ofn "F:/3150101155/Hex827Seg/Hex827Seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Hex427Seg.ucf -p xc7k160t-fbg676-2L Hex827Seg.ngc Hex827Seg.ngd  
+map -intstyle ise -p xc7k160t-fbg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Hex827Seg_map.ncd Hex827Seg.ngd Hex827Seg.pcf 
+par -w -intstyle ise -ol high -mt off Hex827Seg_map.ncd Hex827Seg.ncd Hex827Seg.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Hex827Seg.twx Hex827Seg.ncd -o Hex827Seg.twr Hex827Seg.pcf -ucf Hex427Seg.ucf 
+bitgen -intstyle ise -f Hex827Seg.ut Hex827Seg.ncd 
+xst -intstyle ise -ifn "F:/3150101155/Hex827Seg/Hex827Seg.xst" -ofn "F:/3150101155/Hex827Seg/Hex827Seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Hex427Seg.ucf -p xc7k160t-fbg676-2L Hex827Seg.ngc Hex827Seg.ngd  
+map -intstyle ise -p xc7k160t-fbg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Hex827Seg_map.ncd Hex827Seg.ngd Hex827Seg.pcf 
+par -w -intstyle ise -ol high -mt off Hex827Seg_map.ncd Hex827Seg.ncd Hex827Seg.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Hex827Seg.twx Hex827Seg.ncd -o Hex827Seg.twr Hex827Seg.pcf -ucf Hex427Seg.ucf 
+bitgen -intstyle ise -f Hex827Seg.ut Hex827Seg.ncd 
+xst -intstyle ise -ifn "F:/3150101155/Hex827Seg/Hex827Seg.xst" -ofn "F:/3150101155/Hex827Seg/Hex827Seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Hex427Seg.ucf -p xc7k160t-fbg676-2L Hex827Seg.ngc Hex827Seg.ngd  
+map -intstyle ise -p xc7k160t-fbg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Hex827Seg_map.ncd Hex827Seg.ngd Hex827Seg.pcf 
+par -w -intstyle ise -ol high -mt off Hex827Seg_map.ncd Hex827Seg.ncd Hex827Seg.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Hex827Seg.twx Hex827Seg.ncd -o Hex827Seg.twr Hex827Seg.pcf -ucf Hex427Seg.ucf 
+bitgen -intstyle ise -f Hex827Seg.ut Hex827Seg.ncd 

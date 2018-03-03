@@ -1,0 +1,15 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Learning/Logic/vivado/P2S/P2S.srcs/sources_1/new/Shift64.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Shift64
+WARNING: [VRFC 10-756] identifier DATA_BITS is used before its declaration [E:/Learning/Logic/vivado/P2S/P2S.srcs/sources_1/new/Shift64.v:29]
+WARNING: [VRFC 10-756] identifier DATA_BITS is used before its declaration [E:/Learning/Logic/vivado/P2S/P2S.srcs/sources_1/new/Shift64.v:30]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Learning/Logic/vivado/P2S/P2S.srcs/sources_1/new/P2S_IO.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module P2S_IO
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Learning/Logic/vivado/P2S/P2S.srcs/sources_1/new/P2S.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module P2S
+WARNING: [VRFC 10-756] identifier DATA_BITS is used before its declaration [E:/Learning/Logic/vivado/P2S/P2S.srcs/sources_1/new/P2S.v:28]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Learning/Logic/vivado/P2S/P2S.srcs/sim_1/new/P2S_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module P2S_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Learning/Logic/vivado/P2S/P2S.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+WARNING: [VRFC 10-1195] overwriting previous definition of module glbl [E:/Learning/Logic/vivado/P2S/P2S.sim/sim_1/behav/glbl.v:6]

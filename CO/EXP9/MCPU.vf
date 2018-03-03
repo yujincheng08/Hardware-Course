@@ -1,0 +1,118 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : MCPU.vf
+// /___/   /\     Timestamp : 05/23/2017 14:07:27
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -sympath D:/Users/Shana/Desktop/EXP9/ipcore_dir -intstyle ise -family kintex7 -verilog D:/Users/Shana/Desktop/EXP9/MCPU.vf -w D:/Users/Shana/Desktop/EXP9/MCPU.sch
+//Design Name: MCPU
+//Device: kintex7
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module MCPU(clk, 
+            Data_in, 
+            INT, 
+            MIO_ready, 
+            reset, 
+            Addr_out, 
+            CPU_MIO, 
+            Data_out, 
+            inst_out, 
+            mem_w, 
+            PC_out, 
+            state);
+
+    input clk;
+    input [31:0] Data_in;
+    input INT;
+    input MIO_ready;
+    input reset;
+   output [31:0] Addr_out;
+   output CPU_MIO;
+   output [31:0] Data_out;
+   output [31:0] inst_out;
+   output mem_w;
+   output [31:0] PC_out;
+   output [4:0] state;
+   
+   wire XLXN_10;
+   wire XLXN_11;
+   wire XLXN_12;
+   wire XLXN_13;
+   wire XLXN_14;
+   wire XLXN_15;
+   wire XLXN_16;
+   wire XLXN_17;
+   wire XLXN_18;
+   wire XLXN_31;
+   wire XLXN_32;
+   wire XLXN_33;
+   wire [1:0] XLXN_39;
+   wire [2:0] XLXN_40;
+   wire [1:0] XLXN_41;
+   wire [1:0] XLXN_42;
+   wire [1:0] XLXN_43;
+   wire [31:0] inst_out_DUMMY;
+   
+   assign inst_out[31:0] = inst_out_DUMMY[31:0];
+   INV  XLXI_3 (.I(XLXN_31), 
+               .O(XLXN_33));
+   AND2  XLXI_4 (.I0(XLXN_32), 
+                .I1(XLXN_33), 
+                .O(mem_w));
+   MDPath  XLXI_5 (.ALUSrcA(XLXN_15), 
+                  .ALUSrcB(XLXN_42[1:0]), 
+                  .ALU_operation(XLXN_40[2:0]), 
+                  .Branch(XLXN_18), 
+                  .clk(clk), 
+                  .data2CPU(Data_in[31:0]), 
+                  .IorD(XLXN_12), 
+                  .IRWrite(XLXN_13), 
+                  .MemtoReg(XLXN_43[1:0]), 
+                  .MIO_ready(MIO_ready), 
+                  .PCSource(XLXN_41[1:0]), 
+                  .PCWrite(XLXN_16), 
+                  .PCWriteCond(XLXN_17), 
+                  .RegDst(XLXN_39[1:0]), 
+                  .RegWrite(XLXN_14), 
+                  .reset(reset), 
+                  .data_out(Data_out[31:0]), 
+                  .Inst(inst_out_DUMMY[31:0]), 
+                  .M_addr(Addr_out[31:0]), 
+                  .overflow(XLXN_10), 
+                  .PC_Current(PC_out[31:0]), 
+                  .zero(XLXN_11));
+   MCtrl  XLXI_6 (.clk(clk), 
+                 .Inst_in(inst_out_DUMMY[31:0]), 
+                 .MIO_ready(MIO_ready), 
+                 .overflow(XLXN_10), 
+                 .reset(reset), 
+                 .zero(XLXN_11), 
+                 .ALUSrcA(XLXN_15), 
+                 .ALUSrcB(XLXN_42[1:0]), 
+                 .ALU_operation(XLXN_40[2:0]), 
+                 .Branch(XLXN_18), 
+                 .CPU_MIO(CPU_MIO), 
+                 .IorD(XLXN_12), 
+                 .IRWrite(XLXN_13), 
+                 .MemRead(XLXN_31), 
+                 .MemtoReg(XLXN_43[1:0]), 
+                 .MemWrite(XLXN_32), 
+                 .PCSource(XLXN_41[1:0]), 
+                 .PCWrite(XLXN_16), 
+                 .PCWriteCond(XLXN_17), 
+                 .RegDst(XLXN_39[1:0]), 
+                 .RegWrite(XLXN_14), 
+                 .state_out(state[4:0]));
+endmodule

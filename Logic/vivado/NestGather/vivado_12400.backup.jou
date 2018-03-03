@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Sun Jan 01 22:55:54 2017
+# Process ID: 12400
+# Current directory: D:/Users/Shana/Desktop/vivado/NestGather
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7736 D:\Users\Shana\Desktop\vivado\NestGather\NestGather.xpr
+# Log file: D:/Users/Shana/Desktop/vivado/NestGather/vivado.log
+# Journal file: D:/Users/Shana/Desktop/vivado/NestGather\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Users/Shana/Desktop/vivado/NestGather/NestGather.xpr

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\Administrator\Desktop\Exp12\P2S\P2S.v" Line 51: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">D</arg>&gt;. Formal port size is <arg fmt="%d" index="2">64</arg>-bit while actual signal size is <arg fmt="%d" index="1">17</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\Administrator\Desktop\Exp12\P2S\P2S.v" Line 52: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">Q</arg>&gt;. Formal port size is <arg fmt="%d" index="2">64</arg>-bit while actual signal size is <arg fmt="%d" index="1">17</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:\Users\Administrator\Desktop\Exp12\P2S\P2S.v" Line 55: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">Q_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Shift64</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PTOS/Q_63</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">P2S</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PTOS/Q_62</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">P2S</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PTOS/Q_61</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">P2S</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PTOS/Q_60</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">P2S</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PTOS/Q_59</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">P2S</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PTOS/Q_58</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">P2S</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PTOS/Q_57</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">P2S</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PTOS/Q_56</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">P2S</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PTOS/Q_55</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">P2S</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PTOS/Q_54</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">P2S</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PTOS/Q_53</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">P2S</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PTOS/Q_52</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">P2S</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PTOS/Q_51</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">P2S</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PTOS/Q_50</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">P2S</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PTOS/Q_49</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">P2S</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PTOS/Q_48</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">P2S</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PTOS/Q_47</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">P2S</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PTOS/Q_46</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">P2S</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PTOS/Q_45</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">P2S</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PTOS/Q_44</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">P2S</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PTOS/Q_43</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">P2S</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PTOS/Q_42</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">P2S</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PTOS/Q_41</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">P2S</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PTOS/Q_40</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">P2S</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PTOS/Q_39</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">P2S</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PTOS/Q_38</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">P2S</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PTOS/Q_37</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">P2S</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PTOS/Q_36</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">P2S</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PTOS/Q_35</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">P2S</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PTOS/Q_34</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">P2S</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PTOS/Q_33</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">P2S</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PTOS/Q_32</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">P2S</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PTOS/Q_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">P2S</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PTOS/Q_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">P2S</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PTOS/Q_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">P2S</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PTOS/Q_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">P2S</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PTOS/Q_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">P2S</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PTOS/Q_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">P2S</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PTOS/Q_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">P2S</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PTOS/Q_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">P2S</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PTOS/Q_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">P2S</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PTOS/Q_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">P2S</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PTOS/Q_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">P2S</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PTOS/Q_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">P2S</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PTOS/Q_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">P2S</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PTOS/Q_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">P2S</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PTOS/Q_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">P2S</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1898" delta="new" >Due to constant pushing, FF/Latch &lt;<arg fmt="%s" index="1">PTOS/Q_15</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">P2S</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1898" delta="new" >Due to constant pushing, FF/Latch &lt;<arg fmt="%s" index="1">PTOS/Q_13</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">P2S</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1898" delta="new" >Due to constant pushing, FF/Latch &lt;<arg fmt="%s" index="1">PTOS/Q_11</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">P2S</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1898" delta="new" >Due to constant pushing, FF/Latch &lt;<arg fmt="%s" index="1">PTOS/Q_9</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">P2S</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1898" delta="new" >Due to constant pushing, FF/Latch &lt;<arg fmt="%s" index="1">PTOS/Q_7</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">P2S</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1898" delta="new" >Due to constant pushing, FF/Latch &lt;<arg fmt="%s" index="1">PTOS/Q_5</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">P2S</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="new" >The value init of the FF/Latch <arg fmt="%s" index="1">S_1</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">P2S</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">1</arg>.
+</msg>
+
+</messages>
+

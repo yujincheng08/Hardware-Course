@@ -1,0 +1,22 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/vivado/test/test.srcs/sources_1/new/random.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module random
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/vivado/test/test.srcs/sources_1/new/aroundCell.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aroundCell
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/vivado/test/test.srcs/sources_1/imports/new/tocell.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tocell
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/vivado/test/test.srcs/sources_1/imports/new/nest.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nest
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/vivado/test/test.srcs/sources_1/imports/new/chnest.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module chnest
+INFO: [VRFC 10-2458] undeclared symbol hovered, assumed default net type wire [D:/Users/Shana/Desktop/vivado/test/test.srcs/sources_1/imports/new/chnest.v:167]
+INFO: [VRFC 10-2458] undeclared symbol valid, assumed default net type wire [D:/Users/Shana/Desktop/vivado/test/test.srcs/sources_1/imports/new/chnest.v:178]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/vivado/test/test.srcs/sources_1/new/x.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module x
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/vivado/test/test.srcs/sim_1/new/ctrl_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ctrl_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/vivado/test/test.srcs/sim_1/imports/new/nest_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nest_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/vivado/test/test.srcs/sim_1/new/xtest.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xtest
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/vivado/test/test.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

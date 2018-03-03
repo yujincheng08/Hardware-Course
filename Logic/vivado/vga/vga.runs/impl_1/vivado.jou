@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Fri Dec 23 14:46:55 2016
+# Process ID: 14112
+# Current directory: F:/vivado/vga/vga.runs/impl_1
+# Command line: vivado.exe -log top_vga.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top_vga.tcl -notrace
+# Log file: F:/vivado/vga/vga.runs/impl_1/top_vga.vdi
+# Journal file: F:/vivado/vga/vga.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source top_vga.tcl -notrace

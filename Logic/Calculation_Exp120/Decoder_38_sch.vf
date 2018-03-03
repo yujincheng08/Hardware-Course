@@ -1,0 +1,97 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : Decoder_38_sch.vf
+// /___/   /\     Timestamp : 12/13/2016 22:47:56
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family kintex7 -verilog C:/Users/liu/Documents/ISE/Exp11/Calculation_Exp110/Decoder_38_sch.vf -w C:/Users/liu/Documents/ISE/Exp11/Calculation_Exp110/Decoder_38_sch.sch
+//Design Name: Decoder_38_sch
+//Device: kintex7
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module Decoder_38_sch(A, 
+                      B, 
+                      C, 
+                      O0, 
+                      O1, 
+                      O2, 
+                      O3, 
+                      O4, 
+                      O5, 
+                      O6, 
+                      O7);
+
+    input A;
+    input B;
+    input C;
+   output O0;
+   output O1;
+   output O2;
+   output O3;
+   output O4;
+   output O5;
+   output O6;
+   output O7;
+   
+   wire XLXN_11;
+   wire XLXN_15;
+   wire XLXN_19;
+   wire XLXN_21;
+   wire XLXN_23;
+   wire XLXN_28;
+   wire XLXN_32;
+   
+   AND2  XLXI_1 (.I0(XLXN_15), 
+                .I1(XLXN_11), 
+                .O(XLXN_19));
+   AND2  XLXI_2 (.I0(XLXN_15), 
+                .I1(A), 
+                .O(XLXN_21));
+   AND2  XLXI_3 (.I0(B), 
+                .I1(XLXN_11), 
+                .O(XLXN_23));
+   AND2  XLXI_4 (.I0(B), 
+                .I1(A), 
+                .O(XLXN_28));
+   INV  XLXI_5 (.I(A), 
+               .O(XLXN_11));
+   INV  XLXI_6 (.I(B), 
+               .O(XLXN_15));
+   AND2  XLXI_7 (.I0(XLXN_32), 
+                .I1(XLXN_19), 
+                .O(O0));
+   AND2  XLXI_8 (.I0(XLXN_32), 
+                .I1(XLXN_21), 
+                .O(O1));
+   AND2  XLXI_9 (.I0(XLXN_32), 
+                .I1(XLXN_23), 
+                .O(O2));
+   AND2  XLXI_10 (.I0(XLXN_32), 
+                 .I1(XLXN_28), 
+                 .O(O3));
+   AND2  XLXI_11 (.I0(C), 
+                 .I1(XLXN_19), 
+                 .O(O4));
+   AND2  XLXI_12 (.I0(C), 
+                 .I1(XLXN_21), 
+                 .O(O5));
+   AND2  XLXI_13 (.I0(C), 
+                 .I1(XLXN_23), 
+                 .O(O6));
+   AND2  XLXI_14 (.I0(C), 
+                 .I1(XLXN_28), 
+                 .O(O7));
+   INV  XLXI_15 (.I(C), 
+                .O(XLXN_32));
+endmodule

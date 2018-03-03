@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Fri Dec 30 19:11:32 2016
+# Process ID: 14976
+# Current directory: F:/vivado/ps2_test
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23388 F:\vivado\ps2_test\ps2_test.xpr
+# Log file: F:/vivado/ps2_test/vivado.log
+# Journal file: F:/vivado/ps2_test\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/vivado/ps2_test/ps2_test.xpr
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {F:/vivado/ps2_test/ps2_test.runs/impl_1/Main.bit} [lindex [get_hw_devices xc7k160t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROGRAM.FILE {F:/vivado/ps2_test/ps2_test.runs/impl_1/Main.bit} [lindex [get_hw_devices xc7k160t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7k160t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7k160t_0] 0]

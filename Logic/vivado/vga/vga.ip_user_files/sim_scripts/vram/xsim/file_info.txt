@@ -1,0 +1,2 @@
+vram.v,verilog,xil_defaultlib,../../../../vga.srcs/sources_1/ip/vram/sim/vram.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

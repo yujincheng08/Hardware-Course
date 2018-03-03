@@ -1,0 +1,24 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/3150101155/LampCtrl_sch/LampCtrl_LampCtrl_sch_tb_isim_beh.exe" -prj "E:/3150101155/LampCtrl_sch/LampCtrl_LampCtrl_sch_tb_beh.prj" "work.LampCtrl_LampCtrl_sch_tb" "work.glbl" 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Analyzing Verilog file "E:/3150101155/LampCtrl_sch/LampCtrl.vf" into library work
+Analyzing Verilog file "E:/3150101155/LampCtrl_sch/LampCtrl_sim.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 106120 KB
+Fuse CPU Usage: 311 ms
+Compiling module AND3
+Compiling module INV
+Compiling module OR4
+Compiling module LampCtrl
+Compiling module LampCtrl_LampCtrl_sch_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 3 sub-compilation(s) to finish...
+Compiled 6 Verilog Units
+Built simulation executable E:/3150101155/LampCtrl_sch/LampCtrl_LampCtrl_sch_tb_isim_beh.exe
+Fuse Memory Usage: 110712 KB
+Fuse CPU Usage: 342 ms

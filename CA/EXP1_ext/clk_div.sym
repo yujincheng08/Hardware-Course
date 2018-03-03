@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="clk_div">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2017-9-25T9:7:54</timestamp>
+    <attr value="clk_div" name="VeriModel" />
+    <pin polarity="Input" x="0" y="-112" name="clk200N" />
+    <pin polarity="Input" x="0" y="-32" name="clk200P" />
+    <pin polarity="Output" x="320" y="-112" name="clkdiv(31:0)" />
+    <pin polarity="Output" x="320" y="-32" name="CPUclk" />
+    <pin polarity="Input" x="0" y="-80" name="rst" />
+    <pin polarity="Output" x="320" y="-144" name="clk100MHz" />
+    <pin polarity="Input" x="0" y="-144" name="SW2" />
+    <graph>
+        <rect style="linewidth:W;linecolor:rgb(0,0,255);fillcolor:rgb(142,240,255);fillstyle:Solid" width="256" x="32" y="-168" height="172" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="40" y="-80" type="pin rst" />
+        <line x2="0" y1="-80" y2="-80" x1="32" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="40" y="-112" type="pin clk200N" />
+        <line x2="0" y1="-112" y2="-112" x1="32" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="40" y="-32" type="pin clk200P" />
+        <line x2="0" y1="-32" y2="-32" x1="32" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="280" y="-112" type="pin clkdiv(31:0)" />
+        <line x2="320" y1="-112" y2="-112" style="linewidth:W" x1="288" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="280" y="-32" type="pin CPUclk" />
+        <line x2="320" y1="-32" y2="-32" x1="288" />
+        <attrtext style="alignment:BCENTER;fontsize:36;fontname:Arial;textcolor:rgb(255,0,0)" attrname="SymbolName" x="216" y="-48" type="symbol" />
+        <line x2="320" y1="-144" y2="-144" x1="288" />
+        <attrtext style="alignment:RIGHT" attrname="PinName" x="280" y="-144" type="pin clk100MHz" />
+        <attrtext attrname="PinName" x="48" y="-144" type="pin SW2" />
+        <line x2="32" y1="-144" y2="-144" x1="0" />
+    </graph>
+</symbol>

@@ -1,0 +1,1136 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Mon Jan 09 02:26:28 2017
+# Process ID: 1884
+# Current directory: D:/Users/Shana/Desktop/vivado/NestGather/NestGather.runs/synth_1
+# Command line: vivado.exe -log Main.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Main.tcl
+# Log file: D:/Users/Shana/Desktop/vivado/NestGather/NestGather.runs/synth_1/Main.vds
+# Journal file: D:/Users/Shana/Desktop/vivado/NestGather/NestGather.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Main.tcl -notrace
+Command: synth_design -top Main -part xc7k160tfbg676-2L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k160t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k160t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 2744 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:20 . Memory (MB): peak = 310.824 ; gain = 100.816
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Main' [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/Main.v:23]
+INFO: [Synth 8-638] synthesizing module 'display' [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/display.v:23]
+INFO: [Synth 8-638] synthesizing module 'vgaSync' [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/new/vgaSync.v:21]
+	Parameter HActive bound to: 10'b1010000000 
+	Parameter HFront bound to: 10'b0000010000 
+	Parameter HPulse bound to: 10'b0001100000 
+	Parameter HBack bound to: 10'b0000110000 
+	Parameter HWhole bound to: 10'b1100100000 
+	Parameter VActive bound to: 10'b0111100000 
+	Parameter VFront bound to: 10'b0000001010 
+	Parameter VPulse bound to: 10'b0000000010 
+	Parameter VBack bound to: 10'b0000100001 
+	Parameter VWhole bound to: 10'b1000001101 
+INFO: [Synth 8-256] done synthesizing module 'vgaSync' (1#1) [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/new/vgaSync.v:21]
+INFO: [Synth 8-638] synthesizing module 'addMap' [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/new/addMap.v:23]
+	Parameter Height bound to: 480 - type: integer 
+	Parameter Weight bound to: 640 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'addMap' (2#1) [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/new/addMap.v:23]
+INFO: [Synth 8-638] synthesizing module 'mouseDisp' [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/mouseDisp.v:45]
+	Parameter white bound to: 12'b111111111111 
+	Parameter black bound to: 12'b000000000000 
+INFO: [Synth 8-638] synthesizing module 'mouse' [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.runs/synth_1/.Xil/Vivado-1884-Shana-Laptop/realtime/mouse_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'mouse' (3#1) [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.runs/synth_1/.Xil/Vivado-1884-Shana-Laptop/realtime/mouse_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'mouseDisp' (4#1) [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/mouseDisp.v:45]
+INFO: [Synth 8-638] synthesizing module 'prompt' [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/prompt.v:23]
+INFO: [Synth 8-638] synthesizing module 'winprompt' [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.runs/synth_1/.Xil/Vivado-1884-Shana-Laptop/realtime/winprompt_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'winprompt' (5#1) [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.runs/synth_1/.Xil/Vivado-1884-Shana-Laptop/realtime/winprompt_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'overprompt' [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.runs/synth_1/.Xil/Vivado-1884-Shana-Laptop/realtime/overprompt_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'overprompt' (6#1) [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.runs/synth_1/.Xil/Vivado-1884-Shana-Laptop/realtime/overprompt_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'prompt' (7#1) [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/prompt.v:23]
+INFO: [Synth 8-638] synthesizing module 'nestDisp' [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/nestDisp.v:23]
+INFO: [Synth 8-3876] $readmem data file 'cell0.mif' is read successfully [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/nestDisp.v:47]
+INFO: [Synth 8-3876] $readmem data file 'cell1.mif' is read successfully [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/nestDisp.v:48]
+INFO: [Synth 8-3876] $readmem data file 'cell2.mif' is read successfully [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/nestDisp.v:49]
+INFO: [Synth 8-3876] $readmem data file 'cell3.mif' is read successfully [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/nestDisp.v:50]
+INFO: [Synth 8-3876] $readmem data file 'cell4.mif' is read successfully [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/nestDisp.v:51]
+INFO: [Synth 8-3876] $readmem data file 'cell5.mif' is read successfully [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/nestDisp.v:52]
+INFO: [Synth 8-3876] $readmem data file 'cell6.mif' is read successfully [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/nestDisp.v:53]
+INFO: [Synth 8-256] done synthesizing module 'nestDisp' (8#1) [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/nestDisp.v:23]
+INFO: [Synth 8-638] synthesizing module 'startscreen' [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.runs/synth_1/.Xil/Vivado-1884-Shana-Laptop/realtime/startscreen_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'startscreen' (9#1) [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.runs/synth_1/.Xil/Vivado-1884-Shana-Laptop/realtime/startscreen_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'display' (10#1) [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/display.v:23]
+INFO: [Synth 8-638] synthesizing module 'PS2Mouse' [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/new/PS2Mouse.v:23]
+	Parameter width bound to: 10'b1010000000 
+	Parameter height bound to: 10'b0111100000 
+	Parameter scale bound to: 1'b1 
+	Parameter bits bound to: 5'b01100 
+INFO: [Synth 8-638] synthesizing module 'initMouse' [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/new/initMouse.v:22]
+	Parameter T100us bound to: 14'b10011100010000 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/new/initMouse.v:57]
+INFO: [Synth 8-256] done synthesizing module 'initMouse' (11#1) [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/new/initMouse.v:22]
+INFO: [Synth 8-638] synthesizing module 'readMouse' [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/new/readMouse.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/new/readMouse.v:53]
+INFO: [Synth 8-256] done synthesizing module 'readMouse' (12#1) [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/new/readMouse.v:23]
+INFO: [Synth 8-256] done synthesizing module 'PS2Mouse' (13#1) [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/new/PS2Mouse.v:23]
+WARNING: [Synth 8-689] width (10) of port connection 'xpos' does not match port width (12) of module 'PS2Mouse' [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/Main.v:97]
+WARNING: [Synth 8-689] width (10) of port connection 'ypos' does not match port width (12) of module 'PS2Mouse' [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/Main.v:98]
+INFO: [Synth 8-638] synthesizing module 'mode' [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/mode.v:23]
+INFO: [Synth 8-256] done synthesizing module 'mode' (14#1) [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/mode.v:23]
+INFO: [Synth 8-638] synthesizing module 'nest' [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/nest.v:23]
+INFO: [Synth 8-256] done synthesizing module 'nest' (15#1) [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/nest.v:23]
+INFO: [Synth 8-638] synthesizing module 'initialNest' [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/initialNest.v:23]
+INFO: [Synth 8-638] synthesizing module 'aroundCell' [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/aroundCell.v:22]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/aroundCell.v:33]
+INFO: [Synth 8-256] done synthesizing module 'aroundCell' (16#1) [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/aroundCell.v:22]
+INFO: [Synth 8-638] synthesizing module 'random' [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/random.v:23]
+INFO: [Synth 8-256] done synthesizing module 'random' (17#1) [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/random.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/initialNest.v:81]
+INFO: [Synth 8-256] done synthesizing module 'initialNest' (18#1) [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/initialNest.v:23]
+INFO: [Synth 8-638] synthesizing module 'chnest' [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/new/chnest.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/new/chnest.v:195]
+WARNING: [Synth 8-152] case item 5'b10xxx overlaps with previous case item(s) [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/new/chnest.v:235]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/new/chnest.v:235]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/new/chnest.v:112]
+INFO: [Synth 8-638] synthesizing module 'tocell' [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/tocell.v:23]
+	Parameter width bound to: 10'b1010000000 
+	Parameter height bound to: 10'b0111100000 
+INFO: [Synth 8-256] done synthesizing module 'tocell' (19#1) [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/tocell.v:23]
+INFO: [Synth 8-256] done synthesizing module 'chnest' (20#1) [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/new/chnest.v:23]
+WARNING: [Synth 8-689] width (8) of port connection 'bcount' does not match port width (7) of module 'chnest' [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/Main.v:185]
+INFO: [Synth 8-638] synthesizing module 'clkdiv' [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/new/clkdiv.v:23]
+INFO: [Synth 8-256] done synthesizing module 'clkdiv' (21#1) [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/new/clkdiv.v:23]
+INFO: [Synth 8-638] synthesizing module 'startgame' [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/startgame.v:23]
+INFO: [Synth 8-256] done synthesizing module 'startgame' (22#1) [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/startgame.v:23]
+INFO: [Synth 8-638] synthesizing module 'endgame' [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/endgame.v:23]
+INFO: [Synth 8-256] done synthesizing module 'endgame' (23#1) [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/endgame.v:23]
+INFO: [Synth 8-638] synthesizing module 'segdisp' [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/segdisp.v:23]
+INFO: [Synth 8-638] synthesizing module 'clk_1ms' [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/sources_1/clk_1ms.v:24]
+INFO: [Synth 8-256] done synthesizing module 'clk_1ms' (24#1) [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/sources_1/clk_1ms.v:24]
+INFO: [Synth 8-638] synthesizing module 'ms_1000' [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/sources_1/ms_1000.v:25]
+	Parameter MS bound to: 1000 - type: integer 
+WARNING: [Synth 8-152] case item 12'bxxxx10011001 overlaps with previous case item(s) [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/sources_1/ms_1000.v:40]
+WARNING: [Synth 8-152] case item 12'bxxxxxxxx1001 overlaps with previous case item(s) [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/sources_1/ms_1000.v:40]
+INFO: [Synth 8-256] done synthesizing module 'ms_1000' (25#1) [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/sources_1/ms_1000.v:25]
+INFO: [Synth 8-638] synthesizing module 'count_60' [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/sources_1/count_60.v:23]
+WARNING: [Synth 8-152] case item 8'bxxxx1001 overlaps with previous case item(s) [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/sources_1/count_60.v:37]
+INFO: [Synth 8-256] done synthesizing module 'count_60' (26#1) [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/sources_1/count_60.v:23]
+INFO: [Synth 8-638] synthesizing module 'bcd2seg' [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/bcd2seg.v:23]
+INFO: [Synth 8-256] done synthesizing module 'bcd2seg' (27#1) [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/bcd2seg.v:23]
+INFO: [Synth 8-638] synthesizing module 'bcd28seg' [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/bcd28seg.v:23]
+INFO: [Synth 8-256] done synthesizing module 'bcd28seg' (28#1) [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/bcd28seg.v:23]
+WARNING: [Synth 8-689] width (64) of port connection 'bcd' does not match port width (32) of module 'bcd28seg' [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/segdisp.v:99]
+INFO: [Synth 8-638] synthesizing module 'P2S' [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/sources_1/P2S_IO.v:21]
+	Parameter DATA_BITS bound to: 64 - type: integer 
+	Parameter DATA_COUNT_BITS bound to: 6 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'P2S' (29#1) [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/sources_1/P2S_IO.v:21]
+INFO: [Synth 8-256] done synthesizing module 'segdisp' (30#1) [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/segdisp.v:23]
+WARNING: [Synth 8-689] width (7) of port connection 'total' does not match port width (8) of module 'segdisp' [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/Main.v:231]
+INFO: [Synth 8-638] synthesizing module 'tone' [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/tone.v:23]
+INFO: [Synth 8-256] done synthesizing module 'tone' (31#1) [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/tone.v:23]
+WARNING: [Synth 8-3848] Net ledClk in module/entity Main does not have driver. [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/Main.v:27]
+WARNING: [Synth 8-3848] Net ledCtr_n in module/entity Main does not have driver. [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/Main.v:28]
+WARNING: [Synth 8-3848] Net lendo in module/entity Main does not have driver. [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/Main.v:29]
+WARNING: [Synth 8-3848] Net lenpen in module/entity Main does not have driver. [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/Main.v:30]
+WARNING: [Synth 8-3848] Net btnY in module/entity Main does not have driver. [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/Main.v:36]
+WARNING: [Synth 8-3848] Net audPWM in module/entity Main does not have driver. [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/Main.v:42]
+WARNING: [Synth 8-3848] Net audSd in module/entity Main does not have driver. [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/Main.v:43]
+WARNING: [Synth 8-3848] Net led in module/entity Main does not have driver. [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/Main.v:46]
+WARNING: [Synth 8-3848] Net TriLedR0 in module/entity Main does not have driver. [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/Main.v:48]
+WARNING: [Synth 8-3848] Net TriLedG0 in module/entity Main does not have driver. [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/Main.v:49]
+WARNING: [Synth 8-3848] Net TriLedB0 in module/entity Main does not have driver. [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/Main.v:50]
+WARNING: [Synth 8-3848] Net TriLedR1 in module/entity Main does not have driver. [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/Main.v:51]
+WARNING: [Synth 8-3848] Net TriLedG1 in module/entity Main does not have driver. [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/Main.v:52]
+WARNING: [Synth 8-3848] Net TriLedB1 in module/entity Main does not have driver. [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/Main.v:53]
+INFO: [Synth 8-256] done synthesizing module 'Main' (32#1) [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/Main.v:23]
+WARNING: [Synth 8-3331] design Main has unconnected port ledClk
+WARNING: [Synth 8-3331] design Main has unconnected port ledCtr_n
+WARNING: [Synth 8-3331] design Main has unconnected port lendo
+WARNING: [Synth 8-3331] design Main has unconnected port lenpen
+WARNING: [Synth 8-3331] design Main has unconnected port btnY[3]
+WARNING: [Synth 8-3331] design Main has unconnected port btnY[2]
+WARNING: [Synth 8-3331] design Main has unconnected port btnY[1]
+WARNING: [Synth 8-3331] design Main has unconnected port btnY[0]
+WARNING: [Synth 8-3331] design Main has unconnected port audPWM
+WARNING: [Synth 8-3331] design Main has unconnected port audSd
+WARNING: [Synth 8-3331] design Main has unconnected port led[7]
+WARNING: [Synth 8-3331] design Main has unconnected port led[6]
+WARNING: [Synth 8-3331] design Main has unconnected port led[5]
+WARNING: [Synth 8-3331] design Main has unconnected port led[4]
+WARNING: [Synth 8-3331] design Main has unconnected port led[3]
+WARNING: [Synth 8-3331] design Main has unconnected port led[2]
+WARNING: [Synth 8-3331] design Main has unconnected port led[1]
+WARNING: [Synth 8-3331] design Main has unconnected port led[0]
+WARNING: [Synth 8-3331] design Main has unconnected port TriLedR0
+WARNING: [Synth 8-3331] design Main has unconnected port TriLedG0
+WARNING: [Synth 8-3331] design Main has unconnected port TriLedB0
+WARNING: [Synth 8-3331] design Main has unconnected port TriLedR1
+WARNING: [Synth 8-3331] design Main has unconnected port TriLedG1
+WARNING: [Synth 8-3331] design Main has unconnected port TriLedB1
+WARNING: [Synth 8-3331] design Main has unconnected port switch[15]
+WARNING: [Synth 8-3331] design Main has unconnected port switch[14]
+WARNING: [Synth 8-3331] design Main has unconnected port switch[13]
+WARNING: [Synth 8-3331] design Main has unconnected port switch[12]
+WARNING: [Synth 8-3331] design Main has unconnected port switch[11]
+WARNING: [Synth 8-3331] design Main has unconnected port switch[10]
+WARNING: [Synth 8-3331] design Main has unconnected port switch[9]
+WARNING: [Synth 8-3331] design Main has unconnected port switch[8]
+WARNING: [Synth 8-3331] design Main has unconnected port switch[7]
+WARNING: [Synth 8-3331] design Main has unconnected port switch[6]
+WARNING: [Synth 8-3331] design Main has unconnected port switch[5]
+WARNING: [Synth 8-3331] design Main has unconnected port switch[4]
+WARNING: [Synth 8-3331] design Main has unconnected port switch[3]
+WARNING: [Synth 8-3331] design Main has unconnected port switch[2]
+WARNING: [Synth 8-3331] design Main has unconnected port switch[1]
+WARNING: [Synth 8-3331] design Main has unconnected port switch[0]
+WARNING: [Synth 8-3331] design Main has unconnected port btnX[4]
+WARNING: [Synth 8-3331] design Main has unconnected port btnX[3]
+WARNING: [Synth 8-3331] design Main has unconnected port btnX[2]
+WARNING: [Synth 8-3331] design Main has unconnected port btnX[1]
+WARNING: [Synth 8-3331] design Main has unconnected port btnX[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:23 . Memory (MB): peak = 361.719 ; gain = 151.711
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:23 . Memory (MB): peak = 361.719 ; gain = 151.711
+---------------------------------------------------------------------------------
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'P2S' instantiated as 'segdisp/P2S' [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/segdisp.v:103]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'mouse' instantiated as 'display/mouseDisp/mouse' [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/mouseDisp.v:66]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'overprompt' instantiated as 'display/prompt/overprompt' [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/prompt.v:48]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'startscreen' instantiated as 'display/startscreen' [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/display.v:131]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'winprompt' instantiated as 'display/prompt/winprompt' [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/prompt.v:41]
+INFO: [Device 21-403] Loading part xc7k160tfbg676-2L
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.runs/synth_1/.Xil/Vivado-1884-Shana-Laptop/dcp/winprompt_in_context.xdc] for cell 'display/prompt/winprompt'
+Finished Parsing XDC File [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.runs/synth_1/.Xil/Vivado-1884-Shana-Laptop/dcp/winprompt_in_context.xdc] for cell 'display/prompt/winprompt'
+Parsing XDC File [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.runs/synth_1/.Xil/Vivado-1884-Shana-Laptop/dcp_2/overprompt_in_context.xdc] for cell 'display/prompt/overprompt'
+Finished Parsing XDC File [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.runs/synth_1/.Xil/Vivado-1884-Shana-Laptop/dcp_2/overprompt_in_context.xdc] for cell 'display/prompt/overprompt'
+Parsing XDC File [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.runs/synth_1/.Xil/Vivado-1884-Shana-Laptop/dcp_3/startscreen_in_context.xdc] for cell 'display/startscreen'
+Finished Parsing XDC File [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.runs/synth_1/.Xil/Vivado-1884-Shana-Laptop/dcp_3/startscreen_in_context.xdc] for cell 'display/startscreen'
+Parsing XDC File [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.runs/synth_1/.Xil/Vivado-1884-Shana-Laptop/dcp_4/mouse_in_context.xdc] for cell 'display/mouseDisp/mouse'
+Finished Parsing XDC File [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.runs/synth_1/.Xil/Vivado-1884-Shana-Laptop/dcp_4/mouse_in_context.xdc] for cell 'display/mouseDisp/mouse'
+Parsing XDC File [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/constrs_1/new/constraints.xdc]
+Finished Parsing XDC File [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/constrs_1/new/constraints.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/constrs_1/new/constraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Main_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Main_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 691.027 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'display/startscreen' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'display/mouseDisp/mouse' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'display/prompt/overprompt' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'display/prompt/winprompt' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:30 ; elapsed = 00:00:44 . Memory (MB): peak = 691.070 ; gain = 481.063
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k160tfbg676-2L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:30 ; elapsed = 00:00:44 . Memory (MB): peak = 691.070 ; gain = 481.063
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for display/mouseDisp/mouse. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:30 ; elapsed = 00:00:44 . Memory (MB): peak = 691.070 ; gain = 481.063
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "HSync" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "YCnt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "VSync" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "outRGB" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "cell0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cell1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cell2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cell3" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cell4" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cell5" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cell6" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "count" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "i" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cclk" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cdat" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "oData" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "oDone" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "return" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5544] ROM "length" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cellradius" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "total" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "data_reg[224]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[223]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[222]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[221]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[220]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[219]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[218]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[217]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[216]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[215]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[214]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[213]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[212]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[211]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[210]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[209]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[208]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[207]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[206]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[205]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[204]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[203]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[202]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[201]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[200]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[199]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[198]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[197]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[196]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[195]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[194]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[193]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[192]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[191]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[190]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[189]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[188]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[187]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[186]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[185]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[184]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[183]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[182]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[181]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[180]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[179]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[178]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[177]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[176]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[175]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[174]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[173]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[172]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[171]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[170]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[169]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[168]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[167]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[166]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[165]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[164]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[163]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[162]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[161]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[160]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[159]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[158]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[157]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[156]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[155]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[154]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[153]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[152]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[151]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[150]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[149]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[148]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[147]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[146]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[145]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[144]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_reg[143]" won't be mapped to RAM because it is too sparse
+INFO: [Common 17-14] Message 'Synth 8-5546' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/aroundCell.v:33]
+INFO: [Synth 8-5544] ROM "valid" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "wen" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "i" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ret" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "x" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "addr" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "load" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/new/tocell.v:49]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/new/chnest.v:112]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <multiplier> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/new/chnest.v:112]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/new/chnest.v:195]
+INFO: [Synth 8-5544] ROM "i" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "addr" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "wen" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "clk_1ms" won't be mapped to RAM because address size (31) is larger than maximum supported(25)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:37 ; elapsed = 00:00:54 . Memory (MB): peak = 691.070 ; gain = 481.063
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 3     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input     14 Bit       Adders := 1     
+	   2 Input     12 Bit       Adders := 3     
+	   3 Input     12 Bit       Adders := 4     
+	   4 Input     12 Bit       Adders := 2     
+	   2 Input     10 Bit       Adders := 4     
+	   3 Input     10 Bit       Adders := 2     
+	   3 Input      8 Bit       Adders := 6     
+	   2 Input      8 Bit       Adders := 13    
+	   2 Input      7 Bit       Adders := 2     
+	   4 Input      6 Bit       Adders := 4     
+	   2 Input      5 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 5     
+	   2 Input      3 Bit       Adders := 3     
++---XORs : 
+	   2 Input      1 Bit         XORs := 3     
++---Registers : 
+	               31 Bit    Registers := 1     
+	               24 Bit    Registers := 1     
+	               14 Bit    Registers := 1     
+	               12 Bit    Registers := 4     
+	               10 Bit    Registers := 2     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 8     
+	                7 Bit    Registers := 2     
+	                6 Bit    Registers := 6     
+	                5 Bit    Registers := 5     
+	                4 Bit    Registers := 4     
+	                3 Bit    Registers := 3     
+	                2 Bit    Registers := 6     
+	                1 Bit    Registers := 27    
++---Muxes : 
+	  51 Input    100 Bit        Muxes := 7     
+	   8 Input    100 Bit        Muxes := 1     
+	   2 Input     31 Bit        Muxes := 1     
+	  12 Input     24 Bit        Muxes := 1     
+	   2 Input     17 Bit        Muxes := 1     
+	   2 Input     14 Bit        Muxes := 1     
+	   2 Input     12 Bit        Muxes := 12    
+	   3 Input     12 Bit        Muxes := 1     
+	   4 Input     12 Bit        Muxes := 2     
+	   5 Input     12 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 8     
+	  11 Input      8 Bit        Muxes := 2     
+	   3 Input      8 Bit        Muxes := 2     
+	   3 Input      7 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 4     
+	  11 Input      6 Bit        Muxes := 1     
+	   3 Input      6 Bit        Muxes := 2     
+	   9 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 3     
+	  11 Input      5 Bit        Muxes := 2     
+	   3 Input      5 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 4     
+	   4 Input      4 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 1     
+	   9 Input      3 Bit        Muxes := 1     
+	  11 Input      2 Bit        Muxes := 2     
+	   7 Input      2 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 2     
+	   9 Input      2 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 9     
+	   2 Input      1 Bit        Muxes := 253   
+	  11 Input      1 Bit        Muxes := 22    
+	   4 Input      1 Bit        Muxes := 4     
+	  12 Input      1 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 2     
+	   9 Input      1 Bit        Muxes := 12    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Main 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module vgaSync 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 4     
++---Registers : 
+	               10 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 6     
+Module mouseDisp 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     10 Bit       Adders := 2     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 2     
+	   3 Input     12 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+Module prompt 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     17 Bit        Muxes := 1     
+	   2 Input     12 Bit        Muxes := 3     
+Module nestDisp 
+Detailed RTL Component Info : 
++---Muxes : 
+	  51 Input    100 Bit        Muxes := 7     
+	   8 Input    100 Bit        Muxes := 1     
+	   2 Input     12 Bit        Muxes := 2     
+	   4 Input     12 Bit        Muxes := 1     
+	   5 Input     12 Bit        Muxes := 1     
+Module display 
+Detailed RTL Component Info : 
++---Registers : 
+	               12 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 1     
+Module initMouse 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     14 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               14 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   2 Input     14 Bit        Muxes := 1     
+	  11 Input      5 Bit        Muxes := 1     
+	  11 Input      2 Bit        Muxes := 1     
+	  11 Input      1 Bit        Muxes := 7     
+	   2 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+	  12 Input      1 Bit        Muxes := 1     
+Module readMouse 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	               24 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	  12 Input     24 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 2     
+	  11 Input      8 Bit        Muxes := 1     
+	  11 Input      5 Bit        Muxes := 1     
+	  11 Input      2 Bit        Muxes := 1     
+	  11 Input      1 Bit        Muxes := 4     
+Module PS2Mouse 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 2     
++---Registers : 
+	               12 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 4     
+Module mode 
+Detailed RTL Component Info : 
++---Muxes : 
+	   3 Input      7 Bit        Muxes := 1     
+	   3 Input      5 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 1     
+Module nest 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 225   
+Module aroundCell 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   3 Input      8 Bit       Adders := 3     
+	   2 Input      8 Bit       Adders := 4     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 2     
+	   7 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 1     
+Module random 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 3     
++---Registers : 
+	                8 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+Module initialNest 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 2     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                4 Bit    Registers := 4     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	  11 Input      8 Bit        Muxes := 1     
+	  11 Input      6 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+	  11 Input      1 Bit        Muxes := 11    
+Module tocell 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 2     
+	   4 Input     12 Bit       Adders := 1     
+	   4 Input      6 Bit       Adders := 2     
++---Muxes : 
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module chnest 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 2     
+	                7 Bit    Registers := 1     
+	                6 Bit    Registers := 5     
+	                5 Bit    Registers := 3     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   3 Input      6 Bit        Muxes := 2     
+	   9 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	   3 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   9 Input      3 Bit        Muxes := 1     
+	   9 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 9     
+	   3 Input      1 Bit        Muxes := 3     
+	   9 Input      1 Bit        Muxes := 12    
+Module clkdiv 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+Module startgame 
+Detailed RTL Component Info : 
++---Muxes : 
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+Module endgame 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
+Module clk_1ms 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     31 Bit       Adders := 1     
++---Registers : 
+	               31 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module ms_1000 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               12 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   4 Input     12 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 2     
+Module count_60 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   3 Input      8 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 2     
+Module segdisp 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      4 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 1     
+Module tone 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 600 (col length:100)
+BRAMs: 650 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+DSP Report: Generating DSP outMap/addr, operation Mode is: C+(A:0x280)*B.
+DSP Report: operator outMap/addr is absorbed into DSP outMap/addr.
+DSP Report: operator outMap/addr0 is absorbed into DSP outMap/addr.
+DSP Report: Generating DSP prompt/addr1, operation Mode is: A*(B:0x190).
+DSP Report: operator prompt/addr1 is absorbed into DSP prompt/addr1.
+DSP Report: Generating DSP prompt/addr0, operation Mode is: (PCIN or 0)+((A:0x0):B or 0)+((C:0xffffffffff88) or 0).
+DSP Report: operator prompt/addr0 is absorbed into DSP prompt/addr0.
+INFO: [Synth 8-4471] merging register 'readMouse/clk0_reg' into 'initMouse/clk0_reg' [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/new/readMouse.v:34]
+INFO: [Synth 8-4471] merging register 'readMouse/clk1_reg' into 'initMouse/clk1_reg' [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/new/readMouse.v:34]
+DSP Report: Generating DSP iscell5, operation Mode is: A*B.
+DSP Report: operator iscell5 is absorbed into DSP iscell5.
+DSP Report: Generating DSP iscell3, operation Mode is: PCIN+A*B.
+DSP Report: operator iscell3 is absorbed into DSP iscell3.
+DSP Report: operator iscell5 is absorbed into DSP iscell3.
+DSP Report: Generating DSP iscell3, operation Mode is: PCIN-A*B.
+DSP Report: operator iscell3 is absorbed into DSP iscell3.
+DSP Report: operator iscell4 is absorbed into DSP iscell3.
+DSP Report: Generating DSP iscell2, operation Mode is: C+A*B.
+DSP Report: operator iscell2 is absorbed into DSP iscell2.
+DSP Report: operator iscell5 is absorbed into DSP iscell2.
+DSP Report: Generating DSP iscell2, operation Mode is: PCIN+A*B.
+DSP Report: operator iscell2 is absorbed into DSP iscell2.
+DSP Report: operator iscell5 is absorbed into DSP iscell2.
+DSP Report: Generating DSP iscell2, operation Mode is: PCIN-A*B.
+DSP Report: operator iscell2 is absorbed into DSP iscell2.
+DSP Report: operator iscell4 is absorbed into DSP iscell2.
+DSP Report: Generating DSP iscell5, operation Mode is: A*B.
+DSP Report: operator iscell5 is absorbed into DSP iscell5.
+DSP Report: Generating DSP iscell2, operation Mode is: PCIN+A*B.
+DSP Report: operator iscell2 is absorbed into DSP iscell2.
+DSP Report: operator iscell5 is absorbed into DSP iscell2.
+DSP Report: Generating DSP iscell2, operation Mode is: PCIN+A:B.
+DSP Report: operator iscell2 is absorbed into DSP iscell2.
+DSP Report: Generating DSP iscell2, operation Mode is: PCIN-A*B.
+DSP Report: operator iscell2 is absorbed into DSP iscell2.
+DSP Report: operator iscell4 is absorbed into DSP iscell2.
+DSP Report: Generating DSP iscell5, operation Mode is: A*B.
+DSP Report: operator iscell5 is absorbed into DSP iscell5.
+DSP Report: Generating DSP iscell3, operation Mode is: PCIN+A*B.
+DSP Report: operator iscell3 is absorbed into DSP iscell3.
+DSP Report: operator iscell5 is absorbed into DSP iscell3.
+DSP Report: Generating DSP iscell3, operation Mode is: PCIN-A*B.
+DSP Report: operator iscell3 is absorbed into DSP iscell3.
+DSP Report: operator iscell4 is absorbed into DSP iscell3.
+DSP Report: Generating DSP iscell2, operation Mode is: C+A*B.
+DSP Report: operator iscell2 is absorbed into DSP iscell2.
+DSP Report: operator iscell5 is absorbed into DSP iscell2.
+DSP Report: Generating DSP iscell2, operation Mode is: PCIN+A*B.
+DSP Report: operator iscell2 is absorbed into DSP iscell2.
+DSP Report: operator iscell5 is absorbed into DSP iscell2.
+DSP Report: Generating DSP iscell2, operation Mode is: PCIN-A*B.
+DSP Report: operator iscell2 is absorbed into DSP iscell2.
+DSP Report: operator iscell4 is absorbed into DSP iscell2.
+DSP Report: Generating DSP iscell5, operation Mode is: A*B.
+DSP Report: operator iscell5 is absorbed into DSP iscell5.
+DSP Report: Generating DSP iscell2, operation Mode is: PCIN+A*B.
+DSP Report: operator iscell2 is absorbed into DSP iscell2.
+DSP Report: operator iscell5 is absorbed into DSP iscell2.
+DSP Report: Generating DSP iscell2, operation Mode is: PCIN+A:B.
+DSP Report: operator iscell2 is absorbed into DSP iscell2.
+DSP Report: Generating DSP iscell2, operation Mode is: PCIN-A*B.
+DSP Report: operator iscell2 is absorbed into DSP iscell2.
+DSP Report: operator iscell4 is absorbed into DSP iscell2.
+INFO: [Synth 8-5545] ROM "millisecond/clk_1ms" won't be mapped to RAM because address size (31) is larger than maximum supported(25)
+WARNING: [Synth 8-3331] design Main has unconnected port ledClk
+WARNING: [Synth 8-3331] design Main has unconnected port ledCtr_n
+WARNING: [Synth 8-3331] design Main has unconnected port lendo
+WARNING: [Synth 8-3331] design Main has unconnected port lenpen
+WARNING: [Synth 8-3331] design Main has unconnected port btnY[3]
+WARNING: [Synth 8-3331] design Main has unconnected port btnY[2]
+WARNING: [Synth 8-3331] design Main has unconnected port btnY[1]
+WARNING: [Synth 8-3331] design Main has unconnected port btnY[0]
+WARNING: [Synth 8-3331] design Main has unconnected port audPWM
+WARNING: [Synth 8-3331] design Main has unconnected port audSd
+WARNING: [Synth 8-3331] design Main has unconnected port led[7]
+WARNING: [Synth 8-3331] design Main has unconnected port led[6]
+WARNING: [Synth 8-3331] design Main has unconnected port led[5]
+WARNING: [Synth 8-3331] design Main has unconnected port led[4]
+WARNING: [Synth 8-3331] design Main has unconnected port led[3]
+WARNING: [Synth 8-3331] design Main has unconnected port led[2]
+WARNING: [Synth 8-3331] design Main has unconnected port led[1]
+WARNING: [Synth 8-3331] design Main has unconnected port led[0]
+WARNING: [Synth 8-3331] design Main has unconnected port TriLedR0
+WARNING: [Synth 8-3331] design Main has unconnected port TriLedG0
+WARNING: [Synth 8-3331] design Main has unconnected port TriLedB0
+WARNING: [Synth 8-3331] design Main has unconnected port TriLedR1
+WARNING: [Synth 8-3331] design Main has unconnected port TriLedG1
+WARNING: [Synth 8-3331] design Main has unconnected port TriLedB1
+WARNING: [Synth 8-3331] design Main has unconnected port switch[15]
+WARNING: [Synth 8-3331] design Main has unconnected port switch[14]
+WARNING: [Synth 8-3331] design Main has unconnected port switch[13]
+WARNING: [Synth 8-3331] design Main has unconnected port switch[12]
+WARNING: [Synth 8-3331] design Main has unconnected port switch[11]
+WARNING: [Synth 8-3331] design Main has unconnected port switch[10]
+WARNING: [Synth 8-3331] design Main has unconnected port switch[9]
+WARNING: [Synth 8-3331] design Main has unconnected port switch[8]
+WARNING: [Synth 8-3331] design Main has unconnected port switch[7]
+WARNING: [Synth 8-3331] design Main has unconnected port switch[6]
+WARNING: [Synth 8-3331] design Main has unconnected port switch[5]
+WARNING: [Synth 8-3331] design Main has unconnected port switch[4]
+WARNING: [Synth 8-3331] design Main has unconnected port switch[3]
+WARNING: [Synth 8-3331] design Main has unconnected port switch[2]
+WARNING: [Synth 8-3331] design Main has unconnected port switch[1]
+WARNING: [Synth 8-3331] design Main has unconnected port switch[0]
+WARNING: [Synth 8-3331] design Main has unconnected port btnX[4]
+WARNING: [Synth 8-3331] design Main has unconnected port btnX[3]
+WARNING: [Synth 8-3331] design Main has unconnected port btnX[2]
+WARNING: [Synth 8-3331] design Main has unconnected port btnX[1]
+WARNING: [Synth 8-3331] design Main has unconnected port btnX[0]
+INFO: [Synth 8-3886] merging instance 'initialNest/acount_reg[0]' (FDCE) to 'initialNest/ret_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (chnest/\return_reg[4] )
+INFO: [Synth 8-3886] merging instance 'chnest/return_reg[2]' (FDCE) to 'chnest/return_reg[1]'
+INFO: [Synth 8-3886] merging instance 'mouse/initMouse/data_reg[8]' (FDCE) to 'mouse/initMouse/data_reg[3]'
+INFO: [Synth 8-3886] merging instance 'mouse/initMouse/data_reg[7]' (FDCE) to 'mouse/initMouse/data_reg[6]'
+INFO: [Synth 8-3886] merging instance 'mouse/initMouse/data_reg[6]' (FDCE) to 'mouse/initMouse/data_reg[5]'
+INFO: [Synth 8-3886] merging instance 'mouse/initMouse/data_reg[5]' (FDCE) to 'mouse/initMouse/data_reg[4]'
+INFO: [Synth 8-3886] merging instance 'mouse/initMouse/data_reg[4]' (FDCE) to 'mouse/initMouse/data_reg[2]'
+INFO: [Synth 8-3886] merging instance 'mouse/initMouse/data_reg[3]' (FDCE) to 'mouse/initMouse/data_reg[1]'
+INFO: [Synth 8-3886] merging instance 'mouse/initMouse/data_reg[1]' (FDCE) to 'mouse/initMouse/data_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mouse/\initMouse/data_reg[0] )
+INFO: [Synth 8-3886] merging instance 'mouse/ypos_reg[10]' (FDCE) to 'mouse/ypos_reg[9]'
+INFO: [Synth 8-3886] merging instance 'mouse/ypos_reg[11]' (FDCE) to 'mouse/ypos_reg[9]'
+INFO: [Synth 8-3886] merging instance 'mouse/xpos_reg[11]' (FDCE) to 'mouse/ypos_reg[9]'
+INFO: [Synth 8-3886] merging instance 'mouse/xpos_reg[10]' (FDCE) to 'mouse/ypos_reg[9]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mouse/\ypos_reg[9] )
+WARNING: [Synth 8-3332] Sequential element (initMouse/data_reg[0]) is unused and will be removed from module PS2Mouse.
+WARNING: [Synth 8-3332] Sequential element (readMouse/oData_reg[15]) is unused and will be removed from module PS2Mouse.
+WARNING: [Synth 8-3332] Sequential element (readMouse/oData_reg[14]) is unused and will be removed from module PS2Mouse.
+WARNING: [Synth 8-3332] Sequential element (readMouse/oData_reg[13]) is unused and will be removed from module PS2Mouse.
+WARNING: [Synth 8-3332] Sequential element (readMouse/oData_reg[12]) is unused and will be removed from module PS2Mouse.
+WARNING: [Synth 8-3332] Sequential element (readMouse/oData_reg[11]) is unused and will be removed from module PS2Mouse.
+WARNING: [Synth 8-3332] Sequential element (ypos_reg[9]) is unused and will be removed from module PS2Mouse.
+WARNING: [Synth 8-3332] Sequential element (mousecell/dx_reg[5]) is unused and will be removed from module chnest.
+WARNING: [Synth 8-3332] Sequential element (mousecell/dx_reg[4]) is unused and will be removed from module chnest.
+WARNING: [Synth 8-3332] Sequential element (mousecell/dx_reg[3]) is unused and will be removed from module chnest.
+WARNING: [Synth 8-3332] Sequential element (mousecell/dx_reg[2]) is unused and will be removed from module chnest.
+WARNING: [Synth 8-3332] Sequential element (mousecell/dx_reg[1]) is unused and will be removed from module chnest.
+WARNING: [Synth 8-3332] Sequential element (mousecell/dx_reg[0]) is unused and will be removed from module chnest.
+WARNING: [Synth 8-3332] Sequential element (mousecell/dy_reg[5]) is unused and will be removed from module chnest.
+WARNING: [Synth 8-3332] Sequential element (mousecell/dy_reg[4]) is unused and will be removed from module chnest.
+WARNING: [Synth 8-3332] Sequential element (mousecell/dy_reg[3]) is unused and will be removed from module chnest.
+WARNING: [Synth 8-3332] Sequential element (mousecell/dy_reg[2]) is unused and will be removed from module chnest.
+WARNING: [Synth 8-3332] Sequential element (mousecell/dy_reg[1]) is unused and will be removed from module chnest.
+WARNING: [Synth 8-3332] Sequential element (mousecell/dy_reg[0]) is unused and will be removed from module chnest.
+WARNING: [Synth 8-3332] Sequential element (return_reg[4]) is unused and will be removed from module chnest.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:11 ; elapsed = 00:01:29 . Memory (MB): peak = 691.070 ; gain = 481.063
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping  Report (see note below)
++------------+--------------------------------------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping                                            | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+--------------------------------------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|addMap      | C+(A:0x280)*B                                          | 10     | 10     | 10     | -      | 19     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|prompt      | A*(B:0x190)                                            | 17     | 9      | -      | -      | 26     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|display     | (PCIN or 0)+((A:0x0):B or 0)+((C:0xffffffffff88) or 0) | 30     | 10     | 8      | -      | -1     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|tocell      | A*B                                                    | 12     | 12     | -      | -      | 24     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|tocell      | PCIN+A*B                                               | 10     | 10     | -      | -      | 25     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|tocell      | PCIN-A*B                                               | 12     | 12     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|tocell      | C+A*B                                                  | 10     | 10     | 32     | -      | 32     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|tocell      | PCIN+A*B                                               | 12     | 12     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|tocell      | PCIN-A*B                                               | 12     | 12     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|tocell      | A*B                                                    | 12     | 12     | -      | -      | 24     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|tocell      | PCIN+A*B                                               | 10     | 10     | -      | -      | 25     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|tocell      | PCIN+A:B                                               | 7      | 18     | -      | -      | -1     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|tocell      | PCIN-A*B                                               | 12     | 12     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|tocell      | A*B                                                    | 12     | 12     | -      | -      | 24     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|tocell      | PCIN+A*B                                               | 10     | 10     | -      | -      | 25     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|tocell      | PCIN-A*B                                               | 12     | 12     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|tocell      | C+A*B                                                  | 10     | 10     | 32     | -      | 32     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|tocell      | PCIN+A*B                                               | 12     | 12     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|tocell      | PCIN-A*B                                               | 12     | 12     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|tocell      | A*B                                                    | 12     | 12     | -      | -      | 24     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|tocell      | PCIN+A*B                                               | 10     | 10     | -      | -      | 25     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|tocell      | PCIN+A:B                                               | 7      | 18     | -      | -      | -1     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|tocell      | PCIN-A*B                                               | 12     | 12     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++------------+--------------------------------------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:32 ; elapsed = 00:01:51 . Memory (MB): peak = 748.559 ; gain = 538.551
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:37 ; elapsed = 00:01:56 . Memory (MB): peak = 774.000 ; gain = 563.992
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/new/PS2Mouse.v:42]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/new/PS2Mouse.v:42]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/new/PS2Mouse.v:42]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/new/PS2Mouse.v:41]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/new/PS2Mouse.v:41]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/new/PS2Mouse.v:41]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/new/PS2Mouse.v:41]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/new/PS2Mouse.v:41]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/new/PS2Mouse.v:41]
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:42 ; elapsed = 00:02:02 . Memory (MB): peak = 824.938 ; gain = 614.930
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:44 ; elapsed = 00:02:04 . Memory (MB): peak = 824.938 ; gain = 614.930
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:44 ; elapsed = 00:02:04 . Memory (MB): peak = 824.938 ; gain = 614.930
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:46 ; elapsed = 00:02:05 . Memory (MB): peak = 824.938 ; gain = 614.930
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:46 ; elapsed = 00:02:06 . Memory (MB): peak = 824.938 ; gain = 614.930
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:46 ; elapsed = 00:02:06 . Memory (MB): peak = 824.938 ; gain = 614.930
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:46 ; elapsed = 00:02:06 . Memory (MB): peak = 824.938 ; gain = 614.930
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |startscreen   |         1|
+|2     |mouse         |         1|
+|3     |winprompt     |         1|
+|4     |overprompt    |         1|
+|5     |P2S           |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+------------+------+
+|      |Cell        |Count |
++------+------------+------+
+|1     |P2S         |     1|
+|2     |mouse       |     1|
+|3     |overprompt  |     1|
+|4     |startscreen |     1|
+|5     |winprompt   |     1|
+|6     |BUFG        |     3|
+|7     |CARRY4      |   390|
+|8     |DSP48E1     |     3|
+|9     |DSP48E1_1   |    17|
+|10    |DSP48E1_2   |     1|
+|11    |DSP48E1_3   |     2|
+|12    |LUT1        |   293|
+|13    |LUT2        |   665|
+|14    |LUT3        |   674|
+|15    |LUT4        |   331|
+|16    |LUT5        |   272|
+|17    |LUT6        |  1114|
+|18    |MUXF7       |   200|
+|19    |MUXF8       |    84|
+|20    |XORCY       |    72|
+|21    |FDCE        |  1646|
+|22    |FDPE        |    10|
+|23    |FDRE        |   120|
+|24    |FDSE        |     9|
+|25    |IBUF        |     2|
+|26    |IOBUF       |     2|
+|27    |OBUF        |    31|
+|28    |OBUFT       |    24|
++------+------------+------+
+
+Report Instance Areas: 
++------+----------------+-------------+------+
+|      |Instance        |Module       |Cells |
++------+----------------+-------------+------+
+|1     |top             |             |  6029|
+|2     |  chnest        |chnest       |  1560|
+|3     |    mousecell   |tocell       |   539|
+|4     |    readaround  |aroundCell_1 |    63|
+|5     |    readcell    |tocell_2     |   587|
+|6     |  clkdiv        |clkdiv       |    17|
+|7     |  display       |display      |   346|
+|8     |    mouseDisp   |mouseDisp    |    60|
+|9     |    outMap      |addMap       |     1|
+|10    |    prompt      |prompt       |    38|
+|11    |    vgaSync     |vgaSync      |   217|
+|12    |  endgame       |endgame      |    26|
+|13    |  initialNest   |initialNest  |   537|
+|14    |    aroundCell  |aroundCell   |    94|
+|15    |    random      |random       |    29|
+|16    |  mouse         |PS2Mouse     |   307|
+|17    |    initMouse   |initMouse    |    85|
+|18    |    readMouse   |readMouse    |   107|
+|19    |  nest          |nest         |  1987|
+|20    |  segdisp       |segdisp      |   233|
+|21    |    m13_min     |count_60     |    30|
+|22    |    m13_ms      |ms_1000      |    48|
+|23    |    m13_sec     |count_60_0   |    20|
+|24    |    millisecond |clk_1ms      |    79|
+|25    |  startgame     |startgame    |   699|
+|26    |  tone          |tone         |   102|
++------+----------------+-------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:46 ; elapsed = 00:02:06 . Memory (MB): peak = 824.938 ; gain = 614.930
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 65 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:23 ; elapsed = 00:01:39 . Memory (MB): peak = 824.938 ; gain = 260.000
+Synthesis Optimization Complete : Time (s): cpu = 00:01:47 ; elapsed = 00:02:06 . Memory (MB): peak = 824.938 ; gain = 614.930
+INFO: [Project 1-571] Translating synthesized netlist
+Release 14.7 - ngc2edif P_INT.20160902 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design P2S.ngc ...
+WARNING:NetListWriters:298 - No output is written to P2S.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file P2S.edif ...
+ngc2edif: Total memory usage is 89996 kilobytes
+
+Reading core file 'D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/ip/P2S.ngc' for (cell view 'P2S', library 'work')
+Parsing EDIF File [./.ngc2edfcache/P2S_ngc_c0fcf62f.edif]
+Finished Parsing EDIF File [./.ngc2edfcache/P2S_ngc_c0fcf62f.edif]
+INFO: [Netlist 29-17] Analyzing 565 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Xilinx ngc2edif P_INT.20160902
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 150 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 72 instances
+  FD => FDRE: 66 instances
+  FDC => FDCE: 10 instances
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+269 Infos, 142 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:47 ; elapsed = 00:02:04 . Memory (MB): peak = 824.938 ; gain = 593.820
+INFO: [Common 17-1381] The checkpoint 'D:/Users/Shana/Desktop/vivado/NestGather/NestGather.runs/synth_1/Main.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.084 . Memory (MB): peak = 824.938 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon Jan 09 02:28:47 2017...

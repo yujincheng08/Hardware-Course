@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="SCPU_test_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="SCPU_test" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="560000001fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="204"></NameColumnWidth>
+      <ValueColumnWidth column_width="98"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/SCPU_test/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SCPU_test/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="group94" type="group">
+      <obj_property name="label">IF</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/SCPU_test/SCPU/Branch" type="logic">
+         <obj_property name="ElementShortName">Branch</obj_property>
+         <obj_property name="ObjectShortName">Branch</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SCPU_test/SCPU/Branch_PC" type="array">
+         <obj_property name="ElementShortName">Branch_PC[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Branch_PC[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SCPU_test/SCPU/IF/Current_PC" type="array">
+         <obj_property name="ElementShortName">Current_PC[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Current_PC[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SCPU_test/SCPU/IF/Raw_Instruction" type="array">
+         <obj_property name="ElementShortName">Raw_Instruction[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Raw_Instruction[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SCPU_test/SCPU/IF/Next_PC" type="array">
+         <obj_property name="ElementShortName">Next_PC[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Next_PC[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SCPU_test/SCPU/IF_PC" type="array">
+         <obj_property name="ElementShortName">IF_PC[31:0]</obj_property>
+         <obj_property name="ObjectShortName">IF_PC[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group105" type="group">
+      <obj_property name="label">ID</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/SCPU_test/SCPU/ID/A" type="array">
+         <obj_property name="ElementShortName">A[31:0]</obj_property>
+         <obj_property name="ObjectShortName">A[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SCPU_test/SCPU/ID/AData" type="array">
+         <obj_property name="ElementShortName">AData[31:0]</obj_property>
+         <obj_property name="ObjectShortName">AData[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SCPU_test/SCPU/ID/B" type="array">
+         <obj_property name="ElementShortName">B[31:0]</obj_property>
+         <obj_property name="ObjectShortName">B[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SCPU_test/SCPU/ID/BData" type="array">
+         <obj_property name="ElementShortName">BData[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BData[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SCPU_test/SCPU/ID_A" type="array">
+         <obj_property name="ElementShortName">ID_A[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ID_A[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SCPU_test/SCPU/ID_B" type="array">
+         <obj_property name="ElementShortName">ID_B[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ID_B[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SCPU_test/SCPU/ID_PC" type="array">
+         <obj_property name="ElementShortName">ID_PC[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ID_PC[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SCPU_test/SCPU/ID_Imm" type="array">
+         <obj_property name="ElementShortName">ID_Imm[15:0]</obj_property>
+         <obj_property name="ObjectShortName">ID_Imm[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SCPU_test/SCPU/ID_Shift" type="array">
+         <obj_property name="ElementShortName">ID_Shift[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ID_Shift[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SCPU_test/SCPU/ID_ALUSrc_B" type="logic">
+         <obj_property name="ElementShortName">ID_ALUSrc_B</obj_property>
+         <obj_property name="ObjectShortName">ID_ALUSrc_B</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SCPU_test/SCPU/ID_ALUSrc_A" type="logic">
+         <obj_property name="ElementShortName">ID_ALUSrc_A</obj_property>
+         <obj_property name="ObjectShortName">ID_ALUSrc_A</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SCPU_test/SCPU/ID_RegWrite" type="logic">
+         <obj_property name="ElementShortName">ID_RegWrite</obj_property>
+         <obj_property name="ObjectShortName">ID_RegWrite</obj_property>
+         <obj_property name="CustomSignalColor">#00FF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SCPU_test/SCPU/ID_MemWrite" type="logic">
+         <obj_property name="ElementShortName">ID_MemWrite</obj_property>
+         <obj_property name="ObjectShortName">ID_MemWrite</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SCPU_test/SCPU/ID/ID_sign" type="logic">
+         <obj_property name="ElementShortName">ID_sign</obj_property>
+         <obj_property name="ObjectShortName">ID_sign</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SCPU_test/SCPU/ID_DatatoReg" type="array">
+         <obj_property name="ElementShortName">ID_DatatoReg[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ID_DatatoReg[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SCPU_test/SCPU/ID_ALU_Control" type="array">
+         <obj_property name="ElementShortName">ID_ALU_Control[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ID_ALU_Control[2:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group106" type="group">
+      <obj_property name="label">EXE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/SCPU_test/SCPU/EXE/ALU_out" type="array">
+         <obj_property name="ElementShortName">ALU_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ALU_out[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SCPU_test/SCPU/EXE/A" type="array">
+         <obj_property name="ElementShortName">A[31:0]</obj_property>
+         <obj_property name="ObjectShortName">A[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SCPU_test/SCPU/EXE/B" type="array">
+         <obj_property name="ElementShortName">B[31:0]</obj_property>
+         <obj_property name="ObjectShortName">B[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SCPU_test/SCPU/EXE_RegWrite" type="logic">
+         <obj_property name="ElementShortName">EXE_RegWrite</obj_property>
+         <obj_property name="ObjectShortName">EXE_RegWrite</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SCPU_test/SCPU/EXE_MemWrite" type="logic">
+         <obj_property name="ElementShortName">EXE_MemWrite</obj_property>
+         <obj_property name="ObjectShortName">EXE_MemWrite</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SCPU_test/SCPU/EXE_DatatoReg" type="logic">
+         <obj_property name="ElementShortName">EXE_DatatoReg</obj_property>
+         <obj_property name="ObjectShortName">EXE_DatatoReg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SCPU_test/SCPU/EXE_Result" type="array">
+         <obj_property name="ElementShortName">EXE_Result[31:0]</obj_property>
+         <obj_property name="ObjectShortName">EXE_Result[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SCPU_test/SCPU/EXE_B" type="array">
+         <obj_property name="ElementShortName">EXE_B[31:0]</obj_property>
+         <obj_property name="ObjectShortName">EXE_B[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SCPU_test/SCPU/EXE_DstReg" type="array">
+         <obj_property name="ElementShortName">EXE_DstReg[4:0]</obj_property>
+         <obj_property name="ObjectShortName">EXE_DstReg[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SCPU_test/SCPU/EXE_PC" type="array">
+         <obj_property name="ElementShortName">EXE_PC[31:0]</obj_property>
+         <obj_property name="ObjectShortName">EXE_PC[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SCPU_test/SCPU/MEM/EXE_Forward_sw" type="logic">
+         <obj_property name="ElementShortName">EXE_Forward_sw</obj_property>
+         <obj_property name="ObjectShortName">EXE_Forward_sw</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group108" type="group">
+      <obj_property name="label">MEM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/SCPU_test/SCPU/MEM/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SCPU_test/SCPU/MEM_MemData" type="array">
+         <obj_property name="ElementShortName">MEM_MemData[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM_MemData[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SCPU_test/SCPU/MEM_DstReg" type="array">
+         <obj_property name="ElementShortName">MEM_DstReg[4:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM_DstReg[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SCPU_test/SCPU/MEM_RegWrite" type="logic">
+         <obj_property name="ElementShortName">MEM_RegWrite</obj_property>
+         <obj_property name="ObjectShortName">MEM_RegWrite</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SCPU_test/SCPU/MEM_DatatoReg" type="logic">
+         <obj_property name="ElementShortName">MEM_DatatoReg</obj_property>
+         <obj_property name="ObjectShortName">MEM_DatatoReg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SCPU_test/SCPU/MEM_PC" type="array">
+         <obj_property name="ElementShortName">MEM_PC[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM_PC[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group107" type="group">
+      <obj_property name="label">WB</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/SCPU_test/SCPU/WB_RegWrite" type="logic">
+         <obj_property name="ElementShortName">WB_RegWrite</obj_property>
+         <obj_property name="ObjectShortName">WB_RegWrite</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SCPU_test/SCPU/WB_DstReg" type="array">
+         <obj_property name="ElementShortName">WB_DstReg[4:0]</obj_property>
+         <obj_property name="ObjectShortName">WB_DstReg[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SCPU_test/SCPU/WB_Data" type="array">
+         <obj_property name="ElementShortName">WB_Data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">WB_Data[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/SCPU_test/SCPU/ID/Regs/register" type="array">
+      <obj_property name="ElementShortName">register[1:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">register[1:31][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+</wave_config>

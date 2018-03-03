@@ -1,0 +1,12 @@
+// Verilog instantiation template created from schematic E:\Learning\ISE\Exp16-Lamp138\Lamp138_sch.sch - Tue Nov 01 17:04:08 2016
+//
+// Notes: 
+// To use this template to instantiate this component,cut-and-paste and then edit
+//
+// Instantiate the UUT
+   Lamp138_sch UUT (
+		.F(    ), 
+		.S1(    ), 
+		.S2(    ), 
+		.S3(    )
+   );

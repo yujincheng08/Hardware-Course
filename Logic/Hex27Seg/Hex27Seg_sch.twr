@@ -1,0 +1,92 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 1 -n
+3 -fastpaths -xml Hex27Seg_sch.twx Hex27Seg_sch.ncd -o Hex27Seg_sch.twr
+Hex27Seg_sch.pcf -ucf Hex27Seg.ucf
+
+Design file:              Hex27Seg_sch.ncd
+Physical constraint file: Hex27Seg_sch.pcf
+Device,package,speed:     xc7k160t,fbg676,C,-1 (PRODUCTION 1.10 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+LE             |SEGMENT<0>     |    9.744|
+LE             |SEGMENT<1>     |    9.734|
+LE             |SEGMENT<2>     |    9.946|
+LE             |SEGMENT<3>     |    9.154|
+LE             |SEGMENT<4>     |   10.062|
+LE             |SEGMENT<5>     |    9.394|
+LE             |SEGMENT<6>     |    9.659|
+SW<0>          |SEGMENT<0>     |   10.811|
+SW<0>          |SEGMENT<1>     |   10.121|
+SW<0>          |SEGMENT<2>     |   10.285|
+SW<0>          |SEGMENT<3>     |   10.132|
+SW<0>          |SEGMENT<4>     |    9.746|
+SW<0>          |SEGMENT<5>     |   10.183|
+SW<0>          |SEGMENT<6>     |    9.606|
+SW<1>          |SEGMENT<0>     |   11.139|
+SW<1>          |SEGMENT<1>     |   10.286|
+SW<1>          |SEGMENT<2>     |   10.351|
+SW<1>          |SEGMENT<3>     |   10.800|
+SW<1>          |SEGMENT<4>     |   10.732|
+SW<1>          |SEGMENT<5>     |   10.511|
+SW<1>          |SEGMENT<6>     |   10.234|
+SW<2>          |SEGMENT<0>     |   11.102|
+SW<2>          |SEGMENT<1>     |   10.885|
+SW<2>          |SEGMENT<2>     |   11.049|
+SW<2>          |SEGMENT<3>     |   10.866|
+SW<2>          |SEGMENT<4>     |   10.560|
+SW<2>          |SEGMENT<5>     |   10.474|
+SW<2>          |SEGMENT<6>     |   10.135|
+SW<3>          |SEGMENT<0>     |   11.001|
+SW<3>          |SEGMENT<1>     |   10.357|
+SW<3>          |SEGMENT<2>     |   10.521|
+SW<3>          |SEGMENT<3>     |   10.917|
+SW<3>          |SEGMENT<4>     |   10.018|
+SW<3>          |SEGMENT<5>     |   10.114|
+SW<3>          |SEGMENT<6>     |    9.828|
+SW<4>          |AN<0>          |    8.671|
+SW<5>          |AN<1>          |    8.742|
+SW<6>          |AN<2>          |    8.682|
+SW<7>          |AN<3>          |    8.425|
+point          |SEGMENT<7>     |    8.668|
+---------------+---------------+---------+
+
+
+Analysis completed Tue Nov 08 13:36:09 2016 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 474 MB
+
+
+

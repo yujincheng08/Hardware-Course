@@ -1,0 +1,44 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Tue Apr 11 14:58:08 2017
+# Process ID: 70800
+# Current directory: D:/Users/Shana/Desktop/EXP5/vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent63552 D:\Users\Shana\Desktop\EXP5\vivado\vivado.xpr
+# Log file: D:/Users/Shana/Desktop/EXP5/vivado/vivado.log
+# Journal file: D:/Users/Shana/Desktop/EXP5/vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Users/Shana/Desktop/EXP5/vivado/vivado.xpr
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_simulation -mode post-synthesis -type functional
+open_wave_config D:/Users/Shana/Desktop/EXP5/vivado/Main_Main_sch_tb_func_synth.wcfg
+source Main_Main_sch_tb.tcl
+run 50 us
+add_wave {{/Main_Main_sch_tb/UUT/XLXI_14/dina}} 
+relaunch_sim
+run 50 us
+save_wave_config {D:/Users/Shana/Desktop/EXP5/vivado/Main_Main_sch_tb_func_synth.wcfg}
+set_property is_enabled false [get_files -of_objects [get_filesets sources_1] {D:/Users/Shana/Desktop/EXP5/SCPU_ctrl.ngc D:/Users/Shana/Desktop/EXP5/SCPU_ctrl.v}]
+add_files -norecurse -scan_for_includes D:/Users/Shana/Desktop/EXP5/SCPU_ctrl.vf
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim
+close_design
+launch_simulation -mode post-synthesis -type functional
+open_wave_config D:/Users/Shana/Desktop/EXP5/vivado/Main_Main_sch_tb_func_synth.wcfg
+source Main_Main_sch_tb.tcl
+run 50 us
+add_wave {{/Main_Main_sch_tb/UUT/XLXI_14/douta}} 
+relaunch_sim
+run 50 us
+run 1 s
+save_wave_config {D:/Users/Shana/Desktop/EXP5/vivado/Main_Main_sch_tb_func_synth.wcfg}
+close_sim
+close_design
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1

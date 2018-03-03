@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Thu Dec 29 22:10:00 2016
+# Process ID: 23216
+# Current directory: F:/vivado/Framework
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5444 F:\vivado\Framework\Framework.xpr
+# Log file: F:/vivado/Framework/vivado.log
+# Journal file: F:/vivado/Framework\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/vivado/Framework/Framework.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Output Repository Path: Could not find the directory 'F:/vivado/Framework/Framework.cache/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Tools/XILINX/Vivado/2016.3/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 770.270 ; gain = 119.500

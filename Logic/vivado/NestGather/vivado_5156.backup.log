@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Sat Jan 07 16:20:20 2017
+# Process ID: 5156
+# Current directory: D:/Users/Shana/Desktop/vivado/NestGather
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12156 D:\Users\Shana\Desktop\vivado\NestGather\NestGather.xpr
+# Log file: D:/Users/Shana/Desktop/vivado/NestGather/vivado.log
+# Journal file: D:/Users/Shana/Desktop/vivado/NestGather\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Users/Shana/Desktop/vivado/NestGather/NestGather.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/Users/Shana/Desktop/startscreen.coe'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Tools/XILINX/Vivado/2016.3/data/ip'.
+open_project: Time (s): cpu = 00:00:25 ; elapsed = 00:00:21 . Memory (MB): peak = 783.211 ; gain = 141.922
+remove_files  D:/Users/Shana/Desktop/startscreen.coe
+remove_files  {D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/coe/0.coe D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/coe/1.coe D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/coe/2.coe D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/coe/3.coe D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/coe/4.coe D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/coe/5.coe D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/coe/6.coe D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/coe/c.coe D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/coe/m.coe D:/Users/Shana/Desktop/vivado/NestGather/NestGather.srcs/sources_1/imports/coe/l.coe}
+import_files {{D:/Users/Shana/Desktop/New folder/startscreen.coe}}
+INFO: [Device 21-403] Loading part xc7k160tfbg676-2L
+import_files: Time (s): cpu = 00:00:45 ; elapsed = 00:00:42 . Memory (MB): peak = 1019.188 ; gain = 223.363
+import_files {D:/Users/Shana/Desktop/win.coe D:/Users/Shana/Desktop/over.coe}
+import_files: Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 1024.344 ; gain = 5.156
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Jan 07 16:27:00 2017...

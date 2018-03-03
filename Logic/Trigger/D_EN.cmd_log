@@ -1,0 +1,2 @@
+sch2sym -intstyle ise -family kintex7 -refsym D_EN F:/3150101155/Trigger/D_EN.sch F:/3150101155/Trigger/D_EN.sym 
+sch2sym -intstyle ise -family kintex7 -w -refsym D_EN F:/3150101155/Trigger/D_EN.sch F:/3150101155/Trigger/D_EN.sym 

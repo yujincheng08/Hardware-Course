@@ -1,0 +1,47 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/Users/Shana/Desktop/EXP5/TEST_32_isim_beh.exe" -prj "D:/Users/Shana/Desktop/EXP5/TEST_32_beh.prj" "work.TEST_32" "work.glbl" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/Element/xor32.v" into library work
+Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/Element/srl32.v" into library work
+Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/Element/SignalExt_32.v" into library work
+Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/Element/or_bit_32 .v" into library work
+Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/Element/or32.v" into library work
+Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/Element/nor32.v" into library work
+Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/Element/MUX8T1_32.v" into library work
+Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/Element/and32.v" into library work
+Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/Element/addc_32.v" into library work
+Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/ALU.vf" into library work
+Analyzing Verilog file "D:/Users/Shana/Desktop/EXP5/Element/test_32.v" into library work
+Analyzing Verilog file "D:/Tools/XILINX/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "D:/Users/Shana/Desktop/EXP5/Element/test_32.v" Line 33: Port overflow is not connected to this instance
+WARNING:HDLCompiler:189 - "D:/Users/Shana/Desktop/EXP5/ALU.vf" Line 387: Size mismatch in connection of port <S>. Formal port size is 3233-bit while actual signal size is 33-bit.
+Completed static elaboration
+Compiling module ADC32
+Compiling module OR2
+Compiling module AND2
+Compiling module INV
+Compiling module OR4
+Compiling module MUX4T1_MUSER_ALU
+Compiling module MUX8T1_8_MUSER_ALU
+Compiling module MUX8T1_32_MUSER_ALU
+Compiling module and32
+Compiling module xor32
+Compiling module nor32
+Compiling module srl32
+Compiling module or_bit_32
+Compiling module SignalExt_32
+Compiling module or32
+Compiling module GND
+Compiling module ALU
+Compiling module overflow
+Compiling module TEST_32
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 9 sub-compilation(s) to finish...
+Compiled 20 Verilog Units
+Built simulation executable D:/Users/Shana/Desktop/EXP5/TEST_32_isim_beh.exe
+Fuse Memory Usage: 28248 KB
+Fuse CPU Usage: 1092 ms

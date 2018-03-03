@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Mon Jan 02 22:10:17 2017
+# Process ID: 10716
+# Current directory: D:/Users/Shana/Desktop/vivado/test/test.sim/sim_1/behav
+# Command line: wbtcv.exe -mode batch -source D:/Users/Shana/Desktop/vivado/test/test.sim/sim_1/behav/xsim.dir/xtest_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/Users/Shana/Desktop/vivado/test/test.sim/sim_1/behav/webtalk.log
+# Journal file: D:/Users/Shana/Desktop/vivado/test/test.sim/sim_1/behav\webtalk.jou
+#-----------------------------------------------------------
+source D:/Users/Shana/Desktop/vivado/test/test.sim/sim_1/behav/xsim.dir/xtest_behav/webtalk/xsim_webtalk.tcl -notrace

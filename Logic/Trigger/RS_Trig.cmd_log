@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "F:/3150101155/Trigger/RS_Trig.xst" -ofn "F:/3150101155/Trigger/RS_Trig.syr" 

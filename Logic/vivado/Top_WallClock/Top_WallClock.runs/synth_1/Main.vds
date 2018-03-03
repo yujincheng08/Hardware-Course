@@ -1,0 +1,799 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Tue Dec 27 15:28:59 2016
+# Process ID: 8568
+# Current directory: F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1
+# Command line: vivado.exe -log Main.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Main.tcl
+# Log file: F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1/Main.vds
+# Journal file: F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Main.tcl -notrace
+Command: synth_design -top Main -part xc7k160tfbg676-2L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k160t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k160t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 19420 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 297.223 ; gain = 87.563
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Main' [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:23]
+INFO: [Synth 8-638] synthesizing module 'clkdiv' [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/clkdiv.v:21]
+INFO: [Synth 8-256] done synthesizing module 'clkdiv' (1#1) [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/clkdiv.v:21]
+INFO: [Synth 8-638] synthesizing module 'SAnti_jitter' [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/SAnti_jitter_IO.v:21]
+INFO: [Synth 8-256] done synthesizing module 'SAnti_jitter' (2#1) [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/SAnti_jitter_IO.v:21]
+INFO: [Synth 8-638] synthesizing module 'Display' [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Display.vf:23]
+INFO: [Synth 8-638] synthesizing module 'P2S' [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/P2S_IO.v:21]
+	Parameter DATA_BITS bound to: 64 - type: integer 
+	Parameter DATA_COUNT_BITS bound to: 6 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'P2S' (3#1) [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/P2S_IO.v:21]
+INFO: [Synth 8-638] synthesizing module 'HexTo8SEG8' [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/HexTo8SEG8.v:21]
+INFO: [Synth 8-638] synthesizing module 'Hex2Seg' [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Hex2Seg.v:21]
+INFO: [Synth 8-638] synthesizing module 'MC14495_ZJU' [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/MC14495_ZJU.vf:23]
+INFO: [Synth 8-638] synthesizing module 'AND4' [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:108]
+INFO: [Synth 8-256] done synthesizing module 'AND4' (4#1) [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:108]
+INFO: [Synth 8-638] synthesizing module 'AND3' [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:60]
+INFO: [Synth 8-256] done synthesizing module 'AND3' (5#1) [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:60]
+INFO: [Synth 8-638] synthesizing module 'AND2' [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:14]
+INFO: [Synth 8-256] done synthesizing module 'AND2' (6#1) [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:14]
+INFO: [Synth 8-638] synthesizing module 'OR3' [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:25548]
+INFO: [Synth 8-256] done synthesizing module 'OR3' (7#1) [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:25548]
+INFO: [Synth 8-638] synthesizing module 'OR4' [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:25596]
+INFO: [Synth 8-256] done synthesizing module 'OR4' (8#1) [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:25596]
+INFO: [Synth 8-638] synthesizing module 'OR2' [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:25502]
+INFO: [Synth 8-256] done synthesizing module 'OR2' (9#1) [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:25502]
+INFO: [Synth 8-638] synthesizing module 'INV' [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:17255]
+INFO: [Synth 8-256] done synthesizing module 'INV' (10#1) [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:17255]
+INFO: [Synth 8-256] done synthesizing module 'MC14495_ZJU' (11#1) [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/MC14495_ZJU.vf:23]
+INFO: [Synth 8-256] done synthesizing module 'Hex2Seg' (12#1) [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Hex2Seg.v:21]
+INFO: [Synth 8-256] done synthesizing module 'HexTo8SEG8' (13#1) [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/HexTo8SEG8.v:21]
+INFO: [Synth 8-638] synthesizing module 'MUX2T1_64' [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/MUX2T1_64.v:21]
+INFO: [Synth 8-256] done synthesizing module 'MUX2T1_64' (14#1) [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/MUX2T1_64.v:21]
+INFO: [Synth 8-638] synthesizing module 'SSeg_map' [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/SSeg_map.v:21]
+INFO: [Synth 8-256] done synthesizing module 'SSeg_map' (15#1) [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/SSeg_map.v:21]
+INFO: [Synth 8-256] done synthesizing module 'Display' (16#1) [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Display.vf:23]
+INFO: [Synth 8-638] synthesizing module 'SEnter_2_32' [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/SEnter_2_32_IO.v:21]
+INFO: [Synth 8-256] done synthesizing module 'SEnter_2_32' (17#1) [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/SEnter_2_32_IO.v:21]
+INFO: [Synth 8-638] synthesizing module 'Multi_8CH32' [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Multi_8CH32.v:21]
+INFO: [Synth 8-256] done synthesizing module 'Multi_8CH32' (18#1) [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Multi_8CH32.v:21]
+INFO: [Synth 8-638] synthesizing module 'GPIO' [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/GPIO.v:21]
+INFO: [Synth 8-638] synthesizing module 'LED_P2S' [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/LED_P2S_IO.v:21]
+	Parameter DATA_BITS bound to: 16 - type: integer 
+	Parameter DATA_COUNT_BITS bound to: 4 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'LED_P2S' (19#1) [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/LED_P2S_IO.v:21]
+INFO: [Synth 8-256] done synthesizing module 'GPIO' (20#1) [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/GPIO.v:21]
+INFO: [Synth 8-638] synthesizing module 'Seg7_Dev' [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Seg7_Dev.vf:22]
+INFO: [Synth 8-638] synthesizing module 'MUXHM' [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/MUXHM.v:21]
+INFO: [Synth 8-256] done synthesizing module 'MUXHM' (21#1) [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/MUXHM.v:21]
+INFO: [Synth 8-638] synthesizing module 'Seg_map' [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Seg_map.v:21]
+INFO: [Synth 8-256] done synthesizing module 'Seg_map' (22#1) [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Seg_map.v:21]
+INFO: [Synth 8-638] synthesizing module 'ScanSync' [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/ScanSync.vf:23]
+INFO: [Synth 8-638] synthesizing module 'BUF' [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:567]
+INFO: [Synth 8-256] done synthesizing module 'BUF' (23#1) [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:567]
+INFO: [Synth 8-638] synthesizing module 'VCC' [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:44693]
+INFO: [Synth 8-256] done synthesizing module 'VCC' (24#1) [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:44693]
+INFO: [Synth 8-638] synthesizing module 'GND' [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:4826]
+INFO: [Synth 8-256] done synthesizing module 'GND' (25#1) [D:/Tools/XILINX/Vivado/2016.3/scripts/rt/data/unisim_comp.v:4826]
+INFO: [Synth 8-638] synthesizing module 'MUX8T1_8' [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/MUX8T1_8.vf:23]
+INFO: [Synth 8-638] synthesizing module 'MUX4T1' [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/MUX4T1.vf:23]
+INFO: [Synth 8-256] done synthesizing module 'MUX4T1' (26#1) [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/MUX4T1.vf:23]
+INFO: [Synth 8-256] done synthesizing module 'MUX8T1_8' (27#1) [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/MUX8T1_8.vf:23]
+INFO: [Synth 8-256] done synthesizing module 'ScanSync' (28#1) [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/ScanSync.vf:23]
+INFO: [Synth 8-256] done synthesizing module 'Seg7_Dev' (29#1) [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Seg7_Dev.vf:22]
+INFO: [Synth 8-638] synthesizing module 'PIO' [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/PIO.v:21]
+INFO: [Synth 8-256] done synthesizing module 'PIO' (30#1) [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/PIO.v:21]
+INFO: [Synth 8-638] synthesizing module 'Wall_CLOCK' [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Wall_CLOCK.v:23]
+INFO: [Synth 8-638] synthesizing module 'clk_1ms' [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/clk_1ms.v:24]
+INFO: [Synth 8-256] done synthesizing module 'clk_1ms' (31#1) [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/clk_1ms.v:24]
+INFO: [Synth 8-638] synthesizing module 'ms_1000' [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/ms_1000.v:25]
+	Parameter MS bound to: 1000 - type: integer 
+WARNING: [Synth 8-152] case item 12'bxxxx10011001 overlaps with previous case item(s) [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/ms_1000.v:40]
+WARNING: [Synth 8-152] case item 12'bxxxxxxxx1001 overlaps with previous case item(s) [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/ms_1000.v:40]
+INFO: [Synth 8-256] done synthesizing module 'ms_1000' (32#1) [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/ms_1000.v:25]
+INFO: [Synth 8-638] synthesizing module 'count_60' [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/count_60.v:23]
+WARNING: [Synth 8-152] case item 8'bxxxx1001 overlaps with previous case item(s) [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/count_60.v:37]
+INFO: [Synth 8-256] done synthesizing module 'count_60' (33#1) [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/count_60.v:23]
+INFO: [Synth 8-638] synthesizing module 'count_24' [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/count_24.v:23]
+INFO: [Synth 8-256] done synthesizing module 'count_24' (34#1) [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/count_24.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Wall_CLOCK' (35#1) [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Wall_CLOCK.v:23]
+WARNING: [Synth 8-689] width (32) of port connection 'Time_out' does not match port width (16) of module 'Wall_CLOCK' [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:178]
+WARNING: [Synth 8-3848] Net XLXN_57 in module/entity Main does not have driver. [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:80]
+WARNING: [Synth 8-3848] Net XLXN_59 in module/entity Main does not have driver. [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:81]
+WARNING: [Synth 8-3848] Net XLXN_60 in module/entity Main does not have driver. [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:82]
+WARNING: [Synth 8-3848] Net XLXN_61 in module/entity Main does not have driver. [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:83]
+WARNING: [Synth 8-3848] Net XLXN_67 in module/entity Main does not have driver. [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:85]
+INFO: [Synth 8-256] done synthesizing module 'Main' (36#1) [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:23]
+WARNING: [Synth 8-3331] design clk_1ms has unconnected port rst_n
+WARNING: [Synth 8-3331] design Seg_map has unconnected port Scan[2]
+WARNING: [Synth 8-3331] design Multi_8CH32 has unconnected port rst
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 334.633 ; gain = 124.973
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[63] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[62] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[61] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[60] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[59] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[58] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[57] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[56] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[55] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[54] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[53] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[52] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[47] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[46] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[45] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[44] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[43] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[42] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[41] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[40] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[39] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[38] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[37] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[36] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[35] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[34] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[33] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[32] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[31] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[30] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[29] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[28] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[27] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[26] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[25] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[24] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[23] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[22] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[21] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[20] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[19] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[18] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[17] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[16] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[15] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[14] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[13] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[12] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[11] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[10] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[9] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[8] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[7] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[6] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[5] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[4] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[3] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[2] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[1] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:point_in[0] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[63] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[62] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[61] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[60] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[59] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[58] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[57] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[56] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[55] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[54] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[53] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[52] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[47] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[46] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[45] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[44] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[43] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[42] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[41] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[40] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[39] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[38] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[37] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[36] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[35] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[34] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[33] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[32] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[31] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[30] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[29] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[28] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[27] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[26] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[25] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[24] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[23] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[22] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[21] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+WARNING: [Synth 8-3295] tying undriven pin M5:LES[20] to constant 0 [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:129]
+INFO: [Common 17-14] Message 'Synth 8-3295' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 334.633 ; gain = 124.973
+---------------------------------------------------------------------------------
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'LED_P2S' instantiated as 'M6/LED_P2S' [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/GPIO.v:40]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'P2S' instantiated as 'M3/XLXI_1' [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Display.vf:53]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'SAnti_jitter' instantiated as 'M2' [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:95]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'SEnter_2_32' instantiated as 'M4' [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Main.vf:120]
+INFO: [Netlist 29-17] Analyzing 630 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7k160tfbg676-2L
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [F:/vivado/Top_WallClock/Top_WallClock.srcs/constrs_1/new/constraints.xdc]
+Finished Parsing XDC File [F:/vivado/Top_WallClock/Top_WallClock.srcs/constrs_1/new/constraints.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [F:/vivado/Top_WallClock/Top_WallClock.srcs/constrs_1/new/constraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Main_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Main_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 630 instances were transformed.
+  AND2 => LUT2: 202 instances
+  AND3 => LUT3: 99 instances
+  AND4 => LUT4: 81 instances
+  BUF => LUT1: 11 instances
+  INV => LUT1: 63 instances
+  OR2 => LUT2: 79 instances
+  OR3 => LUT3: 27 instances
+  OR4 => LUT4: 68 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 657.949 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:17 ; elapsed = 00:00:23 . Memory (MB): peak = 657.949 ; gain = 448.289
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k160tfbg676-2L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:23 . Memory (MB): peak = 657.949 ; gain = 448.289
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:23 . Memory (MB): peak = 657.949 ; gain = 448.289
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "clk_1ms" won't be mapped to RAM because address size (31) is larger than maximum supported(25)
+WARNING: [Synth 8-327] inferring latch for variable 'd_sec_reg' [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Wall_CLOCK.v:41]
+WARNING: [Synth 8-327] inferring latch for variable 'd_min_reg' [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Wall_CLOCK.v:45]
+WARNING: [Synth 8-327] inferring latch for variable 'd_hour_reg' [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Wall_CLOCK.v:46]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:23 . Memory (MB): peak = 657.949 ; gain = 448.289
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input     12 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 4     
+	   2 Input      4 Bit       Adders := 4     
+	   2 Input      2 Bit       Adders := 1     
+	   2 Input      1 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               31 Bit    Registers := 1     
+	               12 Bit    Registers := 1     
+	                8 Bit    Registers := 5     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 1     
+	   2 Input     31 Bit        Muxes := 1     
+	   4 Input     16 Bit        Muxes := 1     
+	   4 Input     12 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 1     
+	   3 Input      8 Bit        Muxes := 3     
+	   4 Input      4 Bit        Muxes := 1     
+	   5 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 4     
+	   3 Input      1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module MUX2T1_64 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 1     
+Module Multi_8CH32 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+Module MUXHM 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+Module Seg_map 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      8 Bit        Muxes := 1     
+Module clk_1ms 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     31 Bit       Adders := 1     
++---Registers : 
+	               31 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module ms_1000 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               12 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   4 Input     12 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 2     
+Module count_60 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   3 Input      8 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 2     
+Module count_24 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   3 Input      8 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 2     
+Module Wall_CLOCK 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
+	   2 Input      1 Bit       Adders := 1     
++---Registers : 
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   4 Input     16 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   5 Input      4 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 600 (col length:100)
+BRAMs: 650 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "clock/millisecond/clk_1ms" won't be mapped to RAM because address size (31) is larger than maximum supported(25)
+INFO: [Synth 8-3886] merging instance 'M6/GPIOf0_reg[0]' (FDCE_1) to 'M61/GPIOf0_reg[0]'
+INFO: [Synth 8-3886] merging instance 'M6/GPIOf0_reg[1]' (FDCE_1) to 'M61/GPIOf0_reg[1]'
+INFO: [Synth 8-3886] merging instance 'M6/GPIOf0_reg[3]' (FDCE_1) to 'M61/GPIOf0_reg[3]'
+INFO: [Synth 8-3886] merging instance 'M6/GPIOf0_reg[2]' (FDCE_1) to 'M61/GPIOf0_reg[2]'
+INFO: [Synth 8-3886] merging instance 'M6/GPIOf0_reg[7]' (FDCE_1) to 'M61/GPIOf0_reg[7]'
+INFO: [Synth 8-3886] merging instance 'M6/GPIOf0_reg[6]' (FDCE_1) to 'M61/GPIOf0_reg[6]'
+INFO: [Synth 8-3886] merging instance 'M6/GPIOf0_reg[5]' (FDCE_1) to 'M61/GPIOf0_reg[5]'
+INFO: [Synth 8-3886] merging instance 'M6/GPIOf0_reg[4]' (FDCE_1) to 'M61/GPIOf0_reg[4]'
+INFO: [Synth 8-3886] merging instance 'M61/GPIOf0_reg[13]' (FDCE_1) to 'M6/GPIOf0_reg[13]'
+INFO: [Synth 8-3886] merging instance 'M61/GPIOf0_reg[12]' (FDCE_1) to 'M6/GPIOf0_reg[12]'
+INFO: [Synth 8-3886] merging instance 'M61/GPIOf0_reg[15]' (FDCE_1) to 'M6/GPIOf0_reg[15]'
+INFO: [Synth 8-3886] merging instance 'M61/GPIOf0_reg[14]' (FDCE_1) to 'M6/GPIOf0_reg[14]'
+INFO: [Synth 8-3886] merging instance 'M61/GPIOf0_reg[9]' (FDCE_1) to 'M6/GPIOf0_reg[9]'
+INFO: [Synth 8-3886] merging instance 'M61/GPIOf0_reg[8]' (FDCE_1) to 'M6/GPIOf0_reg[8]'
+INFO: [Synth 8-3886] merging instance 'M61/GPIOf0_reg[11]' (FDCE_1) to 'M6/GPIOf0_reg[11]'
+INFO: [Synth 8-3886] merging instance 'M61/GPIOf0_reg[10]' (FDCE_1) to 'M6/GPIOf0_reg[10]'
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[3]' (FDE) to 'M5/disp_data_reg[1]'
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[1]' (FDE) to 'M5/disp_data_reg[7]'
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[2]' (FDE) to 'M5/disp_data_reg[4]'
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[0]' (FDE) to 'M5/disp_data_reg[9]'
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[10]' (FDE) to 'M5/disp_data_reg[7]'
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[6]' (FDE) to 'M5/disp_data_reg[4]'
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[8]' (FDE) to 'M5/disp_data_reg[5]'
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[4]' (FDE) to 'M5/disp_data_reg[11]'
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[22]' (FDE) to 'M5/disp_data_reg[5]'
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[18]' (FDE) to 'M5/disp_data_reg[5]'
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[20]' (FDE) to 'M5/disp_data_reg[7]'
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[16]' (FDE) to 'M5/disp_data_reg[5]'
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[31]' (FDE) to 'M5/disp_data_reg[5]'
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[27]' (FDE) to 'M5/disp_data_reg[7]'
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[29]' (FDE) to 'M5/disp_data_reg[7]'
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[25]' (FDE) to 'M5/disp_data_reg[5]'
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[23]' (FDE) to 'M5/disp_data_reg[11]'
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[19]' (FDE) to 'M5/disp_data_reg[11]'
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[21]' (FDE) to 'M5/disp_data_reg[9]'
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[17]' (FDE) to 'M5/disp_data_reg[11]'
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[11]' (FDE) to 'M5/disp_data_reg[13]'
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[7]' (FDE) to 'M5/disp_data_reg[12]'
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[9]' (FDE) to 'M5/disp_data_reg[24]'
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[5]' (FDE) to 'M5/disp_data_reg[14]'
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[15]' (FDE) to 'M5/disp_data_reg[13]'
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[13]' (FDE) to 'M5/disp_data_reg[28]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\M5/disp_data_reg[14] )
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[30]' (FDE) to 'M5/disp_data_reg[28]'
+INFO: [Synth 8-3886] merging instance 'M5/disp_data_reg[26]' (FDE) to 'M5/disp_data_reg[24]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\M5/disp_data_reg[28] )
+WARNING: [Synth 8-3332] Sequential element (M6/GPIOf0_reg[31]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M6/GPIOf0_reg[30]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M6/GPIOf0_reg[29]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M6/GPIOf0_reg[28]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M6/GPIOf0_reg[27]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M6/GPIOf0_reg[26]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M6/GPIOf0_reg[25]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M6/GPIOf0_reg[24]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M6/GPIOf0_reg[23]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M6/GPIOf0_reg[22]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M6/GPIOf0_reg[21]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M6/GPIOf0_reg[20]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M6/GPIOf0_reg[19]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M6/GPIOf0_reg[18]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M6/GPIOf0_reg[17]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M6/GPIOf0_reg[16]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[31]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[30]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[29]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[28]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[27]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[26]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[25]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[24]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[23]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[22]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[21]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[20]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[19]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[18]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[17]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M61/GPIOf0_reg[16]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M1/clkdiv_reg[26]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M1/clkdiv_reg[27]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M1/clkdiv_reg[28]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M1/clkdiv_reg[29]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M1/clkdiv_reg[30]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M1/clkdiv_reg[31]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M5/disp_data_reg[28]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M5/disp_data_reg[14]) is unused and will be removed from module Main.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:25 . Memory (MB): peak = 657.949 ; gain = 448.289
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:30 ; elapsed = 00:00:36 . Memory (MB): peak = 657.949 ; gain = 448.289
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:37 . Memory (MB): peak = 657.949 ; gain = 448.289
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (M5/cpu_point_reg[7]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M5/cpu_point_reg[6]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M5/cpu_point_reg[5]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M5/cpu_point_reg[4]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M5/cpu_point_reg[3]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M5/cpu_point_reg[2]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M5/cpu_point_reg[1]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (M5/cpu_point_reg[0]) is unused and will be removed from module Main.
+INFO: [Synth 8-3886] merging instance 'M5/cpu_blink_reg[7]' (FDE) to 'M5/cpu_blink_reg[6]'
+INFO: [Synth 8-3886] merging instance 'M5/cpu_blink_reg[6]' (FDE) to 'M5/cpu_blink_reg[5]'
+INFO: [Synth 8-3886] merging instance 'M5/cpu_blink_reg[5]' (FDE) to 'M5/cpu_blink_reg[4]'
+INFO: [Synth 8-3886] merging instance 'M5/cpu_blink_reg[4]' (FDE) to 'M5/cpu_blink_reg[3]'
+INFO: [Synth 8-3886] merging instance 'M5/cpu_blink_reg[3]' (FDE) to 'M5/cpu_blink_reg[2]'
+INFO: [Synth 8-3886] merging instance 'M5/cpu_blink_reg[2]' (FDE) to 'M5/cpu_blink_reg[1]'
+INFO: [Synth 8-3886] merging instance 'M5/cpu_blink_reg[1]' (FDE) to 'M5/cpu_blink_reg[0]'
+INFO: [Synth 8-3886] merging instance 'M5/cpu_blink_reg[0]' (FDE) to 'M5/disp_data_reg[12]'
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:30 ; elapsed = 00:00:37 . Memory (MB): peak = 657.949 ; gain = 448.289
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:31 ; elapsed = 00:00:38 . Memory (MB): peak = 657.949 ; gain = 448.289
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:31 ; elapsed = 00:00:38 . Memory (MB): peak = 657.949 ; gain = 448.289
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:31 ; elapsed = 00:00:38 . Memory (MB): peak = 657.949 ; gain = 448.289
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:32 ; elapsed = 00:00:38 . Memory (MB): peak = 657.949 ; gain = 448.289
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:32 ; elapsed = 00:00:38 . Memory (MB): peak = 657.949 ; gain = 448.289
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:32 ; elapsed = 00:00:38 . Memory (MB): peak = 657.949 ; gain = 448.289
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |SAnti_jitter  |         1|
+|2     |SEnter_2_32   |         1|
+|3     |P2S           |         1|
+|4     |LED_P2S       |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+-------------+------+
+|      |Cell         |Count |
++------+-------------+------+
+|1     |LED_P2S      |     1|
+|2     |P2S          |     1|
+|3     |SAnti_jitter |     1|
+|4     |SEnter_2_32  |     1|
+|5     |AND2         |   134|
+|6     |AND3         |    99|
+|7     |AND4         |    81|
+|8     |BUF          |    10|
+|9     |BUFG         |     1|
+|10    |CARRY4       |    18|
+|11    |INV          |    35|
+|12    |LUT1         |    86|
+|13    |LUT2         |    15|
+|14    |LUT3         |    49|
+|15    |LUT4         |    51|
+|16    |LUT5         |    31|
+|17    |LUT6         |    71|
+|18    |OR2          |    73|
+|19    |OR3          |    27|
+|20    |OR4          |    56|
+|21    |FDCE         |    51|
+|22    |FDRE         |    68|
+|23    |LD           |     3|
+|24    |IBUF         |    22|
+|25    |OBUF         |    37|
++------+-------------+------+
+
+Report Instance Areas: 
++------+----------------+---------------+------+
+|      |Instance        |Module         |Cells |
++------+----------------+---------------+------+
+|1     |top             |               |  1136|
+|2     |  M1            |clkdiv         |    70|
+|3     |  M3            |Display        |   341|
+|4     |    XLXI_2      |HexTo8SEG8     |   335|
+|5     |      HTS0      |Hex2Seg        |    40|
+|6     |        MSEG    |MC14495_ZJU_21 |    40|
+|7     |      HTS1      |Hex2Seg_7      |    38|
+|8     |        MSEG    |MC14495_ZJU_20 |    38|
+|9     |      HTS2      |Hex2Seg_8      |    40|
+|10    |        MSEG    |MC14495_ZJU_19 |    40|
+|11    |      HTS3      |Hex2Seg_9      |    42|
+|12    |        MSEG    |MC14495_ZJU_18 |    42|
+|13    |      HTS4      |Hex2Seg_10     |    45|
+|14    |        MSEG    |MC14495_ZJU_17 |    45|
+|15    |      HTS5      |Hex2Seg_11     |    42|
+|16    |        MSEG    |MC14495_ZJU_16 |    42|
+|17    |      HTS6      |Hex2Seg_12     |    44|
+|18    |        MSEG    |MC14495_ZJU_15 |    44|
+|19    |      HTS7      |Hex2Seg_13     |    44|
+|20    |        MSEG    |MC14495_ZJU_14 |    44|
+|21    |  M31           |Seg7_Dev       |   212|
+|22    |    XLXI_2      |MC14495_ZJU    |    44|
+|23    |    XLXI_6      |ScanSync       |   167|
+|24    |      XLXI_28   |MUX8T1_8       |    60|
+|25    |        XLXI_38 |MUX4T1_5       |    24|
+|26    |        XLXI_39 |MUX4T1_6       |    24|
+|27    |      XLXI_29   |MUX8T1_8_1     |    97|
+|28    |        XLXI_28 |MUX4T1         |    24|
+|29    |        XLXI_37 |MUX4T1_2       |    26|
+|30    |        XLXI_38 |MUX4T1_3       |    14|
+|31    |        XLXI_39 |MUX4T1_4       |    14|
+|32    |  M5            |Multi_8CH32    |    11|
+|33    |  M6            |GPIO           |    14|
+|34    |  M61           |PIO            |    19|
+|35    |  clock         |Wall_CLOCK     |   299|
+|36    |    m13_hour    |count_24       |    22|
+|37    |    m13_min     |count_60       |    42|
+|38    |    m13_ms      |ms_1000        |    85|
+|39    |    m13_sec     |count_60_0     |    50|
+|40    |    millisecond |clk_1ms        |    80|
++------+----------------+---------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:32 ; elapsed = 00:00:38 . Memory (MB): peak = 657.949 ; gain = 448.289
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 51 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:24 . Memory (MB): peak = 657.949 ; gain = 113.168
+Synthesis Optimization Complete : Time (s): cpu = 00:00:32 ; elapsed = 00:00:38 . Memory (MB): peak = 657.949 ; gain = 448.289
+INFO: [Project 1-571] Translating synthesized netlist
+Release 14.7 - ngc2edif P_INT.20160902 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SAnti_jitter.ngc ...
+WARNING:NetListWriters:298 - No output is written to SAnti_jitter.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SAnti_jitter.edif ...
+ngc2edif: Total memory usage is 90380 kilobytes
+
+Reading core file 'F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/ip/SAnti_jitter.ngc' for (cell view 'SAnti_jitter', library 'work')
+Parsing EDIF File [./.ngc2edfcache/SAnti_jitter_ngc_71d72e9c.edif]
+Finished Parsing EDIF File [./.ngc2edfcache/SAnti_jitter_ngc_71d72e9c.edif]
+Release 14.7 - ngc2edif P_INT.20160902 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SEnter_2_32.ngc ...
+WARNING:NetListWriters:298 - No output is written to SEnter_2_32.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus Ai[31]_Ai[31]_mux_48_OUT[31 : 2] on
+   block SEnter_2_32 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Bi[31]_Bi[31]_mux_49_OUT[31 : 2] on
+   block SEnter_2_32 is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file SEnter_2_32.edif ...
+ngc2edif: Total memory usage is 90060 kilobytes
+
+Reading core file 'F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/ip/SEnter_2_32.ngc' for (cell view 'SEnter_2_32', library 'work')
+Parsing EDIF File [./.ngc2edfcache/SEnter_2_32_ngc_71d72e9c.edif]
+Finished Parsing EDIF File [./.ngc2edfcache/SEnter_2_32_ngc_71d72e9c.edif]
+Release 14.7 - ngc2edif P_INT.20160902 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design P2S.ngc ...
+WARNING:NetListWriters:298 - No output is written to P2S.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file P2S.edif ...
+ngc2edif: Total memory usage is 90380 kilobytes
+
+Reading core file 'F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/ip/P2S.ngc' for (cell view 'P2S', library 'work')
+Parsing EDIF File [./.ngc2edfcache/P2S_ngc_71d72e9c.edif]
+Finished Parsing EDIF File [./.ngc2edfcache/P2S_ngc_71d72e9c.edif]
+Release 14.7 - ngc2edif P_INT.20160902 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design LED_P2S.ngc ...
+WARNING:NetListWriters:298 - No output is written to LED_P2S.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file LED_P2S.edif ...
+ngc2edif: Total memory usage is 90380 kilobytes
+
+Reading core file 'F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/ip/LED_P2S.ngc' for (cell view 'LED_P2S', library 'work')
+Parsing EDIF File [./.ngc2edfcache/LED_P2S_ngc_71d72e9c.edif]
+Finished Parsing EDIF File [./.ngc2edfcache/LED_P2S_ngc_71d72e9c.edif]
+INFO: [Netlist 29-17] Analyzing 996 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Xilinx ngc2edif P_INT.20160902
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 824 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 27 instances
+  AND2 => LUT2: 134 instances
+  AND3 => LUT3: 99 instances
+  AND4 => LUT4: 81 instances
+  BUF => LUT1: 10 instances
+  FD => FDRE: 205 instances
+  FDC => FDCE: 14 instances
+  FDE => FDRE: 47 instances
+  INV => LUT1: 48 instances
+  LD => LDCE: 3 instances
+  OR2 => LUT2: 73 instances
+  OR3 => LUT3: 27 instances
+  OR4 => LUT4: 56 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+170 Infos, 167 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:33 ; elapsed = 00:00:41 . Memory (MB): peak = 657.949 ; gain = 443.430
+INFO: [Common 17-1381] The checkpoint 'F:/vivado/Top_WallClock/Top_WallClock.runs/synth_1/Main.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.050 . Memory (MB): peak = 657.949 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Dec 27 15:29:46 2016...

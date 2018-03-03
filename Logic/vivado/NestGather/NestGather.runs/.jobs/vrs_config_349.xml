@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="winprompt_synth_1" LaunchDir="D:/Users/Shana/Desktop/vivado/NestGather/NestGather.runs/winprompt_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="overprompt_synth_1" LaunchDir="D:/Users/Shana/Desktop/vivado/NestGather/NestGather.runs/overprompt_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="startscreen_synth_1" LaunchDir="D:/Users/Shana/Desktop/vivado/NestGather/NestGather.runs/startscreen_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="D:/Users/Shana/Desktop/vivado/NestGather/NestGather.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="winprompt_synth_1"/>
+		<Parent Id="overprompt_synth_1"/>
+		<Parent Id="startscreen_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="D:/Users/Shana/Desktop/vivado/NestGather/NestGather.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="synth_1"/>
+		<Parent Id="winprompt_synth_1"/>
+		<Parent Id="overprompt_synth_1"/>
+		<Parent Id="startscreen_synth_1"/>
+	</Run>
+</Runs>
+

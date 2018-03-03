@@ -1,0 +1,31 @@
+Vivado Simulator 2016.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Tools/XILINX/Vivado/2016.3/bin/unwrapped/win64.o/xelab.exe -wto 89d28514afaf478184e3cbfdb43e0328 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot P2S_test_behav xil_defaultlib.P2S_test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Shift64(DATA_BITS=64)
+Compiling module xil_defaultlib.P2S
+Compiling module unisims_ver.VCC
+Compiling module unisims_ver.sffsrce_fdre
+Compiling module unisims_ver.FDRE(INIT=1'b0)
+Compiling module unisims_ver.FD
+Compiling module unisims_ver.ffsrce_fdce
+Compiling module unisims_ver.FDCE(INIT=1'b0)
+Compiling module unisims_ver.FDC
+Compiling module unisims_ver.LUT4
+Compiling module unisims_ver.LUT6
+Compiling module unisims_ver.LUT5
+Compiling module unisims_ver.x_lut3_mux4
+Compiling module unisims_ver.x_lut3_mux4_reduced_0
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.MUXF7
+Compiling module xil_defaultlib.P2S_IO
+Compiling module xil_defaultlib.P2S_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot P2S_test_behav

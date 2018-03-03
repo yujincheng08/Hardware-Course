@@ -1,0 +1,329 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.22 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.22 secs
+ 
+--> Reading design: Regs_8bit.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Regs_8bit.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Regs_8bit"
+Output Format                      : NGC
+Target Device                      : xc7k160t-1-fbg676
+
+---- Source Options
+Top Module Name                    : Regs_8bit
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "F:\3150101155\Exp110-REGS\MB_DFF.vf" into library work
+Parsing module <MB_DFF>.
+Analyzing Verilog file "F:\3150101155\Exp110-REGS\Regs_8bit.v" into library work
+Parsing module <Regs_8bit>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <Regs_8bit>.
+
+Elaborating module <MB_DFF>.
+
+Elaborating module <NAND3>.
+WARNING:HDLCompiler:1127 - "F:\3150101155\Exp110-REGS\Regs_8bit.v" Line 30: Assignment to Qbar ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\3150101155\Exp110-REGS\Regs_8bit.v" Line 31: Assignment to Qbar ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\3150101155\Exp110-REGS\Regs_8bit.v" Line 32: Assignment to Qbar ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\3150101155\Exp110-REGS\Regs_8bit.v" Line 33: Assignment to Qbar ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\3150101155\Exp110-REGS\Regs_8bit.v" Line 34: Assignment to Qbar ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\3150101155\Exp110-REGS\Regs_8bit.v" Line 35: Assignment to Qbar ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\3150101155\Exp110-REGS\Regs_8bit.v" Line 36: Assignment to Qbar ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\3150101155\Exp110-REGS\Regs_8bit.v" Line 37: Assignment to Qbar ignored, since the identifier is never used
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Regs_8bit>.
+    Related source file is "F:\3150101155\Exp110-REGS\Regs_8bit.v".
+INFO:Xst:3210 - "F:\3150101155\Exp110-REGS\Regs_8bit.v" line 30: Output port <Qn> of the instance <T0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\3150101155\Exp110-REGS\Regs_8bit.v" line 31: Output port <Qn> of the instance <T1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\3150101155\Exp110-REGS\Regs_8bit.v" line 32: Output port <Qn> of the instance <T2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\3150101155\Exp110-REGS\Regs_8bit.v" line 33: Output port <Qn> of the instance <T3> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\3150101155\Exp110-REGS\Regs_8bit.v" line 34: Output port <Qn> of the instance <T4> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\3150101155\Exp110-REGS\Regs_8bit.v" line 35: Output port <Qn> of the instance <T5> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\3150101155\Exp110-REGS\Regs_8bit.v" line 36: Output port <Qn> of the instance <T6> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\3150101155\Exp110-REGS\Regs_8bit.v" line 37: Output port <Qn> of the instance <T7> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <Regs_8bit> synthesized.
+
+Synthesizing Unit <MB_DFF>.
+    Related source file is "F:\3150101155\Exp110-REGS\MB_DFF.vf".
+    Summary:
+	no macro.
+Unit <MB_DFF> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2170 - Unit Regs_8bit : the following signal(s) form a combinatorial loop: T7/Qn_DUMMY, Q<7>, T7/XLXN_98, T7/XLXN_11.
+WARNING:Xst:2170 - Unit Regs_8bit : the following signal(s) form a combinatorial loop: T6/Qn_DUMMY, Q<6>, T6/XLXN_98, T6/XLXN_11.
+WARNING:Xst:2170 - Unit Regs_8bit : the following signal(s) form a combinatorial loop: T5/XLXN_11, Q<5>, T5/XLXN_98, T5/Qn_DUMMY.
+WARNING:Xst:2170 - Unit Regs_8bit : the following signal(s) form a combinatorial loop: Q<4>, T4/Qn_DUMMY, T4/XLXN_11, T4/XLXN_98.
+WARNING:Xst:2170 - Unit Regs_8bit : the following signal(s) form a combinatorial loop: T3/Qn_DUMMY, T3/XLXN_11, Q<3>, T3/XLXN_98.
+WARNING:Xst:2170 - Unit Regs_8bit : the following signal(s) form a combinatorial loop: T2/Qn_DUMMY, Q<2>, T2/XLXN_11, T2/XLXN_98.
+WARNING:Xst:2170 - Unit Regs_8bit : the following signal(s) form a combinatorial loop: T1/XLXN_98, T1/Qn_DUMMY, T1/XLXN_11, Q<1>.
+WARNING:Xst:2170 - Unit Regs_8bit : the following signal(s) form a combinatorial loop: T0/XLXN_98, Q<0>, T0/Qn_DUMMY, T0/XLXN_11.
+
+Optimizing unit <Regs_8bit> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Regs_8bit, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : Regs_8bit.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 2
+#      INV                         : 1
+#      VCC                         : 1
+# IO Buffers                       : 18
+#      IBUF                        : 10
+#      OBUF                        : 8
+# Logical                          : 48
+#      NAND3                       : 48
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7k160tfbg676-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice LUTs:                    1  out of  101400     0%  
+    Number used as Logic:                 1  out of  101400     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:      1
+   Number with an unused Flip Flop:       1  out of      1   100%  
+   Number with an unused LUT:             0  out of      1     0%  
+   Number of fully used LUT-FF pairs:     0  out of      1     0%  
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                          18
+ Number of bonded IOBs:                  18  out of    400     4%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 5.795ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 96 / 8
+-------------------------------------------------------------------------
+Delay:               5.795ns (Levels of Logic = 9)
+  Source:            clear (PAD)
+  Destination:       Q<7> (PAD)
+
+  Data Path: clear to Q<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.000   0.399  clear_IBUF (clear_IBUF)
+     INV:I->O             24   0.067   0.885  cr1_INV_0 (cr)
+     NAND3:I0->O           2   0.053   0.745  T7/XLXI_2 (T7/XLXN_98)
+     NAND3:I0->O           1   0.053   0.635  T7/XLXI_1 (T7/XLXN_18)
+     NAND3:I2->O           3   0.157   0.649  T7/XLXI_3 (T7/XLXN_17)
+     NAND3:I2->O           2   0.157   0.731  T7/XLXI_4 (T7/XLXN_11)
+     NAND3:I1->O           1   0.067   0.739  T7/XLXI_6 (T7/Qn_DUMMY)
+     NAND3:I0->O           2   0.053   0.405  T7/XLXI_5 (Q_7_OBUF)
+     OBUF:I->O                 0.000          Q_7_OBUF (Q<7>)
+    ----------------------------------------
+    Total                      5.795ns (0.607ns logic, 5.188ns route)
+                                       (10.5% logic, 89.5% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 8.04 secs
+ 
+--> 
+
+Total memory usage is 319532 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   16 (   0 filtered)
+Number of infos    :    8 (   0 filtered)
+

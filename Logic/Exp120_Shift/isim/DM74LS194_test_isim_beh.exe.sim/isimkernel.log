@@ -1,0 +1,28 @@
+Command line:
+   DM74LS194_test_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  5369
+
+Mon Dec 26 20:16:07 2016
+
+
+ Elaboration Time: 1.3125 sec
+
+ Current Memory Usage: 1509.17 Meg
+
+ Total Signals          : 285
+ Total Nets             : 81
+ Total Signal Drivers   : 73
+ Total Blocks           : 53
+ Total Primitive Blocks : 47
+ Total Processes        : 77
+ Total Traceable Variables  : 28
+ Total Scalar Nets and Variables : 171
+
+ Total Simulation Time: 1.32813 sec
+
+ Current Memory Usage: 565.416 Meg
+
+Mon Dec 26 20:43:20 2016
+

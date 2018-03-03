@@ -1,0 +1,693 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Tue Jan 03 14:16:50 2017
+# Process ID: 8392
+# Current directory: D:/Users/Shana/Desktop/vivado/test_2/test_2.runs/synth_2
+# Command line: vivado.exe -log Main.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Main.tcl
+# Log file: D:/Users/Shana/Desktop/vivado/test_2/test_2.runs/synth_2/Main.vds
+# Journal file: D:/Users/Shana/Desktop/vivado/test_2/test_2.runs/synth_2\vivado.jou
+#-----------------------------------------------------------
+source Main.tcl -notrace
+Command: synth_design -top Main -part xc7k160tfbg676-2L -flatten_hierarchy none
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k160t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k160t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 19392 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 296.734 ; gain = 86.715
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Main' [D:/Users/Shana/Desktop/vivado/test_2/test_2.srcs/sources_1/imports/new/Main.v:23]
+INFO: [Synth 8-638] synthesizing module 'display' [D:/Users/Shana/Desktop/vivado/test_2/test_2.srcs/sources_1/imports/new/display.v:23]
+INFO: [Synth 8-638] synthesizing module 'clkdiv' [D:/Users/Shana/Desktop/vivado/test_2/test_2.srcs/sources_1/imports/new/clkdiv.v:23]
+INFO: [Synth 8-256] done synthesizing module 'clkdiv' (1#1) [D:/Users/Shana/Desktop/vivado/test_2/test_2.srcs/sources_1/imports/new/clkdiv.v:23]
+WARNING: [Synth 8-689] width (2) of port connection 'clkdiv' does not match port width (32) of module 'clkdiv' [D:/Users/Shana/Desktop/vivado/test_2/test_2.srcs/sources_1/imports/new/display.v:47]
+INFO: [Synth 8-638] synthesizing module 'vgaSync' [D:/Users/Shana/Desktop/vivado/test_2/test_2.srcs/sources_1/imports/new/vgaSync.v:21]
+	Parameter HActive bound to: 10'b1010000000 
+	Parameter HFront bound to: 10'b0000010000 
+	Parameter HPulse bound to: 10'b0001100000 
+	Parameter HBack bound to: 10'b0000110000 
+	Parameter HWhole bound to: 10'b1100100000 
+	Parameter VActive bound to: 10'b0111100000 
+	Parameter VFront bound to: 10'b0000001010 
+	Parameter VPulse bound to: 10'b0000000010 
+	Parameter VBack bound to: 10'b0000100001 
+	Parameter VWhole bound to: 10'b1000001101 
+INFO: [Synth 8-256] done synthesizing module 'vgaSync' (2#1) [D:/Users/Shana/Desktop/vivado/test_2/test_2.srcs/sources_1/imports/new/vgaSync.v:21]
+INFO: [Synth 8-638] synthesizing module 'addMap' [D:/Users/Shana/Desktop/vivado/test_2/test_2.srcs/sources_1/imports/new/addMap.v:23]
+	Parameter Height bound to: 480 - type: integer 
+	Parameter Weight bound to: 640 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'addMap' (3#1) [D:/Users/Shana/Desktop/vivado/test_2/test_2.srcs/sources_1/imports/new/addMap.v:23]
+INFO: [Synth 8-638] synthesizing module 'mouseDisp' [D:/Users/Shana/Desktop/vivado/test_2/test_2.srcs/sources_1/imports/new/mouseDisp.v:45]
+INFO: [Synth 8-256] done synthesizing module 'mouseDisp' (4#1) [D:/Users/Shana/Desktop/vivado/test_2/test_2.srcs/sources_1/imports/new/mouseDisp.v:45]
+INFO: [Synth 8-638] synthesizing module 'nestDisp' [D:/Users/Shana/Desktop/vivado/test_2/test_2.srcs/sources_1/imports/new/nestDisp.v:23]
+INFO: [Synth 8-256] done synthesizing module 'nestDisp' (5#1) [D:/Users/Shana/Desktop/vivado/test_2/test_2.srcs/sources_1/imports/new/nestDisp.v:23]
+INFO: [Synth 8-256] done synthesizing module 'display' (6#1) [D:/Users/Shana/Desktop/vivado/test_2/test_2.srcs/sources_1/imports/new/display.v:23]
+INFO: [Synth 8-638] synthesizing module 'mode' [D:/Users/Shana/Desktop/vivado/test_2/test_2.srcs/sources_1/imports/new/mode.v:23]
+INFO: [Synth 8-256] done synthesizing module 'mode' (7#1) [D:/Users/Shana/Desktop/vivado/test_2/test_2.srcs/sources_1/imports/new/mode.v:23]
+INFO: [Synth 8-638] synthesizing module 'nest' [D:/Users/Shana/Desktop/vivado/test_2/test_2.srcs/sources_1/imports/new/nest.v:23]
+INFO: [Synth 8-256] done synthesizing module 'nest' (8#1) [D:/Users/Shana/Desktop/vivado/test_2/test_2.srcs/sources_1/imports/new/nest.v:23]
+INFO: [Synth 8-638] synthesizing module 'initialNest' [D:/Users/Shana/Desktop/vivado/test_2/test_2.srcs/sources_1/imports/new/initialNest.v:23]
+INFO: [Synth 8-638] synthesizing module 'aroundCell' [D:/Users/Shana/Desktop/vivado/test_2/test_2.srcs/sources_1/imports/new/aroundCell.v:22]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Users/Shana/Desktop/vivado/test_2/test_2.srcs/sources_1/imports/new/aroundCell.v:33]
+INFO: [Synth 8-256] done synthesizing module 'aroundCell' (9#1) [D:/Users/Shana/Desktop/vivado/test_2/test_2.srcs/sources_1/imports/new/aroundCell.v:22]
+INFO: [Synth 8-638] synthesizing module 'random' [D:/Users/Shana/Desktop/vivado/test_2/test_2.srcs/sources_1/imports/new/random.v:23]
+INFO: [Synth 8-256] done synthesizing module 'random' (10#1) [D:/Users/Shana/Desktop/vivado/test_2/test_2.srcs/sources_1/imports/new/random.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Users/Shana/Desktop/vivado/test_2/test_2.srcs/sources_1/imports/new/initialNest.v:80]
+INFO: [Synth 8-256] done synthesizing module 'initialNest' (11#1) [D:/Users/Shana/Desktop/vivado/test_2/test_2.srcs/sources_1/imports/new/initialNest.v:23]
+INFO: [Synth 8-638] synthesizing module 'chnest' [D:/Users/Shana/Desktop/vivado/test_2/test_2.srcs/sources_1/imports/new/chnest.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Users/Shana/Desktop/vivado/test_2/test_2.srcs/sources_1/imports/new/chnest.v:86]
+INFO: [Synth 8-638] synthesizing module 'tocell' [D:/Users/Shana/Desktop/vivado/test_2/test_2.srcs/sources_1/imports/new/tocell.v:23]
+	Parameter width bound to: 10'b1010000000 
+	Parameter height bound to: 10'b0111100000 
+INFO: [Synth 8-256] done synthesizing module 'tocell' (12#1) [D:/Users/Shana/Desktop/vivado/test_2/test_2.srcs/sources_1/imports/new/tocell.v:23]
+WARNING: [Synth 8-3848] Net my in module/entity chnest does not have driver. [D:/Users/Shana/Desktop/vivado/test_2/test_2.srcs/sources_1/imports/new/chnest.v:65]
+INFO: [Synth 8-256] done synthesizing module 'chnest' (13#1) [D:/Users/Shana/Desktop/vivado/test_2/test_2.srcs/sources_1/imports/new/chnest.v:23]
+WARNING: [Synth 8-689] width (10) of port connection 'mouseX' does not match port width (12) of module 'chnest' [D:/Users/Shana/Desktop/vivado/test_2/test_2.srcs/sources_1/imports/new/Main.v:115]
+WARNING: [Synth 8-689] width (10) of port connection 'mouseY' does not match port width (12) of module 'chnest' [D:/Users/Shana/Desktop/vivado/test_2/test_2.srcs/sources_1/imports/new/Main.v:116]
+WARNING: [Synth 8-689] width (10) of port connection 'readX' does not match port width (12) of module 'chnest' [D:/Users/Shana/Desktop/vivado/test_2/test_2.srcs/sources_1/imports/new/Main.v:120]
+WARNING: [Synth 8-689] width (10) of port connection 'readY' does not match port width (12) of module 'chnest' [D:/Users/Shana/Desktop/vivado/test_2/test_2.srcs/sources_1/imports/new/Main.v:121]
+WARNING: [Synth 8-350] instance 'chnest' of module 'chnest' requires 20 connections, but only 19 given [D:/Users/Shana/Desktop/vivado/test_2/test_2.srcs/sources_1/imports/new/Main.v:109]
+WARNING: [Synth 8-3848] Net xpos in module/entity Main does not have driver. [D:/Users/Shana/Desktop/vivado/test_2/test_2.srcs/sources_1/imports/new/Main.v:30]
+WARNING: [Synth 8-3848] Net ypos in module/entity Main does not have driver. [D:/Users/Shana/Desktop/vivado/test_2/test_2.srcs/sources_1/imports/new/Main.v:30]
+WARNING: [Synth 8-3848] Net btn in module/entity Main does not have driver. [D:/Users/Shana/Desktop/vivado/test_2/test_2.srcs/sources_1/imports/new/Main.v:31]
+WARNING: [Synth 8-3848] Net done in module/entity Main does not have driver. [D:/Users/Shana/Desktop/vivado/test_2/test_2.srcs/sources_1/imports/new/Main.v:32]
+INFO: [Synth 8-256] done synthesizing module 'Main' (14#1) [D:/Users/Shana/Desktop/vivado/test_2/test_2.srcs/sources_1/imports/new/Main.v:23]
+WARNING: [Synth 8-3331] design chnest has unconnected port mouseX[11]
+WARNING: [Synth 8-3331] design chnest has unconnected port mouseX[10]
+WARNING: [Synth 8-3331] design chnest has unconnected port mouseX[9]
+WARNING: [Synth 8-3331] design chnest has unconnected port mouseX[8]
+WARNING: [Synth 8-3331] design chnest has unconnected port mouseX[7]
+WARNING: [Synth 8-3331] design chnest has unconnected port mouseX[6]
+WARNING: [Synth 8-3331] design chnest has unconnected port mouseX[5]
+WARNING: [Synth 8-3331] design chnest has unconnected port mouseX[4]
+WARNING: [Synth 8-3331] design chnest has unconnected port mouseX[3]
+WARNING: [Synth 8-3331] design chnest has unconnected port mouseX[2]
+WARNING: [Synth 8-3331] design chnest has unconnected port mouseX[1]
+WARNING: [Synth 8-3331] design chnest has unconnected port mouseX[0]
+WARNING: [Synth 8-3331] design chnest has unconnected port mouseY[11]
+WARNING: [Synth 8-3331] design chnest has unconnected port mouseY[10]
+WARNING: [Synth 8-3331] design chnest has unconnected port mouseY[9]
+WARNING: [Synth 8-3331] design chnest has unconnected port mouseY[8]
+WARNING: [Synth 8-3331] design chnest has unconnected port mouseY[7]
+WARNING: [Synth 8-3331] design chnest has unconnected port mouseY[6]
+WARNING: [Synth 8-3331] design chnest has unconnected port mouseY[5]
+WARNING: [Synth 8-3331] design chnest has unconnected port mouseY[4]
+WARNING: [Synth 8-3331] design chnest has unconnected port mouseY[3]
+WARNING: [Synth 8-3331] design chnest has unconnected port mouseY[2]
+WARNING: [Synth 8-3331] design chnest has unconnected port mouseY[1]
+WARNING: [Synth 8-3331] design chnest has unconnected port mouseY[0]
+WARNING: [Synth 8-3331] design chnest has unconnected port mouseDone
+WARNING: [Synth 8-3331] design chnest has unconnected port done
+WARNING: [Synth 8-3331] design aroundCell has unconnected port clk
+WARNING: [Synth 8-3331] design nestDisp has unconnected port clk
+WARNING: [Synth 8-3331] design nestDisp has unconnected port rst_n
+WARNING: [Synth 8-3331] design nestDisp has unconnected port dx[5]
+WARNING: [Synth 8-3331] design nestDisp has unconnected port dx[4]
+WARNING: [Synth 8-3331] design nestDisp has unconnected port dx[3]
+WARNING: [Synth 8-3331] design nestDisp has unconnected port dx[2]
+WARNING: [Synth 8-3331] design nestDisp has unconnected port dx[1]
+WARNING: [Synth 8-3331] design nestDisp has unconnected port dx[0]
+WARNING: [Synth 8-3331] design nestDisp has unconnected port dy[5]
+WARNING: [Synth 8-3331] design nestDisp has unconnected port dy[4]
+WARNING: [Synth 8-3331] design nestDisp has unconnected port dy[3]
+WARNING: [Synth 8-3331] design nestDisp has unconnected port dy[2]
+WARNING: [Synth 8-3331] design nestDisp has unconnected port dy[1]
+WARNING: [Synth 8-3331] design nestDisp has unconnected port dy[0]
+WARNING: [Synth 8-3331] design mouseDisp has unconnected port disY[9]
+WARNING: [Synth 8-3331] design mouseDisp has unconnected port disY[8]
+WARNING: [Synth 8-3331] design mouseDisp has unconnected port disY[7]
+WARNING: [Synth 8-3331] design mouseDisp has unconnected port disY[6]
+WARNING: [Synth 8-3331] design mouseDisp has unconnected port disY[5]
+WARNING: [Synth 8-3331] design mouseDisp has unconnected port disY[4]
+WARNING: [Synth 8-3331] design mouseDisp has unconnected port disY[3]
+WARNING: [Synth 8-3331] design mouseDisp has unconnected port disY[2]
+WARNING: [Synth 8-3331] design mouseDisp has unconnected port disY[1]
+WARNING: [Synth 8-3331] design mouseDisp has unconnected port disY[0]
+WARNING: [Synth 8-3331] design mouseDisp has unconnected port clk
+WARNING: [Synth 8-3331] design mouseDisp has unconnected port rst_n
+WARNING: [Synth 8-3331] design mouseDisp has unconnected port mouseX[9]
+WARNING: [Synth 8-3331] design mouseDisp has unconnected port mouseX[8]
+WARNING: [Synth 8-3331] design mouseDisp has unconnected port mouseX[7]
+WARNING: [Synth 8-3331] design mouseDisp has unconnected port mouseX[6]
+WARNING: [Synth 8-3331] design mouseDisp has unconnected port mouseX[5]
+WARNING: [Synth 8-3331] design mouseDisp has unconnected port mouseX[4]
+WARNING: [Synth 8-3331] design mouseDisp has unconnected port mouseX[3]
+WARNING: [Synth 8-3331] design mouseDisp has unconnected port mouseX[2]
+WARNING: [Synth 8-3331] design mouseDisp has unconnected port mouseX[1]
+WARNING: [Synth 8-3331] design mouseDisp has unconnected port mouseX[0]
+WARNING: [Synth 8-3331] design mouseDisp has unconnected port mouseY[9]
+WARNING: [Synth 8-3331] design mouseDisp has unconnected port mouseY[8]
+WARNING: [Synth 8-3331] design mouseDisp has unconnected port mouseY[7]
+WARNING: [Synth 8-3331] design mouseDisp has unconnected port mouseY[6]
+WARNING: [Synth 8-3331] design mouseDisp has unconnected port mouseY[5]
+WARNING: [Synth 8-3331] design mouseDisp has unconnected port mouseY[4]
+WARNING: [Synth 8-3331] design mouseDisp has unconnected port mouseY[3]
+WARNING: [Synth 8-3331] design mouseDisp has unconnected port mouseY[2]
+WARNING: [Synth 8-3331] design mouseDisp has unconnected port mouseY[1]
+WARNING: [Synth 8-3331] design mouseDisp has unconnected port mouseY[0]
+WARNING: [Synth 8-3331] design mouseDisp has unconnected port disX[9]
+WARNING: [Synth 8-3331] design mouseDisp has unconnected port disX[8]
+WARNING: [Synth 8-3331] design mouseDisp has unconnected port disX[7]
+WARNING: [Synth 8-3331] design mouseDisp has unconnected port disX[6]
+WARNING: [Synth 8-3331] design mouseDisp has unconnected port disX[5]
+WARNING: [Synth 8-3331] design mouseDisp has unconnected port disX[4]
+WARNING: [Synth 8-3331] design mouseDisp has unconnected port disX[3]
+WARNING: [Synth 8-3331] design mouseDisp has unconnected port disX[2]
+WARNING: [Synth 8-3331] design mouseDisp has unconnected port disX[1]
+WARNING: [Synth 8-3331] design mouseDisp has unconnected port disX[0]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 334.180 ; gain = 124.160
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 334.180 ; gain = 124.160
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k160tfbg676-2L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 334.180 ; gain = 124.160
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7k160tfbg676-2L
+INFO: [Synth 8-5546] ROM "HSync" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "YCnt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "VSync" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "length" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cellradius" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "total" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/Users/Shana/Desktop/vivado/test_2/test_2.srcs/sources_1/imports/new/aroundCell.v:33]
+INFO: [Synth 8-5544] ROM "valid" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "wen" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "i" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ret" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "x" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "load" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/Users/Shana/Desktop/vivado/test_2/test_2.srcs/sources_1/imports/new/chnest.v:86]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <multiplier> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/Users/Shana/Desktop/vivado/test_2/test_2.srcs/sources_1/imports/new/chnest.v:86]
+INFO: [Synth 8-5546] ROM "nestcell" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-327] inferring latch for variable 'addr_reg' [D:/Users/Shana/Desktop/vivado/test_2/test_2.srcs/sources_1/imports/new/aroundCell.v:40]
+WARNING: [Synth 8-327] inferring latch for variable 'valid_reg' [D:/Users/Shana/Desktop/vivado/test_2/test_2.srcs/sources_1/imports/new/aroundCell.v:36]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 363.781 ; gain = 153.762
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   3 Input     12 Bit       Adders := 2     
+	   4 Input     12 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 4     
+	   3 Input      8 Bit       Adders := 3     
+	   2 Input      8 Bit       Adders := 4     
+	   2 Input      7 Bit       Adders := 1     
+	   4 Input      6 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 2     
++---XORs : 
+	   2 Input      1 Bit         XORs := 3     
++---Registers : 
+	               10 Bit    Registers := 2     
+	                8 Bit    Registers := 3     
+	                7 Bit    Registers := 1     
+	                6 Bit    Registers := 3     
+	                5 Bit    Registers := 3     
+	                4 Bit    Registers := 4     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 7     
++---RAMs : 
+	               1K Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 1     
+	   9 Input     12 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 6     
+	  10 Input      8 Bit        Muxes := 1     
+	   3 Input      7 Bit        Muxes := 1     
+	  10 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 2     
+	   6 Input      6 Bit        Muxes := 1     
+	   3 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	   6 Input      5 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 4     
+	  10 Input      4 Bit        Muxes := 1     
+	   6 Input      4 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 1     
+	   7 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 25    
+	   7 Input      1 Bit        Muxes := 1     
+	  10 Input      1 Bit        Muxes := 11    
+	   6 Input      1 Bit        Muxes := 9     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Main 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module vgaSync 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 4     
++---Registers : 
+	               10 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 6     
+Module mouseDisp 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 1     
+Module nestDisp 
+Detailed RTL Component Info : 
++---Muxes : 
+	   9 Input     12 Bit        Muxes := 1     
+Module mode 
+Detailed RTL Component Info : 
++---Muxes : 
+	   3 Input      7 Bit        Muxes := 1     
+	   3 Input      5 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 1     
+Module nest 
+Detailed RTL Component Info : 
++---Registers : 
+	                6 Bit    Registers := 1     
++---RAMs : 
+	               1K Bit         RAMs := 1     
+Module aroundCell 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   3 Input      8 Bit       Adders := 3     
+	   2 Input      8 Bit       Adders := 4     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 2     
+	   7 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 1     
+Module random 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 3     
++---Registers : 
+	                8 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+Module initialNest 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 2     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                4 Bit    Registers := 4     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 2     
+	  10 Input      8 Bit        Muxes := 1     
+	  10 Input      6 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	  10 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+	  10 Input      1 Bit        Muxes := 11    
+Module tocell 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     12 Bit       Adders := 2     
+	   4 Input     12 Bit       Adders := 1     
+	   4 Input      6 Bit       Adders := 2     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module chnest 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 3     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      6 Bit        Muxes := 1     
+	   6 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	   6 Input      5 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	   6 Input      4 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 13    
+	   6 Input      1 Bit        Muxes := 9     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 600 (col length:100)
+BRAMs: 650 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "p_0_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "HSync" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "YCnt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "VSync" won't be mapped to RAM because it is too sparse
+DSP Report: Generating DSP addr, operation Mode is: C+(A:0x280)*B.
+DSP Report: operator addr is absorbed into DSP addr.
+DSP Report: operator addr0 is absorbed into DSP addr.
+DSP Debug: swapped A/B pins for adder 0000024D1E6D7EC0
+DSP Report: Generating DSP iscell5, operation Mode is: A*B.
+DSP Report: operator iscell5 is absorbed into DSP iscell5.
+DSP Report: Generating DSP iscell3, operation Mode is: PCIN+A*B.
+DSP Report: operator iscell3 is absorbed into DSP iscell3.
+DSP Report: operator iscell5 is absorbed into DSP iscell3.
+DSP Report: Generating DSP iscell3, operation Mode is: PCIN-A*B.
+DSP Report: operator iscell3 is absorbed into DSP iscell3.
+DSP Report: operator iscell4 is absorbed into DSP iscell3.
+DSP Report: Generating DSP iscell2, operation Mode is: C+A*B.
+DSP Report: operator iscell2 is absorbed into DSP iscell2.
+DSP Report: operator iscell5 is absorbed into DSP iscell2.
+DSP Report: Generating DSP iscell2, operation Mode is: PCIN+A*B.
+DSP Report: operator iscell2 is absorbed into DSP iscell2.
+DSP Report: operator iscell5 is absorbed into DSP iscell2.
+DSP Report: Generating DSP iscell2, operation Mode is: PCIN-A*B.
+DSP Report: operator iscell2 is absorbed into DSP iscell2.
+DSP Report: operator iscell4 is absorbed into DSP iscell2.
+DSP Report: Generating DSP iscell5, operation Mode is: A*B.
+DSP Report: operator iscell5 is absorbed into DSP iscell5.
+DSP Report: Generating DSP iscell2, operation Mode is: PCIN+A*B.
+DSP Report: operator iscell2 is absorbed into DSP iscell2.
+DSP Report: operator iscell5 is absorbed into DSP iscell2.
+DSP Report: Generating DSP iscell2, operation Mode is: PCIN+A:B.
+DSP Report: operator iscell2 is absorbed into DSP iscell2.
+DSP Report: Generating DSP iscell2, operation Mode is: PCIN-A*B.
+DSP Report: operator iscell2 is absorbed into DSP iscell2.
+DSP Report: operator iscell4 is absorbed into DSP iscell2.
+WARNING: [Synth 8-3331] design chnest has unconnected port mouseX[11]
+WARNING: [Synth 8-3331] design chnest has unconnected port mouseX[10]
+WARNING: [Synth 8-3331] design chnest has unconnected port mouseX[9]
+WARNING: [Synth 8-3331] design chnest has unconnected port mouseX[8]
+WARNING: [Synth 8-3331] design chnest has unconnected port mouseX[7]
+WARNING: [Synth 8-3331] design chnest has unconnected port mouseX[6]
+WARNING: [Synth 8-3331] design chnest has unconnected port mouseX[5]
+WARNING: [Synth 8-3331] design chnest has unconnected port mouseX[4]
+WARNING: [Synth 8-3331] design chnest has unconnected port mouseX[3]
+WARNING: [Synth 8-3331] design chnest has unconnected port mouseX[2]
+WARNING: [Synth 8-3331] design chnest has unconnected port mouseX[1]
+WARNING: [Synth 8-3331] design chnest has unconnected port mouseX[0]
+WARNING: [Synth 8-3331] design chnest has unconnected port mouseY[11]
+WARNING: [Synth 8-3331] design chnest has unconnected port mouseY[10]
+WARNING: [Synth 8-3331] design chnest has unconnected port mouseY[9]
+WARNING: [Synth 8-3331] design chnest has unconnected port mouseY[8]
+WARNING: [Synth 8-3331] design chnest has unconnected port mouseY[7]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3886] merging instance 'chnest/rbtn_reg[0]' (FDC) to 'chnest/mbtn_reg[0]'
+INFO: [Synth 8-3886] merging instance 'chnest/mbtn_reg[1]' (FDC) to 'chnest/rbtn_reg[1]'
+INFO: [Synth 8-3886] merging instance 'chnest/mbtn_reg[0]' (FDC) to 'chnest/lbtn_reg[0]'
+INFO: [Synth 8-3886] merging instance 'chnest/lbtn_reg[1]' (FDC) to 'chnest/rbtn_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (chnest/\lbtn_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (chnest/\return_reg[4] )
+INFO: [Synth 8-3886] merging instance 'chnest/return_reg[2]' (FDCE) to 'chnest/return_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (chnest/wen_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (chnest/\data_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (chnest/\data_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (chnest/\data_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (chnest/\data_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (chnest/\data_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (chnest/\data_reg[5] )
+WARNING: [Synth 8-3332] Sequential element (clkdiv_reg[2]) is unused and will be removed from module clkdiv.
+WARNING: [Synth 8-3332] Sequential element (clkdiv_reg[3]) is unused and will be removed from module clkdiv.
+WARNING: [Synth 8-3332] Sequential element (clkdiv_reg[4]) is unused and will be removed from module clkdiv.
+WARNING: [Synth 8-3332] Sequential element (clkdiv_reg[5]) is unused and will be removed from module clkdiv.
+WARNING: [Synth 8-3332] Sequential element (clkdiv_reg[6]) is unused and will be removed from module clkdiv.
+WARNING: [Synth 8-3332] Sequential element (clkdiv_reg[7]) is unused and will be removed from module clkdiv.
+WARNING: [Synth 8-3332] Sequential element (clkdiv_reg[8]) is unused and will be removed from module clkdiv.
+WARNING: [Synth 8-3332] Sequential element (clkdiv_reg[9]) is unused and will be removed from module clkdiv.
+WARNING: [Synth 8-3332] Sequential element (clkdiv_reg[10]) is unused and will be removed from module clkdiv.
+WARNING: [Synth 8-3332] Sequential element (clkdiv_reg[11]) is unused and will be removed from module clkdiv.
+WARNING: [Synth 8-3332] Sequential element (clkdiv_reg[12]) is unused and will be removed from module clkdiv.
+WARNING: [Synth 8-3332] Sequential element (clkdiv_reg[13]) is unused and will be removed from module clkdiv.
+WARNING: [Synth 8-3332] Sequential element (clkdiv_reg[14]) is unused and will be removed from module clkdiv.
+WARNING: [Synth 8-3332] Sequential element (clkdiv_reg[15]) is unused and will be removed from module clkdiv.
+WARNING: [Synth 8-3332] Sequential element (clkdiv_reg[16]) is unused and will be removed from module clkdiv.
+WARNING: [Synth 8-3332] Sequential element (clkdiv_reg[17]) is unused and will be removed from module clkdiv.
+WARNING: [Synth 8-3332] Sequential element (clkdiv_reg[18]) is unused and will be removed from module clkdiv.
+WARNING: [Synth 8-3332] Sequential element (clkdiv_reg[19]) is unused and will be removed from module clkdiv.
+WARNING: [Synth 8-3332] Sequential element (clkdiv_reg[20]) is unused and will be removed from module clkdiv.
+WARNING: [Synth 8-3332] Sequential element (clkdiv_reg[21]) is unused and will be removed from module clkdiv.
+WARNING: [Synth 8-3332] Sequential element (clkdiv_reg[22]) is unused and will be removed from module clkdiv.
+WARNING: [Synth 8-3332] Sequential element (clkdiv_reg[23]) is unused and will be removed from module clkdiv.
+WARNING: [Synth 8-3332] Sequential element (clkdiv_reg[24]) is unused and will be removed from module clkdiv.
+WARNING: [Synth 8-3332] Sequential element (clkdiv_reg[25]) is unused and will be removed from module clkdiv.
+WARNING: [Synth 8-3332] Sequential element (clkdiv_reg[26]) is unused and will be removed from module clkdiv.
+WARNING: [Synth 8-3332] Sequential element (clkdiv_reg[27]) is unused and will be removed from module clkdiv.
+WARNING: [Synth 8-3332] Sequential element (clkdiv_reg[28]) is unused and will be removed from module clkdiv.
+WARNING: [Synth 8-3332] Sequential element (clkdiv_reg[29]) is unused and will be removed from module clkdiv.
+WARNING: [Synth 8-3332] Sequential element (clkdiv_reg[30]) is unused and will be removed from module clkdiv.
+WARNING: [Synth 8-3332] Sequential element (clkdiv_reg[31]) is unused and will be removed from module clkdiv.
+WARNING: [Synth 8-3332] Sequential element (dx_reg[5]) is unused and will be removed from module tocell.
+WARNING: [Synth 8-3332] Sequential element (dx_reg[4]) is unused and will be removed from module tocell.
+WARNING: [Synth 8-3332] Sequential element (dx_reg[3]) is unused and will be removed from module tocell.
+WARNING: [Synth 8-3332] Sequential element (dx_reg[2]) is unused and will be removed from module tocell.
+WARNING: [Synth 8-3332] Sequential element (dx_reg[1]) is unused and will be removed from module tocell.
+WARNING: [Synth 8-3332] Sequential element (dx_reg[0]) is unused and will be removed from module tocell.
+WARNING: [Synth 8-3332] Sequential element (dy_reg[5]) is unused and will be removed from module tocell.
+WARNING: [Synth 8-3332] Sequential element (dy_reg[4]) is unused and will be removed from module tocell.
+WARNING: [Synth 8-3332] Sequential element (dy_reg[3]) is unused and will be removed from module tocell.
+WARNING: [Synth 8-3332] Sequential element (dy_reg[2]) is unused and will be removed from module tocell.
+WARNING: [Synth 8-3332] Sequential element (dy_reg[1]) is unused and will be removed from module tocell.
+WARNING: [Synth 8-3332] Sequential element (dy_reg[0]) is unused and will be removed from module tocell.
+WARNING: [Synth 8-3332] Sequential element (i_reg[4]) is unused and will be removed from module chnest.
+WARNING: [Synth 8-3332] Sequential element (i_reg[3]) is unused and will be removed from module chnest.
+WARNING: [Synth 8-3332] Sequential element (i_reg[2]) is unused and will be removed from module chnest.
+WARNING: [Synth 8-3332] Sequential element (clicked_reg) is unused and will be removed from module chnest.
+WARNING: [Synth 8-3332] Sequential element (return_reg[4]) is unused and will be removed from module chnest.
+WARNING: [Synth 8-3332] Sequential element (return_reg[3]) is unused and will be removed from module chnest.
+WARNING: [Synth 8-3332] Sequential element (return_reg[1]) is unused and will be removed from module chnest.
+WARNING: [Synth 8-3332] Sequential element (return_reg[0]) is unused and will be removed from module chnest.
+WARNING: [Synth 8-3332] Sequential element (wen_reg) is unused and will be removed from module chnest.
+WARNING: [Synth 8-3332] Sequential element (data_reg[5]) is unused and will be removed from module chnest.
+WARNING: [Synth 8-3332] Sequential element (data_reg[4]) is unused and will be removed from module chnest.
+WARNING: [Synth 8-3332] Sequential element (data_reg[3]) is unused and will be removed from module chnest.
+WARNING: [Synth 8-3332] Sequential element (data_reg[2]) is unused and will be removed from module chnest.
+WARNING: [Synth 8-3332] Sequential element (data_reg[1]) is unused and will be removed from module chnest.
+WARNING: [Synth 8-3332] Sequential element (data_reg[0]) is unused and will be removed from module chnest.
+WARNING: [Synth 8-3332] Sequential element (nestcell_reg[4]) is unused and will be removed from module chnest.
+WARNING: [Synth 8-3332] Sequential element (nestcell_reg[3]) is unused and will be removed from module chnest.
+WARNING: [Synth 8-3332] Sequential element (rbtn_reg[1]) is unused and will be removed from module chnest.
+WARNING: [Synth 8-3332] Sequential element (lbtn_reg[0]) is unused and will be removed from module chnest.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 477.539 ; gain = 267.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Preliminary Mapping  Report (see note below)
++------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name | RTL Object | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|nest        | data_reg   | 256 x 6(WRITE_FIRST)   | W | R |                        |   |   | Port A           | 1      | 0      | 
++------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+
+DSP: Preliminary Mapping  Report (see note below)
++------------+---------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping   | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+---------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|addMap      | C+(A:0x280)*B | 10     | 10     | 10     | -      | 19     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|tocell      | A*B           | 12     | 12     | -      | -      | 24     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|tocell      | PCIN+A*B      | 12     | 12     | -      | -      | 25     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|tocell      | PCIN-A*B      | 14     | 12     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|tocell      | C+A*B         | 12     | 12     | 32     | -      | 32     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|tocell      | PCIN+A*B      | 12     | 12     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|tocell      | PCIN-A*B      | 14     | 12     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|tocell      | A*B           | 12     | 12     | -      | -      | 24     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|tocell      | PCIN+A*B      | 12     | 12     | -      | -      | 25     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|tocell      | PCIN+A:B      | 7      | 18     | -      | -      | -1     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|tocell      | PCIN-A*B      | 14     | 12     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++------------+---------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 477.539 ; gain = 267.520
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4480] The timing for the instance nest/data_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 479.695 ; gain = 269.676
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 479.695 ; gain = 269.676
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 479.695 ; gain = 269.676
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 479.695 ; gain = 269.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     1|
+|2     |CARRY4   |   116|
+|3     |DSP48E1  |    10|
+|4     |LUT1     |   126|
+|5     |LUT2     |   280|
+|6     |LUT3     |    62|
+|7     |LUT4     |    60|
+|8     |LUT5     |    42|
+|9     |LUT6     |    60|
+|10    |MUXF7    |     3|
+|11    |RAMB18E1 |     1|
+|12    |XORCY    |    18|
+|13    |FDCE     |    84|
+|14    |FDPE     |     4|
+|15    |FDRE     |     9|
+|16    |LD       |     9|
+|17    |IBUF     |     2|
+|18    |OBUF     |    14|
++------+---------+------+
+
+Report Instance Areas: 
++------+---------------+------------+------+
+|      |Instance       |Module      |Cells |
++------+---------------+------------+------+
+|1     |top            |            |   901|
+|2     |  display      |display     |   106|
+|3     |    clkdiv     |clkdiv      |     6|
+|4     |    vgaSync    |vgaSync     |    94|
+|5     |    mouseDisp  |mouseDisp   |     3|
+|6     |    nestDisp   |nestDisp    |     3|
+|7     |  nest         |nest        |     2|
+|8     |  initialNest  |initialNest |   253|
+|9     |    aroundCell |aroundCell  |   114|
+|10    |    random     |random      |    17|
+|11    |  chnest       |chnest      |   508|
+|12    |    readcell   |tocell      |   465|
++------+---------------+------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 479.695 ; gain = 269.676
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 240 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 479.695 ; gain = 257.754
+Synthesis Optimization Complete : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 479.695 ; gain = 269.676
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 156 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 1 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 27 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 18 instances
+  LD => LDCE: 9 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+90 Infos, 174 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 582.441 ; gain = 367.961
+INFO: [Common 17-1381] The checkpoint 'D:/Users/Shana/Desktop/vivado/test_2/test_2.runs/synth_2/Main.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.046 . Memory (MB): peak = 582.441 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Jan 03 14:17:15 2017...

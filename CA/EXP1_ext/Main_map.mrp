@@ -1,0 +1,447 @@
+Release 14.7 Map P.20131013 (nt64)
+Xilinx Mapping Report File for Design 'Main'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc7k325t-fbg676-1 -w -logic_opt off -ol
+high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off
+-power off -o Main_map.ncd Main.ngd Main.pcf 
+Target Device  : xc7k325t
+Target Package : fbg676
+Target Speed   : -1
+Mapper Version : kintex7 -- $Revision: 1.55 $
+Mapped Date    : Mon Oct 16 17:42:44 2017
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:   14
+Slice Logic Utilization:
+  Number of Slice Registers:                 1,262 out of 407,600    1%
+    Number used as Flip Flops:               1,248
+    Number used as Latches:                     14
+    Number used as Latch-thrus:                  0
+    Number used as AND/OR logics:                0
+  Number of Slice LUTs:                      3,299 out of 203,800    1%
+    Number used as logic:                    3,261 out of 203,800    1%
+      Number using O6 output only:           3,038
+      Number using O5 output only:             108
+      Number using O5 and O6:                  115
+      Number used as ROM:                        0
+    Number used as Memory:                      24 out of  64,000    1%
+      Number used as Dual Port RAM:             24
+        Number using O6 output only:             4
+        Number using O5 output only:             0
+        Number using O5 and O6:                 20
+      Number used as Single Port RAM:            0
+      Number used as Shift Register:             0
+    Number used exclusively as route-thrus:     14
+      Number with same-slice register load:      5
+      Number with same-slice carry load:         9
+      Number with other load:                    0
+
+Slice Logic Distribution:
+  Number of occupied Slices:                 1,284 out of  50,950    2%
+  Number of LUT Flip Flop pairs used:        3,316
+    Number with an unused Flip Flop:         2,060 out of   3,316   62%
+    Number with an unused LUT:                  17 out of   3,316    1%
+    Number of fully used LUT-FF pairs:       1,239 out of   3,316   37%
+    Number of unique control sets:              24
+    Number of slice register sites lost
+      to control set restrictions:              94 out of 407,600    1%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+  OVERMAPPING of BRAM resources should be ignored if the design is
+  over-mapped for a non-BRAM resource or if placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                        46 out of     400   11%
+    Number of LOCed IOBs:                       46 out of      46  100%
+
+Specific Feature Utilization:
+  Number of RAMB36E1/FIFO36E1s:                  1 out of     445    1%
+    Number using RAMB36E1 only:                  1
+    Number using FIFO36E1 only:                  0
+  Number of RAMB18E1/FIFO18E1s:                  1 out of     890    1%
+    Number using RAMB18E1 only:                  1
+    Number using FIFO18E1 only:                  0
+  Number of BUFG/BUFGCTRLs:                      4 out of      32   12%
+    Number used as BUFGs:                        4
+    Number used as BUFGCTRLs:                    0
+  Number of IDELAYE2/IDELAYE2_FINEDELAYs:        0 out of     500    0%
+  Number of ILOGICE2/ILOGICE3/ISERDESE2s:        0 out of     500    0%
+  Number of ODELAYE2/ODELAYE2_FINEDELAYs:        0 out of     150    0%
+  Number of OLOGICE2/OLOGICE3/OSERDESE2s:        0 out of     500    0%
+  Number of PHASER_IN/PHASER_IN_PHYs:            0 out of      40    0%
+  Number of PHASER_OUT/PHASER_OUT_PHYs:          0 out of      40    0%
+  Number of BSCANs:                              0 out of       4    0%
+  Number of BUFHCEs:                             0 out of     168    0%
+  Number of BUFRs:                               0 out of      40    0%
+  Number of CAPTUREs:                            0 out of       1    0%
+  Number of DNA_PORTs:                           0 out of       1    0%
+  Number of DSP48E1s:                            0 out of     840    0%
+  Number of EFUSE_USRs:                          0 out of       1    0%
+  Number of FRAME_ECCs:                          0 out of       1    0%
+  Number of GTXE2_CHANNELs:                      0 out of      16    0%
+  Number of GTXE2_COMMONs:                       0 out of       4    0%
+  Number of IBUFDS_GTE2s:                        0 out of       8    0%
+  Number of ICAPs:                               0 out of       2    0%
+  Number of IDELAYCTRLs:                         0 out of      10    0%
+  Number of IN_FIFOs:                            0 out of      40    0%
+  Number of MMCME2_ADVs:                         0 out of      10    0%
+  Number of OUT_FIFOs:                           0 out of      40    0%
+  Number of PCIE_2_1s:                           0 out of       1    0%
+  Number of PHASER_REFs:                         0 out of      10    0%
+  Number of PHY_CONTROLs:                        0 out of      10    0%
+  Number of PLLE2_ADVs:                          0 out of      10    0%
+  Number of STARTUPs:                            0 out of       1    0%
+  Number of XADCs:                               0 out of       1    0%
+
+Average Fanout of Non-Clock Nets:                5.02
+
+Peak Memory Usage:  1360 MB
+Total REAL time to MAP completion:  11 mins 17 secs 
+Total CPU time to MAP completion:   10 mins 17 secs 
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group and Partition Summary
+Section 10 - Timing Report
+Section 11 - Configuration String Information
+Section 12 - Control Set Information
+Section 13 - Utilization by Hierarchy
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+WARNING:Pack:2949 - The I/O component clk200N uses an DQS_BIAS attribute with
+   I/O standard LVDS. The DQS_BIAS attribute will be ignored since the selected
+   I/O standard does not support DQS_BIAS usage.
+WARNING:Pack:2949 - The I/O component clk200P uses an DQS_BIAS attribute with
+   I/O standard LVDS. The DQS_BIAS attribute will be ignored since the selected
+   I/O standard does not support DQS_BIAS usage.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   SCPU_More/OPcode[5]_Fun[5]_Select_117_o is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   SCPU_More/OPcode[5]_Fun[5]_Select_107_o1 is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   SCPU_More/OPcode[5]_Fun[5]_Select_83_o is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   SCPU_More/OPcode[5]_Fun[5]_Select_119_o is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   SCPU_More/OPcode[5]_Fun[5]_Select_73_o is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   SCPU_More/OPcode[5]_Fun[5]_Select_75_o is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   SCPU_More/OPcode[5]_Fun[5]_Select_103_o is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+WARNING:PhysDesignRules:367 - The signal <VGA_DEBUG/Mram_data_buf2_RAMD_D1_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <VGA_DEBUG/Mram_data_buf5_RAMD_D1_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <VGA_DEBUG/Mram_data_buf1_RAMD_D1_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <VGA_DEBUG/Mram_data_buf3_RAMD_D1_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <VGA_DEBUG/Mram_data_buf4_RAMD_D1_O> is
+   incomplete. The signal does not drive any load pins in the design.
+
+Section 3 - Informational
+-------------------------
+INFO:LIT:243 - Logical network VGA_DEBUG/Mram_data_buf61/SPO has no load.
+INFO:LIT:395 - The above info message is repeated 1 more times for the following
+   (max. 5 shown):
+   VGA_DEBUG/Mram_data_buf62/SPO
+   To see the details of these info messages, please use the -detail switch.
+INFO:Pack:1716 - Initializing temperature to 85.000 Celsius. (default - Range:
+   0.000 to 85.000 Celsius)
+INFO:Pack:1720 - Initializing voltage to 0.970 Volts. (default - Range: 0.970 to
+   1.030 Volts)
+INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
+   (.mrp).
+INFO:Pack:1650 - Map created a placed design.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+  57 block(s) removed
+  10 block(s) optimized away
+  58 signal(s) removed
+
+Section 5 - Removed Logic
+-------------------------
+
+The trimmed logic report below shows the logic removed from your design due to
+sourceless or loadless signals, and VCC or ground connections.  If the removal
+of a signal or symbol results in the subsequent removal of an additional signal
+or symbol, the message explaining that second removal will be indented.  This
+indentation will be repeated as a chain of related logic is removed.
+
+To quickly locate the original cause for the removal of a chain of logic, look
+above the place where that logic is listed in the trimming report, then locate
+the lines that are least indented (begin at the leftmost edge).
+
+The signal "M2/Key_out<4>" is sourceless and has been removed.
+ Sourceless block "M2/Key_out_4_dpot" (ROM) removed.
+  The signal "M2/Key_out_4_dpot" is sourceless and has been removed.
+   Sourceless block "M2/Key_out_4" (FF) removed.
+The signal "M2/Key_out<3>" is sourceless and has been removed.
+ Sourceless block "M2/Key_out_3_dpot" (ROM) removed.
+  The signal "M2/Key_out_3_dpot" is sourceless and has been removed.
+   Sourceless block "M2/Key_out_3" (FF) removed.
+ Sourceless block "M2/Key_x[4]_Key_out[4]_select_75_OUT<3>" (MUX) removed.
+  The signal "M2/Key_x[4]_Key_out[4]_select_75_OUT<3>" is sourceless and has been
+removed.
+The signal "M2/Key_out<2>" is sourceless and has been removed.
+ Sourceless block "M2/Key_out_2_dpot" (ROM) removed.
+  The signal "M2/Key_out_2_dpot" is sourceless and has been removed.
+   Sourceless block "M2/Key_out_2" (FF) removed.
+ Sourceless block "M2/Key_x[4]_Key_out[4]_select_75_OUT<2>" (MUX) removed.
+  The signal "M2/Key_x[4]_Key_out[4]_select_75_OUT<2>" is sourceless and has been
+removed.
+The signal "M2/Key_out<1>" is sourceless and has been removed.
+ Sourceless block "M2/Key_x[4]_Key_out[4]_select_75_OUT<1>" (ROM) removed.
+  The signal "M2/Key_x[4]_Key_out[4]_select_75_OUT<1>" is sourceless and has been
+removed.
+   Sourceless block "M2/Key_out_1_dpot" (ROM) removed.
+    The signal "M2/Key_out_1_dpot" is sourceless and has been removed.
+     Sourceless block "M2/Key_out_1" (FF) removed.
+The signal "M2/Key_out<0>" is sourceless and has been removed.
+ Sourceless block "M2/Key_x[4]_Key_out[4]_select_75_OUT<0>" (ROM) removed.
+  The signal "M2/Key_x[4]_Key_out[4]_select_75_OUT<0>" is sourceless and has been
+removed.
+   Sourceless block "M2/Key_out_0_dpot" (ROM) removed.
+    The signal "M2/Key_out_0_dpot" is sourceless and has been removed.
+     Sourceless block "M2/Key_out_0" (FF) removed.
+The signal "M2/pulse_out<2>" is sourceless and has been removed.
+ Sourceless block "M2/pulse_out_2_rstpot" (ROM) removed.
+  The signal "M2/pulse_out_2_rstpot" is sourceless and has been removed.
+   Sourceless block "M2/pulse_out_2" (FF) removed.
+The signal "M2/pulse_out<1>" is sourceless and has been removed.
+ Sourceless block "M2/pulse_out_1_rstpot" (ROM) removed.
+  The signal "M2/pulse_out_1_rstpot" is sourceless and has been removed.
+   Sourceless block "M2/pulse_out_1" (FF) removed.
+The signal "M2/pulse_out<0>" is sourceless and has been removed.
+ Sourceless block "M2/pulse_out_0_rstpot" (ROM) removed.
+  The signal "M2/pulse_out_0_rstpot" is sourceless and has been removed.
+   Sourceless block "M2/pulse_out_0" (FF) removed.
+The signal "M2/SW_OK<15>" is sourceless and has been removed.
+ Sourceless block "M2/SW_OK_15_dpot1" (ROM) removed.
+  The signal "M2/SW_OK_15_dpot1" is sourceless and has been removed.
+   Sourceless block "M2/SW_OK_15" (FF) removed.
+The signal "M2/SW_OK<14>" is sourceless and has been removed.
+ Sourceless block "M2/SW_OK_14_dpot1" (ROM) removed.
+  The signal "M2/SW_OK_14_dpot1" is sourceless and has been removed.
+   Sourceless block "M2/SW_OK_14" (FF) removed.
+The signal "M2/SW_OK<13>" is sourceless and has been removed.
+ Sourceless block "M2/SW_OK_13_dpot1" (ROM) removed.
+  The signal "M2/SW_OK_13_dpot1" is sourceless and has been removed.
+   Sourceless block "M2/SW_OK_13" (FF) removed.
+The signal "M2/SW_OK<12>" is sourceless and has been removed.
+ Sourceless block "M2/SW_OK_12_dpot1" (ROM) removed.
+  The signal "M2/SW_OK_12_dpot1" is sourceless and has been removed.
+   Sourceless block "M2/SW_OK_12" (FF) removed.
+The signal "M2/SW_OK<11>" is sourceless and has been removed.
+ Sourceless block "M2/SW_OK_11_dpot1" (ROM) removed.
+  The signal "M2/SW_OK_11_dpot1" is sourceless and has been removed.
+   Sourceless block "M2/SW_OK_11" (FF) removed.
+The signal "M2/SW_OK<10>" is sourceless and has been removed.
+ Sourceless block "M2/SW_OK_10_dpot1" (ROM) removed.
+  The signal "M2/SW_OK_10_dpot1" is sourceless and has been removed.
+   Sourceless block "M2/SW_OK_10" (FF) removed.
+The signal "M2/SW_OK<9>" is sourceless and has been removed.
+ Sourceless block "M2/SW_OK_9_dpot1" (ROM) removed.
+  The signal "M2/SW_OK_9_dpot1" is sourceless and has been removed.
+   Sourceless block "M2/SW_OK_9" (FF) removed.
+The signal "M2/SW_OK<8>" is sourceless and has been removed.
+ Sourceless block "M2/SW_OK_8_dpot1" (ROM) removed.
+  The signal "M2/SW_OK_8_dpot1" is sourceless and has been removed.
+   Sourceless block "M2/SW_OK_8" (FF) removed.
+The signal "M2/SW_OK<7>" is sourceless and has been removed.
+ Sourceless block "M2/SW_OK_7_dpot1" (ROM) removed.
+  The signal "M2/SW_OK_7_dpot1" is sourceless and has been removed.
+   Sourceless block "M2/SW_OK_7" (FF) removed.
+The signal "M2/SW_OK<6>" is sourceless and has been removed.
+ Sourceless block "M2/SW_OK_6_dpot1" (ROM) removed.
+  The signal "M2/SW_OK_6_dpot1" is sourceless and has been removed.
+   Sourceless block "M2/SW_OK_6" (FF) removed.
+The signal "M2/SW_OK<5>" is sourceless and has been removed.
+ Sourceless block "M2/SW_OK_5_dpot1" (ROM) removed.
+  The signal "M2/SW_OK_5_dpot1" is sourceless and has been removed.
+   Sourceless block "M2/SW_OK_5" (FF) removed.
+The signal "M2/SW_OK<4>" is sourceless and has been removed.
+ Sourceless block "M2/SW_OK_4_dpot1" (ROM) removed.
+  The signal "M2/SW_OK_4_dpot1" is sourceless and has been removed.
+   Sourceless block "M2/SW_OK_4" (FF) removed.
+The signal "M2/SW_OK<3>" is sourceless and has been removed.
+ Sourceless block "M2/SW_OK_3_dpot1" (ROM) removed.
+  The signal "M2/SW_OK_3_dpot1" is sourceless and has been removed.
+   Sourceless block "M2/SW_OK_3" (FF) removed.
+The signal "M2/SW_OK<1>" is sourceless and has been removed.
+ Sourceless block "M2/SW_OK_1_dpot1" (ROM) removed.
+  The signal "M2/SW_OK_1_dpot1" is sourceless and has been removed.
+   Sourceless block "M2/SW_OK_1" (FF) removed.
+The signal "M2/SW_OK<0>" is sourceless and has been removed.
+ Sourceless block "M2/SW_OK_0_dpot1" (ROM) removed.
+  The signal "M2/SW_OK_0_dpot1" is sourceless and has been removed.
+   Sourceless block "M2/SW_OK_0" (FF) removed.
+The signal "M2/_n0225_inv1_cepot1" is sourceless and has been removed.
+The signal "M2/N15" is sourceless and has been removed.
+The signal "M2/_n0308" is sourceless and has been removed.
+The signal "M2/N154" is sourceless and has been removed.
+The signal "M2/N155" is sourceless and has been removed.
+The signal "M2/N156" is sourceless and has been removed.
+The signal "M2/N157" is sourceless and has been removed.
+The signal "VGA_DEBUG/FONT_8X16/BRAM_PC_VGA_0/GND" is sourceless and has been
+removed.
+Unused block "M2/Key_x[4]_Key_out[4]_select_75_OUT<1>_SW0" (ROM) removed.
+Unused block "M2/Key_x[4]_Key_out[4]_select_75_OUT<2>_F" (ROM) removed.
+Unused block "M2/Key_x[4]_Key_out[4]_select_75_OUT<2>_G" (ROM) removed.
+Unused block "M2/Key_x[4]_Key_out[4]_select_75_OUT<3>_F" (ROM) removed.
+Unused block "M2/Key_x[4]_Key_out[4]_select_75_OUT<3>_G" (ROM) removed.
+Unused block "M2/_n0225_inv1_cepot1_INV_0" (BUF) removed.
+Unused block "M2/_n03081" (ROM) removed.
+
+Optimized Block(s):
+TYPE 		BLOCK
+GND 		M2/XST_GND
+VCC 		M2/XST_VCC
+GND 		SCPU_More/DM/XST_GND
+VCC 		SCPU_More/DM/XST_VCC
+GND 		SCPU_More/IM/XST_GND1
+GND 		VGA_DEBUG/XST_GND
+VCC 		VGA_DEBUG/XST_VCC
+GND 		XST_GND
+VCC 		XST_VCC
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - IOB Properties
+--------------------------
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type             | Direction | IO Standard          | Diff  | Drive    | Slew | Reg (s)      | Resistor | IOB      |
+|                                    |                  |           |                      | Term  | Strength | Rate |              |          | Delay    |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Buzzer                             | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| CR                                 | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| HS                                 | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| K_COL<0>                           | IOB              | INPUT     | LVCMOS18             |       |          |      |              |          |          |
+| K_COL<1>                           | IOB              | INPUT     | LVCMOS18             |       |          |      |              |          |          |
+| K_COL<2>                           | IOB              | INPUT     | LVCMOS18             |       |          |      |              |          |          |
+| K_COL<3>                           | IOB              | INPUT     | LVCMOS18             |       |          |      |              |          |          |
+| K_ROW<0>                           | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
+| K_ROW<1>                           | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
+| K_ROW<2>                           | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
+| K_ROW<3>                           | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
+| K_ROW<4>                           | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
+| RDY                                | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| RSTN                               | IOB              | INPUT     | LVCMOS18             |       |          |      |              |          |          |
+| SW<0>                              | IOB              | INPUT     | LVCMOS15             |       |          |      |              |          |          |
+| SW<1>                              | IOB              | INPUT     | LVCMOS15             |       |          |      |              |          |          |
+| SW<2>                              | IOB              | INPUT     | LVCMOS15             |       |          |      |              |          |          |
+| SW<3>                              | IOB              | INPUT     | LVCMOS15             |       |          |      |              |          |          |
+| SW<4>                              | IOB              | INPUT     | LVCMOS15             |       |          |      |              |          |          |
+| SW<5>                              | IOB              | INPUT     | LVCMOS15             |       |          |      |              |          |          |
+| SW<6>                              | IOB              | INPUT     | LVCMOS15             |       |          |      |              |          |          |
+| SW<7>                              | IOB              | INPUT     | LVCMOS15             |       |          |      |              |          |          |
+| SW<8>                              | IOB              | INPUT     | LVCMOS15             |       |          |      |              |          |          |
+| SW<9>                              | IOB              | INPUT     | LVCMOS15             |       |          |      |              |          |          |
+| SW<10>                             | IOB              | INPUT     | LVCMOS15             |       |          |      |              |          |          |
+| SW<11>                             | IOB              | INPUT     | LVCMOS15             |       |          |      |              |          |          |
+| SW<12>                             | IOB              | INPUT     | LVCMOS15             |       |          |      |              |          |          |
+| SW<13>                             | IOB              | INPUT     | LVCMOS15             |       |          |      |              |          |          |
+| SW<14>                             | IOB              | INPUT     | LVCMOS15             |       |          |      |              |          |          |
+| SW<15>                             | IOB              | INPUT     | LVCMOS15             |       |          |      |              |          |          |
+| VGA_B<0>                           | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| VGA_B<1>                           | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| VGA_B<2>                           | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| VGA_B<3>                           | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| VGA_G<0>                           | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| VGA_G<1>                           | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| VGA_G<2>                           | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| VGA_G<3>                           | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| VGA_R<0>                           | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| VGA_R<1>                           | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| VGA_R<2>                           | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| VGA_R<3>                           | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| VS                                 | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| clk200N                            | IOB18            | INPUT     | LVDS                 | FALSE |          |      |              |          |          |
+| clk200P                            | IOB18            | INPUT     | LVDS                 | FALSE |          |      |              |          |          |
+| readn                              | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group and Partition Summary
+--------------------------------------------
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Area Group Information
+----------------------
+
+  No area groups were found in this design.
+
+----------------------
+
+Section 10 - Timing Report
+--------------------------
+A logic-level (pre-route) timing report can be generated by using Xilinx static
+timing analysis tools, Timing Analyzer (GUI) or TRCE (command line), with the
+mapped NCD and PCF files. Please note that this timing report will be generated
+using estimated delay information. For accurate numbers, please generate a
+timing report with the post Place and Route NCD file.
+
+For more information about the Timing Analyzer, consult the Xilinx Timing
+Analyzer Reference Manual; for more information about TRCE, consult the Xilinx
+Command Line Tools User Guide "TRACE" chapter.
+
+Section 11 - Configuration String Details
+-----------------------------------------
+Use the "-detail" map option to print out Configuration Strings
+
+Section 12 - Control Set Information
+------------------------------------
+Use the "-detail" map option to print out Control Set Information.
+
+Section 13 - Utilization by Hierarchy
+-------------------------------------
+Use the "-detail" map option to print out the Utilization by Hierarchy section.

@@ -1,0 +1,14 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/vivado/test_2/test_2.sim/sim_1/impl/func/xtest_func_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Main
+INFO: [VRFC 10-311] analyzing module aroundCell
+INFO: [VRFC 10-311] analyzing module chnest
+INFO: [VRFC 10-311] analyzing module clkdiv
+INFO: [VRFC 10-311] analyzing module display
+INFO: [VRFC 10-311] analyzing module initialNest
+INFO: [VRFC 10-311] analyzing module nest
+INFO: [VRFC 10-311] analyzing module random
+INFO: [VRFC 10-311] analyzing module tocell
+INFO: [VRFC 10-311] analyzing module vgaSync
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Shana/Desktop/vivado/test_2/test_2.srcs/sim_1/imports/new/xtest.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xtest

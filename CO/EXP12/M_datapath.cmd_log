@@ -1,0 +1,2 @@
+vhdtdtfi -lib work D:/Users/Shana/Desktop/EXP9/M_datapath_IO.v -lang verilog -prj Framework -o M_datapath.spl -module M_datapath -template D:/Tools/XILINX/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 M_datapath.spl D:/Users/Shana/Desktop/EXP9/M_datapath.sym 

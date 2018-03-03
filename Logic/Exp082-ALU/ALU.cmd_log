@@ -1,0 +1,35 @@
+xst -intstyle ise -ifn "F:/3150101155/Exp082-ALU/ALU.xst" -ofn "F:/3150101155/Exp082-ALU/ALU.syr" 
+xst -intstyle ise -ifn "F:/3150101155/Exp082-ALU/ALU.xst" -ofn "F:/3150101155/Exp082-ALU/ALU.syr" 
+xst -intstyle ise -ifn "F:/3150101155/Exp082-ALU/ALU.xst" -ofn "F:/3150101155/Exp082-ALU/ALU.syr" 
+xst -intstyle ise -ifn "F:/3150101155/Exp082-ALU/ALU.xst" -ofn "F:/3150101155/Exp082-ALU/ALU.syr" 
+xst -intstyle ise -ifn "F:/3150101155/Exp082-ALU/ALU.xst" -ofn "F:/3150101155/Exp082-ALU/ALU.syr" 
+xst -intstyle ise -ifn "F:/3150101155/Exp082-ALU/ALU.xst" -ofn "F:/3150101155/Exp082-ALU/ALU.syr" 
+xst -intstyle ise -ifn "F:/3150101155/Exp082-ALU/ALU.xst" -ofn "F:/3150101155/Exp082-ALU/ALU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7k160t-fbg676-1 ALU.ngc ALU.ngd  
+map -intstyle ise -p xc7k160t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ALU_map.ncd ALU.ngd ALU.pcf 
+par -w -intstyle ise -ol high -mt off ALU_map.ncd ALU.ncd ALU.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ALU.twx ALU.ncd -o ALU.twr ALU.pcf 
+xst -intstyle ise -ifn "F:/3150101155/Exp082-ALU/ALU.xst" -ofn "F:/3150101155/Exp082-ALU/ALU.syr" 
+xst -intstyle ise -ifn "F:/3150101155/Exp082-ALU/ALU.xst" -ofn "F:/3150101155/Exp082-ALU/ALU.syr" 
+xst -intstyle ise -ifn "F:/3150101155/Exp082-ALU/ALU.xst" -ofn "F:/3150101155/Exp082-ALU/ALU.syr" 
+xst -intstyle ise -ifn "F:/3150101155/Exp082-ALU/ALU.xst" -ofn "F:/3150101155/Exp082-ALU/ALU.syr" 
+xst -intstyle ise -ifn "F:/3150101155/Exp082-ALU/ALU.xst" -ofn "F:/3150101155/Exp082-ALU/ALU.syr" 
+xst -intstyle ise -ifn "F:/3150101155/Exp082-ALU/ALU.xst" -ofn "F:/3150101155/Exp082-ALU/ALU.syr" 
+xst -intstyle ise -ifn "F:/3150101155/Exp082-ALU/ALU.xst" -ofn "F:/3150101155/Exp082-ALU/ALU.syr" 
+xst -intstyle ise -ifn "F:/3150101155/Exp082-ALU/ALU.xst" -ofn "F:/3150101155/Exp082-ALU/ALU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7k160t-fbg676-1 ALU.ngc ALU.ngd  
+map -intstyle ise -p xc7k160t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ALU_map.ncd ALU.ngd ALU.pcf 
+xst -intstyle ise -ifn "F:/3150101155/Exp082-ALU/ALU.xst" -ofn "F:/3150101155/Exp082-ALU/ALU.syr" 
+xst -intstyle ise -ifn "F:/3150101155/Exp082-ALU/ALU.xst" -ofn "F:/3150101155/Exp082-ALU/ALU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7k160t-fbg676-1 ALU.ngc ALU.ngd  
+map -intstyle ise -p xc7k160t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ALU_map.ncd ALU.ngd ALU.pcf 
+xst -intstyle ise -ifn "F:/3150101155/Exp082-ALU/ALU.xst" -ofn "F:/3150101155/Exp082-ALU/ALU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7k160t-fbg676-1 ALU.ngc ALU.ngd  
+map -intstyle ise -p xc7k160t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ALU_map.ncd ALU.ngd ALU.pcf 
+par -w -intstyle ise -ol high -mt off ALU_map.ncd ALU.ncd ALU.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ALU.twx ALU.ncd -o ALU.twr ALU.pcf 
+xst -intstyle ise -ifn "F:/3150101155/Exp082-ALU/ALU.xst" -ofn "F:/3150101155/Exp082-ALU/ALU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7k160t-fbg676-1 ALU.ngc ALU.ngd  
+map -intstyle ise -p xc7k160t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ALU_map.ncd ALU.ngd ALU.pcf 
+par -w -intstyle ise -ol high -mt off ALU_map.ncd ALU.ncd ALU.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ALU.twx ALU.ncd -o ALU.twr ALU.pcf 

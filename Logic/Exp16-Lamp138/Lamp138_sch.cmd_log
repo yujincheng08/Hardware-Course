@@ -1,0 +1,37 @@
+sch2hdl -intstyle ise -family kintex7 -verilog Lamp138_sch.vf -w E:/Learning/ISE/Exp16-Lamp138/Lamp138_sch.sch 
+sch2sym -intstyle ise -family kintex7 -refsym Lamp138_sch E:/Learning/ISE/Exp16-Lamp138/Lamp138_sch.sch E:/Learning/ISE/Exp16-Lamp138/Lamp138_sch.sym 
+sch2verilog -intstyle ise -family kintex7 -tionly {} -tiext tfi -w E:/Learning/ISE/Exp16-Lamp138/Lamp138_sch.sch Lamp138_sch.tfi 
+sch2hdl -intstyle ise -family kintex7 -verilog Lamp138_sch.vf -w E:/Learning/ISE/Exp16-Lamp138/Lamp138_sch.sch 
+sch2verilog -intstyle ise -family kintex7 -tionly {} -tiext tfi -w E:/Learning/ISE/Exp16-Lamp138/Lamp138_sch.sch Lamp138_sch.tfi 
+xst -intstyle ise -ifn "E:/Learning/ISE/Exp16-Lamp138/Lamp138_sch.xst" -ofn "E:/Learning/ISE/Exp16-Lamp138/Lamp138_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lamp_test.ucf -p xc7k160t-fbg676-1 Lamp138_sch.ngc Lamp138_sch.ngd  
+map -intstyle ise -p xc7k160t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lamp138_sch_map.ncd Lamp138_sch.ngd Lamp138_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lamp138_sch_map.ncd Lamp138_sch.ncd Lamp138_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lamp138_sch.twx Lamp138_sch.ncd -o Lamp138_sch.twr Lamp138_sch.pcf -ucf Lamp_test.ucf 
+bitgen -intstyle ise -f Lamp138_sch.ut Lamp138_sch.ncd 
+xst -intstyle ise -ifn "E:/3150101155/Exp16-Lamp138/Lamp138_sch.xst" -ofn "E:/3150101155/Exp16-Lamp138/Lamp138_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lamp_test.ucf -p xc7k160t-fbg676-1 Lamp138_sch.ngc Lamp138_sch.ngd  
+map -intstyle ise -p xc7k160t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lamp138_sch_map.ncd Lamp138_sch.ngd Lamp138_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lamp138_sch_map.ncd Lamp138_sch.ncd Lamp138_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lamp138_sch.twx Lamp138_sch.ncd -o Lamp138_sch.twr Lamp138_sch.pcf -ucf Lamp_test.ucf 
+bitgen -intstyle ise -f Lamp138_sch.ut Lamp138_sch.ncd 
+xst -intstyle ise -ifn "E:/3150101155/Exp16-Lamp138/Lamp138_sch.xst" -ofn "E:/3150101155/Exp16-Lamp138/Lamp138_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lamp_test.ucf -p xc7k160t-fbg676-1 Lamp138_sch.ngc Lamp138_sch.ngd  
+map -intstyle ise -p xc7k160t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lamp138_sch_map.ncd Lamp138_sch.ngd Lamp138_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lamp138_sch_map.ncd Lamp138_sch.ncd Lamp138_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lamp138_sch.twx Lamp138_sch.ncd -o Lamp138_sch.twr Lamp138_sch.pcf -ucf Lamp_test.ucf 
+bitgen -intstyle ise -f Lamp138_sch.ut Lamp138_sch.ncd 
+xst -intstyle ise -ifn "E:/3150101155/Exp16-Lamp138/Lamp138_sch.xst" -ofn "E:/3150101155/Exp16-Lamp138/Lamp138_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lamp_test.ucf -p xc7k160t-fbg676-1 Lamp138_sch.ngc Lamp138_sch.ngd  
+map -intstyle ise -p xc7k160t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lamp138_sch_map.ncd Lamp138_sch.ngd Lamp138_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lamp138_sch_map.ncd Lamp138_sch.ncd Lamp138_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lamp138_sch.twx Lamp138_sch.ncd -o Lamp138_sch.twr Lamp138_sch.pcf -ucf Lamp_test.ucf 
+bitgen -intstyle ise -f Lamp138_sch.ut Lamp138_sch.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lamp_test.ucf -p xc7k160t-fbg676-1 Lamp138_sch.ngc Lamp138_sch.ngd  
+map -intstyle ise -p xc7k160t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lamp138_sch_map.ncd Lamp138_sch.ngd Lamp138_sch.pcf 
+par -w -intstyle ise -ol high -mt off Lamp138_sch_map.ncd Lamp138_sch.ncd Lamp138_sch.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Lamp138_sch.twx Lamp138_sch.ncd -o Lamp138_sch.twr Lamp138_sch.pcf -ucf Lamp_test.ucf 
+bitgen -intstyle ise -f Lamp138_sch.ut Lamp138_sch.ncd 
+xst -intstyle ise -ifn "F:/3150101155/Exp16-Lamp138/Lamp138_sch.xst" -ofn "F:/3150101155/Exp16-Lamp138/Lamp138_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lamp_test.ucf -p xc7k160t-fbg676-1 Lamp138_sch.ngc Lamp138_sch.ngd  
+map -intstyle ise -p xc7k160t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Lamp138_sch_map.ncd Lamp138_sch.ngd Lamp138_sch.pcf 

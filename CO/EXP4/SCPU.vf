@@ -1,0 +1,81 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : SCPU.vf
+// /___/   /\     Timestamp : 03/16/2017 15:39:53
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -sympath D:/Users/Shana/Desktop/EXP4/ipcore_dir -intstyle ise -family kintex7 -verilog D:/Users/Shana/Desktop/EXP4/SCPU.vf -w D:/Users/Shana/Desktop/EXP4/SCPU.sch
+//Design Name: SCPU
+//Device: kintex7
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module SCPU(clk, 
+            Data_in, 
+            inst_in, 
+            INT, 
+            MIO_ready, 
+            reset, 
+            Addr_out, 
+            CPU_MIO, 
+            Data_out, 
+            mem_w, 
+            PC_out);
+
+    input clk;
+    input [31:0] Data_in;
+    input [31:0] inst_in;
+    input INT;
+    input MIO_ready;
+    input reset;
+   output [31:0] Addr_out;
+   output CPU_MIO;
+   output [31:0] Data_out;
+   output mem_w;
+   output [31:0] PC_out;
+   
+   wire XLXN_7;
+   wire XLXN_8;
+   wire XLXN_9;
+   wire XLXN_10;
+   wire XLXN_11;
+   wire XLXN_12;
+   wire [2:0] XLXN_13;
+   
+   Data_path  XLXI_1 (.ALUSrc_B(XLXN_8), 
+                     .ALU_Control(XLXN_13[2:0]), 
+                     .Branch(XLXN_11), 
+                     .clk(clk), 
+                     .Data_in(Data_in[31:0]), 
+                     .inst_field(inst_in[25:0]), 
+                     .Jump(XLXN_10), 
+                     .MemtoReg(XLXN_9), 
+                     .RegDst(XLXN_7), 
+                     .RegWrite(XLXN_12), 
+                     .rst(reset), 
+                     .ALU_out(Addr_out[31:0]), 
+                     .Data_out(Data_out[31:0]), 
+                     .PC_out(PC_out[31:0]));
+   SCPU_ctrl  XLXI_2 (.Fun(inst_in[5:0]), 
+                     .MIO_ready(MIO_ready), 
+                     .OPcode(inst_in[31:26]), 
+                     .ALUSrc_B(XLXN_8), 
+                     .ALU_Control(XLXN_13[2:0]), 
+                     .Branch(XLXN_11), 
+                     .CPU_MIO(CPU_MIO), 
+                     .Jump(XLXN_10), 
+                     .MemtoReg(XLXN_9), 
+                     .mem_w(mem_w), 
+                     .RegDst(XLXN_7), 
+                     .RegWrite(XLXN_12));
+endmodule

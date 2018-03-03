@@ -1,0 +1,8 @@
+sch2hdl -intstyle ise -family kintex7 -verilog Decoder_38_sch.vf -w E:/3150101155/Exp05-38Decoder/Decoder_38_sch.sch 
+sch2hdl -intstyle ise -family kintex7 -verilog Decoder_38_sch.vf -w E:/3150101155/Exp05-38Decoder/Decoder_38_sch.sch 
+sch2sym -intstyle ise -family kintex7 -refsym Decoder_38_sch E:/3150101155/Exp05-38Decoder/Decoder_38_sch.sch E:/3150101155/Exp05-38Decoder/Decoder_38_sch.sym 
+sch2sym -intstyle ise -family kintex7 -refsym Decoder_38_sch F:/3150101155/Exp05-38Decoder/Decoder_38_sch.sch F:/3150101155/Exp05-38Decoder/Decoder_38_sch.sym 
+sch2sym -intstyle ise -family kintex7 -refsym Decoder_38_sch F:/3150101155/Exp05-38Decoder/Decoder_38_sch.sch F:/3150101155/Exp05-38Decoder/Decoder_38_sch.sym 
+sch2sym -intstyle ise -family kintex7 -refsym Decoder_38_sch F:/3150101155/Exp05-38Decoder/Decoder_38_sch.sch F:/3150101155/Exp05-38Decoder/Decoder_38_sch.sym 
+sch2sym -intstyle ise -family kintex7 -w -refsym Decoder_38_sch F:/3150101155/Exp05-38Decoder/Decoder_38_sch.sch F:/3150101155/Exp05-38Decoder/Decoder_38_sch.sym 
+sch2sym -intstyle ise -family kintex7 -w -refsym Decoder_38_sch F:/3150101155/Exp05-38Decoder/Decoder_38_sch.sch F:/3150101155/Exp05-38Decoder/Decoder_38_sch.sym 

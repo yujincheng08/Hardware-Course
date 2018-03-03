@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/Users/Shana/Desktop/EXP5/regs_test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="regs_test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/regs_test/rdata_A" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rdata_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata_A[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/regs_test/rdata_B" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rdata_B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata_B[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/regs_test/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/regs_test/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/regs_test/L_S" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">L_S</obj_property>
+      <obj_property name="ObjectShortName">L_S</obj_property>
+   </wvobject>
+   <wvobject fp_name="/regs_test/R_addr_A" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">R_addr_A[4:0]</obj_property>
+      <obj_property name="ObjectShortName">R_addr_A[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/regs_test/R_addr_B" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">R_addr_B[4:0]</obj_property>
+      <obj_property name="ObjectShortName">R_addr_B[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/regs_test/Wt_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Wt_addr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Wt_addr[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/regs_test/Wt_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Wt_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Wt_data[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

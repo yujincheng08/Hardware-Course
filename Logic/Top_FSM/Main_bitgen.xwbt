@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\liu\Documents\ISE\Exp10\Top_FSM\Main.ncd
+OUTFILE=C:\Users\liu\Documents\ISE\Exp10\Top_FSM\Main.bit
+FAMILY=Kintex7
+PART=xc7k160t-1fbg676
+WORKINGDIR=C:\Users\liu\Documents\ISE\Exp10\Top_FSM
+LICENSE=ISE
+USER_INFO=_

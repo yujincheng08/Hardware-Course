@@ -1,0 +1,2 @@
+vhdtdtfi -lib work D:/Users/Shana/Desktop/EXP9/mulit_ctrl_IO.v -lang verilog -prj Framework -o ctrl.spl -module ctrl -template D:/Tools/XILINX/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 ctrl.spl D:/Users/Shana/Desktop/EXP9/ctrl.sym 

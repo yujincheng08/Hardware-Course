@@ -1,0 +1,478 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Reading design: P2S.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "P2S.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "P2S"
+Output Format                      : NGC
+Target Device                      : xc7k160t-2L-ffg676
+
+---- Source Options
+Top Module Name                    : P2S
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\Administrator\Desktop\Exp12\P2S\Shift64.v" into library work
+Parsing module <Shift64>.
+Analyzing Verilog file "C:\Users\Administrator\Desktop\Exp12\P2S\P2S.v" into library work
+Parsing module <P2S>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <P2S>.
+
+Elaborating module <Shift64(DATA_BITS=16)>.
+WARNING:HDLCompiler:189 - "C:\Users\Administrator\Desktop\Exp12\P2S\P2S.v" Line 51: Size mismatch in connection of port <D>. Formal port size is 64-bit while actual signal size is 17-bit.
+WARNING:HDLCompiler:189 - "C:\Users\Administrator\Desktop\Exp12\P2S\P2S.v" Line 52: Size mismatch in connection of port <Q>. Formal port size is 64-bit while actual signal size is 17-bit.
+WARNING:HDLCompiler:413 - "C:\Users\Administrator\Desktop\Exp12\P2S\P2S.v" Line 55: Result of 32-bit expression is truncated to fit in 1-bit target.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <P2S>.
+    Related source file is "C:\Users\Administrator\Desktop\Exp12\P2S\P2S.v".
+        DATA_BITS = 16
+        DATA_COUNT_BITS = 4
+        DIR = 0
+    Found 1-bit register for signal <EN>.
+    Found 2-bit register for signal <S>.
+    Found 2-bit register for signal <Go>.
+    Summary:
+	inferred   5 D-type flip-flop(s).
+	inferred   2 Multiplexer(s).
+Unit <P2S> synthesized.
+
+Synthesizing Unit <Shift64>.
+    Related source file is "C:\Users\Administrator\Desktop\Exp12\P2S\Shift64.v".
+        DATA_BITS = 16
+    Found 64-bit register for signal <Q>.
+    Found 64-bit shifter logical right for signal <n0011> created at line 36
+    Found 64-bit shifter logical left for signal <Q[63]_BUS_0002_shift_left_4_OUT> created at line 37
+    Summary:
+	inferred  64 D-type flip-flop(s).
+	inferred   2 Multiplexer(s).
+	inferred   2 Combinational logic shifter(s).
+Unit <Shift64> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 4
+ 1-bit register                                        : 1
+ 2-bit register                                        : 2
+ 64-bit register                                       : 1
+# Multiplexers                                         : 4
+ 1-bit 2-to-1 multiplexer                              : 1
+ 2-bit 2-to-1 multiplexer                              : 1
+ 64-bit 2-to-1 multiplexer                             : 2
+# Logic shifters                                       : 2
+ 64-bit shifter logical left                           : 1
+ 64-bit shifter logical right                          : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 69
+ Flip-Flops                                            : 69
+# Multiplexers                                         : 4
+ 1-bit 2-to-1 multiplexer                              : 1
+ 2-bit 2-to-1 multiplexer                              : 1
+ 64-bit 2-to-1 multiplexer                             : 2
+# Logic shifters                                       : 2
+ 64-bit shifter logical left                           : 1
+ 64-bit shifter logical right                          : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <Q_0> (without init value) has a constant value of 0 in block <Shift64>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <P2S> ...
+
+Optimizing unit <Shift64> ...
+WARNING:Xst:2677 - Node <PTOS/Q_63> of sequential type is unconnected in block <P2S>.
+WARNING:Xst:2677 - Node <PTOS/Q_62> of sequential type is unconnected in block <P2S>.
+WARNING:Xst:2677 - Node <PTOS/Q_61> of sequential type is unconnected in block <P2S>.
+WARNING:Xst:2677 - Node <PTOS/Q_60> of sequential type is unconnected in block <P2S>.
+WARNING:Xst:2677 - Node <PTOS/Q_59> of sequential type is unconnected in block <P2S>.
+WARNING:Xst:2677 - Node <PTOS/Q_58> of sequential type is unconnected in block <P2S>.
+WARNING:Xst:2677 - Node <PTOS/Q_57> of sequential type is unconnected in block <P2S>.
+WARNING:Xst:2677 - Node <PTOS/Q_56> of sequential type is unconnected in block <P2S>.
+WARNING:Xst:2677 - Node <PTOS/Q_55> of sequential type is unconnected in block <P2S>.
+WARNING:Xst:2677 - Node <PTOS/Q_54> of sequential type is unconnected in block <P2S>.
+WARNING:Xst:2677 - Node <PTOS/Q_53> of sequential type is unconnected in block <P2S>.
+WARNING:Xst:2677 - Node <PTOS/Q_52> of sequential type is unconnected in block <P2S>.
+WARNING:Xst:2677 - Node <PTOS/Q_51> of sequential type is unconnected in block <P2S>.
+WARNING:Xst:2677 - Node <PTOS/Q_50> of sequential type is unconnected in block <P2S>.
+WARNING:Xst:2677 - Node <PTOS/Q_49> of sequential type is unconnected in block <P2S>.
+WARNING:Xst:2677 - Node <PTOS/Q_48> of sequential type is unconnected in block <P2S>.
+WARNING:Xst:2677 - Node <PTOS/Q_47> of sequential type is unconnected in block <P2S>.
+WARNING:Xst:2677 - Node <PTOS/Q_46> of sequential type is unconnected in block <P2S>.
+WARNING:Xst:2677 - Node <PTOS/Q_45> of sequential type is unconnected in block <P2S>.
+WARNING:Xst:2677 - Node <PTOS/Q_44> of sequential type is unconnected in block <P2S>.
+WARNING:Xst:2677 - Node <PTOS/Q_43> of sequential type is unconnected in block <P2S>.
+WARNING:Xst:2677 - Node <PTOS/Q_42> of sequential type is unconnected in block <P2S>.
+WARNING:Xst:2677 - Node <PTOS/Q_41> of sequential type is unconnected in block <P2S>.
+WARNING:Xst:2677 - Node <PTOS/Q_40> of sequential type is unconnected in block <P2S>.
+WARNING:Xst:2677 - Node <PTOS/Q_39> of sequential type is unconnected in block <P2S>.
+WARNING:Xst:2677 - Node <PTOS/Q_38> of sequential type is unconnected in block <P2S>.
+WARNING:Xst:2677 - Node <PTOS/Q_37> of sequential type is unconnected in block <P2S>.
+WARNING:Xst:2677 - Node <PTOS/Q_36> of sequential type is unconnected in block <P2S>.
+WARNING:Xst:2677 - Node <PTOS/Q_35> of sequential type is unconnected in block <P2S>.
+WARNING:Xst:2677 - Node <PTOS/Q_34> of sequential type is unconnected in block <P2S>.
+WARNING:Xst:2677 - Node <PTOS/Q_33> of sequential type is unconnected in block <P2S>.
+WARNING:Xst:2677 - Node <PTOS/Q_32> of sequential type is unconnected in block <P2S>.
+WARNING:Xst:2677 - Node <PTOS/Q_31> of sequential type is unconnected in block <P2S>.
+WARNING:Xst:2677 - Node <PTOS/Q_30> of sequential type is unconnected in block <P2S>.
+WARNING:Xst:2677 - Node <PTOS/Q_29> of sequential type is unconnected in block <P2S>.
+WARNING:Xst:2677 - Node <PTOS/Q_28> of sequential type is unconnected in block <P2S>.
+WARNING:Xst:2677 - Node <PTOS/Q_27> of sequential type is unconnected in block <P2S>.
+WARNING:Xst:2677 - Node <PTOS/Q_26> of sequential type is unconnected in block <P2S>.
+WARNING:Xst:2677 - Node <PTOS/Q_25> of sequential type is unconnected in block <P2S>.
+WARNING:Xst:2677 - Node <PTOS/Q_24> of sequential type is unconnected in block <P2S>.
+WARNING:Xst:2677 - Node <PTOS/Q_23> of sequential type is unconnected in block <P2S>.
+WARNING:Xst:2677 - Node <PTOS/Q_22> of sequential type is unconnected in block <P2S>.
+WARNING:Xst:2677 - Node <PTOS/Q_21> of sequential type is unconnected in block <P2S>.
+WARNING:Xst:2677 - Node <PTOS/Q_20> of sequential type is unconnected in block <P2S>.
+WARNING:Xst:2677 - Node <PTOS/Q_19> of sequential type is unconnected in block <P2S>.
+WARNING:Xst:2677 - Node <PTOS/Q_18> of sequential type is unconnected in block <P2S>.
+WARNING:Xst:2677 - Node <PTOS/Q_17> of sequential type is unconnected in block <P2S>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <PTOS/Q_15> is unconnected in block <P2S>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <PTOS/Q_13> is unconnected in block <P2S>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <PTOS/Q_11> is unconnected in block <P2S>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <PTOS/Q_9> is unconnected in block <P2S>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <PTOS/Q_7> is unconnected in block <P2S>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <PTOS/Q_5> is unconnected in block <P2S>.
+WARNING:Xst:1426 - The value init of the FF/Latch S_1 hinder the constant cleaning in the block P2S.
+   You should achieve better results by setting this init to 1.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block P2S, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 15
+ Flip-Flops                                            : 15
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : P2S.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 13
+#      GND                         : 1
+#      LUT2                        : 1
+#      LUT3                        : 2
+#      LUT4                        : 7
+#      LUT5                        : 1
+#      VCC                         : 1
+# FlipFlops/Latches                : 15
+#      FD                          : 12
+#      FDP                         : 3
+# Clock Buffers                    : 1
+#      BUFG                        : 1
+# IO Buffers                       : 17
+#      IBUF                        : 13
+#      OBUF                        : 4
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7k160tffg676-2l 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              14  out of  202800     0%  
+ Number of Slice LUTs:                   11  out of  101400     0%  
+    Number used as Logic:                11  out of  101400     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     14
+   Number with an unused Flip Flop:       0  out of     14     0%  
+   Number with an unused LUT:             3  out of     14    21%  
+   Number of fully used LUT-FF pairs:    11  out of     14    78%  
+   Number of unique control sets:         2
+
+IO Utilization: 
+ Number of IOs:                          23
+ Number of bonded IOBs:                  17  out of    400     4%  
+    IOB Flip Flops/Latches:               1
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | IBUF+BUFG              | 15    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: 0.801ns (Maximum Frequency: 1248.206MHz)
+   Minimum input arrival time before clock: 0.646ns
+   Maximum output required time after clock: 0.575ns
+   Maximum combinational path delay: 0.339ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 0.801ns (frequency: 1248.206MHz)
+  Total number of paths / destination ports: 32 / 12
+-------------------------------------------------------------------------
+Delay:               0.801ns (Levels of Logic = 1)
+  Source:            PTOS/Q_14 (FF)
+  Destination:       PTOS/Q_16 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: PTOS/Q_14 to PTOS/Q_16
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               1   0.236   0.522  PTOS/Q_14 (PTOS/Q_14)
+     LUT5:I1->O            1   0.043   0.000  PTOS/Mmux_Q[63]_D[63]_mux_6_OUT71 (PTOS/Q[63]_D[63]_mux_6_OUT<16>)
+     FD:D                     -0.000          PTOS/Q_16
+    ----------------------------------------
+    Total                      0.801ns (0.279ns logic, 0.522ns route)
+                                       (34.8% logic, 65.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 14 / 14
+-------------------------------------------------------------------------
+Offset:              0.646ns (Levels of Logic = 2)
+  Source:            PData<15> (PAD)
+  Destination:       PTOS/Q_16 (FF)
+  Destination Clock: clk rising
+
+  Data Path: PData<15> to PTOS/Q_16
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.000   0.603  PData_15_IBUF (PData_15_IBUF)
+     LUT5:I0->O            1   0.043   0.000  PTOS/Mmux_Q[63]_D[63]_mux_6_OUT71 (PTOS/Q[63]_D[63]_mux_6_OUT<16>)
+     FD:D                     -0.000          PTOS/Q_16
+    ----------------------------------------
+    Total                      0.646ns (0.043ns logic, 0.603ns route)
+                                       (6.7% logic, 93.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              0.575ns (Levels of Logic = 1)
+  Source:            PTOS/Q_16 (FF)
+  Destination:       sout (PAD)
+  Source Clock:      clk rising
+
+  Data Path: PTOS/Q_16 to sout
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               1   0.236   0.339  PTOS/Q_16 (PTOS/Q_16)
+     OBUF:I->O                 0.000          sout_OBUF (sout)
+    ----------------------------------------
+    Total                      0.575ns (0.236ns logic, 0.339ns route)
+                                       (41.0% logic, 59.0% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               0.339ns (Levels of Logic = 2)
+  Source:            clk (PAD)
+  Destination:       s_clk (PAD)
+
+  Data Path: clk to s_clk
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.000   0.339  clk_IBUF (s_clk_OBUF)
+     OBUF:I->O                 0.000          s_clk_OBUF (s_clk)
+    ----------------------------------------
+    Total                      0.339ns (0.000ns logic, 0.339ns route)
+                                       (0.0% logic, 100.0% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    0.801|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 7.97 secs
+ 
+--> 
+
+Total memory usage is 447068 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   58 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

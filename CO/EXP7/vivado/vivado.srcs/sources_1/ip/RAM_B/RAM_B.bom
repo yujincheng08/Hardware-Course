@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<BillOfMaterials Version="1" Minor="2">
+	<IPInstance name="RAM_B">
+		<FileSets>
+			<FileSet generator="xmdf_to_bom">
+				<File name="RAM_B/blk_mem_gen_v7_3_readme.txt" type="ignore" timestamp="Sun Oct 13 18:11:47 2013" checksum="0">
+				</File>
+				<File name="RAM_B/doc/blk_mem_gen_v7_3_vinfo.html" type="ignore" timestamp="Tue Mar 14 07:32:44 2017" checksum="0">
+				</File>
+				<File name="RAM_B/doc/pg058-blk-mem-gen.pdf" type="ignore" timestamp="Sun Oct 13 18:11:47 2013" checksum="0">
+				</File>
+				<File name="RAM_B/example_design/RAM_B_exdes.ucf" type="ignore" timestamp="Tue Mar 14 07:31:22 2017" checksum="0">
+				</File>
+				<File name="RAM_B/example_design/RAM_B_exdes.vhd" type="ignore" timestamp="Tue Mar 14 07:31:22 2017" checksum="0">
+				</File>
+				<File name="RAM_B/example_design/RAM_B_exdes.xdc" type="ignore" timestamp="Tue Mar 14 07:31:22 2017" checksum="0">
+				</File>
+				<File name="RAM_B/example_design/RAM_B_prod.vhd" type="ignore" timestamp="Tue Mar 14 07:31:22 2017" checksum="0">
+				</File>
+				<File name="RAM_B/implement/implement.bat" type="ignore" timestamp="Tue Mar 14 07:31:22 2017" checksum="0">
+				</File>
+				<File name="RAM_B/implement/implement.sh" type="ignore" timestamp="Tue Mar 14 07:31:22 2017" checksum="0">
+				</File>
+				<File name="RAM_B/implement/planAhead_ise.bat" type="ignore" timestamp="Tue Mar 14 07:31:22 2017" checksum="0">
+				</File>
+				<File name="RAM_B/implement/planAhead_ise.sh" type="ignore" timestamp="Tue Mar 14 07:31:22 2017" checksum="0">
+				</File>
+				<File name="RAM_B/implement/planAhead_ise.tcl" type="ignore" timestamp="Tue Mar 14 07:31:22 2017" checksum="0">
+				</File>
+				<File name="RAM_B/implement/xst.prj" type="ignore" timestamp="Tue Mar 14 07:31:22 2017" checksum="0">
+				</File>
+				<File name="RAM_B/implement/xst.scr" type="ignore" timestamp="Tue Mar 14 07:31:22 2017" checksum="0">
+				</File>
+				<File name="RAM_B/simulation/RAM_B_synth.vhd" type="ignore" timestamp="Tue Mar 14 07:31:22 2017" checksum="0">
+				</File>
+				<File name="RAM_B/simulation/RAM_B_tb.vhd" type="ignore" timestamp="Tue Mar 14 07:31:22 2017" checksum="0">
+				</File>
+				<File name="RAM_B/simulation/addr_gen.vhd" type="ignore" timestamp="Tue Mar 14 07:31:22 2017" checksum="0">
+				</File>
+				<File name="RAM_B/simulation/bmg_stim_gen.vhd" type="ignore" timestamp="Tue Mar 14 07:31:22 2017" checksum="0">
+				</File>
+				<File name="RAM_B/simulation/bmg_tb_pkg.vhd" type="ignore" timestamp="Tue Mar 14 07:31:22 2017" checksum="0">
+				</File>
+				<File name="RAM_B/simulation/checker.vhd" type="ignore" timestamp="Tue Mar 14 07:31:22 2017" checksum="0">
+				</File>
+				<File name="RAM_B/simulation/data_gen.vhd" type="ignore" timestamp="Tue Mar 14 07:31:22 2017" checksum="0">
+				</File>
+				<File name="RAM_B/simulation/functional/simcmds.tcl" type="ignore" timestamp="Tue Mar 14 07:31:22 2017" checksum="0">
+				</File>
+				<File name="RAM_B/simulation/functional/simulate_isim.bat" type="ignore" timestamp="Tue Mar 14 07:31:22 2017" checksum="0">
+				</File>
+				<File name="RAM_B/simulation/functional/simulate_mti.bat" type="ignore" timestamp="Tue Mar 14 07:31:22 2017" checksum="0">
+				</File>
+				<File name="RAM_B/simulation/functional/simulate_mti.do" type="ignore" timestamp="Tue Mar 14 07:31:22 2017" checksum="0">
+				</File>
+				<File name="RAM_B/simulation/functional/simulate_mti.sh" type="ignore" timestamp="Tue Mar 14 07:31:22 2017" checksum="0">
+				</File>
+				<File name="RAM_B/simulation/functional/simulate_ncsim.sh" type="ignore" timestamp="Tue Mar 14 07:31:22 2017" checksum="0">
+				</File>
+				<File name="RAM_B/simulation/functional/simulate_vcs.sh" type="ignore" timestamp="Tue Mar 14 07:31:22 2017" checksum="0">
+				</File>
+				<File name="RAM_B/simulation/functional/ucli_commands.key" type="ignore" timestamp="Tue Mar 14 07:31:22 2017" checksum="0">
+				</File>
+				<File name="RAM_B/simulation/functional/vcs_session.tcl" type="ignore" timestamp="Tue Mar 14 07:31:22 2017" checksum="0">
+				</File>
+				<File name="RAM_B/simulation/functional/wave_mti.do" type="ignore" timestamp="Tue Mar 14 07:31:22 2017" checksum="0">
+				</File>
+				<File name="RAM_B/simulation/functional/wave_ncsim.sv" type="ignore" timestamp="Tue Mar 14 07:31:22 2017" checksum="0">
+				</File>
+				<File name="RAM_B/simulation/random.vhd" type="ignore" timestamp="Tue Mar 14 07:31:22 2017" checksum="0">
+				</File>
+				<File name="RAM_B/simulation/timing/simcmds.tcl" type="ignore" timestamp="Tue Mar 14 07:31:22 2017" checksum="0">
+				</File>
+				<File name="RAM_B/simulation/timing/simulate_isim.bat" type="ignore" timestamp="Tue Mar 14 07:31:22 2017" checksum="0">
+				</File>
+				<File name="RAM_B/simulation/timing/simulate_mti.bat" type="ignore" timestamp="Tue Mar 14 07:31:22 2017" checksum="0">
+				</File>
+				<File name="RAM_B/simulation/timing/simulate_mti.do" type="ignore" timestamp="Tue Mar 14 07:31:22 2017" checksum="0">
+				</File>
+				<File name="RAM_B/simulation/timing/simulate_mti.sh" type="ignore" timestamp="Tue Mar 14 07:31:22 2017" checksum="0">
+				</File>
+				<File name="RAM_B/simulation/timing/simulate_ncsim.sh" type="ignore" timestamp="Tue Mar 14 07:31:22 2017" checksum="0">
+				</File>
+				<File name="RAM_B/simulation/timing/simulate_vcs.sh" type="ignore" timestamp="Tue Mar 14 07:31:22 2017" checksum="0">
+				</File>
+				<File name="RAM_B/simulation/timing/ucli_commands.key" type="ignore" timestamp="Tue Mar 14 07:31:22 2017" checksum="0">
+				</File>
+				<File name="RAM_B/simulation/timing/vcs_session.tcl" type="ignore" timestamp="Tue Mar 14 07:31:22 2017" checksum="0">
+				</File>
+				<File name="RAM_B/simulation/timing/wave_mti.do" type="ignore" timestamp="Tue Mar 14 07:31:22 2017" checksum="0">
+				</File>
+				<File name="RAM_B/simulation/timing/wave_ncsim.sv" type="ignore" timestamp="Tue Mar 14 07:31:22 2017" checksum="0">
+				</File>
+				<File name="RAM_B.asy" type="asy" timestamp="Tue Mar 14 07:32:51 2017" checksum="0">
+				</File>
+				<File name="RAM_B.mif" type="ignore" timestamp="Tue Mar 14 07:32:51 2017" checksum="0">
+				</File>
+				<File name="RAM_B.ngc" type="ngc" timestamp="Tue Mar 14 07:32:42 2017" checksum="0">
+				</File>
+				<File name="RAM_B.sym" type="asy" timestamp="Thu Feb 25 16:00:00 2016" checksum="0">
+				</File>
+				<File name="RAM_B.v" type="verilog" timestamp="Tue Mar 14 07:32:44 2017" checksum="0">
+				</File>
+				<File name="RAM_B.veo" type="veo" timestamp="Tue Mar 14 07:32:43 2017" checksum="0">
+				</File>
+				<File name="RAM_B.xco" type="xco" timestamp="Tue Mar 14 07:31:20 2017" checksum="0">
+				</File>
+				<File name="RAM_B_xmdf.tcl" type="ignore" timestamp="Tue Mar 14 07:32:52 2017" checksum="0">
+				</File>
+				<File name="summary.log" type="ignore" timestamp="Tue Mar 14 07:32:51 2017" checksum="0">
+				</File>
+			</FileSet>
+		</FileSets>
+	</IPInstance>
+</BillOfMaterials>
+

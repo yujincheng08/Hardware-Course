@@ -1,0 +1,10 @@
+Command line:
+   MC14495_ZJU_MC14495_ZJU_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  3078
+
+Mon Nov 14 13:28:25 2016
+
+
+ Elaboration Time: 0.296875 sec

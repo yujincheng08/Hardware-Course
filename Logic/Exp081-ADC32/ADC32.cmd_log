@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "F:/3150101155/Exp081-ADC32/ADC32.xst" -ofn "F:/3150101155/Exp081-ADC32/ADC32.syr" 

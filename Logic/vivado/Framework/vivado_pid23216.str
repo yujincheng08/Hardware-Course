@@ -1,0 +1,166 @@
+/*
+
+Vivado v2016.3 (64-bit)
+SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+Process ID: 23216
+
+Current time: 	12/29/16 10:10:16 PM CST
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1707x960
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	D:/Tools/XILINX/Vivado/2016.3/tps/win64/jre
+
+User name: 	Shana
+User home directory: C:/Users/Shana
+User working directory: F:/vivado/Framework
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI base root directory: D:/Tools/XILINX/Vivado
+RDI data directory: D:/Tools/XILINX/Vivado/2016.3/data
+RDI bin directory: D:/Tools/XILINX/Vivado/2016.3/bin
+
+Vivado preferences path: C:/Users/Shana/AppData/Roaming/Xilinx/Vivado/2016.3/vivado.ini
+Vivado layouts directory: C:/Users/Shana/AppData/Roaming/Xilinx/Vivado/2016.3/layouts
+
+GUI allocated memory:	220 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 427 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: F:\vivado\Framework\Framework.xpr. Version: Vivado v2016.3 
+// bt:g (cd:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project F:/vivado/Framework/Framework.xpr 
+// [GUI Memory]: 39 MB (+38465kb) [00:00:06]
+// [Engine Memory]: 400 MB (+267897kb) [00:00:06]
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project F:/vivado/Framework/Framework.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 448 MB (+28968kb) [00:00:09]
+// [GUI Memory]: 49 MB (+8621kb) [00:00:10]
+// [Engine Memory]: 470 MB (+91kb) [00:00:10]
+// [GUI Memory]: 52 MB (+321kb) [00:00:12]
+// [GUI Memory]: 58 MB (+3870kb) [00:00:12]
+// [Engine Memory]: 495 MB (+1464kb) [00:00:13]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Tools/XILINX/Vivado/2016.3/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 500 MB. GUI used memory: 35 MB. Current time: 12/29/16 10:10:22 PM CST
+// Tcl Message: open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 770.270 ; gain = 119.500 
+// Project name: Framework; location: F:/vivado/Framework; part: xc7k160tfbg676-2L
+dismissDialog("Open Project"); // bt:g (cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// PAPropertyPanels.initPanels (Main.vf) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main (Main.vf)]", 1, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main (Main.vf)]", 1, true, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click - Node
+selectCodeEditor("Main.vf", 71, 294); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Main.vf", 71, 294, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("Main.vf", 69, 279); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Main.vf", 69, 279, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+// Elapsed time: 12 seconds
+selectCodeEditor("Main.vf", 105, 257); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Main.vf", 105, 257, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("Main.vf", 105, 272); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Main.vf", 105, 272); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Main.vf", 114, 303); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Main.vf", 105, 307); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Main.vf", 57, 312); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Main.vf", 67, 318, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("Main.vf", 67, 318); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Main.vf", 94, 299); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Main.vf", 94, 299, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+// [GUI Memory]: 62 MB (+642kb) [00:02:01]
+// Elapsed time: 73 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 12); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, constraints.xdc]", 14, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, constraints.xdc]", 14, false, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click
+selectCodeEditor("constraints.xdc", 186, 185); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("constraints.xdc", 354, 330); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "constraints.xdc", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+// [GUI Memory]: 66 MB (+1035kb) [00:02:12]
+// Elapsed time: 117 seconds
+selectCodeEditor("constraints.xdc", 323, 105); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "constraints.xdc", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("constraints.xdc", 414, 283); // bF:I (JPanel:JComponent, cd:JFrame)
+selectButton(RDIResourceCommand.RDICommands_DELETE, (String) null); // y:JideButton (g:CommandBar, cd:JFrame)
+typeControlKey(null, null, 'z');
+selectCodeEditor("constraints.xdc", 487, 182); // bF:I (JPanel:JComponent, cd:JFrame)
+// [GUI Memory]: 71 MB (+1879kb) [00:04:56]
+// Elapsed time: 80 seconds
+selectCodeEditor("constraints.xdc", 381, 407); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "constraints.xdc", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+// [Engine Memory]: 528 MB (+8099kb) [00:07:01]
+// HMemoryUtils.trashcanNow. Engine heap size: 531 MB. GUI used memory: 37 MB. Current time: 12/29/16 10:17:13 PM CST
+// [GUI Memory]: 75 MB (+480kb) [00:13:57]
+// Elapsed time: 513 seconds
+selectCodeEditor("constraints.xdc", 346, 373); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "constraints.xdc", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 24 seconds
+selectCodeEditor("constraints.xdc", 346, 205); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "constraints.xdc", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 45 seconds
+selectCodeEditor("constraints.xdc", 347, 431); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("constraints.xdc", 256, 213); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("constraints.xdc", 332, 421); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "constraints.xdc", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("constraints.xdc", 307, 270); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("constraints.xdc", 347, 253); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "constraints.xdc", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("constraints.xdc", 386, 253); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "constraints.xdc", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("constraints.xdc", 25, 175); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("constraints.xdc", 25, 175, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "constraints.xdc", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 89 seconds
+selectCodeEditor("constraints.xdc", 385, 259); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "constraints.xdc", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 58 seconds
+selectCodeEditor("constraints.xdc", 312, 156); // bF:I (JPanel:JComponent, cd:JFrame)
+// [GUI Memory]: 79 MB (+347kb) [00:18:47]
+// Elapsed time: 23 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Main.vf", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// Elapsed time: 151 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "constraints.xdc", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("constraints.xdc", 363, 369); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "constraints.xdc", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+// [GUI Memory]: 83 MB (+214kb) [00:25:09]
+// Elapsed time: 345 seconds
+selectCodeEditor("constraints.xdc", 176, 258); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("constraints.xdc", 176, 258, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("constraints.xdc", 284, 297); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("constraints.xdc", 284, 297, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("constraints.xdc", 308, 308); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("constraints.xdc", 308, 309, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("constraints.xdc", 324, 425); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "constraints.xdc", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 239 seconds
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Main.vf", 1, false, true); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame) - Double Click
+// Elapsed time: 179 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Main.vf", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B:b

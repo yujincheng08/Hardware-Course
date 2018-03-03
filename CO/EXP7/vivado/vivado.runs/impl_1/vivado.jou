@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Tue Apr 11 15:37:45 2017
+# Process ID: 77668
+# Current directory: D:/Users/Shana/Desktop/EXP5/vivado/vivado.runs/impl_1
+# Command line: vivado.exe -log Main.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Main.tcl -notrace
+# Log file: D:/Users/Shana/Desktop/EXP5/vivado/vivado.runs/impl_1/Main.vdi
+# Journal file: D:/Users/Shana/Desktop/EXP5/vivado/vivado.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Main.tcl -notrace

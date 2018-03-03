@@ -1,0 +1,152 @@
+
+*** Running vivado
+    with args -log vram.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source vram.tcl
+
+
+****** Vivado v2016.3 (64-bit)
+  **** SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+  **** IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source vram.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:23 . Memory (MB): peak = 308.070 ; gain = 98.180
+INFO: [Synth 8-638] synthesizing module 'vram' [f:/vivado/NestGather/NestGather.srcs/sources_1/ip/vram/synth/vram.vhd:74]
+INFO: [Synth 8-256] done synthesizing module 'vram' (11#1) [f:/vivado/NestGather/NestGather.srcs/sources_1/ip/vram/synth/vram.vhd:74]
+Finished RTL Elaboration : Time (s): cpu = 00:06:16 ; elapsed = 00:06:40 . Memory (MB): peak = 636.801 ; gain = 426.910
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:06:17 ; elapsed = 00:06:45 . Memory (MB): peak = 636.801 ; gain = 426.910
+INFO: [Device 21-403] Loading part xc7k160tfbg676-2L
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.378 . Memory (MB): peak = 815.094 ; gain = 0.023
+Finished Constraint Validation : Time (s): cpu = 00:06:37 ; elapsed = 00:07:11 . Memory (MB): peak = 815.094 ; gain = 605.203
+Finished Loading Part and Timing Information : Time (s): cpu = 00:06:37 ; elapsed = 00:07:11 . Memory (MB): peak = 815.094 ; gain = 605.203
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:06:37 ; elapsed = 00:07:11 . Memory (MB): peak = 815.094 ; gain = 605.203
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:06:43 ; elapsed = 00:07:18 . Memory (MB): peak = 815.094 ; gain = 605.203
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:06:50 ; elapsed = 00:07:27 . Memory (MB): peak = 815.094 ; gain = 605.203
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:07:13 ; elapsed = 00:07:50 . Memory (MB): peak = 859.035 ; gain = 649.145
+Finished Timing Optimization : Time (s): cpu = 00:07:14 ; elapsed = 00:07:51 . Memory (MB): peak = 868.801 ; gain = 658.910
+Finished Technology Mapping : Time (s): cpu = 00:07:14 ; elapsed = 00:07:52 . Memory (MB): peak = 891.551 ; gain = 681.660
+Finished IO Insertion : Time (s): cpu = 00:07:16 ; elapsed = 00:07:53 . Memory (MB): peak = 891.551 ; gain = 681.660
+Finished Renaming Generated Instances : Time (s): cpu = 00:07:16 ; elapsed = 00:07:53 . Memory (MB): peak = 891.551 ; gain = 681.660
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:07:16 ; elapsed = 00:07:54 . Memory (MB): peak = 891.551 ; gain = 681.660
+Finished Renaming Generated Ports : Time (s): cpu = 00:07:16 ; elapsed = 00:07:54 . Memory (MB): peak = 891.551 ; gain = 681.660
+Finished Handling Custom Attributes : Time (s): cpu = 00:07:16 ; elapsed = 00:07:54 . Memory (MB): peak = 891.551 ; gain = 681.660
+Finished Renaming Generated Nets : Time (s): cpu = 00:07:16 ; elapsed = 00:07:54 . Memory (MB): peak = 891.551 ; gain = 681.660
+
+Report Cell Usage: 
++------+-------------+------+
+|      |Cell         |Count |
++------+-------------+------+
+|1     |LUT1         |     1|
+|2     |LUT3         |    24|
+|3     |LUT4         |    18|
+|4     |LUT5         |   154|
+|5     |LUT6         |   372|
+|6     |MUXF7        |   186|
+|7     |MUXF8        |    72|
+|8     |RAMB18E1     |     1|
+|9     |RAMB36E1     |     1|
+|10    |RAMB36E1_1   |     1|
+|11    |RAMB36E1_10  |     1|
+|12    |RAMB36E1_100 |     1|
+|13    |RAMB36E1_101 |     1|
+|14    |RAMB36E1_102 |     1|
+|15    |RAMB36E1_11  |     1|
+|16    |RAMB36E1_12  |     1|
+|17    |RAMB36E1_13  |     1|
+|18    |RAMB36E1_14  |     1|
+|19    |RAMB36E1_15  |     1|
+|20    |RAMB36E1_16  |     1|
+|21    |RAMB36E1_17  |     1|
+|22    |RAMB36E1_18  |     1|
+|23    |RAMB36E1_19  |     1|
+|24    |RAMB36E1_2   |     1|
+|25    |RAMB36E1_20  |     1|
+|26    |RAMB36E1_21  |     1|
+|27    |RAMB36E1_22  |     1|
+|28    |RAMB36E1_23  |     1|
+|29    |RAMB36E1_24  |     1|
+|30    |RAMB36E1_25  |     1|
+|31    |RAMB36E1_26  |     1|
+|32    |RAMB36E1_27  |     1|
+|33    |RAMB36E1_28  |     1|
+|34    |RAMB36E1_29  |     1|
+|35    |RAMB36E1_3   |     1|
+|36    |RAMB36E1_30  |     1|
+|37    |RAMB36E1_31  |     1|
+|38    |RAMB36E1_32  |     1|
+|39    |RAMB36E1_33  |     1|
+|40    |RAMB36E1_34  |     1|
+|41    |RAMB36E1_35  |     1|
+|42    |RAMB36E1_36  |     1|
+|43    |RAMB36E1_37  |     1|
+|44    |RAMB36E1_38  |     1|
+|45    |RAMB36E1_39  |     1|
+|46    |RAMB36E1_4   |     1|
+|47    |RAMB36E1_40  |     1|
+|48    |RAMB36E1_41  |     1|
+|49    |RAMB36E1_42  |     1|
+|50    |RAMB36E1_43  |     1|
+|51    |RAMB36E1_44  |     1|
+|52    |RAMB36E1_45  |     1|
+|53    |RAMB36E1_46  |     1|
+|54    |RAMB36E1_47  |     1|
+|55    |RAMB36E1_48  |     1|
+|56    |RAMB36E1_49  |     1|
+|57    |RAMB36E1_5   |     1|
+|58    |RAMB36E1_50  |     1|
+|59    |RAMB36E1_51  |     1|
+|60    |RAMB36E1_52  |     1|
+|61    |RAMB36E1_53  |     1|
+|62    |RAMB36E1_54  |     1|
+|63    |RAMB36E1_55  |     1|
+|64    |RAMB36E1_56  |     1|
+|65    |RAMB36E1_57  |     1|
+|66    |RAMB36E1_58  |     1|
+|67    |RAMB36E1_59  |     1|
+|68    |RAMB36E1_6   |     1|
+|69    |RAMB36E1_60  |     1|
+|70    |RAMB36E1_61  |     1|
+|71    |RAMB36E1_62  |     1|
+|72    |RAMB36E1_63  |     1|
+|73    |RAMB36E1_64  |     1|
+|74    |RAMB36E1_65  |     1|
+|75    |RAMB36E1_66  |     1|
+|76    |RAMB36E1_67  |     1|
+|77    |RAMB36E1_68  |     1|
+|78    |RAMB36E1_69  |     1|
+|79    |RAMB36E1_7   |     1|
+|80    |RAMB36E1_70  |     1|
+|81    |RAMB36E1_71  |     1|
+|82    |RAMB36E1_72  |     1|
+|83    |RAMB36E1_73  |     1|
+|84    |RAMB36E1_74  |     1|
+|85    |RAMB36E1_75  |     1|
+|86    |RAMB36E1_76  |     1|
+|87    |RAMB36E1_77  |     1|
+|88    |RAMB36E1_78  |     1|
+|89    |RAMB36E1_79  |     1|
+|90    |RAMB36E1_8   |     1|
+|91    |RAMB36E1_80  |     1|
+|92    |RAMB36E1_81  |     1|
+|93    |RAMB36E1_82  |     1|
+|94    |RAMB36E1_83  |     1|
+|95    |RAMB36E1_84  |     1|
+|96    |RAMB36E1_85  |     1|
+|97    |RAMB36E1_86  |     1|
+|98    |RAMB36E1_87  |     1|
+|99    |RAMB36E1_88  |     1|
+|100   |RAMB36E1_89  |     1|
+|101   |RAMB36E1_9   |     1|
+|102   |RAMB36E1_90  |     1|
+|103   |RAMB36E1_91  |     1|
+|104   |RAMB36E1_92  |     1|
+|105   |RAMB36E1_93  |     1|
+|106   |RAMB36E1_94  |     1|
+|107   |RAMB36E1_95  |     1|
+|108   |RAMB36E1_96  |     1|
+|109   |RAMB36E1_97  |     1|
+|110   |RAMB36E1_98  |     1|
+|111   |RAMB36E1_99  |     1|
+|112   |FDRE         |    28|
++------+-------------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:07:17 ; elapsed = 00:07:54 . Memory (MB): peak = 891.551 ; gain = 681.660
+synth_design: Time (s): cpu = 00:07:19 ; elapsed = 00:07:49 . Memory (MB): peak = 912.066 ; gain = 681.887

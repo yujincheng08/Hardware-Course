@@ -1,0 +1,11 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/clk_1ms.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_1ms
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/ms_1000.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ms_1000
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Wall_CLOCK.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Wall_CLOCK
+INFO: [VRFC 10-2458] undeclared symbol clk_1ms, assumed default net type wire [F:/vivado/Top_WallClock/Top_WallClock.srcs/sources_1/Wall_CLOCK.v:40]
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.srcs/sim_1/new/clk_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/vivado/Top_WallClock/Top_WallClock.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

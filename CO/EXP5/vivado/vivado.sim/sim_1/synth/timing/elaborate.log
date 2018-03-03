@@ -1,0 +1,83 @@
+Vivado Simulator 2016.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Tools/XILINX/Vivado/2016.3/bin/unwrapped/win64.o/xelab.exe -wto c578b66a4a4c4e9fb4613d7794d0c52f --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot Main_Main_sch_tb_time_synth -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.Main_Main_sch_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+INFO: [XSIM 43-3451] SDF backannotation process started with SDF file "Main_Main_sch_tb_time_synth.sdf", for root module "Main_Main_sch_tb/UUT".
+INFO: [XSIM 43-3452] SDF backannotation was successful for SDF file "Main_Main_sch_tb_time_synth.sdf", for root module "Main_Main_sch_tb/UUT".
+Time Resolution for simulation is 1ps
+Compiling module simprims_ver.OBUFT
+Compiling module simprims_ver.OBUF
+Compiling module simprims_ver.BUFG
+Compiling module simprims_ver.IBUF
+Compiling module simprims_ver.sffsrce_fdre
+Compiling module simprims_ver.FDRE
+Compiling module simprims_ver.LUT4
+Compiling module simprims_ver.x_lut3_mux4
+Compiling module simprims_ver.x_lut3_mux4_reduced_0
+Compiling module simprims_ver.LUT3
+Compiling module simprims_ver.LUT6
+Compiling module simprims_ver.LUT5
+Compiling module simprims_ver.MUXF7
+Compiling module simprims_ver.x_lut1_mux2
+Compiling module simprims_ver.LUT1
+Compiling module simprims_ver.CARRY4
+Compiling module simprims_ver.x_lut2_mux4
+Compiling module simprims_ver.LUT2
+Compiling module simprims_ver.VCC
+Compiling module xil_defaultlib.SAnti_jitter
+Compiling module xil_defaultlib.MC14495_ZJU_15
+Compiling module xil_defaultlib.Seg7_Dev
+Compiling module simprims_ver.FDRE(INIT=1'b1)
+Compiling module xil_defaultlib.SEnter_2_32
+Compiling module xil_defaultlib.Multi_8CH32
+Compiling module simprims_ver.ffsrce_fdce
+Compiling module simprims_ver.FDCE
+Compiling module xil_defaultlib.P2S
+Compiling module xil_defaultlib.MC14495_ZJU_14
+Compiling module xil_defaultlib.Hex2Seg
+Compiling module xil_defaultlib.MC14495_ZJU_13
+Compiling module xil_defaultlib.Hex2Seg_1
+Compiling module xil_defaultlib.MC14495_ZJU_12
+Compiling module xil_defaultlib.Hex2Seg_2
+Compiling module xil_defaultlib.MC14495_ZJU_11
+Compiling module xil_defaultlib.Hex2Seg_3
+Compiling module xil_defaultlib.MC14495_ZJU_10
+Compiling module xil_defaultlib.Hex2Seg_4
+Compiling module xil_defaultlib.MC14495_ZJU_9
+Compiling module xil_defaultlib.Hex2Seg_5
+Compiling module xil_defaultlib.MC14495_ZJU_8
+Compiling module xil_defaultlib.Hex2Seg_6
+Compiling module xil_defaultlib.MC14495_ZJU
+Compiling module xil_defaultlib.Hex2Seg_7
+Compiling module xil_defaultlib.HexTo8SEG8
+Compiling module xil_defaultlib.Display
+Compiling module xil_defaultlib.LED_P2S
+Compiling module simprims_ver.ffsrce_fdpe
+Compiling module simprims_ver.FDPE
+Compiling module xil_defaultlib.SPIO
+Compiling module simprims_ver.RB36_INTERNAL_VLOG(DOA_REG=0,DOB...
+Compiling module simprims_ver.RAMB36E1(INIT_00=256'b1000000000...
+Compiling module xil_defaultlib.RAM_B
+Compiling module simprims_ver.GND
+Compiling module xil_defaultlib.ROM_D
+Compiling module xil_defaultlib.clk_div
+Compiling module simprims_ver.MUXF8
+Compiling module xil_defaultlib.Regs
+Compiling module xil_defaultlib.add_32
+Compiling module xil_defaultlib.add_32_0
+Compiling module xil_defaultlib.ADC32
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.REG32
+Compiling module xil_defaultlib.Data_path
+Compiling module xil_defaultlib.SCPU_ctrl
+Compiling module xil_defaultlib.SCPU
+Compiling module xil_defaultlib.Counter_x
+Compiling module xil_defaultlib.MIO_BUS
+Compiling module xil_defaultlib.Main
+Compiling module xil_defaultlib.Main_Main_sch_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Main_Main_sch_tb_time_synth

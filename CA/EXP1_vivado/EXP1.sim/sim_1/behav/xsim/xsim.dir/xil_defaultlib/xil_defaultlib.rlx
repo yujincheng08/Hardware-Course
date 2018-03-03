@@ -1,0 +1,18 @@
+0.6
+2017.3
+Oct  4 2017
+20:11:37
+E:/Learning/CA/EXP1_vivado/EXP1.sim/sim_1/behav/xsim/glbl.v,1507081072,verilog,,,,glbl,,,,,,,,
+E:/Learning/CA/EXP1_vivado/EXP1.srcs/sim_1/new/SCPU_test.v,1508557753,verilog,,,,SCPU_test,,,,,,,,
+E:/Learning/CA/EXP1_vivado/EXP1.srcs/sources_1/ip/RAM_B/sim/RAM_B.v,1508516091,verilog,,E:/Learning/CA/EXP1_vivado/EXP1.srcs/sources_1/new/ALU.v,,RAM_B,,,,,,,,
+E:/Learning/CA/EXP1_vivado/EXP1.srcs/sources_1/ip/ROM_D/sim/ROM_D.v,1508515991,verilog,,E:/Learning/CA/EXP1_vivado/EXP1.srcs/sources_1/ip/RAM_B/sim/RAM_B.v,,ROM_D,,,,,,,,
+E:/Learning/CA/EXP1_vivado/EXP1.srcs/sources_1/new/ALU.v,1508514563,verilog,,E:/Learning/CA/EXP1_vivado/EXP1.srcs/sources_1/new/Ext_32.v,,ALU,,,,,,,,
+E:/Learning/CA/EXP1_vivado/EXP1.srcs/sources_1/new/Ext_32.v,1508514575,verilog,,E:/Learning/CA/EXP1_vivado/EXP1.srcs/sources_1/new/MUX2T1_32.v,,Ext_32,,,,,,,,
+E:/Learning/CA/EXP1_vivado/EXP1.srcs/sources_1/new/MUX2T1_32.v,1508514603,verilog,,E:/Learning/CA/EXP1_vivado/EXP1.srcs/sources_1/new/MUX2T1_5.v,,MUX2T1_32,,,,,,,,
+E:/Learning/CA/EXP1_vivado/EXP1.srcs/sources_1/new/MUX2T1_5.v,1508514685,verilog,,E:/Learning/CA/EXP1_vivado/EXP1.srcs/sources_1/new/MUX4T1_32.v,,MUX2T1_5,,,,,,,,
+E:/Learning/CA/EXP1_vivado/EXP1.srcs/sources_1/new/MUX4T1_32.v,1508514712,verilog,,E:/Learning/CA/EXP1_vivado/EXP1.srcs/sources_1/new/MUX8T1_32.v,,MUX4T1_32,,,,,,,,
+E:/Learning/CA/EXP1_vivado/EXP1.srcs/sources_1/new/MUX8T1_32.v,1508514785,verilog,,E:/Learning/CA/EXP1_vivado/EXP1.srcs/sources_1/new/Reg32.v,,MUX8T1_32,,,,,,,,
+E:/Learning/CA/EXP1_vivado/EXP1.srcs/sources_1/new/Reg32.v,1508514588,verilog,,E:/Learning/CA/EXP1_vivado/EXP1.srcs/sources_1/new/Regs.v,,REG32,,,,,,,,
+E:/Learning/CA/EXP1_vivado/EXP1.srcs/sources_1/new/Regs.v,1508514623,verilog,,E:/Learning/CA/EXP1_vivado/EXP1.srcs/sources_1/new/SCPU.v,,Regs,,,,,,,,
+E:/Learning/CA/EXP1_vivado/EXP1.srcs/sources_1/new/SCPU.v,1508520715,verilog,,E:/Learning/CA/EXP1_vivado/EXP1.srcs/sources_1/new/add_32.v,,SCPU,,,,,,,,
+E:/Learning/CA/EXP1_vivado/EXP1.srcs/sources_1/new/add_32.v,1508514733,verilog,,E:/Learning/CA/EXP1_vivado/EXP1.srcs/sim_1/new/SCPU_test.v,,add_32,,,,,,,,

@@ -1,0 +1,4 @@
+sch2hdl,-sympath,E:/Learning/Computer Organization/EXP8/ipcore_dir,-intstyle,ise,-family,kintex7,-verilog,E:/Learning/Computer Organization/EXP8/Data_path_INT.vf,-w,E:/Learning/Computer Organization/EXP8/Data_path_INT.sch
+sch2hdl,-sympath,E:/Learning/Computer Organization/EXP8/ipcore_dir,-intstyle,ise,-family,kintex7,-verilog,E:/Learning/Computer Organization/EXP8/SCPU_INT.vf,-w,E:/Learning/Computer Organization/EXP8/SCPU_INT.sch
+sch2hdl,-sympath,E:/Learning/Computer Organization/EXP8/ipcore_dir,-intstyle,ise,-family,kintex7,-verilog,E:/Learning/Computer Organization/EXP8/SCPU_INT.vf,-w,E:/Learning/Computer Organization/EXP8/SCPU_INT.sch
+sch2hdl,-sympath,E:/Learning/Computer Organization/EXP8/ipcore_dir,-intstyle,ise,-family,kintex7,-verilog,E:/Learning/Computer Organization/EXP8/Main.vf,-w,E:/Learning/Computer Organization/EXP8/Main.sch

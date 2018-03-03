@@ -1,0 +1,64 @@
+ISim log file
+Running: E:\Learning\Computer Organization\EXP8\SCPU_INT_SCPU_INT_sch_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -view E:/Learning/Computer Organization/EXP8/SCPU_test.wcfg -wdb E:/Learning/Computer Organization/EXP8/SCPU_INT_SCPU_INT_sch_tb_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+WARNING: For instance XLXI_18/ADC/, width 3233 of formal port S is not equal to width 33 of actual.
+Time resolution is 1 ps
+# onerror resume
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+WARNING: For instance XLXI_18/ADC/, width 3233 of formal port S is not equal to width 33 of actual.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+WARNING: For instance XLXI_18/ADC/, width 3233 of formal port S is not equal to width 33 of actual.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+WARNING: For instance XLXI_18/ADC/, width 3233 of formal port S is not equal to width 33 of actual.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+WARNING: For instance XLXI_18/ADC/, width 3233 of formal port S is not equal to width 33 of actual.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+WARNING: For instance XLXI_18/ADC/, width 3233 of formal port S is not equal to width 33 of actual.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+WARNING: For instance XLXI_18/ADC/, width 3233 of formal port S is not equal to width 33 of actual.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+WARNING: For instance XLXI_18/ADC/, width 3233 of formal port S is not equal to width 33 of actual.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+WARNING: For instance XLXI_18/ADC/, width 3233 of formal port S is not equal to width 33 of actual.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+WARNING: For instance XLXI_18/ADC/, width 3233 of formal port S is not equal to width 33 of actual.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="Decode_Int">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2016-1-11T16:1:16</timestamp>
+    <attr value="Decode_Int" name="VeriModel" />
+    <pin polarity="Input" x="0" y="-32" name="pc_next(31:0)" />
+    <pin polarity="Input" x="0" y="-208" name="clk" />
+    <pin polarity="Input" x="0" y="-176" name="reset" />
+    <pin polarity="Input" x="0" y="-128" name="INT" />
+    <pin polarity="Input" x="0" y="-80" name="eret" />
+    <pin polarity="Output" x="256" y="-64" name="pc(31:0)" />
+    <graph>
+        <rect style="fillcolor:rgb(201,255,255);fillstyle:Solid" width="192" x="32" y="-232" height="228" />
+        <attrtext style="fontsize:20;fontname:Arial" attrname="PinName" x="40" y="-32" type="pin pc_next(31:0)" />
+        <line x2="0" y1="-32" y2="-32" style="linewidth:W" x1="32" />
+        <line x2="0" y1="-208" y2="-208" x1="32" />
+        <line x2="0" y1="-176" y2="-176" x1="32" />
+        <line x2="0" y1="-128" y2="-128" x1="32" />
+        <line x2="0" y1="-80" y2="-80" x1="32" />
+        <attrtext style="alignment:BVCENTER;fontsize:28;fontname:Arial;textcolor:rgb(255,0,0)" attrname="SymbolName" x="220" y="-156" type="symbol" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="216" y="-64" type="pin pc(31:0)" />
+        <line x2="256" y1="-64" y2="-64" style="linewidth:W" x1="224" />
+        <attrtext style="fontsize:20;fontname:Arial" attrname="PinName" x="36" y="-208" type="pin clk" />
+        <attrtext style="fontsize:20;fontname:Arial" attrname="PinName" x="36" y="-176" type="pin reset" />
+        <attrtext style="fontsize:20;fontname:Arial" attrname="PinName" x="36" y="-128" type="pin INT" />
+        <attrtext style="fontsize:20;fontname:Arial" attrname="PinName" x="36" y="-80" type="pin eret" />
+    </graph>
+</symbol>

@@ -1,0 +1,79 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : Seg7_Dev.vf
+// /___/   /\     Timestamp : 11/22/2016 13:44:57
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family kintex7 -verilog F:/3150101155/Framework/Seg7_Dev.vf -w F:/3150101155/Framework/Seg7_Dev.sch
+//Design Name: Seg7_Dev
+//Device: kintex7
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+
+module Seg7_Dev(flash, 
+                Hexs, 
+                LES, 
+                point, 
+                Scan, 
+                SW0, 
+                AN, 
+                SEGMENT);
+
+    input flash;
+    input [31:0] Hexs;
+    input [7:0] LES;
+    input [7:0] point;
+    input [2:0] Scan;
+    input SW0;
+   output [3:0] AN;
+   output [7:0] SEGMENT;
+   
+   wire [3:0] Hex;
+   wire [7:0] SEG_TXT;
+   wire [7:0] XLXN_2;
+   wire XLXN_37;
+   wire XLXN_51;
+   wire XLXN_52;
+   
+   MC14495_ZJU  XLXI_2 (.D0(Hex[0]), 
+                                      .D1(Hex[1]), 
+                                      .D2(Hex[2]), 
+                                      .D3(Hex[3]), 
+                                      .LE(XLXN_37), 
+                                      .point(XLXN_51), 
+                                      .a(SEG_TXT[0]), 
+                                      .b(SEG_TXT[1]), 
+                                      .c(SEG_TXT[2]), 
+                                      .d(SEG_TXT[3]), 
+                                      .e(SEG_TXT[4]), 
+                                      .f(SEG_TXT[5]), 
+                                      .g(SEG_TXT[6]), 
+                                      .p(SEG_TXT[7]));
+   MUXHM  XLXI_3 (.a(SEG_TXT[7:0]), 
+                 .b(XLXN_2[7:0]), 
+                 .sel(SW0), 
+                 .o(SEGMENT[7:0]));
+   Seg_map  XLXI_4 (.Hexs(Hexs[31:0]), 
+                   .Scan(Scan[2:0]), 
+                   .Seg_map(XLXN_2[7:0]));
+   AND2  XLXI_5 (.I0(XLXN_52), 
+                .I1(flash), 
+                .O(XLXN_37));
+   ScanSync  XLXI_6 (.Hexs(Hexs[31:0]), 
+                                   .LES(LES[7:0]), 
+                                   .point(point[7:0]), 
+                                   .Scan(Scan[2:0]), 
+                                   .AN(AN[3:0]), 
+                                   .Hexo(Hex[3:0]), 
+                                   .LE(XLXN_52), 
+                                   .p(XLXN_51));
+endmodule

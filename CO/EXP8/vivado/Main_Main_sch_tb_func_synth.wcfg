@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Main_Main_sch_tb_func_synth.wdb" id="1">
+         <top_modules>
+            <top_module name="Main_Main_sch_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="4975000000fs"></ZoomStartTime>
+      <ZoomEndTime time="5688000001fs"></ZoomEndTime>
+      <Cursor1Time time="3000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="159"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="28" />
+   <wvobject fp_name="/Main_Main_sch_tb/RSTN" type="logic">
+      <obj_property name="ElementShortName">RSTN</obj_property>
+      <obj_property name="ObjectShortName">RSTN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main_Main_sch_tb/K_COL" type="array">
+      <obj_property name="ElementShortName">K_COL[3:0]</obj_property>
+      <obj_property name="ObjectShortName">K_COL[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main_Main_sch_tb/SW" type="array">
+      <obj_property name="ElementShortName">SW[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SW[15:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main_Main_sch_tb/clk_100mhz" type="logic">
+      <obj_property name="ElementShortName">clk_100mhz</obj_property>
+      <obj_property name="ObjectShortName">clk_100mhz</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main_Main_sch_tb/K_ROW" type="array">
+      <obj_property name="ElementShortName">K_ROW[4:0]</obj_property>
+      <obj_property name="ObjectShortName">K_ROW[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main_Main_sch_tb/CR" type="logic">
+      <obj_property name="ElementShortName">CR</obj_property>
+      <obj_property name="ObjectShortName">CR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main_Main_sch_tb/readn" type="logic">
+      <obj_property name="ElementShortName">readn</obj_property>
+      <obj_property name="ObjectShortName">readn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main_Main_sch_tb/SEGCLK" type="logic">
+      <obj_property name="ElementShortName">SEGCLK</obj_property>
+      <obj_property name="ObjectShortName">SEGCLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main_Main_sch_tb/SEGDT" type="logic">
+      <obj_property name="ElementShortName">SEGDT</obj_property>
+      <obj_property name="ObjectShortName">SEGDT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main_Main_sch_tb/SEGEN" type="logic">
+      <obj_property name="ElementShortName">SEGEN</obj_property>
+      <obj_property name="ObjectShortName">SEGEN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main_Main_sch_tb/SEGCLR" type="logic">
+      <obj_property name="ElementShortName">SEGCLR</obj_property>
+      <obj_property name="ObjectShortName">SEGCLR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main_Main_sch_tb/LEDCLK" type="logic">
+      <obj_property name="ElementShortName">LEDCLK</obj_property>
+      <obj_property name="ObjectShortName">LEDCLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main_Main_sch_tb/LEDCLR" type="logic">
+      <obj_property name="ElementShortName">LEDCLR</obj_property>
+      <obj_property name="ObjectShortName">LEDCLR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main_Main_sch_tb/RDY" type="logic">
+      <obj_property name="ElementShortName">RDY</obj_property>
+      <obj_property name="ObjectShortName">RDY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main_Main_sch_tb/LEDDT" type="logic">
+      <obj_property name="ElementShortName">LEDDT</obj_property>
+      <obj_property name="ObjectShortName">LEDDT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main_Main_sch_tb/LEDEN" type="logic">
+      <obj_property name="ElementShortName">LEDEN</obj_property>
+      <obj_property name="ObjectShortName">LEDEN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main_Main_sch_tb/LED" type="array">
+      <obj_property name="ElementShortName">LED[7:0]</obj_property>
+      <obj_property name="ObjectShortName">LED[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main_Main_sch_tb/Buzzer" type="logic">
+      <obj_property name="ElementShortName">Buzzer</obj_property>
+      <obj_property name="ObjectShortName">Buzzer</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main_Main_sch_tb/SEGMENT" type="array">
+      <obj_property name="ElementShortName">SEGMENT[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SEGMENT[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main_Main_sch_tb/AN" type="array">
+      <obj_property name="ElementShortName">AN[3:0]</obj_property>
+      <obj_property name="ObjectShortName">AN[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main_Main_sch_tb/UUT/XLXI_19/PC" type="array">
+      <obj_property name="ElementShortName">PC[9:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[9:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main_Main_sch_tb/UUT/XLXI_15/spo" type="array">
+      <obj_property name="ElementShortName">spo[31:0]</obj_property>
+      <obj_property name="ObjectShortName">spo[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main_Main_sch_tb/UUT/XLXI_15/spo" type="array">
+      <obj_property name="ElementShortName">spo[31:0]</obj_property>
+      <obj_property name="ObjectShortName">spo[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main_Main_sch_tb/UUT/Addr_out_0" type="array">
+      <obj_property name="ElementShortName">Addr_out_0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Addr_out_0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main_Main_sch_tb/UUT/XLXI_19/XLXI_1/XLXN_38" type="array">
+      <obj_property name="ElementShortName">XLXN_38[0:0]</obj_property>
+      <obj_property name="ObjectShortName">XLXN_38[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main_Main_sch_tb/UUT/Data_out_0" type="array">
+      <obj_property name="ElementShortName">Data_out_0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Data_out_0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main_Main_sch_tb/UUT/XLXI_14/dina" type="array">
+      <obj_property name="ElementShortName">dina[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dina[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Main_Main_sch_tb/UUT/XLXI_14/douta" type="array">
+      <obj_property name="ElementShortName">douta[31:0]</obj_property>
+      <obj_property name="ObjectShortName">douta[31:0]</obj_property>
+   </wvobject>
+</wave_config>

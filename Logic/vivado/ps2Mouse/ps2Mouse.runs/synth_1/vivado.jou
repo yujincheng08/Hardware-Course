@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Sun Dec 25 16:03:41 2016
+# Process ID: 23852
+# Current directory: F:/vivado/ps2Mouse/ps2Mouse.runs/synth_1
+# Command line: vivado.exe -log PS2Mouse.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source PS2Mouse.tcl
+# Log file: F:/vivado/ps2Mouse/ps2Mouse.runs/synth_1/PS2Mouse.vds
+# Journal file: F:/vivado/ps2Mouse/ps2Mouse.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source PS2Mouse.tcl -notrace

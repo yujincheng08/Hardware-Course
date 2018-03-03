@@ -1,0 +1,2 @@
+sch2sym -intstyle ise -family kintex7 -w -refsym MUX4T1 F:/3150101155/ExMUX/MUX4T1.sch F:/3150101155/ExMUX/MUX4T1.sym 
+sch2sym -intstyle ise -family kintex7 -w -refsym MUX4T1 F:/3150101155/ExMUX/MUX4T1.sch F:/3150101155/ExMUX/MUX4T1.sym 

@@ -1,0 +1,51 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue Nov 01 16:45:06 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "Y<1>" LOCATE = SITE "W24" LEVEL 1;
+COMP "G_2A" LOCATE = SITE "AD11" LEVEL 1;
+COMP "Y<2>" LOCATE = SITE "W23" LEVEL 1;
+COMP "G_2B" LOCATE = SITE "AD10" LEVEL 1;
+COMP "Y<3>" LOCATE = SITE "AB25" LEVEL 1;
+COMP "Buzzer" LOCATE = SITE "AF24" LEVEL 1;
+COMP "led_clrn" LOCATE = SITE "N24" LEVEL 1;
+COMP "Y<4>" LOCATE = SITE "AA25" LEVEL 1;
+COMP "Y<5>" LOCATE = SITE "W21" LEVEL 1;
+COMP "Y<6>" LOCATE = SITE "V21" LEVEL 1;
+COMP "Y<7>" LOCATE = SITE "W26" LEVEL 1;
+COMP "led_sout" LOCATE = SITE "M26" LEVEL 1;
+COMP "LED_PEN" LOCATE = SITE "P18" LEVEL 1;
+COMP "A" LOCATE = SITE "AA10" LEVEL 1;
+COMP "B" LOCATE = SITE "AB10" LEVEL 1;
+COMP "C" LOCATE = SITE "AA13" LEVEL 1;
+COMP "G" LOCATE = SITE "Y12" LEVEL 1;
+COMP "led_clk" LOCATE = SITE "N26" LEVEL 1;
+COMP "clk_100mhz" LOCATE = SITE "AC18" LEVEL 1;
+COMP "Y<0>" LOCATE = SITE "AB26" LEVEL 1;
+TIMEGRP TM_CLK = BEL "U9/clkdiv_0" BEL "U9/clkdiv_1" BEL "U9/clkdiv_2" BEL
+        "U9/clkdiv_3" BEL "U9/clkdiv_4" BEL "U9/clkdiv_5" BEL "U9/clkdiv_6"
+        BEL "U9/clkdiv_7" BEL "U9/clkdiv_8" BEL "U9/clkdiv_9" BEL
+        "U9/clkdiv_10" BEL "U9/clkdiv_11" BEL "U9/clkdiv_12" BEL
+        "U9/clkdiv_13" BEL "U9/clkdiv_14" BEL "U9/clkdiv_15" BEL
+        "U9/clkdiv_16" BEL "U9/clkdiv_17" BEL "U9/clkdiv_18" BEL
+        "U9/clkdiv_19" BEL "U9/clkdiv_20" BEL "clk_100mhz_BUFGP/BUFG" BEL
+        "U7/LED_0" BEL "U7/LED_1" BEL "U7/LED_2" BEL "U7/LED_3" BEL "U7/LED_4"
+        BEL "U7/LED_5" BEL "U7/LED_6" BEL "U7/LED_7" BEL "U7/LED_8" BEL
+        "U7/LED_10" BEL "U7/LED_12" BEL "U7/LED_14" BEL
+        "U7/LED_P2S/shift_count_3" BEL "U7/LED_P2S/shift_count_2" BEL
+        "U7/LED_P2S/shift_count_1" BEL "U7/LED_P2S/shift_count_0" BEL
+        "U7/LED_P2S/state_FSM_FFd1" BEL "U7/LED_P2S/state_FSM_FFd2" BEL
+        "U7/LED_P2S/buffer_15" BEL "U7/LED_P2S/buffer_14" BEL
+        "U7/LED_P2S/buffer_13" BEL "U7/LED_P2S/buffer_12" BEL
+        "U7/LED_P2S/buffer_11" BEL "U7/LED_P2S/buffer_10" BEL
+        "U7/LED_P2S/buffer_9" BEL "U7/LED_P2S/buffer_8" BEL
+        "U7/LED_P2S/buffer_7" BEL "U7/LED_P2S/buffer_6" BEL
+        "U7/LED_P2S/buffer_5" BEL "U7/LED_P2S/buffer_4" BEL
+        "U7/LED_P2S/buffer_3" BEL "U7/LED_P2S/buffer_2" BEL
+        "U7/LED_P2S/buffer_1" BEL "U7/LED_P2S/buffer_0" BEL
+        "U7/LED_P2S/start_1" BEL "U7/LED_P2S/start_0" BEL "U7/LED_P2S/s_clk"
+        BEL "U7/LED_P2S/EN";
+TS_CLK_100M = PERIOD TIMEGRP "TM_CLK" 10 ns HIGH 50%;
+SCHEMATIC END;
+

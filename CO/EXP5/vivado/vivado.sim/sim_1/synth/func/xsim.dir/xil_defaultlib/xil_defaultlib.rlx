@@ -1,0 +1,13 @@
+0.6
+2016.3
+Oct 10 2016
+19:46:48
+E:/Learning/Computer Organization/EXP5/vivado/vivado.sim/sim_1/synth/func/Main_Main_sch_tb_func_synth.v,1494315300,verilog,,,,ADC32;Counter_x;Data_path_more_MUSER_Main;Display_MUSER_Main;Hex2Seg;Hex2Seg_19;Hex2Seg_20;Hex2Seg_21;Hex2Seg_22;Hex2Seg_23;Hex2Seg_24;Hex2Seg_25;HexTo8SEG8;LED_P2S;MC14495_ZJU;MC14495_ZJU_26;MC14495_ZJU_27;MC14495_ZJU_28;MC14495_ZJU_29;MC14495_ZJU_30;MC14495_ZJU_31;MC14495_ZJU_32;MC14495_ZJU_MUSER_Main;MIO_BUS;MUX4T1_MUSER_Main;MUX4T1_MUSER_Main_10;MUX4T1_MUSER_Main_11;MUX4T1_MUSER_Main_12;MUX4T1_MUSER_Main_13;MUX4T1_MUSER_Main_14;MUX4T1_MUSER_Main_15;MUX4T1_MUSER_Main_16;MUX4T1_MUSER_Main_17;MUX4T1_MUSER_Main_18;MUX4T1_MUSER_Main_35;MUX4T1_MUSER_Main_36;MUX4T1_MUSER_Main_37;MUX4T1_MUSER_Main_38;MUX4T1_MUSER_Main_39;MUX4T1_MUSER_Main_4;MUX4T1_MUSER_Main_40;MUX4T1_MUSER_Main_5;MUX4T1_MUSER_Main_6;MUX4T1_MUSER_Main_7;MUX4T1_MUSER_Main_8;MUX4T1_MUSER_Main_9;MUX8T1_32_MUSER_Main;MUX8T1_8_MUSER_Main;MUX8T1_8_MUSER_Main_1;MUX8T1_8_MUSER_Main_2;MUX8T1_8_MUSER_Main_3;MUX8T1_8_MUSER_Main_33;MUX8T1_8_MUSER_Main_34;Main;Multi_8CH32;P2S;RAM_B;REG32;ROM_D;Regs;SAnti_jitter;SCPU_More_MUSER_Main;SCPU_ctrl_more;SEnter_2_32;SPIO;ScanSync_MUSER_Main;Seg7_Dev_MUSER_Main;add_32;add_32_0;alu_MUSER_Main;clk_div;glbl,,,,,,,,
+E:/Learning/Computer Organization/EXP5/vivado/vivado.srcs/sim_1/imports/EXP5/Element/MUX2T1_64.v,1489376667,verilog,,,,MUX2T1_64,,,,,,,,
+E:/Learning/Computer Organization/EXP5/vivado/vivado.srcs/sim_1/imports/EXP5/Element/MUX2T1_8.v,1489376686,verilog,,,,MUX2T1_8,,,,,,,,
+E:/Learning/Computer Organization/EXP5/vivado/vivado.srcs/sim_1/imports/EXP5/Element/MUX4T1_5.v,1488717010,verilog,,,,MUX4T1_5,,,,,,,,
+E:/Learning/Computer Organization/EXP5/vivado/vivado.srcs/sim_1/imports/EXP5/Element/MUX8T1_8.v,1488717075,verilog,,,,MUX8T1_8,,,,,,,,
+E:/Learning/Computer Organization/EXP5/vivado/vivado.srcs/sim_1/imports/EXP5/Element/test_32.v,1492772744,verilog,,,,TEST_32;overflow,,,,,,,,
+E:/Learning/Computer Organization/EXP5/vivado/vivado.srcs/sim_1/imports/EXP5/MUX_test.v,1489420214,verilog,,,,MUX_test,,,,,,,,
+E:/Learning/Computer Organization/EXP5/vivado/vivado.srcs/sim_1/imports/EXP5/Main_test.v,1491808598,verilog,,,,Main_Main_sch_tb,,,,,,,,
+E:/Learning/Computer Organization/EXP5/vivado/vivado.srcs/sim_1/imports/EXP5/Mult_8CH32_test.v,1489404058,verilog,,,,Mult_8CH32_test,,,,,,,,

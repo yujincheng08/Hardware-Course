@@ -1,0 +1,10 @@
+sch2hdl,-sympath,D:/Users/Shana/Desktop/EXP5 - Copy/ipcore_dir,-intstyle,ise,-family,kintex7,-verilog,D:/Users/Shana/Desktop/EXP5 - Copy/Seg7_Dev.vf,-w,D:/Users/Shana/Desktop/EXP5 - Copy/Seg7_Dev.sch
+sch2hdl,-sympath,D:/Users/Shana/Desktop/EXP5 - Copy/ipcore_dir,-intstyle,ise,-family,kintex7,-verilog,D:/Users/Shana/Desktop/EXP5 - Copy/ScanSync.vf,-w,D:/Users/Shana/Desktop/EXP5 - Copy/ScanSync.sch
+sch2hdl,-sympath,D:/Users/Shana/Desktop/EXP5 - Copy/ipcore_dir,-intstyle,ise,-family,kintex7,-verilog,D:/Users/Shana/Desktop/EXP5 - Copy/MUX8T1_8.vf,-w,D:/Users/Shana/Desktop/EXP5 - Copy/MUX8T1_8.sch
+sch2hdl,-sympath,D:/Users/Shana/Desktop/EXP5 - Copy/ipcore_dir,-intstyle,ise,-family,kintex7,-verilog,D:/Users/Shana/Desktop/EXP5 - Copy/Main.vf,-w,D:/Users/Shana/Desktop/EXP5 - Copy/Main.sch
+sch2hdl,-sympath,D:/Users/Shana/Desktop/EXP5 - Copy/ipcore_dir,-intstyle,ise,-family,kintex7,-verilog,D:/Users/Shana/Desktop/EXP5 - Copy/Display.vf,-w,D:/Users/Shana/Desktop/EXP5 - Copy/Display.sch
+sch2hdl,-sympath,D:/Users/Shana/Desktop/EXP5 - Copy/ipcore_dir,-intstyle,ise,-family,kintex7,-verilog,D:/Users/Shana/Desktop/EXP5 - Copy/MC14495_ZJU.vf,-w,D:/Users/Shana/Desktop/EXP5 - Copy/MC14495_ZJU.sch
+sch2hdl,-sympath,D:/Users/Shana/Desktop/EXP5 - Copy/ipcore_dir,-intstyle,ise,-family,kintex7,-verilog,D:/Users/Shana/Desktop/EXP5 - Copy/MUX4T1.vf,-w,D:/Users/Shana/Desktop/EXP5 - Copy/MUX4T1.sch
+sch2hdl,-sympath,D:/Users/Shana/Desktop/EXP5 - Copy/ipcore_dir,-intstyle,ise,-family,kintex7,-verilog,D:/Users/Shana/Desktop/EXP5 - Copy/SCPU.vf,-w,D:/Users/Shana/Desktop/EXP5 - Copy/SCPU.sch
+sch2hdl,-sympath,D:/Users/Shana/Desktop/EXP5 - Copy/ipcore_dir,-intstyle,ise,-family,kintex7,-verilog,D:/Users/Shana/Desktop/EXP5 - Copy/Data_path.vf,-w,D:/Users/Shana/Desktop/EXP5 - Copy/Data_path.sch
+sch2hdl,-sympath,D:/Users/Shana/Desktop/EXP5 - Copy/ipcore_dir,-intstyle,ise,-family,kintex7,-verilog,D:/Users/Shana/Desktop/EXP5 - Copy/ALU.vf,-w,D:/Users/Shana/Desktop/EXP5 - Copy/ALU.sch

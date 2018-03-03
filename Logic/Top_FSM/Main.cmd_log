@@ -1,0 +1,141 @@
+xst -intstyle ise -ifn "F:/3150101155/Framework/Main.xst" -ofn "F:/3150101155/Framework/Main.syr" 
+xst -intstyle ise -ifn "F:/3150101155/Framework/Main.xst" -ofn "F:/3150101155/Framework/Main.syr" 
+xst -intstyle ise -ifn "F:/3150101155/Framework/Main.xst" -ofn "F:/3150101155/Framework/Main.syr" 
+xst -intstyle ise -ifn "F:/3150101155/Framework/Main.xst" -ofn "F:/3150101155/Framework/Main.syr" 
+xst -intstyle ise -ifn "F:/3150101155/Framework/Main.xst" -ofn "F:/3150101155/Framework/Main.syr" 
+xst -intstyle ise -ifn "F:/3150101155/Framework/Main.xst" -ofn "F:/3150101155/Framework/Main.syr" 
+xst -intstyle ise -ifn "F:/3150101155/Framework/Main.xst" -ofn "F:/3150101155/Framework/Main.syr" 
+xst -intstyle ise -ifn "F:/3150101155/Framework/Main.xst" -ofn "F:/3150101155/Framework/Main.syr" 
+xst -intstyle ise -ifn "F:/3150101155/Framework/Main.xst" -ofn "F:/3150101155/Framework/Main.syr" 
+xst -intstyle ise -ifn "F:/3150101155/Framework/Main.xst" -ofn "F:/3150101155/Framework/Main.syr" 
+xst -intstyle ise -ifn "F:/3150101155/Framework/Main.xst" -ofn "F:/3150101155/Framework/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7k160t-fbg676-1 Main.ngc Main.ngd  
+map -intstyle ise -p xc7k160t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf 
+xst -intstyle ise -ifn "F:/3150101155/Framework/Main.xst" -ofn "F:/3150101155/Framework/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Framework.ucf -p xc7k160t-fbg676-1 Main.ngc Main.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Framework.ucf -p xc7k160t-fbg676-1 Main.ngc Main.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Framework.ucf -p xc7k160t-fbg676-1 Main.ngc Main.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Framework.ucf -p xc7k160t-fbg676-1 Main.ngc Main.ngd  
+map -intstyle ise -p xc7k160t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Framework.ucf -p xc7k160t-fbg676-1 Main.ngc Main.ngd  
+map -intstyle ise -p xc7k160t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Framework.ucf -p xc7k160t-fbg676-1 Main.ngc Main.ngd  
+map -intstyle ise -p xc7k160t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf Framework.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "F:/3150101155/Framework/Main.xst" -ofn "F:/3150101155/Framework/Main.syr" 
+xst -intstyle ise -ifn "F:/3150101155/Framework/Main.xst" -ofn "F:/3150101155/Framework/Main.syr" 
+xst -intstyle ise -ifn "F:/3150101155/Framework/Main.xst" -ofn "F:/3150101155/Framework/Main.syr" 
+xst -intstyle ise -ifn "F:/3150101155/Framework/Main.xst" -ofn "F:/3150101155/Framework/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Framework.ucf -p xc7k160t-fbg676-1 Main.ngc Main.ngd  
+map -intstyle ise -p xc7k160t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf Framework.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "F:/3150101155/Framework/Main.xst" -ofn "F:/3150101155/Framework/Main.syr" 
+xst -intstyle ise -ifn "F:/3150101155/Framework/Main.xst" -ofn "F:/3150101155/Framework/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Framework.ucf -p xc7k160t-fbg676-1 Main.ngc Main.ngd  
+map -intstyle ise -p xc7k160t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf Framework.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+sch2sym -intstyle ise -family kintex7 -refsym Main F:/3150101155/Framework/Main.sch F:/3150101155/Framework/Main.sym 
+xst -intstyle ise -ifn "F:/3150101155/Framework/Main.xst" -ofn "F:/3150101155/Framework/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Framework.ucf -p xc7k160t-fbg676-1 Main.ngc Main.ngd  
+map -intstyle ise -p xc7k160t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf Framework.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "F:/3150101155/Framework/Main.xst" -ofn "F:/3150101155/Framework/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Framework.ucf -p xc7k160t-fbg676-1 Main.ngc Main.ngd  
+map -intstyle ise -p xc7k160t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf Framework.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "F:/3150101155/Framework/Main.xst" -ofn "F:/3150101155/Framework/Main.syr" 
+xst -intstyle ise -ifn "F:/3150101155/Framework/Main.xst" -ofn "F:/3150101155/Framework/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Framework.ucf -p xc7k160t-fbg676-1 Main.ngc Main.ngd  
+map -intstyle ise -p xc7k160t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf Framework.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "F:/3150101155/Framework/Main.xst" -ofn "F:/3150101155/Framework/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Framework.ucf -p xc7k160t-fbg676-1 Main.ngc Main.ngd  
+xst -intstyle ise -ifn "F:/3150101155/Framework/Main.xst" -ofn "F:/3150101155/Framework/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Framework.ucf -p xc7k160t-fbg676-1 Main.ngc Main.ngd  
+map -intstyle ise -p xc7k160t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf Framework.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "F:/3150101155/Framework/Main.xst" -ofn "F:/3150101155/Framework/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Framework.ucf -p xc7k160t-fbg676-1 Main.ngc Main.ngd  
+map -intstyle ise -p xc7k160t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf Framework.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "F:/3150101155/Framework/Main.xst" -ofn "F:/3150101155/Framework/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Framework.ucf -p xc7k160t-fbg676-1 Main.ngc Main.ngd  
+map -intstyle ise -p xc7k160t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf Framework.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "F:/3150101155/ADCFramework/Main.xst" -ofn "F:/3150101155/ADCFramework/Main.syr" 
+xst -intstyle ise -ifn "F:/3150101155/ADCFramework/Main.xst" -ofn "F:/3150101155/ADCFramework/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Framework.ucf -p xc7k160t-fbg676-1 Main.ngc Main.ngd  
+map -intstyle ise -p xc7k160t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+xst -intstyle ise -ifn "F:/3150101155/ADCFramework/Main.xst" -ofn "F:/3150101155/ADCFramework/Main.syr" 
+xst -intstyle ise -ifn "F:/3150101155/ADCFramework/Main.xst" -ofn "F:/3150101155/ADCFramework/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Framework.ucf -p xc7k160t-fbg676-1 Main.ngc Main.ngd  
+map -intstyle ise -p xc7k160t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf Framework.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "F:/3150101155/ADCFramework/Main.xst" -ofn "F:/3150101155/ADCFramework/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Framework.ucf -p xc7k160t-fbg676-1 Main.ngc Main.ngd  
+map -intstyle ise -p xc7k160t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf Framework.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "F:/3150101155/ALUFramework/Main.xst" -ofn "F:/3150101155/ALUFramework/Main.syr" 
+xst -intstyle ise -ifn "F:/3150101155/ALUFramework/Main.xst" -ofn "F:/3150101155/ALUFramework/Main.syr" 
+xst -intstyle ise -ifn "F:/3150101155/ALUFramework/Main.xst" -ofn "F:/3150101155/ALUFramework/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Framework.ucf -p xc7k160t-fbg676-1 Main.ngc Main.ngd  
+map -intstyle ise -p xc7k160t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf Framework.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "F:/3150101155/ALUFramework/Main.xst" -ofn "F:/3150101155/ALUFramework/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Framework.ucf -p xc7k160t-fbg676-1 Main.ngc Main.ngd  
+map -intstyle ise -p xc7k160t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf Framework.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "C:/Users/liu/Documents/ISE/Exp10/Top_FSM/Main.xst" -ofn "C:/Users/liu/Documents/ISE/Exp10/Top_FSM/Main.syr" 
+xst -intstyle ise -ifn "C:/Users/liu/Documents/ISE/Exp10/Top_FSM/Main.xst" -ofn "C:/Users/liu/Documents/ISE/Exp10/Top_FSM/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Framework.ucf -p xc7k160t-fbg676-1 Main.ngc Main.ngd  
+map -intstyle ise -p xc7k160t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf Framework.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "C:/Users/liu/Documents/ISE/Exp10/Top_FSM/Main.xst" -ofn "C:/Users/liu/Documents/ISE/Exp10/Top_FSM/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Framework.ucf -p xc7k160t-fbg676-1 Main.ngc Main.ngd  
+map -intstyle ise -p xc7k160t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf Framework.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "C:/Users/liu/Documents/ISE/Exp10/Top_FSM/Main.xst" -ofn "C:/Users/liu/Documents/ISE/Exp10/Top_FSM/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Framework.ucf -p xc7k160t-fbg676-1 Main.ngc Main.ngd  
+map -intstyle ise -p xc7k160t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf Framework.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "C:/Users/liu/Documents/ISE/Exp10/Top_FSM/Main.xst" -ofn "C:/Users/liu/Documents/ISE/Exp10/Top_FSM/Main.syr" 
+xst -intstyle ise -ifn "C:/Users/liu/Documents/ISE/Exp10/Top_FSM/Main.xst" -ofn "C:/Users/liu/Documents/ISE/Exp10/Top_FSM/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Framework.ucf -p xc7k160t-fbg676-1 Main.ngc Main.ngd  
+map -intstyle ise -p xc7k160t-fbg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -mt off Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf Framework.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
