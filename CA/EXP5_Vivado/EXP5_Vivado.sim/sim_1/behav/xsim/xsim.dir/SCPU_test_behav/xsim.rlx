@@ -1,0 +1,12 @@
+
+{ 
+    crc :  7424713657236804321  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 4a4a6d27389a45be9ab4357d8a2618c2 --incr --debug typical --relax --mt 8 -L blk_mem_gen_v8_4_0 -L xil_defaultlib -L dist_mem_gen_v8_0_12 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot SCPU_test_behav xil_defaultlib.SCPU_test xil_defaultlib.glbl" , 
+    buildDate : "Oct  4 2017" , 
+    buildTime : "20:01:51" , 
+    linkCmd : "/usr/bin/gcc -Wa,-W  -O -fPIC  -m64  -Wl,--unresolved-symbols=ignore-all  -o \"xsim.dir/SCPU_test_behav/xsimk\"   \"xsim.dir/SCPU_test_behav/obj/xsim_0.lnx64.o\" \"xsim.dir/SCPU_test_behav/obj/xsim_1.lnx64.o\" \"/home/lovesy/Application/Xilinx/Vivado/2017.3/lib/lnx64.o/librdi_simulator_kernel.so\" \"/home/lovesy/Application/Xilinx/Vivado/2017.3/lib/lnx64.o/librdi_simbridge_kernel.so\"" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

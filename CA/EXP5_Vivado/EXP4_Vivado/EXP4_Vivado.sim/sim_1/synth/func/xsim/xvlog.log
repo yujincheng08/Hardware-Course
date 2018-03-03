@@ -1,0 +1,25 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Learning/CA/EXP2_vivado/EXP2_vivado.sim/sim_1/synth/func/xsim/SCPU_test_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SAnti_jitter
+INFO: [VRFC 10-311] analyzing module SEnter_2_32
+INFO: [VRFC 10-311] analyzing module vga_debug
+INFO: [VRFC 10-311] analyzing module IF_Stage
+INFO: [VRFC 10-311] analyzing module MEM_Stage
+INFO: [VRFC 10-311] analyzing module Main
+INFO: [VRFC 10-311] analyzing module RAM_B
+INFO: [VRFC 10-311] analyzing module REG32
+INFO: [VRFC 10-311] analyzing module ROM_D
+INFO: [VRFC 10-311] analyzing module SCPU
+INFO: [VRFC 10-311] analyzing module clk_div
+INFO: [VRFC 10-311] analyzing module vga
+INFO: [VRFC 10-311] analyzing module RAM_B__blk_mem_gen_generic_cstr
+INFO: [VRFC 10-311] analyzing module RAM_B__blk_mem_gen_prim_width
+INFO: [VRFC 10-311] analyzing module RAM_B__blk_mem_gen_prim_wrapper_init
+INFO: [VRFC 10-311] analyzing module RAM_B__blk_mem_gen_top
+INFO: [VRFC 10-311] analyzing module RAM_B__blk_mem_gen_v8_4_0
+INFO: [VRFC 10-311] analyzing module RAM_B__blk_mem_gen_v8_4_0_synth
+INFO: [VRFC 10-311] analyzing module ROM_D_dist_mem_gen_v8_0_12
+INFO: [VRFC 10-311] analyzing module ROM_D_dist_mem_gen_v8_0_12_synth
+INFO: [VRFC 10-311] analyzing module ROM_D_rom
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Learning/CA/EXP2_vivado/EXP2_vivado.srcs/sim_1/new/SCPU_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU_test

@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:07 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Thu Jan 11 22:18:25 2018
+# Process ID: 23543
+# Current directory: /home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.sim/sim_1/behav/xsim
+# Command line: wbtcv -mode batch -source /home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.sim/sim_1/behav/xsim/xsim.dir/SCPU_test_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: /home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.sim/sim_1/behav/xsim/webtalk.jou
+#-----------------------------------------------------------
+source /home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.sim/sim_1/behav/xsim/xsim.dir/SCPU_test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Thu Jan 11 22:18:25 2018...

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:07 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Sat Jan 13 16:03:55 2018
+# Process ID: 30316
+# Current directory: /home/lovesy/Documents/Learning/CA/EXP4_Vivado/EXP4_Vivado.runs/impl_1
+# Command line: vivado -log Main.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Main.tcl -notrace
+# Log file: /home/lovesy/Documents/Learning/CA/EXP4_Vivado/EXP4_Vivado.runs/impl_1/Main.vdi
+# Journal file: /home/lovesy/Documents/Learning/CA/EXP4_Vivado/EXP4_Vivado.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source Main.tcl -notrace

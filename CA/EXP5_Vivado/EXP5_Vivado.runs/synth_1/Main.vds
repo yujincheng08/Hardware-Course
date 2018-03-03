@@ -1,0 +1,848 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:07 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Mon Jan  8 12:50:49 2018
+# Process ID: 28729
+# Current directory: /home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.runs/synth_1
+# Command line: vivado -log Main.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Main.tcl
+# Log file: /home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.runs/synth_1/Main.vds
+# Journal file: /home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source Main.tcl -notrace
+Command: synth_design -top Main -part xc7k325tffg676-2L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k325t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k325t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 28741 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1264.027 ; gain = 76.000 ; free physical = 3271 ; free virtual = 25865
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Main' [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/new/Main.v:1]
+INFO: [Synth 8-638] synthesizing module 'SAnti_jitter' [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/new/SAnti_jitter.v:1]
+INFO: [Synth 8-256] done synthesizing module 'SAnti_jitter' (1#1) [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/new/SAnti_jitter.v:1]
+INFO: [Synth 8-638] synthesizing module 'clk_div' [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/new/clk_div.v:1]
+INFO: [Synth 8-638] synthesizing module 'IBUFDS' [/home/lovesy/Application/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:19483]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DIFF_TERM bound to: FALSE - type: string 
+	Parameter DQS_BIAS bound to: FALSE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-256] done synthesizing module 'IBUFDS' (2#1) [/home/lovesy/Application/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:19483]
+INFO: [Synth 8-256] done synthesizing module 'clk_div' (3#1) [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/new/clk_div.v:1]
+INFO: [Synth 8-638] synthesizing module 'SCPU' [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/new/SCPU.v:1]
+INFO: [Synth 8-638] synthesizing module 'IF_Stage' [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/new/IF_Stage.v:1]
+INFO: [Synth 8-638] synthesizing module 'ROM_D' [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.runs/synth_1/.Xil/Vivado-28729-lovesy-ubuntu/realtime/ROM_D_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'ROM_D' (4#1) [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.runs/synth_1/.Xil/Vivado-28729-lovesy-ubuntu/realtime/ROM_D_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'REG32' [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/new/Reg32.v:1]
+INFO: [Synth 8-256] done synthesizing module 'REG32' (5#1) [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/new/Reg32.v:1]
+INFO: [Synth 8-256] done synthesizing module 'IF_Stage' (6#1) [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/new/IF_Stage.v:1]
+INFO: [Synth 8-638] synthesizing module 'Control_Stall' [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/new/Control_Stall.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Control_Stall' (7#1) [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/new/Control_Stall.v:23]
+INFO: [Synth 8-638] synthesizing module 'ID_Stage' [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/new/ID_Stage.v:1]
+INFO: [Synth 8-638] synthesizing module 'Regs' [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/new/Regs.v:1]
+INFO: [Synth 8-256] done synthesizing module 'Regs' (8#1) [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/new/Regs.v:1]
+INFO: [Synth 8-256] done synthesizing module 'ID_Stage' (9#1) [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/new/ID_Stage.v:1]
+INFO: [Synth 8-638] synthesizing module 'EXE_Stage' [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/new/EXE_Stage.v:1]
+INFO: [Synth 8-638] synthesizing module 'ALU' [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/new/ALU.v:1]
+INFO: [Synth 8-638] synthesizing module 'MUX8T1_32' [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/new/MUX8T1_32.v:1]
+INFO: [Synth 8-256] done synthesizing module 'MUX8T1_32' (10#1) [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/new/MUX8T1_32.v:1]
+INFO: [Synth 8-256] done synthesizing module 'ALU' (11#1) [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/new/ALU.v:1]
+INFO: [Synth 8-638] synthesizing module 'MUX2T1_32' [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/new/MUX2T1_32.v:1]
+INFO: [Synth 8-256] done synthesizing module 'MUX2T1_32' (12#1) [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/new/MUX2T1_32.v:1]
+INFO: [Synth 8-638] synthesizing module 'Ext_32' [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/new/Ext_32.v:1]
+INFO: [Synth 8-256] done synthesizing module 'Ext_32' (13#1) [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/new/Ext_32.v:1]
+INFO: [Synth 8-256] done synthesizing module 'EXE_Stage' (14#1) [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/new/EXE_Stage.v:1]
+INFO: [Synth 8-638] synthesizing module 'MEM_Stage' [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/new/MEM_Stage.v:1]
+INFO: [Synth 8-256] done synthesizing module 'MEM_Stage' (15#1) [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/new/MEM_Stage.v:1]
+INFO: [Synth 8-638] synthesizing module 'Forward' [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/imports/new/Forward.v:1]
+INFO: [Synth 8-256] done synthesizing module 'Forward' (16#1) [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/imports/new/Forward.v:1]
+INFO: [Synth 8-638] synthesizing module 'WB_Stage' [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/new/WB_Stage.v:1]
+INFO: [Synth 8-256] done synthesizing module 'WB_Stage' (17#1) [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/new/WB_Stage.v:1]
+INFO: [Synth 8-638] synthesizing module 'CP0' [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/new/CP0.v:23]
+INFO: [Synth 8-638] synthesizing module 'CP0Regs' [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/new/CP0Regs.v:23]
+INFO: [Synth 8-256] done synthesizing module 'CP0Regs' (18#1) [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/new/CP0Regs.v:23]
+INFO: [Synth 8-256] done synthesizing module 'CP0' (19#1) [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/new/CP0.v:23]
+WARNING: [Synth 8-689] width (7) of port connection 'debug_addr' does not match port width (5) of module 'CP0' [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/new/SCPU.v:348]
+INFO: [Synth 8-638] synthesizing module 'Cache' [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/new/Cache.v:23]
+WARNING: [Synth 8-5856] 3D RAM cache_reg  for this pattern/configuration is not supported. This will most likely be implemented in registers
+INFO: [Synth 8-256] done synthesizing module 'Cache' (20#1) [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/new/Cache.v:23]
+WARNING: [Synth 8-689] width (7) of port connection 'debug_addr' does not match port width (5) of module 'Cache' [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/new/SCPU.v:370]
+INFO: [Synth 8-638] synthesizing module 'RAM_B' [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.runs/synth_1/.Xil/Vivado-28729-lovesy-ubuntu/realtime/RAM_B_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'RAM_B' (21#1) [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.runs/synth_1/.Xil/Vivado-28729-lovesy-ubuntu/realtime/RAM_B_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'SCPU' (22#1) [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/new/SCPU.v:1]
+INFO: [Synth 8-638] synthesizing module 'vga' [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/new/vga.v:1]
+INFO: [Synth 8-256] done synthesizing module 'vga' (23#1) [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/new/vga.v:1]
+INFO: [Synth 8-638] synthesizing module 'vga_debug' [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/new/vga_debug.v:1]
+INFO: [Synth 8-256] done synthesizing module 'vga_debug' (24#1) [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/new/vga_debug.v:1]
+INFO: [Synth 8-638] synthesizing module 'SEnter_2_32' [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/new/SEnter_2_32.v:1]
+INFO: [Synth 8-256] done synthesizing module 'SEnter_2_32' (25#1) [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/new/SEnter_2_32.v:1]
+INFO: [Synth 8-256] done synthesizing module 'Main' (26#1) [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/new/Main.v:1]
+WARNING: [Synth 8-3917] design Main has port Buzzer driven by constant 1
+WARNING: [Synth 8-3331] design ID_Stage has unconnected port debug_addr[6]
+WARNING: [Synth 8-3331] design ID_Stage has unconnected port debug_addr[5]
+WARNING: [Synth 8-3331] design SCPU has unconnected port MIO_ready
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1313.559 ; gain = 125.531 ; free physical = 3264 ; free virtual = 25866
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1313.559 ; gain = 125.531 ; free physical = 3267 ; free virtual = 25869
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7k325tffg676-2L
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.runs/synth_1/.Xil/Vivado-28729-lovesy-ubuntu/dcp5/ROM_D_in_context.xdc] for cell 'SCPU/IF/IM'
+Finished Parsing XDC File [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.runs/synth_1/.Xil/Vivado-28729-lovesy-ubuntu/dcp5/ROM_D_in_context.xdc] for cell 'SCPU/IF/IM'
+Parsing XDC File [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.runs/synth_1/.Xil/Vivado-28729-lovesy-ubuntu/dcp7/RAM_B_in_context.xdc] for cell 'SCPU/DM'
+Finished Parsing XDC File [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.runs/synth_1/.Xil/Vivado-28729-lovesy-ubuntu/dcp7/RAM_B_in_context.xdc] for cell 'SCPU/DM'
+Parsing XDC File [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/constrs_1/new/framework.xdc]
+Finished Parsing XDC File [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/constrs_1/new/framework.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/constrs_1/new/framework.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Main_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Main_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 1725.098 ; gain = 0.000 ; free physical = 2838 ; free virtual = 25519
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:37 ; elapsed = 00:00:54 . Memory (MB): peak = 1725.098 ; gain = 537.070 ; free physical = 2941 ; free virtual = 25624
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k325tffg676-2L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:37 ; elapsed = 00:00:54 . Memory (MB): peak = 1725.098 ; gain = 537.070 ; free physical = 2941 ; free virtual = 25624
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for SCPU/DM. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for SCPU/IF/IM. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:37 ; elapsed = 00:00:54 . Memory (MB): peak = 1725.098 ; gain = 537.070 ; free physical = 2941 ; free virtual = 25623
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element clkdiv_reg was removed.  [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/new/clk_div.v:21]
+INFO: [Synth 8-5546] ROM "register_reg[1]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[2]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[3]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[4]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[5]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[6]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[7]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[8]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[9]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[10]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[11]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[12]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[13]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[14]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[15]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[16]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[17]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[18]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[19]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[20]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[21]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[22]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[23]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[24]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[25]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[26]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[27]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[28]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[29]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[30]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[31]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "signal" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[1]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[2]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[3]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[4]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[5]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[6]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[7]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[8]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[9]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[10]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[11]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[12]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[13]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[14]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[15]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[16]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[17]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[18]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[19]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[20]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[21]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[22]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[23]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[24]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[25]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[26]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[27]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[28]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[29]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[30]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[31]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "cache_reg[3][7]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cache_reg[3][6]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cache_reg[3][5]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cache_reg[3][4]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cache_reg[3][3]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cache_reg[3][2]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cache_reg[3][1]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cache_reg[3][0]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cache_reg[2][0]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cache_reg[1][0]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cache_reg[0][0]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cacheTag_reg[3]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cacheTag_reg[2]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cacheTag_reg[1]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cacheTag_reg[0]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "v_count" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element h_count_reg was removed.  [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/new/vga.v:14]
+WARNING: [Synth 8-6014] Unused sequential element v_count_reg was removed.  [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/new/vga.v:25]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:38 ; elapsed = 00:00:56 . Memory (MB): peak = 1725.098 ; gain = 537.070 ; free physical = 2931 ; free virtual = 25612
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 4     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 2     
+	   2 Input      3 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 56    
+	               16 Bit    Registers := 1     
+	               10 Bit    Registers := 2     
+	                6 Bit    Registers := 4     
+	                5 Bit    Registers := 4     
+	                4 Bit    Registers := 5     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 26    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 48    
+	   4 Input     32 Bit        Muxes := 24    
+	   6 Input     32 Bit        Muxes := 1     
+	  33 Input     32 Bit        Muxes := 1     
+	   3 Input     17 Bit        Muxes := 2     
+	   2 Input     17 Bit        Muxes := 3     
+	  15 Input     17 Bit        Muxes := 1     
+	  11 Input     16 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 2     
+	   4 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 4     
+	   4 Input      5 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   6 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+	   4 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 6     
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 178   
+	   6 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module clk_div 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module REG32 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module IF_Stage 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 3     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+Module Control_Stall 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module Regs 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 31    
+Module ID_Stage 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 6     
+	               16 Bit    Registers := 1     
+	                5 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 9     
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 2     
+	   2 Input     32 Bit        Muxes := 9     
+	   6 Input     32 Bit        Muxes := 1     
+	   3 Input     17 Bit        Muxes := 2     
+	   2 Input     17 Bit        Muxes := 3     
+	  15 Input     17 Bit        Muxes := 1     
+	  11 Input     16 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	   6 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 6     
+	   6 Input      1 Bit        Muxes := 1     
+Module ALU 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   3 Input     32 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Muxes : 
+	   3 Input      1 Bit        Muxes := 1     
+Module MUX2T1_32 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module Ext_32 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module EXE_Stage 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 7     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 2     
+Module MEM_Stage 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 5     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+Module Forward 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 1     
+Module WB_Stage 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+Module CP0Regs 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+	  33 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 35    
+Module CP0 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 7     
+	   2 Input      5 Bit        Muxes := 2     
+	   4 Input      3 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+Module Cache 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 32    
+	                6 Bit    Registers := 4     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 14    
+	   4 Input     32 Bit        Muxes := 21    
+	   2 Input     10 Bit        Muxes := 1     
+	   4 Input      6 Bit        Muxes := 1     
+	   4 Input      5 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 99    
+Module SCPU 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+Module vga 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 2     
++---Registers : 
+	               10 Bit    Registers := 2     
+	                4 Bit    Registers := 3     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 840 (col length:140)
+BRAMs: 890 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "signal" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "CP0Regs/register_reg[12]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "VGA/v_count" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element clk_div/clkdiv_reg was removed.  [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/new/clk_div.v:21]
+WARNING: [Synth 8-6014] Unused sequential element VGA/h_count_reg was removed.  [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/new/vga.v:14]
+WARNING: [Synth 8-6014] Unused sequential element VGA/v_count_reg was removed.  [/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/new/vga.v:25]
+WARNING: [Synth 8-3917] design Main has port Buzzer driven by constant 1
+WARNING: [Synth 8-3331] design ID_Stage has unconnected port debug_addr[6]
+WARNING: [Synth 8-3331] design ID_Stage has unconnected port debug_addr[5]
+WARNING: [Synth 8-3331] design SCPU has unconnected port MIO_ready
+INFO: [Synth 8-3886] merging instance 'SCPU/IF/IF_Protected_reg[0]' (FDCE) to 'SCPU/IF/IF_Protected_reg[1]'
+INFO: [Synth 8-3886] merging instance 'SCPU/IF/IF_Protected_reg[1]' (FDCE) to 'SCPU/IF/IF_Protected_reg[30]'
+INFO: [Synth 8-3886] merging instance 'SCPU/IF/IF_Protected_reg[30]' (FDCE) to 'SCPU/IF/IF_Protected_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (SCPU/IF/\IF_Protected_reg[31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (SCPU/Cache/\cacheTag_reg[3][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (SCPU/Cache/\cacheTag_reg[2][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (SCPU/Cache/\cacheTag_reg[1][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (SCPU/Cache/\cacheTag_reg[0][5] )
+INFO: [Synth 8-3886] merging instance 'SCPU/ID/ID_Exception_reg[5]' (FDCE) to 'SCPU/ID/ID_Exception_reg[31]'
+INFO: [Synth 8-3886] merging instance 'SCPU/ID/ID_Exception_reg[6]' (FDCE) to 'SCPU/ID/ID_Exception_reg[31]'
+INFO: [Synth 8-3886] merging instance 'SCPU/ID/ID_Exception_reg[7]' (FDCE) to 'SCPU/ID/ID_Exception_reg[31]'
+INFO: [Synth 8-3886] merging instance 'SCPU/ID/ID_Exception_reg[8]' (FDCE) to 'SCPU/ID/ID_Exception_reg[31]'
+INFO: [Synth 8-3886] merging instance 'SCPU/ID/ID_Exception_reg[9]' (FDCE) to 'SCPU/ID/ID_Exception_reg[31]'
+INFO: [Synth 8-3886] merging instance 'SCPU/ID/ID_Exception_reg[10]' (FDCE) to 'SCPU/ID/ID_Exception_reg[31]'
+INFO: [Synth 8-3886] merging instance 'SCPU/ID/ID_Exception_reg[11]' (FDCE) to 'SCPU/ID/ID_Exception_reg[31]'
+INFO: [Synth 8-3886] merging instance 'SCPU/ID/ID_Exception_reg[12]' (FDCE) to 'SCPU/ID/ID_Exception_reg[31]'
+INFO: [Synth 8-3886] merging instance 'SCPU/ID/ID_Exception_reg[13]' (FDCE) to 'SCPU/ID/ID_Exception_reg[31]'
+INFO: [Synth 8-3886] merging instance 'SCPU/ID/ID_Exception_reg[14]' (FDCE) to 'SCPU/ID/ID_Exception_reg[31]'
+INFO: [Synth 8-3886] merging instance 'SCPU/ID/ID_Exception_reg[15]' (FDCE) to 'SCPU/ID/ID_Exception_reg[31]'
+INFO: [Synth 8-3886] merging instance 'SCPU/ID/ID_Exception_reg[16]' (FDCE) to 'SCPU/ID/ID_Exception_reg[31]'
+INFO: [Synth 8-3886] merging instance 'SCPU/ID/ID_Imm_reg[9]' (FDCE) to 'SCPU/ID/ID_Shift_reg[3]'
+INFO: [Synth 8-3886] merging instance 'SCPU/ID/ID_Imm_reg[7]' (FDCE) to 'SCPU/ID/ID_Shift_reg[1]'
+INFO: [Synth 8-3886] merging instance 'SCPU/ID/ID_Imm_reg[8]' (FDCE) to 'SCPU/ID/ID_Shift_reg[2]'
+INFO: [Synth 8-3886] merging instance 'SCPU/ID/ID_Imm_reg[6]' (FDCE) to 'SCPU/ID/ID_Shift_reg[0]'
+INFO: [Synth 8-3886] merging instance 'SCPU/ID/ID_Imm_reg[10]' (FDCE) to 'SCPU/ID/ID_Shift_reg[4]'
+INFO: [Synth 8-3886] merging instance 'SCPU/ID/ID_Exception_reg[17]' (FDCE) to 'SCPU/ID/ID_Exception_reg[31]'
+INFO: [Synth 8-3886] merging instance 'SCPU/ID/ID_Exception_reg[18]' (FDCE) to 'SCPU/ID/ID_Exception_reg[31]'
+INFO: [Synth 8-3886] merging instance 'SCPU/ID/ID_Exception_reg[19]' (FDCE) to 'SCPU/ID/ID_Exception_reg[31]'
+INFO: [Synth 8-3886] merging instance 'SCPU/ID/ID_Exception_reg[20]' (FDCE) to 'SCPU/ID/ID_Exception_reg[31]'
+INFO: [Synth 8-3886] merging instance 'SCPU/ID/ID_Exception_reg[21]' (FDCE) to 'SCPU/ID/ID_Exception_reg[31]'
+INFO: [Synth 8-3886] merging instance 'SCPU/ID/ID_Exception_reg[22]' (FDCE) to 'SCPU/ID/ID_Exception_reg[31]'
+INFO: [Synth 8-3886] merging instance 'SCPU/ID/ID_Exception_reg[23]' (FDCE) to 'SCPU/ID/ID_Exception_reg[31]'
+INFO: [Synth 8-3886] merging instance 'SCPU/ID/ID_Exception_reg[24]' (FDCE) to 'SCPU/ID/ID_Exception_reg[31]'
+INFO: [Synth 8-3886] merging instance 'SCPU/ID/ID_Exception_reg[25]' (FDCE) to 'SCPU/ID/ID_Exception_reg[31]'
+INFO: [Synth 8-3886] merging instance 'SCPU/ID/ID_Exception_reg[26]' (FDCE) to 'SCPU/ID/ID_Exception_reg[31]'
+INFO: [Synth 8-3886] merging instance 'SCPU/ID/ID_Exception_reg[27]' (FDCE) to 'SCPU/ID/ID_Exception_reg[31]'
+INFO: [Synth 8-3886] merging instance 'SCPU/ID/ID_Exception_reg[28]' (FDCE) to 'SCPU/ID/ID_Exception_reg[31]'
+INFO: [Synth 8-3886] merging instance 'SCPU/ID/ID_Exception_reg[29]' (FDCE) to 'SCPU/ID/ID_Exception_reg[31]'
+INFO: [Synth 8-3886] merging instance 'SCPU/ID/ID_Exception_reg[30]' (FDCE) to 'SCPU/ID/ID_Exception_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (SCPU/ID/\ID_Exception_reg[31] )
+WARNING: [Synth 8-3332] Sequential element (IF_Protected_reg[31]) is unused and will be removed from module IF_Stage.
+WARNING: [Synth 8-3332] Sequential element (ID_Exception_reg[31]) is unused and will be removed from module ID_Stage.
+WARNING: [Synth 8-3332] Sequential element (ID_Protected_reg[31]) is unused and will be removed from module ID_Stage.
+WARNING: [Synth 8-3332] Sequential element (ID_Protected_reg[30]) is unused and will be removed from module ID_Stage.
+WARNING: [Synth 8-3332] Sequential element (ID_Protected_reg[1]) is unused and will be removed from module ID_Stage.
+WARNING: [Synth 8-3332] Sequential element (ID_Protected_reg[0]) is unused and will be removed from module ID_Stage.
+WARNING: [Synth 8-3332] Sequential element (EXE_Exception_reg[31]) is unused and will be removed from module EXE_Stage.
+WARNING: [Synth 8-3332] Sequential element (EXE_Exception_reg[30]) is unused and will be removed from module EXE_Stage.
+WARNING: [Synth 8-3332] Sequential element (EXE_Exception_reg[29]) is unused and will be removed from module EXE_Stage.
+WARNING: [Synth 8-3332] Sequential element (EXE_Exception_reg[28]) is unused and will be removed from module EXE_Stage.
+WARNING: [Synth 8-3332] Sequential element (EXE_Exception_reg[27]) is unused and will be removed from module EXE_Stage.
+WARNING: [Synth 8-3332] Sequential element (EXE_Exception_reg[26]) is unused and will be removed from module EXE_Stage.
+WARNING: [Synth 8-3332] Sequential element (EXE_Exception_reg[25]) is unused and will be removed from module EXE_Stage.
+WARNING: [Synth 8-3332] Sequential element (EXE_Exception_reg[24]) is unused and will be removed from module EXE_Stage.
+WARNING: [Synth 8-3332] Sequential element (EXE_Exception_reg[23]) is unused and will be removed from module EXE_Stage.
+WARNING: [Synth 8-3332] Sequential element (EXE_Exception_reg[22]) is unused and will be removed from module EXE_Stage.
+WARNING: [Synth 8-3332] Sequential element (EXE_Exception_reg[21]) is unused and will be removed from module EXE_Stage.
+WARNING: [Synth 8-3332] Sequential element (EXE_Exception_reg[20]) is unused and will be removed from module EXE_Stage.
+WARNING: [Synth 8-3332] Sequential element (EXE_Exception_reg[19]) is unused and will be removed from module EXE_Stage.
+WARNING: [Synth 8-3332] Sequential element (EXE_Exception_reg[18]) is unused and will be removed from module EXE_Stage.
+WARNING: [Synth 8-3332] Sequential element (EXE_Exception_reg[17]) is unused and will be removed from module EXE_Stage.
+WARNING: [Synth 8-3332] Sequential element (EXE_Exception_reg[16]) is unused and will be removed from module EXE_Stage.
+WARNING: [Synth 8-3332] Sequential element (EXE_Exception_reg[15]) is unused and will be removed from module EXE_Stage.
+WARNING: [Synth 8-3332] Sequential element (EXE_Exception_reg[14]) is unused and will be removed from module EXE_Stage.
+WARNING: [Synth 8-3332] Sequential element (EXE_Exception_reg[13]) is unused and will be removed from module EXE_Stage.
+WARNING: [Synth 8-3332] Sequential element (EXE_Exception_reg[12]) is unused and will be removed from module EXE_Stage.
+WARNING: [Synth 8-3332] Sequential element (EXE_Exception_reg[11]) is unused and will be removed from module EXE_Stage.
+WARNING: [Synth 8-3332] Sequential element (EXE_Exception_reg[10]) is unused and will be removed from module EXE_Stage.
+WARNING: [Synth 8-3332] Sequential element (EXE_Exception_reg[9]) is unused and will be removed from module EXE_Stage.
+WARNING: [Synth 8-3332] Sequential element (EXE_Exception_reg[8]) is unused and will be removed from module EXE_Stage.
+WARNING: [Synth 8-3332] Sequential element (EXE_Exception_reg[7]) is unused and will be removed from module EXE_Stage.
+WARNING: [Synth 8-3332] Sequential element (EXE_Exception_reg[6]) is unused and will be removed from module EXE_Stage.
+WARNING: [Synth 8-3332] Sequential element (EXE_Protected_reg[31]) is unused and will be removed from module EXE_Stage.
+WARNING: [Synth 8-3332] Sequential element (EXE_Protected_reg[30]) is unused and will be removed from module EXE_Stage.
+WARNING: [Synth 8-3332] Sequential element (EXE_Protected_reg[1]) is unused and will be removed from module EXE_Stage.
+WARNING: [Synth 8-3332] Sequential element (EXE_Protected_reg[0]) is unused and will be removed from module EXE_Stage.
+WARNING: [Synth 8-3332] Sequential element (MEM_Exception_reg[31]) is unused and will be removed from module MEM_Stage.
+WARNING: [Synth 8-3332] Sequential element (MEM_Exception_reg[30]) is unused and will be removed from module MEM_Stage.
+WARNING: [Synth 8-3332] Sequential element (MEM_Exception_reg[29]) is unused and will be removed from module MEM_Stage.
+WARNING: [Synth 8-3332] Sequential element (MEM_Exception_reg[28]) is unused and will be removed from module MEM_Stage.
+WARNING: [Synth 8-3332] Sequential element (MEM_Exception_reg[27]) is unused and will be removed from module MEM_Stage.
+WARNING: [Synth 8-3332] Sequential element (MEM_Exception_reg[26]) is unused and will be removed from module MEM_Stage.
+WARNING: [Synth 8-3332] Sequential element (MEM_Exception_reg[25]) is unused and will be removed from module MEM_Stage.
+WARNING: [Synth 8-3332] Sequential element (MEM_Exception_reg[24]) is unused and will be removed from module MEM_Stage.
+WARNING: [Synth 8-3332] Sequential element (MEM_Exception_reg[23]) is unused and will be removed from module MEM_Stage.
+WARNING: [Synth 8-3332] Sequential element (MEM_Exception_reg[22]) is unused and will be removed from module MEM_Stage.
+WARNING: [Synth 8-3332] Sequential element (MEM_Exception_reg[21]) is unused and will be removed from module MEM_Stage.
+WARNING: [Synth 8-3332] Sequential element (MEM_Exception_reg[20]) is unused and will be removed from module MEM_Stage.
+WARNING: [Synth 8-3332] Sequential element (MEM_Exception_reg[19]) is unused and will be removed from module MEM_Stage.
+WARNING: [Synth 8-3332] Sequential element (MEM_Exception_reg[18]) is unused and will be removed from module MEM_Stage.
+WARNING: [Synth 8-3332] Sequential element (MEM_Exception_reg[17]) is unused and will be removed from module MEM_Stage.
+WARNING: [Synth 8-3332] Sequential element (MEM_Exception_reg[16]) is unused and will be removed from module MEM_Stage.
+WARNING: [Synth 8-3332] Sequential element (MEM_Exception_reg[15]) is unused and will be removed from module MEM_Stage.
+WARNING: [Synth 8-3332] Sequential element (MEM_Exception_reg[14]) is unused and will be removed from module MEM_Stage.
+WARNING: [Synth 8-3332] Sequential element (MEM_Exception_reg[13]) is unused and will be removed from module MEM_Stage.
+WARNING: [Synth 8-3332] Sequential element (MEM_Exception_reg[12]) is unused and will be removed from module MEM_Stage.
+WARNING: [Synth 8-3332] Sequential element (MEM_Exception_reg[11]) is unused and will be removed from module MEM_Stage.
+WARNING: [Synth 8-3332] Sequential element (MEM_Exception_reg[10]) is unused and will be removed from module MEM_Stage.
+WARNING: [Synth 8-3332] Sequential element (MEM_Exception_reg[9]) is unused and will be removed from module MEM_Stage.
+WARNING: [Synth 8-3332] Sequential element (cacheTag_reg[0][5]) is unused and will be removed from module Cache.
+WARNING: [Synth 8-3332] Sequential element (cacheTag_reg[1][5]) is unused and will be removed from module Cache.
+WARNING: [Synth 8-3332] Sequential element (cacheTag_reg[2][5]) is unused and will be removed from module Cache.
+WARNING: [Synth 8-3332] Sequential element (cacheTag_reg[3][5]) is unused and will be removed from module Cache.
+WARNING: [Synth 8-3332] Sequential element (clk_div/clkdiv_reg[3]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (clk_div/clkdiv_reg[4]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (clk_div/clkdiv_reg[5]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (clk_div/clkdiv_reg[6]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (clk_div/clkdiv_reg[7]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (clk_div/clkdiv_reg[8]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (clk_div/clkdiv_reg[9]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (clk_div/clkdiv_reg[10]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (clk_div/clkdiv_reg[11]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (clk_div/clkdiv_reg[12]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (clk_div/clkdiv_reg[13]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (clk_div/clkdiv_reg[14]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (clk_div/clkdiv_reg[15]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (clk_div/clkdiv_reg[16]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (clk_div/clkdiv_reg[17]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (clk_div/clkdiv_reg[18]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (clk_div/clkdiv_reg[19]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (clk_div/clkdiv_reg[20]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (clk_div/clkdiv_reg[21]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (clk_div/clkdiv_reg[22]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (clk_div/clkdiv_reg[23]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (clk_div/clkdiv_reg[24]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (clk_div/clkdiv_reg[25]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (clk_div/clkdiv_reg[26]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (clk_div/clkdiv_reg[27]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (clk_div/clkdiv_reg[28]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (clk_div/clkdiv_reg[29]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (clk_div/clkdiv_reg[30]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (clk_div/clkdiv_reg[31]) is unused and will be removed from module Main.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:39 ; elapsed = 00:01:58 . Memory (MB): peak = 1725.098 ; gain = 537.070 ; free physical = 2830 ; free virtual = 25514
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:48 ; elapsed = 00:02:10 . Memory (MB): peak = 1759.371 ; gain = 571.344 ; free physical = 2693 ; free virtual = 25392
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:56 ; elapsed = 00:02:19 . Memory (MB): peak = 1762.371 ; gain = 574.344 ; free physical = 2687 ; free virtual = 25386
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:02:05 ; elapsed = 00:02:27 . Memory (MB): peak = 1832.082 ; gain = 644.055 ; free physical = 2658 ; free virtual = 25359
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:02:07 ; elapsed = 00:02:29 . Memory (MB): peak = 1832.082 ; gain = 644.055 ; free physical = 2660 ; free virtual = 25358
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:07 ; elapsed = 00:02:29 . Memory (MB): peak = 1832.082 ; gain = 644.055 ; free physical = 2660 ; free virtual = 25358
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:07 ; elapsed = 00:02:30 . Memory (MB): peak = 1832.082 ; gain = 644.055 ; free physical = 2658 ; free virtual = 25357
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:07 ; elapsed = 00:02:30 . Memory (MB): peak = 1832.082 ; gain = 644.055 ; free physical = 2658 ; free virtual = 25357
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:07 ; elapsed = 00:02:30 . Memory (MB): peak = 1832.082 ; gain = 644.055 ; free physical = 2658 ; free virtual = 25357
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:07 ; elapsed = 00:02:30 . Memory (MB): peak = 1832.082 ; gain = 644.055 ; free physical = 2658 ; free virtual = 25357
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |SAnti_jitter  |         1|
+|2     |vga_debug     |         1|
+|3     |SEnter_2_32   |         1|
+|4     |RAM_B         |         1|
+|5     |ROM_D         |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+-------------+------+
+|      |Cell         |Count |
++------+-------------+------+
+|1     |RAM_B        |     1|
+|2     |ROM_D        |     1|
+|3     |SAnti_jitter |     1|
+|4     |SEnter_2_32  |     1|
+|5     |vga_debug    |     1|
+|6     |BUFG         |     3|
+|7     |CARRY4       |    56|
+|8     |LUT1         |    31|
+|9     |LUT2         |   220|
+|10    |LUT3         |   229|
+|11    |LUT4         |   527|
+|12    |LUT5         |   751|
+|13    |LUT6         |  2488|
+|14    |MUXF7        |   751|
+|15    |MUXF8        |     6|
+|16    |FDCE         |  3820|
+|17    |FDPE         |     1|
+|18    |FDRE         |    38|
+|19    |IBUF         |    21|
+|20    |IBUFDS       |     1|
+|21    |OBUF         |    23|
++------+-------------+------+
+
+Report Instance Areas: 
++------+------------------+--------------+------+
+|      |Instance          |Module        |Cells |
++------+------------------+--------------+------+
+|1     |top               |              |  9159|
+|2     |  SCPU            |SCPU          |  8901|
+|3     |    CP0           |CP0           |  1938|
+|4     |      CP0Regs     |CP0Regs       |  1936|
+|5     |    Cache         |Cache         |  1496|
+|6     |    Control_Stall |Control_Stall |    40|
+|7     |    EXE           |EXE_Stage     |  1155|
+|8     |      ALU         |ALU           |    14|
+|9     |    ID            |ID_Stage      |  3281|
+|10    |      Regs        |Regs          |  2369|
+|11    |    IF            |IF_Stage      |   471|
+|12    |      PC_Reg      |REG32         |   172|
+|13    |    MEM           |MEM_Stage     |   362|
+|14    |    WB            |WB_Stage      |   126|
+|15    |  VGA             |vga           |    72|
+|16    |  clk_div         |clk_div       |     8|
++------+------------------+--------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:07 ; elapsed = 00:02:30 . Memory (MB): peak = 1832.082 ; gain = 644.055 ; free physical = 2658 ; free virtual = 25357
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 102 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:53 ; elapsed = 00:01:59 . Memory (MB): peak = 1832.082 ; gain = 232.516 ; free physical = 2710 ; free virtual = 25409
+Synthesis Optimization Complete : Time (s): cpu = 00:02:08 ; elapsed = 00:02:30 . Memory (MB): peak = 1832.090 ; gain = 644.055 ; free physical = 2716 ; free virtual = 25415
+INFO: [Project 1-571] Translating synthesized netlist
+Release 14.7 - ngc2edif P_INT.20170901 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Release 14.7 - ngc2edif P_INT.20170901 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SAnti_jitter.ngc ...
+WARNING:NetListWriters:298 - No output is written to SAnti_jitter.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SAnti_jitter.edif ...
+ngc2edif: Total memory usage is 104552 kilobytes
+
+Reading core file '/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/imports/SAnti_jitter.ngc' for (cell view 'SAnti_jitter', library 'work')
+Parsing EDIF File [./.ngc2edfcache/SAnti_jitter_ngc_86b16d4b.edif]
+Finished Parsing EDIF File [./.ngc2edfcache/SAnti_jitter_ngc_86b16d4b.edif]
+Release 14.7 - ngc2edif P_INT.20170901 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Release 14.7 - ngc2edif P_INT.20170901 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design vga_debug.ngc ...
+WARNING:NetListWriters:298 - No output is written to vga_debug.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus row_addr[6 : 0] on block vga_debug is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   current_display_reg_addr[7]_GND_1_o_select_56_OUT[52 : 0] on block vga_debug
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus strdata[52 : 0] on block vga_debug is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Msub_col_addr_cy[5 : 0] on block
+   vga_debug is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file vga_debug.edif ...
+ngc2edif: Total memory usage is 104376 kilobytes
+
+Reading core file '/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/imports/vga_debug.ngc' for (cell view 'vga_debug', library 'work')
+Parsing EDIF File [./.ngc2edfcache/vga_debug_ngc_86b16d4b.edif]
+Finished Parsing EDIF File [./.ngc2edfcache/vga_debug_ngc_86b16d4b.edif]
+Release 14.7 - ngc2edif P_INT.20170901 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Release 14.7 - ngc2edif P_INT.20170901 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SEnter_2_32.ngc ...
+WARNING:NetListWriters:298 - No output is written to SEnter_2_32.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus Ai[31]_Ai[31]_mux_48_OUT[31 : 2] on
+   block SEnter_2_32 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Bi[31]_Bi[31]_mux_49_OUT[31 : 2] on
+   block SEnter_2_32 is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file SEnter_2_32.edif ...
+ngc2edif: Total memory usage is 103996 kilobytes
+
+Reading core file '/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.srcs/sources_1/imports/SEnter_2_32.ngc' for (cell view 'SEnter_2_32', library 'work')
+Parsing EDIF File [./.ngc2edfcache/SEnter_2_32_ngc_86b16d4b.edif]
+Finished Parsing EDIF File [./.ngc2edfcache/SEnter_2_32_ngc_86b16d4b.edif]
+INFO: [Netlist 29-17] Analyzing 1242 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Xilinx ngc2edif P_INT.20170901
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 269 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 27 instances
+  FD => FDRE: 166 instances
+  FDE => FDRE: 54 instances
+  INV => LUT1: 14 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 5 instances
+  RAM32X1D => RAM32X1D (RAMD32, RAMD32): 2 instances
+  RAMB16_S1 => RAMB18E1: 1 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+190 Infos, 109 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:16 ; elapsed = 00:02:38 . Memory (MB): peak = 1864.098 ; gain = 697.445 ; free physical = 2729 ; free virtual = 25476
+INFO: [Common 17-1381] The checkpoint '/home/lovesy/Documents/Learning/CA/EXP5_Vivado/EXP5_Vivado.runs/synth_1/Main.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Main_utilization_synth.rpt -pb Main_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00.34 ; elapsed = 00:00:00.39 . Memory (MB): peak = 1888.109 ; gain = 0.000 ; free physical = 2724 ; free virtual = 25473
+INFO: [Common 17-206] Exiting Vivado at Mon Jan  8 12:53:41 2018...

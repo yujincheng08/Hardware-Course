@@ -1,0 +1,4 @@
+memory_initialization_radix=16;
+memory_initialization_vector=
+20010012, AC01001C, 8C02001C, 8C030004, 8C040020, 20210011, AC010100, 8C020100,
+8C02001C, 8C030020;

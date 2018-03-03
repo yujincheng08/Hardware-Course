@@ -1,10 +1,10 @@
 // Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2017.3 (lin64) Build 2018833 Wed Oct  4 19:58:07 MDT 2017
-// Date        : Mon Dec 25 17:10:37 2017
+// Date        : Sat Dec 30 18:15:41 2017
 // Host        : lovesy-ubuntu running 64-bit Ubuntu 16.04.3 LTS
-// Command     : write_verilog -force -mode synth_stub -rename_top ROM_D -prefix
-//               ROM_D_ ROM_D_stub.v
+// Command     : write_verilog -force -mode synth_stub
+//               /home/lovesy/Documents/Learning/CA/EXP4_Vivado/EXP4_Vivado.srcs/sources_1/ip/ROM_D/ROM_D_stub.v
 // Design      : ROM_D
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7k325tffg676-2L

@@ -1,0 +1,42 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.3 (lin64) Build 2018833 Wed Oct  4 19:58:07 MDT 2017
+| Date         : Sat Jan 13 16:05:53 2018
+| Host         : lovesy-ubuntu running 64-bit Ubuntu 16.04.3 LTS
+| Command      : report_control_sets -file Main_control_sets_placed.rpt
+| Design       : Main
+| Device       : xc7k325t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+
+1. Summary
+----------
+
++-------------------------------+-------+
+|             Status            | Count |
++-------------------------------+-------+
+| Number of unique control sets |   193 |
++-------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              91 |           44 |
+| No           | No                    | Yes                    |             653 |          255 |
+| No           | Yes                   | No                     |              22 |           10 |
+| Yes          | No                    | No                     |              30 |           14 |
+| Yes          | No                    | Yes                    |            2114 |         1365 |
+| Yes          | Yes                   | No                     |              29 |            9 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
