@@ -1,8 +1,0 @@
-INTSTYLE=ise
-INFILE=E:\Learning\CA\EXP1_ext\Main.ncd
-OUTFILE=E:\Learning\CA\EXP1_ext\Main.bit
-FAMILY=Kintex7
-PART=xc7k325t-1fbg676
-WORKINGDIR=E:\Learning\CA\EXP1_ext
-LICENSE=ISE
-USER_INFO=__0_0_0
